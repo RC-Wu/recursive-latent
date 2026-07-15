@@ -14,7 +14,7 @@ This manifest separates GitHub-safe source files from archive-only artifacts.
 - `paper_siga/`: LaTeX source, BibTeX, draft tables, lightweight metadata, and compact figures directly referenced by `main.tex`.
 - `experiments/trellis_classic_dense_smoke_20260529/`: small remote-only smoke probe from A100.
 
-Current staged repository size: about `35M`.
+Current GitHub repository checkout size after adding compact paper figures: about `55M`.
 
 ## Archive-Only Local Artifacts
 
