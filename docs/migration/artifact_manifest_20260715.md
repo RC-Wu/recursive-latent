@@ -4,6 +4,8 @@ Date: 2026-07-15
 
 This manifest separates GitHub-safe source files from archive-only artifacts.
 
+Cleanup status: after this manifest was written, the user approved deletion groups `A`, `B`, and `C`. The large local and A100 artifact directories listed below were removed on 2026-07-15. See `deletion_review_20260715.md` for the exact cleanup log.
+
 ## GitHub-Safe Source Already Migrated
 
 - `assets/`: core method, generation, texturing, rendering, metrics, and launch scripts.
@@ -16,7 +18,7 @@ This manifest separates GitHub-safe source files from archive-only artifacts.
 
 Current GitHub-uploaded working-tree payload after adding compact paper figures: about `55M`; the local clone is about `83M` including `.git` objects.
 
-## Archive-Only Local Artifacts
+## Removed Local Artifacts
 
 Source root:
 
@@ -24,20 +26,20 @@ Source root:
 /Users/fanta/code/agent/Code/recursive_3d_generative_growth
 ```
 
-Large local artifact directories:
+Large local artifact directories that were removed after approval:
 
 | Path | Size | Notes |
 |---|---:|---|
-| `results/` | `26G` | Local experiment outputs and derived metrics. |
-| `visuals/` | `15G` | Rendered contact sheets, galleries, selected visual pulls. |
-| `.hf_local_cache/` | `27G` | Re-downloadable model/cache data. |
-| `docs/` | `2.2G` | Text docs plus generated inventories/galleries; text subset migrated. |
-| `paper_siga/` | `495M` | Dirty Overleaf source plus many generated figures; source subset migrated. |
-| `.venv_render/` | `206M` | Local rendering env; rebuildable. |
-| `downloads/` | `165M` | Downloaded helper assets; archive only if needed. |
-| `.worktrees/` | `128M` | Local worktree remnants. |
+| `results/` | `26G` | Deleted. Local experiment outputs and derived metrics. |
+| `visuals/` | `15G` | Deleted. Rendered contact sheets, galleries, selected visual pulls. |
+| `.hf_local_cache/` | `27G` | Deleted. Re-downloadable model/cache data. |
+| `docs/` generated media | part of `2.2G` | Generated media deleted; text docs kept where present. |
+| `paper_siga/figures/` | `243M` | Deleted; compact main-paper figures were already migrated. |
+| `.venv_render/` | `206M` | Deleted. Local rendering env; rebuildable. |
+| `downloads/` | `165M` | Deleted. Downloaded helper assets. |
+| `.worktrees/` | `128M` | Deleted. Local worktree remnants. |
 
-## Archive-Only A100 Artifacts
+## Removed A100 Artifacts
 
 Remote root:
 
@@ -45,19 +47,19 @@ Remote root:
 a100-2:/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507
 ```
 
-Large remote artifact directories:
+Large remote artifact directories that were removed after approval:
 
 | Path | Size | Notes |
 |---|---:|---|
-| `results/` | `81G` | Main GLB/OBJ/PLY/PBR experiment outputs, V2-V67 strict visual matched runs, gen3D baselines, Hunyuan probes. |
-| `cache/` | `30G` | Rebuildable runtime cache; deletion candidate after review. |
-| `hf_home/` | `23G` | Hugging Face cache; archive only if offline reproducibility matters. |
-| `weights/` | `16G` | Model weights; archive or redownload policy required before deletion. |
-| `inputs/` | `1.6G` | Generated OBJ inputs and manifests; keep selected final manifests/inputs. |
-| `envs/` | `772M` | Environment snapshot; replace with env docs where possible. |
-| `repos/` | `272M` | TRELLIS classic and Hunyuan3D snapshots/archives. |
-| `runs/` | `51M` | 2026-05-29 TRELLIS classic run outputs. |
-| `logs/` | `8.5M` | Logs; small enough to archive with selected runs. |
+| `results/` | `81G` | Deleted. Main GLB/OBJ/PLY/PBR experiment outputs, V2-V67 strict visual matched runs, gen3D baselines, Hunyuan probes. |
+| `cache/` | `30G` | Deleted. Rebuildable runtime cache. |
+| `hf_home/` | `23G` | Deleted. Hugging Face cache. |
+| `weights/` | `16G` | Deleted. Model weights. |
+| `inputs/` | `1.6G` | Deleted. Generated OBJ inputs and manifests. |
+| `envs/` | `772M` | Deleted. Environment snapshot. |
+| `repos/` | `272M` | Deleted. TRELLIS classic and Hunyuan3D snapshots/archives. |
+| `runs/` | `51M` | Deleted. 2026-05-29 TRELLIS classic run outputs. |
+| `logs/` | `8.5M` | Deleted. Logs. |
 
 ## Suggested External Archive Groups
 
