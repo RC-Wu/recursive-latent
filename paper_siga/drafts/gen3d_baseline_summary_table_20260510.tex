@@ -1,0 +1,30 @@
+% Main-text compact table derived from
+% results/gen3d_baseline_metrics_20260510/gen3d_baseline_summary_table_20260510.csv.
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{llrrrrrl}
+\toprule
+Case & Method & Vert. & Faces & MB & Occ. comp. & LCR & Protocol note \\
+\midrule
+vine & Trellis2 one-shot & 330677 & 662194 & 20.8 & 1 & 1.000 & plausible one-shot \\
+pyrite & Trellis2 one-shot & 75922 & 152446 & 5.7 & 17 & 0.127 & fragmented \\
+coral & Trellis2 one-shot & 944986 & 1917216 & 72.3 & 30 & 0.600 & fragmented \\
+\midrule
+vine & Trellis2 latent-copy & 66101 & 129972 & 4.3 & 9 & 0.689 & fragmented \\
+pyrite & Trellis2 latent-copy & 44540 & 79226 & 2.7 & 100 & 0.102 & fragmented \\
+coral & Trellis2 latent-copy & 1226785 & 2453600 & 89.8 & 39 & 0.824 & uncontrolled copy \\
+\midrule
+vine & mesh-space generated-root & 309647 & 104000 & 4.7 & 5 & 0.813 & copy-paste fragments \\
+pyrite & mesh-space generated-root & 570200 & 200000 & 8.8 & 145 & 0.033 & copy-paste fragments \\
+\midrule
+vine & PS-RSLG (ours, strict protocol) & 2032 & 1492 & 0.4 & 30 & 0.072 & weak strict row \\
+pyrite & PS-RSLG (ours) & 294399 & 226088 & 12.7 & 1 & 1.000 & connected \\
+coral & PS-RSLG (ours) & 146885 & 117340 & 6.7 & 1 & 1.000 & connected \\
+vine & PS-RSLG (ours, selected) & 647958 & 455964 & 26.2 & 4 & 0.999 & selected candidate \\
+\bottomrule
+\end{tabular}
+\caption{Ordinary 3D-generation and trivial-recursion controls. One-shot Trellis2 can produce plausible single objects but does not enforce the requested recursive attachment pattern, especially for non-tree pyrite/coral targets. Direct sparse-latent copy and mesh-space generated-root copy are negative controls: they reuse the generator's output without the proposed typed handles, admissibility projection, or per-depth re-encoding. LCR is the occupancy-largest-component ratio. MB is the measured asset size of the listed GLB/OBJ row. The strict vine row is the protocol-controlled PS-RSLG comparison; the selected vine row is reported separately as a visual-quality candidate and is not used to replace the strict row. Hunyuan3D 2.0 is reserved for future evaluation because it has not yet been run under the same controlled local protocol.}
+\label{tab:gen3d-baseline-summary-20260510}
+\end{table*}

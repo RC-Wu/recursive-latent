@@ -1,0 +1,32 @@
+[
+  {
+    "name": "define_torchvision_nms",
+    "ok": true,
+    "detail": "defined"
+  },
+  {
+    "name": "import_torchvision_after_nms_stub",
+    "ok": true,
+    "detail": "{'torchvision': '0.26.0+cu130', 'file': '/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/torchvision/__init__.py'}"
+  },
+  {
+    "name": "import_trellis",
+    "ok": true,
+    "detail": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/__init__.py"
+  },
+  {
+    "name": "pipeline_names",
+    "ok": true,
+    "detail": "['TrellisImageTo3DPipeline', 'TrellisTextTo3DPipeline']"
+  },
+  {
+    "name": "pipeline_class",
+    "ok": true,
+    "detail": "<class 'trellis.pipelines.trellis_image_to_3d.TrellisImageTo3DPipeline'>"
+  },
+  {
+    "name": "pipeline_load_or_run",
+    "ok": false,
+    "detail": "Traceback (most recent call last):\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/base.py\", line 42, in from_pretrained\n    _models[k] = models.from_pretrained(f\"{path}/{v}\")\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/models/__init__.py\", line 67, in from_pretrained\n    model = __getattr__(config['name'])(**config['args'], **kwargs)\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/models/structured_latent_vae/decoder_mesh.py\", line 109, in __init__\n    SparseSubdivideBlock3d(\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/models/structured_latent_vae/decoder_mesh.py\", line 44, in __init__\n    sp.SparseConv3d(channels, self.out_channels, 3, indice_key=f\"res_{self.out_resolution}\"),\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/modules/sparse/conv/conv_spconv.py\", line 11, in __init__\n    import spconv.pytorch as spconv\nModuleNotFoundError: No module named 'spconv'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/trellis_classic_dense_smoke_20260529/scripts/trellis_classic_pipeline_smoke_v2.py\", line 39, in <module>\n    pipe=TrellisImageTo3DPipeline.from_pretrained(str(WEIGHTS))\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/trellis_image_to_3d.py\", line 53, in from_pretrained\n    pipeline = super(TrellisImageTo3DPipeline, TrellisImageTo3DPipeline).from_pretrained(path)\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/base.py\", line 44, in from_pretrained\n    _models[k] = models.from_pretrained(v)\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/models/__init__.py\", line 62, in from_pretrained\n    config_file = hf_hub_download(repo_id, f\"{model_name}.json\")\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n    return fn(*args, **kwargs)\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/file_download.py\", line 986, in hf_hub_download\n    return _hf_hub_download_to_cache_dir(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/file_download.py\", line 1119, in _hf_hub_download_to_cache_dir\n    _get_metadata_or_catch_error(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/file_download.py\", line 1653, in _get_metadata_or_catch_error\n    metadata = get_hf_file_metadata(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n    return fn(*args, **kwargs)\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/file_download.py\", line 1576, in get_hf_file_metadata\n    response = _httpx_follow_relative_redirects_with_backoff(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/utils/_http.py\", line 685, in _httpx_follow_relative_redirects_with_backoff\n    response = http_backoff(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/utils/_http.py\", line 559, in http_backoff\n    return next(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/huggingface_hub/utils/_http.py\", line 467, in _http_backoff_base\n    response = client.request(method=method, url=url, **kwargs)\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/httpx/_client.py\", line 825, in request\n    return self.send(request, auth=auth, follow_redirects=follow_redirects)\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff_flashattn_20260519/lib/python3.10/site-packages/httpx/_client.py\", line 901, in send\n    raise RuntimeError(\"Cannot send a request, as the client has been closed.\")\nRuntimeError: Cannot send a request, as the client has been closed.\n"
+  }
+]

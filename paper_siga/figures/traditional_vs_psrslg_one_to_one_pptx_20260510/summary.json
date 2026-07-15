@@ -1,0 +1,9 @@
+{
+  "schema": "traditional_vs_psrslg_one_to_one_pptx_20260510",
+  "pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/traditional_vs_psrslg_one_to_one_pptx_20260510/traditional_vs_psrslg_one_to_one_20260510.pptx",
+  "pdf": "",
+  "preview_png": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/traditional_vs_psrslg_one_to_one_pptx_20260510/traditional_vs_psrslg_one_to_one_20260510_preview.png",
+  "pdf_export": "skipped",
+  "source_composite": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/traditional_vs_v24_one_to_one_zoom_20260510/traditional_vs_v24_one_to_one_zoom_20260510.png",
+  "workflow_contract": "paper figures must be arranged in PPTX first, then exported to PDF"
+}

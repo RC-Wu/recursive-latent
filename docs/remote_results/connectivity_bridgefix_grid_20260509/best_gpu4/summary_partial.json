@@ -1,0 +1,68 @@
+{
+  "case": "dla_voxel_root",
+  "root_mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/inputs/procedural_meshes/dla_cluster_voxels.obj",
+  "grammar": "fork_side_attach",
+  "method": "raw_bridge_smooth",
+  "stages": [
+    {
+      "stage": 1,
+      "input_mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/inputs/procedural_meshes/dla_cluster_voxels.obj",
+      "input_tokens": 1162,
+      "proposal_tokens": 1869,
+      "raw_metrics": {
+        "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_bridgefix_grid/gpu4_dla_raw_vs_sparse/dla_voxel_root/fork_side_attach/raw_bridge_smooth/stage_01/raw/proposal_before_connectivity.obj",
+        "loader": "obj_direct",
+        "load_error": "",
+        "vertices": 634630,
+        "faces": 1236980,
+        "face_component_count": 3163,
+        "face_largest_component_ratio": 0.9808786221893071,
+        "occupancy_component_count": 4,
+        "occupancy_lcr": 0.9954756448675011,
+        "occupied_voxels": 17019
+      },
+      "sparse_report": {
+        "sparse_projection": "disabled"
+      },
+      "sparse_metrics": {
+        "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_bridgefix_grid/gpu4_dla_raw_vs_sparse/dla_voxel_root/fork_side_attach/raw_bridge_smooth/stage_01/sparse_connectivity/proposal_after_sparse_connectivity.obj",
+        "loader": "obj_direct",
+        "load_error": "",
+        "vertices": 634630,
+        "faces": 1236980,
+        "face_component_count": 3163,
+        "face_largest_component_ratio": 0.9808786221893071,
+        "occupancy_component_count": 4,
+        "occupancy_lcr": 0.9954756448675011,
+        "occupied_voxels": 17019
+      },
+      "mesh_projection": {
+        "input_components": 3277,
+        "kept_components": 1648,
+        "kept_large_components": 1647,
+        "attached_components": 512,
+        "bridge_meshes_added": 512,
+        "pruned_components": 1629,
+        "bridge_radius": 0.010944582962676102,
+        "output": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_bridgefix_grid/gpu4_dla_raw_vs_sparse/dla_voxel_root/fork_side_attach/raw_bridge_smooth/stage_01/projected/mesh_projected.obj",
+        "smooth": {
+          "voxel_smoothing": "failed",
+          "error": "ModuleNotFoundError(\"No module named 'skimage'\")",
+          "voxel_pitch": 0.004393339801975319
+        },
+        "metrics": {
+          "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_bridgefix_grid/gpu4_dla_raw_vs_sparse/dla_voxel_root/fork_side_attach/raw_bridge_smooth/stage_01/projected/mesh_projected.obj",
+          "loader": "obj_direct",
+          "load_error": "",
+          "vertices": 624532,
+          "faces": 1230836,
+          "face_component_count": 11,
+          "face_largest_component_ratio": 0.9968344296209001,
+          "occupancy_component_count": 2,
+          "occupancy_lcr": 0.9991400561829961,
+          "occupied_voxels": 17443
+        }
+      }
+    }
+  ]
+}

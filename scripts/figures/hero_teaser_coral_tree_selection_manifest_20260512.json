@@ -1,0 +1,234 @@
+{
+  "cases": [
+    {
+      "id": "coral_v11_clean_staghorn_a_native",
+      "label": "coral_v11_clean_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_staghorn_coral_a_steps8_tex2048_seed20261011_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_v11_clean_staghorn_b_native",
+      "label": "coral_v11_clean_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_staghorn_coral_b_steps8_tex2048_seed20261012_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_v20_staghorn_calyx_a_native",
+      "label": "coral_V20_calyx_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V20_paper_coral_crystal_seed20286500_20260510/V20_dla_staghorn_calyx_coral_a_steps8_tex2048_seed20288501_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_v20_staghorn_calyx_b_native",
+      "label": "coral_V20_calyx_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V20_paper_coral_crystal_seed20286500_20260510/V20_dla_staghorn_calyx_coral_b_steps8_tex2048_seed20288502_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_depth_stage04_native",
+      "label": "coral_depth_stage04",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_depth_textured_showcase_20260509/volumetric_coral_depth_stage_04_coral_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_depth_stage04_rerun_native",
+      "label": "coral_depth_stage04_rerun",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_depth_texture_showcase_20260509_rerun1640/volumetric_coral_depth_stage_04_coral_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_seam_ivory_pores_native",
+      "label": "coral_seam_ivory",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/seam_aware_texturing_batch_v2_20260510_remote/S02a_coral_ivory_pores_continuous_steps8_tex2048_seed20295712_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_seam_peach_micro_pores_native",
+      "label": "coral_seam_peach",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/seam_aware_texturing_batch_v2_20260510_remote/S02b_coral_peach_micro_pores_steps8_tex2048_seed20295713_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_seam_bone_plain_native",
+      "label": "coral_seam_bone",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/seam_aware_texturing_batch_v2_20260510_remote/S02c_coral_bone_ridge_plain_steps8_tex2048_seed20295716_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "coral_hq_octopus_native",
+      "label": "coral_hq_octopus",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/volumetric_dla_coral_octopus_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.25
+    },
+    {
+      "id": "pine_v22_d5_native",
+      "label": "pine_V22_d5_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_d5_smooth_needles_steps8_tex2048_seed20260730_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "pine_v22_d6_native",
+      "label": "pine_V22_d6_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_depth_sweep_d6_smooth_needles_steps8_tex2048_seed20260736_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "pine_seed202721_d6_native",
+      "label": "pine_seed721_d6",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_seed20272100_20260510/lsys_pine_canopy_d6_dense_needles_steps8_tex2048_seed20272112_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "pine_v15_d5_native",
+      "label": "pine_V15_d5_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v15_plants_ifs_seed20282100_20260510/v15_lsys_pine_canopy_d5_smooth_needled_branch_mass_steps8_tex2048_seed20282201_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v24_clean_a_native",
+      "label": "canopy_V24_A_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_attractor_clean_seedA_steps8_tex2048_seed20284517_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v24_clean_b_native",
+      "label": "canopy_V24_B_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_attractor_clean_seedB_steps8_tex2048_seed20284518_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v27_soft_d_native",
+      "label": "canopy_V27_D_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v28_multiscale_c_native",
+      "label": "canopy_V28_C_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_multiscale_canopy_C_steps8_tex2048_seed20288514_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v29_occlusion_b_native",
+      "label": "canopy_V29_B_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_canopy_occlusion_B_steps8_tex2048_seed20289513_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v32_veil_a_native",
+      "label": "canopy_V32_A_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v32_leafmass_b_native",
+      "label": "canopy_V32_B_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v32_lowrod_c_native",
+      "label": "canopy_V32_C_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_lowrod_crown_C_steps8_tex2048_seed20292514_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v32_balanced_d_native",
+      "label": "canopy_V32_D_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    }
+  ]
+}

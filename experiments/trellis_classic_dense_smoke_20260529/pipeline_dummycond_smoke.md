@@ -1,0 +1,6 @@
+# TRELLIS classic pipeline dummy-condition smoke
+
+## Results
+- OK `imports_and_patches`: {'torch': '2.10.0+cu128'}
+- OK `pipeline_loaded`: {'sec': 19.070035219192505, 'models': ['sparse_structure_decoder', 'sparse_structure_flow_model', 'slat_decoder_gs', 'slat_decoder_rf', 'slat_decoder_mesh', 'slat_flow_model', 'image_cond_model']}
+- FAIL `failed`: Traceback (most recent call last):   File "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/trellis_classic_dense_smoke_20260529/scripts/trellis_classic_pipeline_dummycond_smoke.py", line 54, in <module>     out=pipe.run(   File "/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context     return func(*args, **kwargs)   File "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/trellis_image_to_3d.py", line 282, in run     slat = self.sample_slat(cond, coords, slat_sampler_params)   File "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/trellis_image_to_3d.py", line 235, in sample_slat     noise = sp.SparseTensor(   File "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/modules/sparse/basic.py", line 70, in __init__     shape = self.__cal_shape(feats, coor

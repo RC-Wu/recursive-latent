@@ -1,0 +1,52 @@
+\begin{figure}[t]
+  \centering
+  \fbox{\begin{minipage}{0.92\columnwidth}
+  \small
+  \textbf{Algorithm 1: Projection-stabilized recursive sparse-latent execution}
+
+  \textbf{Input:} root asset $x_0$, grammar rules $\mathcal R$, condition $y$, depth $D$, projection schedule $\{\lambda_d\}$.
+
+  \textbf{Output:} projected recursive asset $x_D^\star$ and state $z_D$.
+  \begin{enumerate}
+    \item Encode $z_0\leftarrow\operatorname{Enc}_\theta(x_0)$; initialize root handles, frontiers, material handles, and caches.
+    \item For $d=0,\ldots,D-1$:
+    \begin{enumerate}
+      \item Select active handles $\mathcal H_d\subset\mathcal A_d$ and rules $\mathcal R_d\leftarrow\operatorname{Select}(\mathcal H_d,\mathcal R,z_d)$.
+      \item Instantiate sparse proposals $P_d\leftarrow\operatorname{Prop}_{\mathcal R_d}(z_d)$ with masks, transforms, and feasibility certificates.
+      \item Reject or defer proposals outside $\mathcal R_{\mathrm{proj}}$ unless a bridge certificate satisfies the budget.
+      \item Merge accepted proposals, $\tilde z_{d+1}\leftarrow\mathcal M(z_d,P_d)$, using masked feature and material blending.
+      \item Apply the frozen sampler only on editable masks, $\bar z_{d+1}\leftarrow\mathcal N_\theta(\tilde z_{d+1};m_d,y)$, while clamping anchors.
+      \item Decode, project, and re-encode:
+      $x_{d+1}\leftarrow\operatorname{Dec}_\theta(\bar z_{d+1})$,
+      $x_{d+1}^{\star}\leftarrow\Pi_{\lambda_d}(x_{d+1},\mathcal A_d)$,
+      $z_{d+1}\leftarrow\operatorname{Enc}_\theta(x_{d+1}^{\star})$.
+      \item Update surviving handles, frontiers, traces, material metadata, and caches; mark orphan descriptors inactive.
+    \end{enumerate}
+  \end{enumerate}
+  \end{minipage}}
+  \caption{Algorithmic semantics of PS-RSLG. The grammar controls support, handles, and feasibility; the frozen generator is restricted to masked naturalization, decoding, re-encoding, and selected material export.}
+  \label{alg:ps-rslg-execution}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \fbox{\begin{minipage}{0.92\columnwidth}
+  \small
+  \textbf{Algorithm 2: Connected admissible projection}
+
+  \textbf{Input:} decoded asset $x$, root handles $R_d$, active anchors $\mathcal A_d$, tolerances $\lambda_d$.
+
+  \textbf{Output:} projected asset $x^\star$ and updated anchors.
+  \begin{enumerate}
+    \item Build a mesh, voxel, or occupancy-proxy graph $G(x)$.
+    \item Find components reachable from $R_d$ and candidate orphan components.
+    \item For each orphan component $Q$, search bridge paths $\Gamma(Q,R_d)$ and estimate bridge cost, collision, renderability, and ownership consistency.
+    \item Keep root-attached components and accepted bridgeable components; prune components whose cheapest bridge violates $\lambda_d$.
+    \item Optionally weld, close small gaps, remesh, or insert certified bridge geometry.
+    \item Remove orphan growth handles, reattach surviving handles to projected support, and invalidate material handles whose geometry was pruned.
+    \item Return the projected asset only if connectivity, frontier, token-budget, material, and renderability checks are within tolerance.
+  \end{enumerate}
+  \end{minipage}}
+  \caption{Projection is part of the recursive transition. It prevents detached decoded geometry from becoming a parent, motif, frontier, or cache entry at the next depth.}
+  \label{alg:connected-projection}
+\end{figure}

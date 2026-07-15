@@ -1,0 +1,530 @@
+% Reviewer-driven method/results patch for SIGGRAPH Asia draft.
+% Date: 2026-05-09
+% Scope: problem definition, claim map, method organization, experiment/baseline/metric
+% organization, and result placement.
+%
+% 中文合并说明：
+% 1. 本文件不是独立论文，而是可合并到 paper_siga/main.tex 的 patch 草稿。
+% 2. 建议优先合并 Problem Definition and Claim Map、Experiment Organization 两部分；
+%    Method 中与 main.tex 已重叠的公式可以作为替换或精炼材料。
+% 3. 所有关于 texture/PBR 的句子都刻意写成“asset-readiness/export compatibility”，
+%    不把纹理渲染当作 topology proof。
+% 4. DLA、coral、crystal 统一使用 inspired/scaffold/lattice-like 命名，避免物理模拟 claim。
+% 5. 负例保留为 boundary/diagnostic，不作为主结果叙事中心。
+
+\section{Problem Definition and Claim Map}
+
+% 中文注释：这一节建议放在 Method 开头，或者作为 Introduction 最后一段之后的
+% formal problem setting。它的目的不是再堆一个大系统 tuple，而是把输入、输出、
+% 可以 defend 的 claim，以及不 claim 的东西一次钉死。
+
+We study finite-depth recursive asset synthesis with a frozen native 3D
+generator. The input is a root asset $x_0$, an optional appearance or semantic
+condition $y$, a recursive program $\mathcal P$, and a recursion budget $D$.
+The output is a sequence of projected assets and states
+\begin{equation}
+  (x_0,z_0), (x_1^\star,z_1),\ldots,(x_D^\star,z_D),
+  \qquad
+  z_{d+1}\sim
+  \mathsf T_{\mathcal P,\theta,d}(\cdot\mid z_d,y,\xi_d),
+\end{equation}
+where $\theta$ is fixed, $\xi_d$ denotes stochasticity from rule choice,
+frontier sampling, or masked generative sampling, and $x_D^\star$ must be
+renderable as a mesh or textured mesh. The problem is not one-shot text/image
+to 3D generation. It is execution of a recursive program whose intermediate
+states must remain attached, addressable, and reusable.
+
+The central design principle is ownership separation. The grammar owns the
+recursive structure: handles, transforms, frontiers, attachment certificates,
+competition, projection policy, and optional caches. The frozen generator owns
+only the native sparse representation, masked local naturalization, decoding,
+re-encoding, and selected texture/PBR export. In particular, the generator is
+not allowed to globally resample the object topology after each rule.
+
+\begin{table*}[t]
+  \centering
+  \caption{Claim map used to organize the revised paper. The right column
+  states what should be explicitly excluded or moved to supplementary material.}
+  \label{tab:reviewer-claim-map}
+  \begin{tabular}{@{}p{0.19\textwidth}p{0.31\textwidth}p{0.25\textwidth}p{0.17\textwidth}@{}}
+    \toprule
+    Claim & Evidence to show in main text & Required metric/protocol & Must not claim \\
+    \midrule
+    PS-RSLG is a recursive language, not a pipeline &
+    compact state, handle-to-proposal rules, projected transition &
+    formal semantics and algorithm boxes &
+    arbitrary universal procedural language \\
+    Per-depth projection stabilizes finite recursion &
+    direct vs final-only vs per-depth ablation on conservative programs &
+    connected components, LCR, root reachability, orphan mass &
+    all operators become topology-clean \\
+    Classical systems are covered as restricted domains &
+    IFS, L-system, space-colonization, DLA/frontier, shape grammar reductions &
+    equations and one comparison table &
+    visual dominance over mature procedural systems \\
+    Non-tree families are possible when support is grammar-native connected &
+    coral/DLA-inspired and crystal/lattice-like connected scaffold results &
+    occupancy or surface-voxel connectivity, fixed-camera mesh renders &
+    physical DLA, physical crystallization, watertight topology \\
+    Texture/PBR export is compatible with selected projected meshes &
+    Trellis2 textured GLB renders for selected vine, coral, crystal, baseline assets &
+    GLB import/render, PBR availability, surface-voxel diagnostic &
+    texture as connectivity proof \\
+    Effective recursive refinement is a method behavior &
+    depth and parameter rows with zoom crops &
+    same guide, same camera, same renderer, changed depth/parameter only &
+    calibrated monotonic control unless measured \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\paragraph{Negative definition.}
+The paper should explicitly state what the method does not solve. It does not
+guarantee watertight meshes, physical growth simulation, globally consistent
+material recursion, or infinite mesh output. Its defensible target is narrower:
+training-free finite-depth recursive programs whose sparse support is projected
+to an admissible connected state before subsequent rules can fire, with
+selected projected meshes exported through a frozen Trellis2 texture/PBR path.
+
+\section{Method Organization Patch}
+
+% 中文注释：本节可用于替换或收紧 main.tex 的 Method 主体。它比旧版大 tuple 更复杂，
+% 但复杂性分布在规则、投影、采样、baseline coverage 中，而不是堆在一个状态变量列表里。
+
+\subsection{State, Handles, and Admissible Domain}
+
+At depth $d$, the recursive state is the sparse-latent object
+\begin{equation}
+  z_d=(\mathcal V_d,\mathbf F_d,\mathcal A_d),
+\end{equation}
+where $\mathcal V_d\subset h\mathbb Z^3$ is active sparse support,
+$\mathbf F_d:\mathcal V_d\rightarrow\mathbb R^q$ is the generator-native feature
+field, and $\mathcal A_d$ is a grammar-readable anchor graph. A handle is
+\begin{equation}
+  h_i=(\sigma_i,T_i,\Omega_i,\alpha_i,\mu_i),
+\end{equation}
+with type $\sigma_i$, local frame $T_i$, owned region $\Omega_i$, attributes
+$\alpha_i$, and edit/material mask $\mu_i$. Auxiliary objects such as traces,
+random seeds, cached descriptors, and export metadata are executor state, not
+the primary mathematical state.
+
+Connectivity is defined on a sparse neighborhood graph
+$G_\eta(\mathcal V_d)$ with root anchors $R_d\subseteq\mathcal V_d$. The attached
+support is
+\begin{equation}
+  \mathcal V_{\mathrm{att}}(z_d)=
+  \{v\in\mathcal V_d:\; v\leadsto R_d\ \mathrm{in}\ G_\eta(\mathcal V_d)\}.
+\end{equation}
+The connectivity violation is
+\begin{equation}
+  V_{\mathrm{conn}}(z_d)=
+  1-\frac{\operatorname{mass}(\mathcal V_{\mathrm{att}}(z_d))}
+  {\operatorname{mass}(\mathcal V_d)+\epsilon}.
+\end{equation}
+We call a state admissible when
+\begin{equation}
+\begin{split}
+  z\in\mathcal Z_{\mathrm{adm}}(\lambda)
+  \quad\Longleftrightarrow\quad
+  &V_{\mathrm{conn}}(z)\le\epsilon_c,\quad
+  V_{\mathrm{frontier}}(z)=0,\quad
+  V_{\mathrm{occ}}(z)\le\epsilon_o,\\
+  &V_{\mathrm{mat}}(z)\le\epsilon_m,\quad
+  |\mathcal V(z)|\le T_{\max}.
+\end{split}
+\end{equation}
+$V_{\mathrm{frontier}}(z)=0$ requires every active growth handle to have a valid
+path to the root-attached scaffold. This is the formal reason fragments cannot
+be treated as harmless render artifacts: if an orphan component carries an
+active handle, it can become a parent, frontier, motif, or material source at
+the next depth.
+
+\subsection{Rule Templates and Proposal Semantics}
+
+The recursive language consists of typed handles, local rule templates, and
+realization operators. A rule has the form
+\begin{equation}
+  \rho:\ h_i \mapsto
+  \{(\sigma_j,\tau_j,\Omega_j,m_j,\pi_j,\kappa_j,\eta_j)\}_{j=1}^{k}.
+  \label{eq:reviewer-rule-template}
+\end{equation}
+Each emitted item specifies an output type $\sigma_j$, local transform
+$\tau_j$, target region $\Omega_j$, edit mask $m_j$, proposal kernel $\pi_j$,
+feasibility predicate $\kappa_j$, and optional sampler/material schedule
+$\eta_j$. The proposal kernel may grow an attached frontier, split a branch,
+attach a sampled exposed cell, transform-copy a motif, refine a terminal
+region, or transport a material handle.
+
+The proposal distribution is conditioned on the current sparse state and rule
+trace:
+\begin{equation}
+  P_d\sim
+  \prod_{h_i\in\mathcal H_d}
+  \prod_{\rho\in\mathcal R(h_i)}
+  \pi_\rho(\Delta\mathcal V,\Delta\mathbf F,\Delta\mathcal A
+  \mid z_d,h_i,y,\xi_d).
+\end{equation}
+Accepted proposals must satisfy either direct projectability or a bounded
+bridge certificate:
+\begin{equation}
+  \Delta\mathcal V\subset\mathcal R_{\mathrm{proj}}(z_d;b_d,r_d)
+  \quad\mathrm{or}\quad
+  \exists B:\ 
+  \Delta\mathcal V\cup B\in\mathcal Z_{\mathrm{adm}}(\lambda_d),
+  \ \operatorname{cost}(B)\le b_d.
+  \label{eq:reviewer-bridge-certificate}
+\end{equation}
+This condition separates recursive sparse-latent programs from unconstrained
+latent editing. A proposed patch is not executable merely because it looks
+locally plausible; it must remain connected enough to be used by later rules.
+
+Sparse occupancy competition is a rule-level selection mechanism. For action
+$a$ at support location $v$, use
+\begin{equation}
+\begin{split}
+  s(a,v;z_d)=&
+  \lambda_{\mathrm{att}}\phi_{\mathrm{att}}(a,v)
+  -\lambda_{\mathrm{occ}}\phi_{\mathrm{occ}}(a,v)
+  -\lambda_{\mathrm{col}}\phi_{\mathrm{col}}(a,v)\\
+  &+\lambda_{\mathrm{front}}\phi_{\mathrm{front}}(a,v)
+  +\lambda_{\mathrm{sym}}\phi_{\mathrm{orbit}}(a,v)
+  +\lambda_{\theta}\log p_\theta(a,v\mid z_d,y).
+\end{split}
+\label{eq:reviewer-competition-score}
+\end{equation}
+The learned term is optional and should be weak in the current experiments. The
+main point is that space competition is native to sparse support: occupied
+tokens, collisions, attachment paths, and group orbits can be tested before
+decoding.
+
+\subsection{Recursive Transition and Masked Generator Use}
+
+The full recursive transition is
+\begin{equation}
+  z_{d+1}=
+  \operatorname{Enc}_{\theta}
+  \left[
+  \Pi_{\lambda_d}
+  \left(
+  \operatorname{Dec}_{\theta}
+  \left(
+  \mathcal T_\theta(z_d;\mathcal R_d,y,\xi_d)
+  \right)
+  \right)
+  \right].
+  \label{eq:reviewer-compact-transition}
+\end{equation}
+The local transition $\mathcal T_\theta$ expands into
+\begin{align}
+  \mathcal R_d&=\operatorname{Select}(\mathcal A_d,\mathcal R,z_d,\xi_d),\\
+  P_d&=\operatorname{Prop}_{\mathcal R_d}(z_d),\\
+  \tilde z_{d+1}&=\mathcal M(z_d,\operatorname{Filter}_{\lambda_d}(P_d)),\\
+  \bar z_{d+1}&=\mathcal N_\theta(\tilde z_{d+1};m_d,y,\eta_d),
+\end{align}
+where $\mathcal M$ is masked feature/material merge and $\mathcal N_\theta$ is
+the frozen local sampler. This form keeps the main equation short while making
+the control flow explicit.
+
+For a flow sampler,
+\begin{equation}
+  \frac{dz_t}{dt}=v_\theta(z_t,t,y),
+\end{equation}
+the masked clamp is
+\begin{equation}
+  z_{t-\Delta t}=
+  (1-m_d)\odot z_{\mathrm{anchor}}
+  +m_d\odot\Phi_{\theta,t}(z_t,y).
+  \label{eq:reviewer-masked-flow}
+\end{equation}
+Equivalently, for edited sparse features,
+\begin{equation}
+  \mathbf f_i'=
+  (1-\alpha_i)\mathbf f_i^{\mathrm{rule}}
+  +\alpha_i\mathbf f_i^{\theta},\qquad i\in m_d.
+\end{equation}
+The sampler is therefore a local naturalization prior for shape or material. It
+is not a global repair engine and it does not decide recursive topology.
+
+\subsection{Projection Operator}
+
+Projection should be described as an explicit algorithm, not only as an ideal
+optimization. Given a decoded candidate $x$ and anchors $\mathcal A_d$, build a
+mesh, occupancy, or surface-voxel graph $G(x)$. Find root-reachable components,
+score orphan components by mass, distance-to-root, bridge cost, collision,
+renderability, material consistency, and rule ownership, and then prune,
+defer, or bridge them under the schedule $\lambda_d$. Surviving handles are
+reattached to projected support; orphan handles and their material descriptors
+are removed or marked inactive before re-encoding.
+
+The idealized objective is
+\begin{equation}
+\begin{split}
+  \Pi_{\lambda}(x,\mathcal A)=
+  \operatorname*{arg\,min}_{(y,\mathcal A')\in\mathcal X_{\mathrm{adm}}(\lambda)}
+  &d_{\mathcal X}(x,y)
+  +\eta_{\mathrm{obs}}d_{\mathrm{obs}}(x,y)
+  +\eta_m d_{\mathrm{mat}}(x,y)\\
+  &+\lambda_{\mathrm{del}}\operatorname{mass}(R)
+  +\lambda_{\mathrm{br}}\sum_{\gamma\subset B}\operatorname{len}(\gamma)
+  +\lambda_{\mathrm{front}}V_{\mathrm{frontier}}(y,\mathcal A'),
+\end{split}
+\label{eq:reviewer-projection-objective}
+\end{equation}
+where $R$ is removed orphan support and $B$ is inserted or certified bridge
+support. Prune-only projection is the limiting case
+$\lambda_{\mathrm{br}}\rightarrow\infty$. Bridge repair is therefore a
+controlled option, not a claim that arbitrary fragmented outputs can be fixed.
+
+\paragraph{Stability statement.}
+Let $e(z)$ combine connectivity, orphan-frontier, renderability, and material
+violations. If projection suppresses decoded candidates to
+$e(\Pi_{\lambda_d}(x))\le\epsilon_P$ and the decode/project/re-encode round trip
+adds at most $\epsilon_E$, then the executed states satisfy
+\begin{equation}
+  e(z_d)\le\epsilon_P+\epsilon_E,\qquad d=1,\ldots,D.
+\end{equation}
+Final-only cleanup cannot provide this invariant because invalid components may
+already have influenced rule selection, frontier sampling, cache updates, and
+material propagation before the terminal mesh is cleaned.
+
+\subsection{Classical Procedural Systems as Restricted Domains}
+
+% 中文注释：这一段回答“公式必须 cover IFS/L-system/space colonization/DLA/shape grammar”
+% 的批评。它可以放主文精简版，详细证明放 appendix。核心语气是“restricted domains”，
+% 不是说当前实现视觉上全面超过传统系统。
+
+The rule template in Eq.~\eqref{eq:reviewer-rule-template} covers standard
+procedural families as restricted domains obtained by disabling learned
+naturalization, texture export, or projection.
+
+\paragraph{IFS.}
+With one patch handle, transform-copy rules, identity sampler, and union merge,
+\begin{equation}
+  \mathcal V_{d+1}=\bigcup_{i=1}^{k}\tau_i(\mathcal V_d),
+\end{equation}
+which is Hutchinson iteration on sparse support for contractive transforms.
+
+\paragraph{L-systems.}
+Let $\mathcal A_d$ store a word or turtle-frame graph $w_d\in\Sigma^\ast$ and
+apply rules synchronously:
+\begin{equation}
+  w_{d+1}=\prod_{a\in w_d}\rho(a).
+\end{equation}
+The interpretation operator turns emitted symbols into handles with frame
+updates $T_{i+1}=T_i\circ\tau(a_i)$. This recovers deterministic or stochastic
+L-systems when $\mathcal N_\theta$ is identity and projection only validates
+attachment.
+
+\paragraph{Space colonization.}
+With tips $p_i$ and attractors $a\in A$, assign
+\begin{equation}
+  A_i=\{a\in A:\ i=\operatorname*{arg\,min}_j\|a-p_j\|,
+  \ \|a-p_i\|\le r\},
+\end{equation}
+and propose
+\begin{equation}
+  p_i'=p_i+\delta
+  \frac{\sum_{a\in A_i}(a-p_i)/\|a-p_i\|}
+  {\left\|\sum_{a\in A_i}(a-p_i)/\|a-p_i\|\right\|+\epsilon}.
+\end{equation}
+This is a grow rule with attractor-directed proposal, occupancy exclusion, and
+root-attached feasibility.
+
+\paragraph{DLA/frontier growth.}
+Let $H(v)$ be a random-walk or learned hitting score on exposed frontier cells.
+The attach proposal is
+\begin{equation}
+  \Pr[\Delta\mathcal V=\{v\}\mid O_d]
+  =
+  \frac{H(v)\mathbf 1[v\in\partial O_d]}
+  {\sum_{u\in\partial O_d}H(u)}.
+\end{equation}
+The cell is accepted only if adjacent to the occupied root-attached support or
+if Eq.~\eqref{eq:reviewer-bridge-certificate} holds. Current experiments should
+call this DLA-inspired or frontier-growth scaffolding, not faithful physical DLA.
+
+\paragraph{Shape grammar and symmetry.}
+CGA-style split/extrude/repeat rules are contextual handle rewrites over faces,
+tiles, or portal frames. A crystal/lattice-like program is represented by a
+group or lattice action $G$ over handles and support. If
+\begin{equation}
+  \forall g\in G,\ \forall\rho\in\mathcal R,\qquad
+  g\circ\rho\circ g^{-1}\in\mathcal R,
+\end{equation}
+and the scheduler expands complete orbits, then the proposed support is
+$G$-closed before decoding. Exact equivariance would also require merge,
+sampler, projection, codec, and grid quantization to commute with $G$, so the
+paper should report symmetry as an approximate metric rather than as a theorem.
+
+\subsection{Material Handles and Texture/PBR Boundary}
+
+Material handles are metadata attached to anchors and masks. A material handle
+stores a local intent label, guide condition, PBR-channel availability, and
+ownership region. Transform-copy rules transport material handles with the same
+local frame as geometry. Growth rules inherit or blend material handles from
+parents. Projection deletes material handles whose geometry is pruned and marks
+uncertain seams for export validation.
+
+For a projected mesh $x_d^\star$, Trellis2 texture export is
+\begin{equation}
+  g_d=\operatorname{Tex}_{\theta}(x_d^\star,y_m),
+\end{equation}
+where $g_d$ is a GLB/PBR asset and $y_m$ is an optional guide. This is an
+asset-readiness check for selected projected meshes. It is not structural
+evidence. A textured GLB can render well while raw face components, UV islands,
+or surface seams remain problematic; therefore topology and material must be
+reported with separate diagnostics.
+
+\section{Experiment, Baseline, and Metric Organization Patch}
+
+% 中文注释：建议把现有 Experiments/Results 组织成 claim-first，而不是任务日志式。
+% 下面的小节标题可直接成为主文结构，或者作为 main.tex 中 Results 重排的 checklist。
+
+\subsection{Protocol Separation}
+
+Every figure and table should identify which evidence type it supports:
+\begin{enumerate}
+  \item \textbf{Structural recursion:} occupancy or surface-voxel connectedness,
+  root reachability, orphan mass, path-to-root rate, and branch/frontier proxies.
+  \item \textbf{Mesh diagnostics:} raw face components, non-manifold edges,
+  hole/weld/remesh warnings, Blender import, and renderability.
+  \item \textbf{Texture/PBR export:} GLB size, import/render success, material
+  guide, PBR-channel availability, seam warnings, and visual QA.
+  \item \textbf{Method behavior:} same-condition depth or parameter rows with
+  fixed guide, camera, renderer, and texture schedule.
+\end{enumerate}
+This protocol directly addresses the reviewer concern that texture/PBR quality
+cannot substitute for topology evidence.
+
+\subsection{Claim-Based Results Structure}
+
+The revised results section should be ordered as follows.
+
+\paragraph{R1: Projection ablation.}
+Compare direct sparse recursion, final-only projection, and per-depth projection
+under matched root, operator, depth, renderer, and metric protocol. This is the
+main causal evidence. The conservative vine/tree competition rows belong in the
+main text; aggressive fork variants should be described as the
+stability-expression boundary.
+
+\paragraph{R2: Baseline fairness.}
+Treat L-system and space-colonization baselines as strong structural controls,
+not strawmen. Compare procedural meshes, direct sparse grammar, final-only
+cleanup, and proposed per-depth projection. If texture export is applied to
+traditional baselines, present it as a separate diagnostic: successful texture
+transfer alone does not prove connected recursive asset readiness.
+
+\paragraph{R3: Non-tree connected scaffold.}
+Use crystal/lattice-like and coral/DLA-inspired examples only when mesh renders
+and occupancy/surface-voxel connectivity agree. The main text should prefer
+grammar-native connected scaffold positives over post-hoc hard-DLA bridge
+repair. Hard-DLA bridge experiments are useful boundary evidence if they show
+that face-level repair can overstate true support connectivity.
+
+\paragraph{R4: Texture/PBR export.}
+Report selected Trellis2 textured GLB exports after projection, with public
+guide, schedule, GLB size, render success, and surface-voxel diagnostic. State
+that this supports export compatibility and asset inspection, not watertight
+topology or material recursion consistency.
+
+\paragraph{R5: Depth and parameter method behavior.}
+Show same-condition depth rows and parameter rows for selected cases. These are
+not ablations unless only one design choice is changed and all other variables
+are matched. Captions should use ``method-behavior visualization'' rather than
+``ablation''.
+
+\paragraph{R6: Boundary cases.}
+Move fragmented radial, hard-DLA bridge, cache-selected blocky results, and
+physically ambiguous cases to a diagnostic or supplementary section unless a
+fresh mesh/textured-mesh QA confirms connected visual quality.
+
+\subsection{Metric Definitions to Make Reproducible}
+
+The paper should define the following primary and secondary metrics.
+
+\begin{itemize}
+  \item Occupancy connected components: number of components in a voxelized
+  occupancy graph under 6-neighborhood connectivity.
+  \item Largest component ratio: mass of the largest root-attached component
+  divided by total occupied or sampled-surface mass.
+  \item Root reachability: fraction of sampled support, branch endpoints, or
+  active handles with a path to a root anchor.
+  \item Orphan mass: occupied or sampled-surface mass not connected to the root
+  component.
+  \item Projection survival: fraction of rule-proposed support surviving
+  projection at each depth.
+  \item Bridge cost: inserted or certified bridge voxels, path length, and
+  collision/renderability penalty.
+  \item Raw mesh diagnostics: face components, non-manifold edges, holes,
+  remesh/weld status, and Blender import/render success.
+  \item Texture/PBR diagnostics: GLB size, material guide, PBR voxel/token
+  counts when available, import/render success, and seam warnings.
+  \item Symmetry/lattice diagnostics: orbit coverage and approximate symmetry
+  error, reported as screening metrics rather than theorems.
+\end{itemize}
+
+The main structural metric should be occupancy or surface-voxel connectivity.
+Raw GLB face components are still important, but they should be labeled as
+export diagnostics because material seams and UV islands can fragment the face
+graph even when the visible support is connected.
+
+\begin{table*}[t]
+  \centering
+  \caption{Recommended placement of current result families. The goal is to
+  keep the main text claim-aligned and move visually weak or physically
+  over-interpretable cases to supplementary diagnostics.}
+  \label{tab:reviewer-result-placement}
+  \begin{tabular}{@{}p{0.25\textwidth}p{0.28\textwidth}p{0.39\textwidth}@{}}
+    \toprule
+    Placement & Result families & Rationale and required wording \\
+    \midrule
+    Main text &
+    projection ablation; connected vine/root depth; traditional texture baseline diagnostic; best coral/DLA-inspired connected scaffold; best crystal/lattice-like connected scaffold &
+    Directly supports projection, baseline fairness, non-tree connected support, and selected texture/PBR export. Captions must separate structural metrics from texture/export diagnostics. \\
+    Supplement or appendix &
+    full result matrix; guide sweeps; bismuth cross-guide variants; coral density endpoints; symmetry screening; cache/LOD visible-window demos; extra depth/parameter galleries &
+    Useful breadth and method-behavior evidence, but too broad or too weak for the main causal chain unless distilled into one claim-specific figure. \\
+    Negative/boundary diagnostics &
+    hard-DLA post-hoc bridge; fragmented radial/echo/fork variants; cache-selected blocky DLA/radial/scifi; physically ambiguous crystal/DLA cases &
+    Use to justify attachment feasibility, projection placement, and grammar-native connected support. Do not present as final asset success. \\
+    Do not use as evidence &
+    matplotlib point-cloud previews; uninspected GLBs; partial transfers; texture-only screenshots without mesh/metric QA &
+    User-facing and paper-facing qualitative results must be mesh or textured-mesh renders with accompanying diagnostics. \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\section{Text-Level Replacement Guidance}
+
+% 中文注释：下面这些句子可以直接替换 main.tex 中容易显得 draft/status report 的表达。
+
+\paragraph{Safe topology wording.}
+Our strongest structural claim is not that every exported mesh is watertight,
+but that connected support must be enforced inside the sparse-latent recursive
+transition. Final-only cleanup can improve the terminal mesh, but it cannot
+prevent intermediate fragments from becoming active handles, frontiers, cache
+entries, or material sources.
+
+\paragraph{Safe baseline wording.}
+Classical procedural baselines are strong structural controls under favorable
+tube or voxel protocols. We therefore use them as fairness baselines rather
+than strawmen, and evaluate our design claim through direct, final-only, and
+per-depth projection variants of recursive sparse-latent execution.
+
+\paragraph{Safe non-tree wording.}
+Crystal and coral examples are reported as connected scaffold families. They
+demonstrate group/lattice-style and coral/DLA-inspired recursive supports with
+selected PBR export, not physical crystallization, faithful DLA simulation, or
+watertight topology.
+
+\paragraph{Safe texture wording.}
+Textured GLB export is evaluated separately from structural connectivity.
+Surface-sampled voxel connectivity and fixed-camera mesh renders support
+connected-scaffold claims, while raw face components and material seams remain
+export diagnostics.
+
+\paragraph{Words to remove from main paper.}
+Avoid ``draft'', ``candidate'', ``smoke test'', ``technically compatible'',
+``current paper use'', ``bug fixed'', and ``failed export'' in the main text.
+Those phrases belong in internal notes or supplementary diagnostics, not in the
+submission narrative.

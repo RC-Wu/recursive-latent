@@ -1,0 +1,205 @@
+% Strict revision section rewrites, 2026-05-09.
+% This file is a copy-paste draft only. It does not modify main.tex.
+
+\paragraph{Title candidates.}
+\begin{enumerate}
+  \item Generation-Model-Native Recursive Grammars for Sparse 3D Latent Growth
+  \item Projection-Stabilized Recursive Grammars over Sparse 3D Latents
+  \item Sparse-Latent Recursive Grammars for Native 3D Generative Execution
+  \item Recursive 3D Asset Generation with Sparse Latent Grammars and Projection-Stabilized Execution
+  \item Generation-Native Recursive Grammar Execution in Sparse 3D Latent Spaces
+\end{enumerate}
+
+\section{Preliminaries}
+
+\subsection{Recursive Generation}
+We use \emph{recursive generation} in the grammar sense: a finite state is repeatedly rewritten by rules, and a geometric interpretation maps the resulting derivation to an asset. This view covers symbolic rewriting in L-systems, repeated transform-copy in iterated function systems, local replacement in shape grammars, and frontier-based stochastic accretion in growth models~\cite{lindenmayer1968lsystemsI,prusinkiewicz1990abop,barnsley1988fractalsEverywhere,witten1981dla,sander2000dlaReview,runions2007spacecolonization,stiny1972shapegrammars,mueller2006procedural}. \EvidencePending{Tighten this definition after checking graph-grammar, shape-grammar, and procedural-modeling derivation terminology.}
+
+For this paper, a recursive asset program is a tuple
+\[
+\mathcal P=(s_0,\mathcal R,\mathcal S,\mathcal I,D),
+\]
+where $s_0$ is an initial state, $\mathcal R$ is a rule library, $\mathcal S$ is a scheduler that selects applicable rules at derivation depth $d$, $\mathcal I$ is an interpretation map from states to geometry or assets, and $D<\infty$ is the executed recursion depth. A finite-depth derivation is
+\[
+s_{d+1}=\operatorname{Rewrite}(s_d,\mathcal R_d,\xi_d),
+\qquad
+\mathcal R_d=\mathcal S(s_d,\mathcal R,d),
+\qquad
+x_D=\mathcal I(s_D),
+\quad d=0,\ldots,D-1,
+\]
+where $\xi_d$ denotes rule-choice, sampling, or scheduling randomness. This definition is intentionally modest. It does not claim infinite generation, physical growth simulation, or universal procedural expressivity. It only gives the terms needed later: state, rule, derivation depth, generated geometry, and finite-depth recursive execution. In our method, the abstract state $s_d$ is replaced by a sparse generator-native state augmented with grammar-readable handles and anchors.
+
+\subsection{Sparse Voxel Generator State}
+Let $\theta$ denote a frozen sparse structured 3D generator, and let $y$ denote an optional condition such as an image, text-derived guide, category label, material guide, or empty prompt. We write the generator-native sparse state as
+\[
+z=(V,F),
+\]
+where $V\subset h\mathbb Z^3$ is sparse voxel or token support on grid spacing $h$, and $F:V\rightarrow\mathbb R^q$ stores token features. A Trellis-style pipeline exposes a mesh-to-sparse encoder, a sparse-to-mesh decoder, a masked local sampler or naturalizer, and an optional texture/PBR export path:
+\[
+z=\operatorname{Enc}_{\theta}(x,y),
+\qquad
+x=\operatorname{Dec}_{\theta}(z,y),
+\qquad
+z'=N_{\theta}(z;m,y,\xi),
+\qquad
+g=\operatorname{Tex}_{\theta}(x^\star,y_m).
+\]
+Here $x$ is a mesh, occupancy proxy, or decoded geometric asset; $m:V\rightarrow\{0,1\}$ is an edit mask; $\xi$ is sampling randomness; $x^\star$ is a projected mesh selected for export; $y_m$ is an optional material guide; and $g$ is a textured GLB/PBR asset. The important middleware for recursive generation is not only final mesh synthesis, but the exposed sparse support $V$, token features $F$, encoder $\operatorname{Enc}_{\theta}$, decoder $\operatorname{Dec}_{\theta}$, masked local update $N_{\theta}$, and selected export function $\operatorname{Tex}_{\theta}$~\cite{trellis2024,trellis2project}. \EvidencePending{Add controlled evidence that sparse token support and codec access are more suitable for repeated recursive execution than object-latent or mesh-only alternatives.}
+
+Texture export is kept separate from structural recursion. A textured GLB can render successfully while the underlying geometry still has thin sheets, disconnected face components, or fragile seams; conversely, a neutral projected mesh may be a valid recursive state before material export is polished. We therefore use $\operatorname{Tex}_{\theta}$ only as an asset-export capability for selected projected meshes, not as evidence that the recursive topology is correct.
+
+\ExpFigTODO{User needs to provide sparse voxel / Trellis-style generator pipeline figure: image/mesh condition -> sparse support/features -> decoder -> mesh/PBR asset.}
+
+\section{Method}
+
+\subsection{Projection-Stabilized Recursive Sparse-Latent Grammar}
+We define a \emph{Projection-Stabilized Recursive Sparse-Latent Grammar} (PS-RSLG): a recursive grammar whose state is the sparse generator-native latent $z_d=(V_d,F_d)$ augmented with grammar-readable anchors. The grammar owns the recursive structure. It selects handles, proposes local sparse edits, maintains attachment certificates and rule traces, and decides which regions are eligible for later recursion. The frozen generator supplies the native sparse representation, masked local realization, decoding, re-encoding, and optional texture export after geometry has been projected.
+
+The recursive transition is
+\[
+z_{d+1}=
+\operatorname{Enc}_{\theta}\!\left(
+\Pi_{\theta,\lambda_d}\!\left(
+\operatorname{Dec}_{\theta}
+\left(
+\mathcal T_{\theta}(z_d;\mathcal R_d,y,\xi_d)
+\right)
+\right),
+y
+\right),
+\qquad
+x_D^\star=\Pi_{\theta,\lambda_D}\!\left(\operatorname{Dec}_{\theta}(z_D,y)\right).
+\]
+Here $\mathcal R_d\subseteq\mathcal R$ is the selected rule set at depth $d$, $\mathcal T_{\theta}$ denotes rule proposal, feasibility filtering, masked merge, and optional local naturalization, and $\Pi_{\theta,\lambda_d}$ is a model-native admissibility selection operator. Projection is inside the recursive transition: decoded support that is detached, unrenderable, over budget, or not valid as a future handle is removed or converted to inactive metadata before re-encoding. This differs from final mesh cleanup, because invalid fragments are prevented from becoming later parents, frontiers, cached motifs, or material sources.
+
+The program state used by the grammar is
+\[
+\hat z_d=(V_d,F_d,A_d),
+\]
+where $A_d$ stores anchors, typed handles, local frames, ownership regions, attachment edges, frontier labels, rule traces, and optional material handles. Root support is denoted $V_d^{\mathrm{root}}$, selected rules are denoted $\mathcal R_d$, and sparse proposals are denoted $\mathcal P_d$ to avoid overloading projection notation. A handle is
+\[
+h_i=(\sigma_i,T_i,\Omega_i,\alpha_i),
+\]
+with type $\sigma_i$, local frame $T_i$, owned sparse region $\Omega_i\subseteq V_d$, and attributes $\alpha_i$ such as age, radius, priority, material intent, or sampler schedule. Active handles must remain root-reachable unless they are explicitly marked inactive.
+
+Let $G_{\eta}(V_d)$ be the $\eta$-neighborhood graph over sparse support. The attached support is
+\[
+V_{\mathrm{att}}(\hat z_d)=
+\{v\in V_d:\ v\leadsto V_d^{\mathrm{root}}\ \mathrm{in}\ G_{\eta}(V_d)\}.
+\]
+An admissible recursive state satisfies connectivity, frontier, occupancy, renderability, and token-budget constraints:
+\[
+\mathcal Z_{\mathrm{adm}}(\lambda_d)=
+\{\hat z:\ 
+V_{\mathrm{conn}}(\hat z)\le\epsilon_c,\ 
+V_{\mathrm{frontier}}(\hat z)=0,\ 
+V_{\mathrm{occ}}(\hat z)\le\epsilon_o,\ 
+|\!V(\hat z)\!|\le T_{\max}(d)\}.
+\]
+This domain is not a theorem about perfect topology. It is the conservative state contract used by the executor so that later rules read a connected and addressable recursive state. \EvidencePending{Report root-reachability, orphan-handle, and token-budget statistics under matched projection variants.}
+
+\paragraph{Algorithm text version.}
+Given a root mesh $x_0$, a rule library $\mathcal R$, condition $y$, depth $D$, and projection schedule $\{\lambda_d\}$, PS-RSLG proceeds as follows. First encode $z_0\leftarrow\operatorname{Enc}_{\theta}(x_0,y)$ and initialize root handles, frontiers, and rule traces in $A_0$. For each depth $d=0,\ldots,D-1$, select active handles from $A_d$ and rules $\mathcal R_d$ by type, priority, frontier state, budget, and optional symmetry orbit. Instantiate sparse proposals $\mathcal P_d$ with masks, transforms, and feasibility certificates. Reject or defer proposals that are not root-reachable, collision-feasible, within budget, or accompanied by a valid model-completable connector mask. Merge accepted proposals with masked feature blending and hard-clamp anchor regions. Apply $N_{\theta}$ only on editable masks, not on the whole object. Decode the candidate state, project the decoded asset to an admissible connected state, re-encode it, and update handles before the next rule selection. At the terminal depth, export selected projected meshes through $\operatorname{Tex}_{\theta}$ only for asset inspection.
+
+\paragraph{Rule templates.}
+A rule is a local rewrite over handles,
+\[
+\rho:\ h_i\mapsto
+\{(\sigma_j,\tau_j,\Omega_j,m_j,\kappa_j,\pi_j,\eta_j)\}_{j=1}^{k},
+\]
+where $\sigma_j$ is the emitted handle type, $\tau_j$ is a local transform, $\Omega_j$ is the target or ownership region, $m_j$ is the edit mask, $\kappa_j$ is a feasibility predicate, $\pi_j$ is a proposal kernel, and $\eta_j$ is an optional sampler or material schedule. A proposal is active only if it creates a state in the admissible domain, or if it also emits a connector mask that can be naturalized before activation:
+\[
+\Delta V\subseteq\mathcal R_{\mathrm{proj}}(\hat z_d;b_d,r_d)
+\quad\text{or}\quad
+\exists B,F',A':\ 
+\hat z'=(V_d\cup\Delta V\cup B,F',A')\in\mathcal Z_{\mathrm{adm}}(\lambda_d),
+\quad
+\operatorname{cost}(B)\le b_d.
+\]
+This condition is deliberately stated at the state level: $\mathcal Z_{\mathrm{adm}}$ contains recursive states, not raw support sets. A locally plausible patch is therefore not active merely because it decodes well; it must remain usable by the next recursive step.
+
+\begin{table*}[t]
+  \centering
+  \caption{Representative rule families in PS-RSLG. Texture export and cache bookkeeping are excluded from the rule table because they are execution or asset-export mechanisms rather than core recursive operators.}
+  \label{tab:ps-rslg-rule-families-strict}
+  \begin{tabular}{@{}p{0.13\textwidth}p{0.45\textwidth}p{0.34\textwidth}@{}}
+    \toprule
+    Rule family & Definition / proposal & Feasibility role \\
+    \midrule
+    \textbf{Grow} &
+    From an attached frontier handle $h_i$, emit
+    $\Delta V=\{v+\delta:\ v\in\Omega_i,\ \delta\in\mathcal N_\eta,\ s(v,\delta)>0\}$ and features $F_\Delta(v+\delta)=\pi_{\mathrm{grow}}(F_d(v),\delta,\xi)$ under mask $m_i$. &
+    Accepted tokens must be root-reachable in $G_\eta(V_d\cup\Delta V)$ or carry a connector mask before activation. \\
+    \textbf{Branch} &
+    Replace one handle $h_i$ by child handles
+    $h_{ij}=(\sigma_j,T_i\circ\tau_j,\Omega_{ij},\alpha_{ij})$ for $j=1,\ldots,k$, with disjoint or softly weighted masks $m_{ij}$. &
+    Children inherit parent attachment and pass occupancy, collision, angle/radius, and token-budget checks. \\
+    \textbf{Attach} &
+    Sample frontier cells $v$ with probability $p(v)\propto \phi_{\mathrm{frontier}}(v)\phi_{\mathrm{attr}}(v)$, then add a local support kernel $\Delta V_v$ around selected cells. &
+    Used for porous or coral-like stress tests; sampled regions are inactive unless attached or completed by a masked connector. \\
+    \textbf{Copy} &
+    Transform-copy support and features,
+    $\widehat V_j=Q_h(\tau_j(V_d\cap\Omega_i))$ and
+    $\widehat F_j(Q_h(\tau_jv))=\mathcal T_j^F F_d(v)$, then merge by masked feature averaging. &
+    Tests motif reuse and latent transform-copy; copied handles must remain projectable and cannot introduce active detached components. \\
+    \textbf{Split/Extrude} &
+    Decompose a local frame into face, portal, segment, or tile handles and emit bounded extrusions
+    $\Delta V=\{v+t n_i:\ v\in\Omega_i,\ 0<t\le \ell_i\}$ in the local frame. &
+    Keeps architectural and hard-surface rules local; rejects proposals that exceed budget or violate attachment/collision constraints. \\
+    \textbf{Refine} &
+    Allocate additional local support inside a terminal or zoom-region mask,
+    $V^+=V_d\cup\{v:\ v\in W_i,\ \rho_i(v)>\tau\}$, followed by masked $N_\theta$. &
+    Planned effective-resolution operator; should be claimed only after single-pass versus recursive-window comparison. \EvidencePending{Need matched refinement experiment.} \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\paragraph{Masked local naturalization.}
+The frozen generator is used as a local realization prior, not as a global topology repair model. The mask $m_d$ is emitted by grammar rules and clipped by attachment feasibility. Anchor tokens are hard-clamped, while editable tokens may be updated by $N_{\theta}$:
+\[
+\bar z_{d+1}=N_{\theta}(\tilde z_{d+1};m_d,y,\xi_d),
+\qquad
+\bar F(v)=
+(1-m_d(v))F_{\mathrm{anchor}}(v)
++ 
+m_d(v)F_{\theta}(v).
+\]
+If the implementation uses feature blending rather than a full sampler step, we write
+\[
+\bar F(v)=
+(1-\alpha_v)F_{\mathrm{rule}}(v)+\alpha_v F_{\theta}(v),
+\qquad v\in\operatorname{supp}(m_d),
+\]
+and treat $\alpha_v$ as an implementation choice that must be ablated. A global sampler pass over the full object is a baseline, not the proposed semantics, because it can replace the grammar topology with an object-level prior. \ExpFigTODO{Run ablations: no naturalization, masked naturalization, global flow repair, weak feature blend, and rule-only.} \EvidencePending{Need ablation proving masked local naturalization improves surface quality without topology drift.}
+
+\paragraph{Classical systems as restricted rule families.}
+Classical systems such as L-systems, IFS, DLA, space colonization, and shape grammars can be viewed as restricted rule families within the same recursive-language view; the detailed reductions belong in the supplementary appendix rather than the main method.
+
+\subsection{Scope, Complexity, and Export}
+The main claim is finite-depth recursive asset generation:
+\[
+D<\infty,\qquad |V_d|\le T_{\max}(d).
+\]
+The method does not output an infinite mesh and does not claim exact symmetry equivariance. Symmetry rules, cache descriptors, and visible-window execution are useful implementation devices, but in the main paper they should be treated as scope controls rather than as separate theoretical claims. A visible-window executor may keep active support bounded by expanding only handles whose regions intersect the current window and storing off-window regions as descriptors, but the empirical claims remain about realized projected states.
+
+The per-depth cost is dominated by rule proposal, masked local realization, decoding, projection, and re-encoding. A conservative accounting is
+\[
+C_d \approx
+C_{\mathrm{rule}}(|A_d|,|V_d|)
++
+C_{N}(|m_d|)
++
+C_{\mathrm{Dec}}(|V_d|)
++
+C_{\Pi}(|x_d|)
++
+C_{\mathrm{Enc}}(|x_d^\star|),
+\]
+with memory bounded by active sparse support, feature dimension, cached descriptors, and the generator's codec workspace. This overhead is the price of placing projection inside recursion. It is necessary to prevent invalid fragments from becoming active handles before the final depth, but it also limits depth, token budget, and operator aggressiveness. \ExpFigTODO{Measure runtime, GPU memory, per-depth encode/decode/projection cost, and token growth under matched roots and depths.}
+
+Texture/PBR export is an optional terminal operation:
+\[
+g_D=\operatorname{Tex}_{\theta}(x_D^\star,y_m).
+\]
+It supports asset inspection for selected projected meshes, but it is not structural evidence. Connectivity, root reachability, orphan mass, mesh diagnostics, renderability, and texture export should be reported as separate protocols. Known boundaries include aggressive fork/radial operators, post-hoc bridge repair, guide-sensitive crystal materials, thin-sheet artifacts, and cases where face-level components disagree with surface-voxel or occupancy connectivity. \EvidencePending{Fill final runtime, memory, and export-success numbers after the matched experiment matrix is complete.}

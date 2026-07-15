@@ -1,0 +1,68 @@
+% Draft status tables generated from selected-final-only local manifests on 2026-05-10.
+% These tables are claim gates, not final main-paper ablation results.
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrl}
+\toprule
+Same-root row & Available & Missing & Local mesh & Local GLB & Publication status \\
+\midrule
+traditional & 30 & 8 & 29 & 0 & partial proxy / appendix status \\
+direct & 8 & 8 & 2 & 0 & partial; several rows are metrics-only remote snapshots \\
+final-only & 4 & 12 & 2 & 0 & matched subset only \\
+prune & 5 & 11 & 2 & 0 & matched subset only \\
+bridge & 1 & 15 & 0 & 0 & diagnostic; not a closed positive row \\
+proposed & 15 & 10 & 15 & 0 & appendix candidate; needs matched GLB/render QA \\
+\bottomrule
+\end{tabular}
+}
+\caption{Selected-final-only same-root ablation inventory. ``Local mesh'' and ``Local GLB'' count available rows whose final asset is locally resolvable; rows with only a remote path and local metric snapshot remain claim-gated.}
+\label{tab:publication-same-root-selected-final-status-20260510}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrl}
+\toprule
+Naturalization row & Available & Missing & Local mesh & Local GLB & Publication status \\
+\midrule
+rule-only & 4 & 22 & 0 & 1 & selected L-system GLB only; incomplete matrix \\
+no-N & 8 & 18 & 0 & 1 & alpha-0 masked-executor control; incomplete matrix \\
+weak blend & 8 & 18 & 0 & 3 & selected GLBs for L-system/coral/pyrite; appendix candidate \\
+masked local-N & 22 & 13 & 14 & 3 & selected GLBs plus partial local meshes; needs mask/topology QA \\
+global-N & 12 & 22 & 0 & 0 & diagnostic negative / near-fragmented rows \\
+with projection & 35 & 17 & 29 & 0 & projection axis evidence; separate from naturalization axis \\
+without projection & 4 & 22 & 2 & 0 & insufficient for closed ablation \\
+post-hoc repair baseline & 5 & 0 & 5 & 0 & appendix repair baseline, not recursive projection \\
+\bottomrule
+\end{tabular}
+}
+\caption{Selected-final-only naturalization/projection inventory. The table separates local final assets from metrics/status rows and keeps post-hoc repair outside the recursive projection claim.}
+\label{tab:publication-naturalization-selected-final-status-20260510}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+Metric & Definition & Direction & Claim gate \\
+\midrule
+local feature scale & bounding-box diagonal divided by square root of face count & lower is finer & proxy; requires matched zoom render \\
+terminal detail count & terminal occupied voxels/tokens, falling back to vertices/faces & higher is richer & proxy; report source of count \\
+zoom retention & connectivity LCR times $(1+\mathrm{boxDim}/3)$ & higher is better & proxy; not a substitute for visual QA \\
+face / GLB size & triangle count and local GLB megabytes & diagnostic & asset-budget diagnostic, not quality alone \\
+full-object high-res blow-up & one-shot faces scaled by local-scale improvement squared & higher means costlier one-shot equivalent & conservative estimate for comparison rows \\
+\bottomrule
+\end{tabular}
+}
+\caption{Effective-resolution / zoom-retention schema used by the selected-final-only manifest. These proxy metrics should support, not replace, matched local zoom panels.}
+\label{tab:publication-effective-resolution-schema-20260510}
+\end{table*}

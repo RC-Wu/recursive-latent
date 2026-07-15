@@ -1,0 +1,24 @@
+{
+  "schema": "ablation_pptx_20260511",
+  "projection": {
+    "kind": "projection",
+    "pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260511/projection_ablation_pptx_20260511.pptx",
+    "source_manifest": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260511/projection_ablation_visual_manifest_20260511.json",
+    "task_ids": [
+      "coral_frontier",
+      "ifs_crystal"
+    ],
+    "page_count": 1
+  },
+  "naturalization": {
+    "kind": "naturalization",
+    "pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260511/masked_naturalization_ablation_pptx_20260511.pptx",
+    "source_manifest": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260511/masked_naturalization_visual_manifest_20260511.json",
+    "task_ids": [
+      "botanical_root",
+      "vine_trellis"
+    ],
+    "page_count": 1
+  },
+  "workflow_contract": "PPTX-first single-page paper figures; export these PPTX files to PDF before LaTeX inclusion"
+}

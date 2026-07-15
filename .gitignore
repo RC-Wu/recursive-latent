@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments and caches
+.venv/
+.venv_render/
+env/
+envs/
+.cache/
+cache/
+.hf_local_cache/
+hf_home/
+.hf_home/
+.torch/
+.triton/
+triton_cache/
+.xdg_cache/
+.tmp/
+tmp/
+
+# Generated experiment outputs
+results/
+visuals/
+runs/
+logs/
+downloads/
+weights/
+inputs/
+case_gallery_for_user_*/
+
+# Large 3D/media artifacts
+*.glb
+*.gltf
+*.obj
+*.ply
+*.drc
+*.blend
+*.mp4
+*.mov
+*.webm
+
+# Large or generated archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

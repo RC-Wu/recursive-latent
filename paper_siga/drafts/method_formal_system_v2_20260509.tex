@@ -1,0 +1,198 @@
+\subsection{Projection-Stabilized Sparse-Latent Grammar}
+
+We model recursive 3D growth as a grammar-based generative system rather than as a post-processing pipeline. Let \(x_0\) be a root mesh or generated root asset, \(y\) be an optional image, text, category, or material condition, and \(D\) be a finite recursion depth. The output is a renderable asset
+\begin{equation}
+x_D=\mathcal{O}(S_D),\qquad
+S_{d+1}\sim \mathsf{T}_{\mathcal{G},\theta,d}(\cdot\mid S_d,y,\xi_d),
+\quad d=0,\ldots,D-1,
+\end{equation}
+where \(\mathcal{G}\) is a recursive grammar, \(\theta\) denotes a frozen native 3D generator, and \(\xi_d\) denotes stochasticity from rule choice, frontier sampling, or local generative sampling. The grammar is the owner of structure: it maintains symbols, anchors, transforms, constraints, projection parameters, and caches. The frozen generator supplies a sparse native 3D representation, local shape and material priors, decoding, re-encoding, and asset export.
+
+\paragraph{State.}
+At recursion depth \(d\), the state is
+\begin{equation}
+S_d=(C_d,F_d,U_d,A_d,B_d,M_d,H_d,K_d).
+\end{equation}
+Here \(C_d\subset \{0\}\times h{\bf Z}^3\) is the active sparse support with budget \(|C_d|\leq T_{\max}(d)\). The feature map
+\begin{equation}
+F_d:C_d\rightarrow {\bf R}^{q_s}\times{\bf R}^{q_m}\times{\bf R}^{q_a}
+\end{equation}
+stores shape features, optional material or texture features, and auxiliary grammar attributes. \(U_d\) is a typed symbol sequence or graph whose elements have the form
+\begin{equation}
+u_i=(\sigma_i,\ell_i,T_i,\Omega_i,\alpha_i,\nu_i),
+\end{equation}
+encoding symbol type, logical depth or level of detail, local frame, owned support, attributes, and scheduler or cache metadata. \(A_d\) stores occupancy, attractors, frontiers, attachment graphs, collision regions, quality scores, and symmetry or lattice metadata. \(B_d\) stores edit masks, blend kernels, boundary regions, and hard clamps. \(M_d\) stores material intent, texture latent state, PBR parameters, material masks, and atlas or GLB export metadata. \(H_d\) records depth, seeds, rule traces, transform traces, projection parameters, and diagnostics. \(K_d\) stores motif, latent, transform, level-of-detail, visible-window, sampler, and material caches. These caches are part of the semantics because repeated motifs and visible-window recursion must remain addressable under a finite sparse-token budget.
+
+\paragraph{Grammar.}
+We define a projection-stabilized sparse-latent grammar as
+\begin{equation}
+\mathcal{G}=
+(\Sigma,\mathcal{T},\mathcal{R},\mathcal{I},\mathcal{S},\Pi,
+\mathcal{N}_{\theta}^{s},\mathcal{N}_{\theta}^{m},
+\mathcal{D}_{\theta},\mathcal{E}_{\theta},
+\mathcal{P},\mathcal{C},\mathcal{O},\mathcal{L}).
+\end{equation}
+\(\Sigma\) is a typed alphabet. \(\mathcal{T}\) is a transform group or semigroup including rigid transforms, scaling, mirroring, portal embeddings, lattice translations, contraction maps, and LOD transforms. \(\mathcal{R}\) is a set of stochastic context-sensitive rewrite rules. \(\mathcal{I}\) interprets symbols and frames as sparse support, features, masks, mesh regions, or material regions. \(\mathcal{S}\) schedules synchronous, asynchronous, priority, frontier, or group-orbit rule application. \(\Pi\) contains occupancy, attachment, topology, competition, symmetry, renderability, and token-budget constraints. \(\mathcal{N}_{\theta}^{s}\) and \(\mathcal{N}_{\theta}^{m}\) are frozen masked shape and material naturalization kernels. \(\mathcal{D}_{\theta}\) and \(\mathcal{E}_{\theta}\) are the decoder and mesh-to-sparse encoder. \(\mathcal{P}\) projects candidates to admissible recursive asset states. \(\mathcal{C}\) updates caches, \(\mathcal{O}\) exports observables, and \(\mathcal{L}\) provides scores for rule choice, projection, or sample selection.
+
+A rule has the form
+\begin{equation}
+r:\;X(\omega,\Omega,\ell,a,h)
+\Rightarrow
+\{(X_j,T_j,\Omega_j,\rho_j,\mu_j,\beta_j,\psi_j,\zeta_j,\tau_j,\pi_j,\kappa_j)\}_{j=1}^{m}.
+\end{equation}
+The right-hand side emits typed symbols, transforms, target regions, proposal kernels, masks, blend kernels, preconditions, random seeds, sampler schedules, geometry constraints, and material-continuity constraints. A proposal kernel may be a deterministic transform-copy, an attractor-directed branch, a DLA hitting kernel, a finite shape split or replacement, a cache lookup, or a masked generative sampler. Rule choice can be deterministic or stochastic:
+\begin{equation}
+\Pr(r\mid S_d,u_i)=
+\frac{\exp a_r(S_d,u_i)}
+{\sum_{r'\in\mathcal{R}(u_i)}\exp a_{r'}(S_d,u_i)}.
+\end{equation}
+In the present experiments we prefer deterministic or low-entropy rule choices so that stability can be attributed to operators rather than to prompt sampling variance.
+
+\paragraph{Operational semantics.}
+Let \(R_d^\star=\mathcal{S}(S_d,\mathcal{R})\) be the selected rule set. A full recursive step is the composed transition
+\begin{equation}
+\begin{split}
+S_{d+1}
+=&
+\mathcal{C}_{d+1}\circ
+\mathcal{E}_\theta\circ
+\mathcal{P}_{\lambda_d}\circ
+\mathcal{D}_\theta\circ
+\mathcal{N}_{\theta,m}^{\tau_d^m\rightarrow0}\circ
+\mathcal{N}_{\theta,s}^{\tau_d^s\rightarrow0}
+\\
+&\circ
+\Theta_{\Pi_d}\circ
+\operatorname{Merge}_{B_d,M_d}\circ
+\operatorname{Prop}_{R_d^\star}(S_d).
+\end{split}
+\end{equation}
+Thus a step first proposes sparse patches from selected grammar rules, merges them under masks and material constraints, applies competition and structural constraints, optionally naturalizes edited regions with frozen masked samplers, decodes the candidate, projects it to an admissible recursive asset state, re-encodes the projected asset, and updates caches. Projection is therefore inside the recursive map, not a final cleanup pass.
+
+For transform-copy proposals,
+\begin{equation}
+\widehat C_j=Q_h(T_j(C_d\cap\Omega)),\qquad
+\widehat F_j(Q_h(T_jc))=\mathcal{T}_j^F F_d(c),
+\end{equation}
+and masked merge is
+\begin{equation}
+C^+=C_d\cup\bigcup_j\widehat C_j,
+\qquad
+F^+(c)=
+\frac{w_0(c)F_d(c)+\sum_j w_j(c)\widehat F_j(c)}
+{w_0(c)+\sum_jw_j(c)+\epsilon},
+\end{equation}
+where \(w_j(c)=\mu_j(c)\beta_j(c)\). Material transport and merging are handled analogously through \(M_d\), with additional seam, part-consistency, and PBR-validity constraints.
+
+\paragraph{Competition and local naturalization.}
+For candidate action \(a\) at coordinate \(c\), we use a generic sparse competition score
+\begin{equation}
+\psi(a,c;S_d)=
+\lambda_{\mathrm{att}}\phi_{\mathrm{att}}
+-\lambda_{\mathrm{occ}}\phi_{\mathrm{occ}}
+-\lambda_{\mathrm{col}}\phi_{\mathrm{collision}}
++\lambda_{\mathrm{front}}\phi_{\mathrm{frontier}}
++\lambda_{\mathrm{grp}}\phi_{\mathrm{orbit}}
++\epsilon_{\theta}(a,c,\xi).
+\end{equation}
+The first terms reproduce classical attractor, occupancy, collision, and frontier logic. The orbit term supports symmetry and lattice programs. The optional \(\epsilon_{\theta}\) term represents stochastic preference from the frozen generator, but the current implementation keeps this term conservative.
+
+The frozen sampler is used only as a local naturalization prior. In SDE form,
+\begin{equation}
+dZ_t=f_\theta(Z_t,t,y,\Omega)\,dt+g(t)\,dW_t,\qquad t:\tau_d^s\rightarrow0,
+\end{equation}
+or, for deterministic flow,
+\begin{equation}
+\frac{dZ_t}{dt}=v_\theta(Z_t,t,y,\Omega).
+\end{equation}
+The masked clamp is
+\begin{equation}
+Z_{t-\Delta t}\leftarrow
+(1-\mu_\Omega)\odot Z_{\mathrm{anchor}}
++\mu_\Omega\odot\Phi_{\theta,t}(Z_t,y).
+\end{equation}
+Material naturalization uses the same principle with a material mask \(\mu_d^m\), material condition \(Y_d^m\), and texture or PBR latent state. This distinction is important: the sampler is not allowed to own the global recursive topology. Global flow repair can overwrite the scaffold, so masks, hard clamps, projection, and sample selection are part of the grammar semantics.
+
+\paragraph{Projection.}
+We define admissible recursive states by bounded violations:
+\begin{equation}
+\begin{split}
+\mathcal{S}_{\mathrm{adm}}(\lambda)=
+\{S:\;&
+V_{\mathrm{frag}}(S)\leq\epsilon_f,\;
+V_{\mathrm{attach}}(S)\leq\epsilon_a,\;
+V_{\mathrm{occ}}(S)\leq\epsilon_o,\;
+V_{\mathrm{sym}}(S)\leq\epsilon_g,\\
+&
+V_{\mathrm{mat}}(S)\leq\epsilon_m,\;
+V_{\mathrm{render}}(\mathcal{O}(S))\leq\epsilon_r,\;
+|C(S)|\leq T_{\max}\}.
+\end{split}
+\end{equation}
+For example,
+\begin{equation}
+V_{\mathrm{frag}}(S)=
+1-\frac{\operatorname{mass}(C_{\mathrm{largest\ attached}})}
+{\operatorname{mass}(C)+\epsilon},
+\qquad
+V_{\mathrm{sym}}(S;G)=
+\frac{1}{|G|}\sum_{g\in G}d_{\mathcal{S}}(gS,S).
+\end{equation}
+The ideal projection is
+\begin{equation}
+P_\lambda(S)=
+\operatorname*{arg\,min}_{Y\in\mathcal{S}_{\mathrm{adm}}(\lambda)}
+d_{\mathcal{S}}(S,Y)
++\eta_o d_{\mathrm{obs}}(\mathcal{O}(S),\mathcal{O}(Y))
++\eta_m d_{\mathrm{mat}}(M_S,M_Y).
+\end{equation}
+Our implementation approximates this projection through component selection, attachment-aware pruning, mesh export, re-encoding, and texture-export validation.
+
+\paragraph{Per-depth stability.}
+Let \(e(S)\) be a bad-state measure combining fragment, attachment, material, and renderability violations. If projection suppresses this measure to \(\epsilon_P\),
+\begin{equation}
+e(P_\lambda(X))\leq \epsilon_P,
+\end{equation}
+and the codec round trip introduces at most \(\epsilon_E\) additional error,
+\begin{equation}
+e(E_\theta(D_\theta(S)))\leq e(S)+\epsilon_E,
+\end{equation}
+then every projected recursive state satisfies
+\begin{equation}
+e(S_d)\leq \epsilon_P+\epsilon_E,\qquad d=1,\ldots,D.
+\end{equation}
+The proof follows directly from \(S_{d+1}=E_\theta(P_\lambda(X_d))\). Final-only cleanup does not provide this invariant, because invalid fragments may influence later frontier selection, sampler conditions, history, and cache entries before they are removed. This statement does not require claiming that final-only cleanup always fails; it only states that it lacks the same per-depth guarantee.
+
+\paragraph{Classical systems as special cases.}
+Several classical procedural systems are recovered by restricting the grammar and disabling learned components. An iterated function system is obtained with one patch symbol, transform-copy rules, union merge, and identity sampler and projection:
+\begin{equation}
+C_{d+1}=\bigcup_i T_i(C_d).
+\end{equation}
+An L-system is obtained when \(U_d\) is an ordered symbol string or graph, the scheduler applies rules synchronously, and the interpretation map implements turtle or frame geometry. Space colonization is obtained by representing tips and attractors in \(U_d\) and \(A_d\), assigning each attractor to its nearest tip, and proposing growth along the averaged attraction direction. DLA-like frontier accretion is obtained when the proposal kernel samples from a hitting distribution over exposed frontier cells. Finite local shape grammars and CGA-style rules are obtained from typed face, tile, and portal symbols with split, extrude, repeat, replacement, and transform-copy rules.
+
+Symmetry and crystal programs are represented by group or lattice actions. If the rule set is closed under a group \(G\),
+\begin{equation}
+\forall g\in G,\ \forall r\in\mathcal{R},\qquad g\circ r\circ g^{-1}\in\mathcal{R},
+\end{equation}
+and the scheduler expands full orbits, then the proposed support is \(G\)-closed. Exact equivariance would require the sampler, projection, merge, codec, and quantization to commute with the group action. In practice we evaluate approximate equivariance through
+\begin{equation}
+d_{\mathcal{S}}(\mathsf{T}(gS),g\mathsf{T}(S))
+\leq
+L_{\mathrm{post}}
+(\epsilon_{\mathrm{rule}}+\epsilon_{\mathrm{merge}}
++\epsilon_{\mathrm{sampler}}+\epsilon_{\mathrm{proj}}
++\epsilon_{\mathrm{codec}}+\epsilon_{\mathrm{grid}}).
+\end{equation}
+
+\paragraph{Finite and infinite recursion.}
+The present paper claims finite-depth recursive asset generation:
+\begin{equation}
+D<\infty,\qquad |C_d|\leq T_{\max}(d).
+\end{equation}
+Unbounded logical recursion can be discussed only as an extension. Contractive transform systems admit a limiting object under standard IFS assumptions. Visible-window recursion keeps only active regions materialized,
+\begin{equation}
+C_t^{\mathrm{active}}=\bigcup_{\Omega\in W_t}C_{\Omega,t},
+\qquad
+\sum_{\Omega\in W_t}|C_{\Omega,t}|\leq T_{\max},
+\end{equation}
+while off-window regions are represented by LOD and cache descriptors. This supports infinite logical programs under finite active memory, but it is not an infinite mesh output claim.

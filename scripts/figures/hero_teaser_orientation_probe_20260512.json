@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "id": "branch_v67_r0",
+      "label": "branch_r0",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.1,
+      "rotation_deg": [0, 0, 0],
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.25
+    },
+    {
+      "id": "branch_v67_r90",
+      "label": "branch_r90",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.1,
+      "rotation_deg": [0, 0, 90],
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.25
+    },
+    {
+      "id": "branch_v67_rm90",
+      "label": "branch_rm90",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.1,
+      "rotation_deg": [0, 0, -90],
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.25
+    },
+    {
+      "id": "branch_v67_r180",
+      "label": "branch_r180",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.1,
+      "rotation_deg": [0, 0, 180],
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.25
+    },
+    {
+      "id": "pine_emerald_a_r0",
+      "label": "pine_r0",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/hero_teaser_pine_retexture_20260512_remote_pull/pine_v22_d6_emerald_steps8_tex2048_seed20661201/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "rotation_deg": [0, 0, 0],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.45
+    },
+    {
+      "id": "pine_emerald_a_r90",
+      "label": "pine_r90",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/hero_teaser_pine_retexture_20260512_remote_pull/pine_v22_d6_emerald_steps8_tex2048_seed20661201/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "rotation_deg": [0, 0, 90],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.45
+    },
+    {
+      "id": "pine_emerald_a_rm90",
+      "label": "pine_rm90",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/hero_teaser_pine_retexture_20260512_remote_pull/pine_v22_d6_emerald_steps8_tex2048_seed20661201/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "rotation_deg": [0, 0, -90],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.45
+    },
+    {
+      "id": "pine_emerald_a_r180",
+      "label": "pine_r180",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/hero_teaser_pine_retexture_20260512_remote_pull/pine_v22_d6_emerald_steps8_tex2048_seed20661201/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "rotation_deg": [0, 0, 180],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.45
+    }
+  ]
+}

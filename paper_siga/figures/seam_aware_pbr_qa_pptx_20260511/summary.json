@@ -1,0 +1,29 @@
+{
+  "schema": "seam_aware_pbr_qa_pptx_20260511",
+  "pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/seam_aware_pbr_qa_pptx_20260511/seam_aware_pbr_qa_20260511.pptx",
+  "pdf": "",
+  "rows": [
+    {
+      "family": "Root junction",
+      "claim": "v2 removes strong painted rings; object-space material removes UV island seams but is visually neutral.",
+      "v1": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_texturing_batch_20260510_zoom_white/S01_root_seam_aware/strict_matched_zoom_comparison.png",
+      "v2": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_texturing_batch_v2_20260510_zoom_white_fast/S01a_root_continuous_bark_grain_lowcontrast/strict_matched_zoom_comparison.png",
+      "proc": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_procedural_pbr_20260511_zoom_white/S01a_root_procedural_bark_pbr/strict_matched_zoom_comparison.png"
+    },
+    {
+      "family": "Coral frontier",
+      "claim": "Trellis texture remains blotchy; object-space ivory PBR is the cleanest seam-continuity candidate.",
+      "v1": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_texturing_batch_20260510_zoom_white/S02_coral_seam_aware/strict_matched_zoom_comparison.png",
+      "v2": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_texturing_batch_v2_20260510_zoom_white_fast/S02c_coral_bone_ridge_plain/strict_matched_zoom_comparison.png",
+      "proc": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_procedural_pbr_20260511_zoom_white/S02c_coral_procedural_ivory_pbr/strict_matched_zoom_comparison.png"
+    },
+    {
+      "family": "Pyrite / lattice",
+      "claim": "Low-contrast Trellis v2 is smooth but weak; procedural metallic facets better support transform-copy visuals.",
+      "v1": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_texturing_batch_20260510_zoom_white/S03_ifs_seam_aware/strict_matched_zoom_comparison.png",
+      "v2": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_texturing_batch_v2_20260510_zoom_white_fast/S03a_pyrite_brushed_facets_lowcontrast/strict_matched_zoom_comparison.png",
+      "proc": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/seam_aware_procedural_pbr_20260511_zoom_white/S03a_pyrite_procedural_facets_pbr/strict_matched_zoom_comparison.png"
+    }
+  ],
+  "workflow_contract": "PPTX-first figure candidate; export PDF from this deck before paper inclusion"
+}

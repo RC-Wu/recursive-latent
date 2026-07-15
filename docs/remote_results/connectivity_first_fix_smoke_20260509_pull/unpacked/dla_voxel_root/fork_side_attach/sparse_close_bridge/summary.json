@@ -1,0 +1,99 @@
+{
+  "case": "dla_voxel_root",
+  "root_mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/inputs/procedural_meshes/dla_cluster_voxels.obj",
+  "grammar": "fork_side_attach",
+  "method": "sparse_close_bridge",
+  "stages": [
+    {
+      "stage": 1,
+      "input_mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/inputs/procedural_meshes/dla_cluster_voxels.obj",
+      "input_tokens": 1162,
+      "proposal_tokens": 1869,
+      "raw_metrics": {
+        "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/raw/proposal_before_connectivity.obj",
+        "loader": "obj_direct",
+        "load_error": "",
+        "vertices": 634580,
+        "faces": 1236902,
+        "face_component_count": 3157,
+        "face_largest_component_ratio": 0.9809874247533802,
+        "occupancy_component_count": 4,
+        "occupancy_lcr": 0.9954748472026328,
+        "occupied_voxels": 17016
+      },
+      "sparse_report": {
+        "sparse_before": {
+          "occupied_voxels": 1869,
+          "component_count": 1,
+          "largest_component_voxels": 1869,
+          "largest_component_ratio": 1.0
+        },
+        "method": "sparse_close_bridge",
+        "sparse_bridge": {
+          "components_before": 1,
+          "components_after": 1,
+          "bridge_voxels_added": 0
+        },
+        "sparse_after": {
+          "occupied_voxels": 2290,
+          "component_count": 1,
+          "largest_component_voxels": 2290,
+          "largest_component_ratio": 1.0
+        },
+        "sparse_tokens_before": 1869,
+        "sparse_tokens_after": 2290
+      },
+      "sparse_metrics": {
+        "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/sparse_connectivity/proposal_after_sparse_connectivity.obj",
+        "loader": "obj_direct",
+        "load_error": "",
+        "vertices": 726702,
+        "faces": 1403372,
+        "face_component_count": 4226,
+        "face_largest_component_ratio": 0.9718990727973777,
+        "occupancy_component_count": 29,
+        "occupancy_lcr": 0.9942325858897231,
+        "occupied_voxels": 20113
+      },
+      "mesh_projection": {
+        "input_components": 4084,
+        "kept_components": 12,
+        "kept_large_components": 10,
+        "attached_components": 10,
+        "bridge_meshes_added": 10,
+        "pruned_components": 4072,
+        "bridge_radius": 0.004377834673390031,
+        "output": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/projected/mesh_projected.obj",
+        "smooth": {
+          "voxel_smoothing": "disabled"
+        },
+        "metrics": {
+          "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/projected/mesh_projected.obj",
+          "loader": "obj_direct",
+          "load_error": "",
+          "vertices": 301989,
+          "faces": 549852,
+          "face_component_count": 1,
+          "face_largest_component_ratio": 1.0,
+          "occupancy_component_count": 6,
+          "occupancy_lcr": 0.9390265967070743,
+          "occupied_voxels": 11054
+        }
+      }
+    }
+  ],
+  "final_mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/projected/mesh_projected.obj",
+  "final_metrics": {
+    "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/projected/mesh_projected.obj",
+    "loader": "obj_direct",
+    "load_error": "",
+    "vertices": 301989,
+    "faces": 549852,
+    "face_component_count": 1,
+    "face_largest_component_ratio": 1.0,
+    "occupancy_component_count": 6,
+    "occupancy_lcr": 0.9390265967070743,
+    "occupied_voxels": 11054
+  },
+  "selection_score": 0.9270265967070743
+}

@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "label": "projablate_tree_compete_fork_d3_stage_03",
+      "src": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_projected_recursive_loop_20260508_0715/projablate_tree_compete_fork_d3/stage_03/raw/compete_fork/depth_01/mesh.obj",
+      "min_vertices": 1000,
+      "input_vertices": 418590,
+      "input_faces": 811134,
+      "output_vertices": 376069,
+      "output_faces": 751864,
+      "input_components": 5538,
+      "kept_components": 53,
+      "largest_component_vertices": 230957
+    }
+  ]
+}

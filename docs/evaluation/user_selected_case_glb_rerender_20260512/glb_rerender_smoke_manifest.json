@@ -1,0 +1,15 @@
+{
+  "cases": [
+    {
+      "label": "r01_v8_dla_frontier_open_boundary_seed_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_open_boundary_seed_b_steps8_tex2048_seed20260816_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 1,
+      "record_key": "v8_dla_frontier_open_boundary_seed_b",
+      "source_record_key": "v8_dla_frontier_open_boundary_seed_b",
+      "user_note": "作为珊瑚的case似乎还不错。",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_v8_frontier_refine_20260510_remote/inputs/v8_dla_frontier_open_boundary_seed_b/v8_dla_frontier_open_boundary_seed_b_metadata.json"
+    }
+  ]
+}

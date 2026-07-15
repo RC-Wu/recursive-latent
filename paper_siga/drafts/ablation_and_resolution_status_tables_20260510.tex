@@ -1,0 +1,64 @@
+% Auto-generated from local CSV summaries on 2026-05-10. Keep claims gated: these are status tables, not complete ablations.
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrlll}
+\toprule
+Projection row & Avail. & Missing & Best available case & Best LCR & Paper role \\ 
+\midrule
+traditional & 30 & 8 & root & 1.0 & main proxy + appendix gaps \\ 
+direct & 8 & 8 & hard\_dla & 0.9880 & main if matched subset only \\ 
+final-only & 4 & 12 & vine\_compete\_d3 & 0.9934 & main if matched subset only \\ 
+prune & 5 & 11 & vine\_compete\_d3 & 1 & main if matched subset only \\ 
+bridge & 1 & 15 & coral & 0.9648 & appendix/status \\ 
+proposed & 15 & 10 & root & 1.0 & main proxy + appendix gaps \\ 
+\bottomrule
+\end{tabular}
+}
+\caption{Current same-root projection-matrix coverage. The table reports which requested rows have local evidence and which remain missing; it should be read as an experiment-closure/status table, not as a final ablation result. Only matched subsets with fixed root, operator, depth, renderer, and inspected mesh outputs should be promoted to the main claims.}
+\label{tab:same-root-projection-status-20260510}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrlll}
+\toprule
+Naturalization/projection row & Avail. & Missing & Best available case & Best LCR & Claim gate \\ 
+\midrule
+rule-only & 0 & 18 & -- & -- & missing: cannot claim ablation closure \\ 
+no-N & 0 & 18 & -- & -- & missing: cannot claim ablation closure \\ 
+weak blend & 0 & 18 & -- & -- & missing: cannot claim ablation closure \\ 
+masked local-N & 14 & 13 & -- & -- & partial evidence only \\ 
+global-N & 12 & 14 & bismuth & 0.9992 & negative/diagnostic flow-SDE rows \\ 
+with projection & 35 & 9 & -- & -- & partial evidence only \\ 
+without projection & 4 & 14 & -- & -- & partial evidence only \\ 
+post-hoc repair baseline & 5 & 0 & dla\_aniso\_crystal\_800 & 1.0 & appendix repair baseline, not projection \\ 
+\bottomrule
+\end{tabular}
+}
+\caption{Current naturalization/projection ablation coverage. Rule-only, no-naturalization, and weak-blend rows remain mostly absent in the local evidence; global naturalization is represented by diagnostic flow/SDE rows rather than a successful topology repair. Post-hoc repair is listed separately so it is not conflated with recursive state projection.}
+\label{tab:naturalization-status-20260510}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3.2pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllrrrrrr}
+\toprule
+Family & One-shot & Recursive & Scale impr. & Detail ratio & One faces & Rec. faces & One MB & Rec. MB \\ 
+\midrule
+crystal/coral & dla\_cluster\_baseline & pyrite\_lattice\_depth\_stage\_04\_pyrite\_steps6\_tex1024\_xformers\_textured & 4.09 & 2.46 & 10800 & 482348 & 1.1 & 26.2 \\ 
+tree/vine & sc\_tree\_canopy\_baseline & ours\_vine\_stage5 & 3.79 & 0.54 & 31700 & 455964 & 2.0 & 26.2 \\ 
+\bottomrule
+\end{tabular}
+}
+\caption{Effective-resolution proxy metrics for one-shot versus recursive finite-depth assets. Scale improvement is the ratio between the one-shot and recursive local feature-scale proxies; detail ratio compares occupied/detail-count proxies. The tree/vine row shows a smaller terminal-detail count but substantially finer local feature scale, so it should support efficiency/zoom discussion rather than a universal detail-superiority claim.}
+\label{tab:effective-resolution-status-20260510}
+\end{table*}

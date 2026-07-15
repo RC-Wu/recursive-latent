@@ -1,0 +1,1 @@
+/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_projected_recursive_loop_20260508_0715/projablate_vine_compete_fork_d3/stage_03/projected/projablate_vine_compete_fork_d3_stage_03/mesh_pruned.obj

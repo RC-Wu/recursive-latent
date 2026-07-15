@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "label": "vine_compete_d3",
+      "src": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/system_grammar_remote_20260508_1839/space_competition_curves/vine/compete/depth_03/mesh.obj",
+      "min_vertices": 1000,
+      "input_vertices": 199470,
+      "input_faces": 405886,
+      "output_vertices": 181709,
+      "output_faces": 377208,
+      "input_components": 2059,
+      "kept_components": 2,
+      "largest_component_vertices": 180508
+    },
+    {
+      "label": "tree_compete_d3",
+      "src": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/system_grammar_remote_20260508_1839/space_competition_curves/tree/compete/depth_03/mesh.obj",
+      "min_vertices": 1000,
+      "input_vertices": 321242,
+      "input_faces": 640084,
+      "output_vertices": 299275,
+      "output_faces": 610550,
+      "input_components": 3201,
+      "kept_components": 4,
+      "largest_component_vertices": 294554
+    },
+    {
+      "label": "vine_compete_fork_d3",
+      "src": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/system_grammar_remote_20260508_1839/space_competition_curves/vine/compete_fork/depth_03/mesh.obj",
+      "min_vertices": 1000,
+      "input_vertices": 360521,
+      "input_faces": 659002,
+      "output_vertices": 272036,
+      "output_faces": 538466,
+      "input_components": 11490,
+      "kept_components": 11,
+      "largest_component_vertices": 186690
+    },
+    {
+      "label": "tree_compete_fork_d3",
+      "src": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/system_grammar_remote_20260508_1839/space_competition_curves/tree/compete_fork/depth_03/mesh.obj",
+      "min_vertices": 1000,
+      "input_vertices": 528155,
+      "input_faces": 986260,
+      "output_vertices": 446878,
+      "output_faces": 882494,
+      "input_components": 12166,
+      "kept_components": 20,
+      "largest_component_vertices": 309997
+    }
+  ]
+}

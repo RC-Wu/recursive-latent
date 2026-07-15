@@ -1,0 +1,364 @@
+{
+  "cases": [
+    {
+      "label": "SC_baseline_tree_canopy",
+      "family": "Space colonization",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/traditional_baseline_texture_20260509/sc_tree_canopy_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    },
+    {
+      "label": "SC_ours_V32_balanced_canopy_D",
+      "family": "Space colonization",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    },
+    {
+      "label": "LSystem_baseline_OBJ_neutral_upright",
+      "family": "L-system",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/traditional_baselines/run_20260507_0300/lsystem_branch.obj",
+      "material_mode": "neutral",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    },
+    {
+      "label": "LSystem_ours_V67_tapered_dense_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V67_lsystem_branch_same_scaffold_tapered_twig_20260512_dryrun/V67_lsys_branch_tapered_dense_B/V67_lsys_branch_tapered_dense_B.obj",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15,
+      "detail_targets": [
+        [
+          7.228014483236696e-20,
+          -7.228014483236696e-20,
+          1.1899999999999997
+        ],
+        [
+          -0.07850263541666667,
+          3.614007241618348e-20,
+          1.1707891809895832
+        ],
+        [
+          0.07850263541666667,
+          -3.614007241618348e-20,
+          1.1707891809895832
+        ],
+        [
+          -3.614007241618348e-20,
+          -0.07850263541666667,
+          1.1707891809895832
+        ],
+        [
+          3.614007241618348e-20,
+          0.07850263541666667,
+          1.1707891809895832
+        ],
+        [
+          0.15700480598958333,
+          0.0,
+          1.151577875
+        ],
+        [
+          -0.15700480598958336,
+          0.0,
+          1.151577875
+        ],
+        [
+          -7.228014483236696e-20,
+          0.15700480598958333,
+          1.151577875
+        ],
+        [
+          -7.228014483236696e-20,
+          -0.15700480598958336,
+          1.151577875
+        ],
+        [
+          -0.23550737500000005,
+          3.614007241618348e-20,
+          1.1323675651041667
+        ],
+        [
+          0.23550737500000005,
+          -3.614007241618348e-20,
+          1.1323675651041667
+        ],
+        [
+          -3.614007241618348e-20,
+          -0.235507375,
+          1.1323675651041667
+        ],
+        [
+          3.614007241618348e-20,
+          0.235507375,
+          1.1323675651041667
+        ],
+        [
+          0.23550737500000005,
+          -0.06963124739583333,
+          1.1153275000000002
+        ],
+        [
+          -0.06963124739583333,
+          -0.235507375,
+          1.1153275000000002
+        ],
+        [
+          0.06963124739583333,
+          -0.235507375,
+          1.1153275000000002
+        ],
+        [
+          0.06963124739583333,
+          0.235507375,
+          1.1153275000000002
+        ],
+        [
+          -0.23550737500000005,
+          -0.06963124739583333,
+          1.1153275
+        ],
+        [
+          -0.23550737500000005,
+          0.06963124739583333,
+          1.1153275
+        ],
+        [
+          0.23550737500000005,
+          0.06963124739583333,
+          1.1153275
+        ],
+        [
+          -0.06963124739583333,
+          0.235507375,
+          1.1153275
+        ],
+        [
+          -0.31400994401041665,
+          0.0,
+          1.1131568125
+        ],
+        [
+          0.31400994401041665,
+          0.0,
+          1.1131568125
+        ],
+        [
+          -7.228014483236696e-20,
+          -0.31400994401041665,
+          1.1131568125
+        ],
+        [
+          -7.228014483236696e-20,
+          0.31400994401041665,
+          1.1131568125
+        ],
+        [
+          -0.235507375,
+          -7.67976538843899e-20,
+          1.0939457499999998
+        ],
+        [
+          0.23550737500000005,
+          7.67976538843899e-20,
+          1.0939457499999998
+        ],
+        [
+          -0.3925123802083333,
+          7.67976538843899e-20,
+          1.0939457499999998
+        ],
+        [
+          0.3925123802083333,
+          -7.67976538843899e-20,
+          1.0939457499999998
+        ],
+        [
+          -0.3140098997395833,
+          -0.07850236979166668,
+          1.0939457499999998
+        ],
+        [
+          -0.3140098997395833,
+          0.07850236979166668,
+          1.0939457499999998
+        ],
+        [
+          0.3140098997395833,
+          -0.07850236979166668,
+          1.0939457499999998
+        ],
+        [
+          0.3140098997395833,
+          0.07850236979166668,
+          1.0939457499999998
+        ],
+        [
+          -4.0657581468206416e-20,
+          0.235507375,
+          1.0939457499999998
+        ],
+        [
+          1.1293772630057339e-19,
+          -0.235507375,
+          1.0939457499999998
+        ],
+        [
+          -0.07850236979166668,
+          -0.3140098997395833,
+          1.0939457499999998
+        ],
+        [
+          0.07850236979166668,
+          -0.3140098997395833,
+          1.0939457499999998
+        ],
+        [
+          0.07850236979166668,
+          0.3140098997395833,
+          1.0939457499999998
+        ],
+        [
+          -0.07850236979166668,
+          0.3140098997395834,
+          1.0939457499999998
+        ],
+        [
+          -4.0657581468206416e-20,
+          -0.3925123802083333,
+          1.0939457499999998
+        ],
+        [
+          1.1293772630057339e-19,
+          0.3925123802083333,
+          1.0939457499999998
+        ],
+        [
+          1.807003620809174e-20,
+          -0.29626743359374996,
+          1.0790767708333335
+        ],
+        [
+          -0.29626743359374996,
+          -1.807003620809174e-20,
+          1.079076770833333
+        ],
+        [
+          0.29626743359374996,
+          1.807003620809174e-20,
+          1.079076770833333
+        ],
+        [
+          -1.807003620809174e-20,
+          0.29626743359374996,
+          1.079076770833333
+        ],
+        [
+          -0.47101475,
+          0.0,
+          1.0747346874999997
+        ],
+        [
+          0.47101475,
+          0.0,
+          1.0747346874999997
+        ],
+        [
+          -7.228014483236696e-20,
+          -0.47101475,
+          1.0747346874999997
+        ],
+        [
+          -7.228014483236696e-20,
+          0.47101475,
+          1.0747346874999997
+        ],
+        [
+          -0.5495173854166667,
+          3.614007241618348e-20,
+          1.055523890625
+        ],
+        [
+          0.5495173854166667,
+          -3.614007241618348e-20,
+          1.055523890625
+        ],
+        [
+          -3.614007241618348e-20,
+          -0.5495173854166667,
+          1.055523890625
+        ],
+        [
+          3.614007241618348e-20,
+          0.5495173854166667,
+          1.055523890625
+        ],
+        [
+          -0.5495173190104167,
+          -0.06963124739583333,
+          1.038484046875
+        ],
+        [
+          -0.5495173190104167,
+          0.06963124739583333,
+          1.038484046875
+        ],
+        [
+          0.5495173190104167,
+          -0.06963124739583333,
+          1.038484046875
+        ]
+      ],
+      "fixed_detail_targets": [
+        [
+          7.228014483236696e-20,
+          -7.228014483236696e-20,
+          1.1899999999999997
+        ],
+        [
+          -0.07850263541666667,
+          3.614007241618348e-20,
+          1.1707891809895832
+        ]
+      ],
+      "detail_target_source": "v67_same_scaffold_high_degree_lsystem_junctions_from_preexport_plan",
+      "family": "L-system"
+    },
+    {
+      "label": "DLA_baseline_cluster",
+      "family": "DLA / frontier",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/traditional_baseline_texture_20260509/dla_cluster_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    },
+    {
+      "label": "DLA_ours_V8_lace_reef_coral_A",
+      "family": "DLA / frontier",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_a_steps8_tex2048_seed20260811_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    },
+    {
+      "label": "IFS_baseline_matched_branch_tree",
+      "family": "IFS / transform",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/traditional_baseline_texture_matched_guide_20260509/ifs_branch_tree_matched_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    },
+    {
+      "label": "IFS_ours_V21_branch_tree_natural_bark",
+      "family": "IFS / transform",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V21_ifs_transform_natural_tex4096_seed20292500_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex4096_seed20294601_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 2,
+      "zoom_divisor": 2.15
+    }
+  ]
+}

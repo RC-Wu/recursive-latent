@@ -1,0 +1,274 @@
+[
+  {
+    "experiment": "naturalization",
+    "task_id": "botanical_root",
+    "seed": 20260510,
+    "source_sheet": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization_botanical_root_seed20260510_pptx_source_sheet_20260511.png",
+    "panels": [
+      {
+        "variant": "rule_only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_rule_only_overview.png"
+      },
+      {
+        "variant": "no_naturalization_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_no_naturalization_with_projection_overview.png"
+      },
+      {
+        "variant": "weak_blend_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_weak_blend_with_projection_overview.png"
+      },
+      {
+        "variant": "masked_local_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_masked_local_with_projection_overview.png"
+      },
+      {
+        "variant": "global_naturalization_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_global_naturalization_with_projection_overview.png"
+      },
+      {
+        "variant": "masked_local_no_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_masked_local_no_projection_overview.png"
+      },
+      {
+        "variant": "rule_only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_rule_only_zoom.png"
+      },
+      {
+        "variant": "no_naturalization_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_no_naturalization_with_projection_zoom.png"
+      },
+      {
+        "variant": "weak_blend_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_weak_blend_with_projection_zoom.png"
+      },
+      {
+        "variant": "masked_local_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_masked_local_with_projection_zoom.png"
+      },
+      {
+        "variant": "global_naturalization_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_global_naturalization_with_projection_zoom.png"
+      },
+      {
+        "variant": "masked_local_no_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/botanical_root/seed_20260510_masked_local_no_projection_zoom.png"
+      }
+    ],
+    "variants": [
+      "rule_only",
+      "no_naturalization_with_projection",
+      "weak_blend_with_projection",
+      "masked_local_with_projection",
+      "global_naturalization_with_projection",
+      "masked_local_no_projection"
+    ],
+    "labels": [
+      "rule-only",
+      "no-N/+proj",
+      "weak/+proj",
+      "masked/+proj",
+      "global/+proj",
+      "masked/no-proj"
+    ],
+    "camera": {
+      "center": [
+        0.055439295,
+        -0.558007715,
+        -0.21626791499999998
+      ],
+      "scale": 2.4203959153379997,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    },
+    "zoom_camera": {
+      "center": [
+        0.4100904626073921,
+        -0.8498487356617747,
+        -0.2514243946625539
+      ],
+      "scale": 1.3830833801931426,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    }
+  },
+  {
+    "experiment": "naturalization",
+    "task_id": "vine_trellis",
+    "seed": 20260510,
+    "source_sheet": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization_vine_trellis_seed20260510_pptx_source_sheet_20260511.png",
+    "panels": [
+      {
+        "variant": "rule_only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_rule_only_overview.png"
+      },
+      {
+        "variant": "no_naturalization_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_no_naturalization_with_projection_overview.png"
+      },
+      {
+        "variant": "weak_blend_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_weak_blend_with_projection_overview.png"
+      },
+      {
+        "variant": "masked_local_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_masked_local_with_projection_overview.png"
+      },
+      {
+        "variant": "global_naturalization_with_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_global_naturalization_with_projection_overview.png"
+      },
+      {
+        "variant": "masked_local_no_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_masked_local_no_projection_overview.png"
+      },
+      {
+        "variant": "rule_only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_rule_only_zoom.png"
+      },
+      {
+        "variant": "no_naturalization_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_no_naturalization_with_projection_zoom.png"
+      },
+      {
+        "variant": "weak_blend_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_weak_blend_with_projection_zoom.png"
+      },
+      {
+        "variant": "masked_local_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_masked_local_with_projection_zoom.png"
+      },
+      {
+        "variant": "global_naturalization_with_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_global_naturalization_with_projection_zoom.png"
+      },
+      {
+        "variant": "masked_local_no_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/naturalization/vine_trellis/seed_20260510_masked_local_no_projection_zoom.png"
+      }
+    ],
+    "variants": [
+      "rule_only",
+      "no_naturalization_with_projection",
+      "weak_blend_with_projection",
+      "masked_local_with_projection",
+      "global_naturalization_with_projection",
+      "masked_local_no_projection"
+    ],
+    "labels": [
+      "rule-only",
+      "no-N/+proj",
+      "weak/+proj",
+      "masked/+proj",
+      "global/+proj",
+      "masked/no-proj"
+    ],
+    "camera": {
+      "center": [
+        0.02283468999999999,
+        0.29524666,
+        0.27475988500000004
+      ],
+      "scale": 2.089445002248,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    },
+    "zoom_camera": {
+      "center": [
+        0.05279710439012662,
+        0.4868853613622314,
+        0.4215026600997846
+      ],
+      "scale": 1.1939685727131428,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    }
+  }
+]

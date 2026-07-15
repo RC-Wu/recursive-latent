@@ -1,0 +1,250 @@
+[
+  {
+    "experiment": "projection",
+    "task_id": "coral_frontier",
+    "seed": 20260510,
+    "source_sheet": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection_coral_frontier_seed20260510_pptx_source_sheet_20260511.png",
+    "panels": [
+      {
+        "variant": "no_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_no_projection_overview.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_final_only_projection_overview.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_per_depth_prune_only_overview.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_per_depth_connector_aware_overview.png"
+      },
+      {
+        "variant": "full_ps_rslg",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_full_ps_rslg_overview.png"
+      },
+      {
+        "variant": "no_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_no_projection_zoom.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_final_only_projection_zoom.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_per_depth_prune_only_zoom.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_per_depth_connector_aware_zoom.png"
+      },
+      {
+        "variant": "full_ps_rslg",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/coral_frontier/seed_20260510_full_ps_rslg_zoom.png"
+      }
+    ],
+    "variants": [
+      "no_projection",
+      "final_only_projection",
+      "per_depth_prune_only",
+      "per_depth_connector_aware",
+      "full_ps_rslg"
+    ],
+    "labels": [
+      "no projection",
+      "final-only",
+      "per-depth prune-only",
+      "per-depth connector-aware",
+      "full PS-RSLG"
+    ],
+    "camera": {
+      "center": [
+        -0.05988544000000007,
+        0.3211943500000001,
+        0.14281570999999998
+      ],
+      "scale": 2.2627466299639996,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    },
+    "zoom_camera": {
+      "center": [
+        -0.2360548186458138,
+        0.5637753133983998,
+        0.2671471198418803
+      ],
+      "scale": 1.2929980742651426,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    }
+  },
+  {
+    "experiment": "projection",
+    "task_id": "ifs_crystal",
+    "seed": 20260510,
+    "source_sheet": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection_ifs_crystal_seed20260510_pptx_source_sheet_20260511.png",
+    "panels": [
+      {
+        "variant": "no_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_no_projection_overview.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_final_only_projection_overview.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_per_depth_prune_only_overview.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_per_depth_connector_aware_overview.png"
+      },
+      {
+        "variant": "full_ps_rslg",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_full_ps_rslg_overview.png"
+      },
+      {
+        "variant": "no_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_no_projection_zoom.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_final_only_projection_zoom.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_per_depth_prune_only_zoom.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_per_depth_connector_aware_zoom.png"
+      },
+      {
+        "variant": "full_ps_rslg",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/projection_masked_ablation_matrices_20260511/projection/ifs_crystal/seed_20260510_full_ps_rslg_zoom.png"
+      }
+    ],
+    "variants": [
+      "no_projection",
+      "final_only_projection",
+      "per_depth_prune_only",
+      "per_depth_connector_aware",
+      "full_ps_rslg"
+    ],
+    "labels": [
+      "no projection",
+      "final-only",
+      "per-depth prune-only",
+      "per-depth connector-aware",
+      "full PS-RSLG"
+    ],
+    "camera": {
+      "center": [
+        -0.03789758500000007,
+        0.03816813000000002,
+        0.047353745
+      ],
+      "scale": 2.2904200258359997,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    },
+    "zoom_camera": {
+      "center": [
+        -0.35396981977814357,
+        -0.3849915449686583,
+        0.1374776612176873
+      ],
+      "scale": 1.308811443334857,
+      "view_matrix": [
+        [
+          0.86,
+          -0.24,
+          0.45
+        ],
+        [
+          0.1,
+          0.94,
+          0.33
+        ],
+        [
+          -0.5,
+          -0.24,
+          0.83
+        ]
+      ],
+      "depth_axis": 2
+    }
+  }
+]

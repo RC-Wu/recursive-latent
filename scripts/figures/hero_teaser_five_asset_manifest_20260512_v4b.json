@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "id": "hero_01_bismuth",
+      "label": "bismuth",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/bismuth_hopper_bismuth_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "preserve",
+      "camera_direction": [
+        3.5,
+        -5.0,
+        3.25
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "overview_scale_factor": 1.14,
+      "zoom_factors": [
+        0.34,
+        0.27,
+        0.21,
+        0.16,
+        0.12
+      ],
+      "selected_zoom": "zoom_03",
+      "light_boost": 1.34
+    },
+    {
+      "id": "hero_02_pyrite",
+      "label": "pyrite",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/pyrite_lattice_pyrite_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "preserve",
+      "camera_direction": [
+        4.3,
+        -4.6,
+        3.1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "overview_scale_factor": 1.18,
+      "zoom_factors": [
+        0.35,
+        0.27,
+        0.21,
+        0.16,
+        0.12
+      ],
+      "selected_zoom": "zoom_02",
+      "light_boost": 1.38
+    },
+    {
+      "id": "hero_03_coral_dense_smooth",
+      "label": "coral",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v14_branching_coral_seed20279100_20260510/v14_dla_branching_table_coral_b_steps8_tex2048_seed20279804_xformers/textured.glb",
+      "material_mode": "coral",
+      "camera_direction": [
+        3.9,
+        -5.3,
+        2.9
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "overview_scale_factor": 1.17,
+      "zoom_factors": [
+        0.34,
+        0.26,
+        0.2,
+        0.155,
+        0.12
+      ],
+      "selected_zoom": "zoom_02",
+      "light_boost": 1.26
+    },
+    {
+      "id": "hero_04_v63_branch_v4b",
+      "label": "v63_branch_v4b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V63_lsystem_branch_distributed_recursive_bough_BC_hero_20260512_remote/V63_lsys_branch_distributed_dense_B_steps8_tex2048_seed20323514_xformers/textured.glb",
+      "material_mode": "preserve",
+      "camera_direction": [
+        4.6,
+        -3.8,
+        2.5
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "overview_scale_factor": 1.12,
+      "zoom_factors": [
+        0.32,
+        0.25,
+        0.195,
+        0.15,
+        0.115
+      ],
+      "selected_zoom": "zoom_02",
+      "light_boost": 1.3
+    },
+    {
+      "id": "hero_05_tree_canopy_leaves",
+      "label": "tree_canopy",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "camera_direction": [
+        3.9,
+        -5.4,
+        2.85
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "overview_scale_factor": 1.2,
+      "zoom_factors": [
+        0.35,
+        0.27,
+        0.21,
+        0.16,
+        0.12
+      ],
+      "selected_zoom": "zoom_02",
+      "light_boost": 1.22
+    }
+  ]
+}

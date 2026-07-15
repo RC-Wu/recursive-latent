@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "label": "tree_v25_bud_d1_spiky_controlled_cedar",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/tree_v25_bud_d1_spiky_pruned_steps8_tex2048_seed202605601_xformers/textured.glb",
+      "material_mode": "cedar",
+      "zoom_levels": 2
+    },
+    {
+      "label": "scifi_old_tight_d1_controlled_metal",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/scifi_old_tight_d1_metal_pruned_steps8_tex2048_seed202605621_xformers/textured.glb",
+      "material_mode": "metal",
+      "zoom_levels": 2
+    },
+    {
+      "label": "arch_clean_key_d2_controlled_stone",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/arch_clean_key_d2_stone_pruned_steps8_tex2048_seed202605631_xformers/textured.glb",
+      "material_mode": "stone",
+      "zoom_levels": 2
+    },
+    {
+      "label": "crown_old_rim_d1_controlled_ornament",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/crown_old_rim_d1_ornament_pruned_steps8_tex2048_seed202605611_xformers/textured.glb",
+      "material_mode": "ornament",
+      "zoom_levels": 2
+    }
+  ]
+}

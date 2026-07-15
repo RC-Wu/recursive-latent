@@ -1,0 +1,4 @@
+case,method,nodes,segments,tips,branch_nodes,max_depth,coverage_ratio,total_length,mean_segment_length,mesh_vertices,mesh_faces
+tree_canopy,Traditional SC,1586,1585,435,371,26,0.97,72.135,0.045511041009463724,31700,31700
+root_vine,Traditional SC,1628,1627,456,392,24,0.97125,73.45541875210338,0.04514776813282322,32540,32540
+bush_shell,Traditional SC,1922,1921,500,440,36,0.97125,86.44500000000001,0.045000000000000005,38420,38420

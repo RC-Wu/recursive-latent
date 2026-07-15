@@ -1,0 +1,33 @@
+{
+  "kind": "cache_sampler_connectivity_20260509_aggregate",
+  "out": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/cache_sampler_connectivity_20260509/run_20260509_030153_1659038",
+  "log": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/logs/cache_sampler_connectivity_20260509/run_20260509_030153_1659038",
+  "gpu_jobs": {
+    "hard": 6,
+    "control": 7
+  },
+  "exit_status": {
+    "hard_gpu6": 1,
+    "control_gpu7": 1
+  },
+  "rows": [],
+  "projection_aware_texture_selection": [],
+  "aggregate": {
+    "hard_cases_selected": 0,
+    "mean_best_lcr_gain_vs_naive": 0.0,
+    "mean_best_component_drop_vs_naive": 0.0,
+    "cases_with_component_drop": 0,
+    "cases_with_lcr_gain": 0,
+    "viable_as_standalone_paper_contribution": false,
+    "viable_as_supporting_ablation": false,
+    "interpretation": "supporting ablation if confirmed with true TRELLIS decode; not standalone without decoder/texture pass"
+  },
+  "split_summaries": {
+    "hard": {
+      "missing_summary": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/cache_sampler_connectivity_20260509/run_20260509_030153_1659038/hard/summary.json"
+    },
+    "control": {
+      "missing_summary": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/cache_sampler_connectivity_20260509/run_20260509_030153_1659038/control/summary.json"
+    }
+  }
+}

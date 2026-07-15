@@ -1,0 +1,125 @@
+{
+  "cases": [
+    {
+      "id": "candidate_coral_density_1p35_voxel_smooth",
+      "label": "coral_density_1p35",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_density_extreme_texture_20260509/coral_density_param_density_1p35_octopus_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "coral",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.15
+    },
+    {
+      "id": "candidate_coral_depth_stage04_voxel_smooth",
+      "label": "coral_stage04",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_depth_textured_showcase_20260509/volumetric_coral_depth_stage_04_coral_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "coral",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.17,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.15
+    },
+    {
+      "id": "candidate_coral_hq_octopus_voxel_smooth",
+      "label": "coral_hq_octopus",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/volumetric_dla_coral_octopus_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "coral",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.17,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.15
+    },
+    {
+      "id": "candidate_branch_v67_tapered_dense_B",
+      "label": "v67_branch_dense",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.12,
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.1
+    },
+    {
+      "id": "candidate_branch_v67_tapered_fine_C",
+      "label": "v67_branch_fine",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_fine_C_steps8_tex2048_seed20260714_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.12,
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.1
+    },
+    {
+      "id": "candidate_branch_v21_ifs_natural_bark_4096",
+      "label": "v21_ifs_branch",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V21_ifs_transform_natural_tex4096_seed20292500_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex4096_seed20294601_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.2
+    },
+    {
+      "id": "candidate_branch_v41_dense_fork_C",
+      "label": "v41_dense_fork",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_dense_C_steps8_tex2048_seed20301514_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.1
+    },
+    {
+      "id": "candidate_branch_v63_balanced_fan_C",
+      "label": "v63_balanced",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V63_lsystem_branch_distributed_recursive_bough_BC_hero_20260512_remote/V63_lsys_branch_balanced_fan_C_steps8_tex2048_seed20323515_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.1
+    },
+    {
+      "id": "candidate_canopy_v32_balanced_D_green",
+      "label": "v32_canopy_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "rotation_deg": [0, 0, 0],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.2
+    },
+    {
+      "id": "candidate_canopy_v23_attractor_leaf_shell",
+      "label": "v23_leaf_shell",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V23_all_family_seed20260511_20260510/V23_sc_tree_crown_260_attractor_leaf_shell_steps8_tex2048_seed20262815_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.2
+    },
+    {
+      "id": "candidate_canopy_v24_attractor_clean_A",
+      "label": "v24_clean_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_attractor_clean_seedA_steps8_tex2048_seed20284517_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.2
+    },
+    {
+      "id": "candidate_canopy_v5_welded_leaf_shell",
+      "label": "v5_leaf_shell",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_sc_tree_crown_260_welded_branch_leaf_shell_steps8_tex2048_seed20260621_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.2
+    }
+  ]
+}

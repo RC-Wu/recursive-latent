@@ -1,0 +1,5 @@
+case,direct_components,direct_vertices,direct_largest_ratio,final_only_kept_components,final_only_vertices,final_only_largest_ratio,per_depth_raw_components,per_depth_kept_components,per_depth_vertices,per_depth_largest_ratio
+vine_compete_d3,2059,199470,0.9049,2,181709,0.9934,819,1,188403,1.0
+tree_compete_d3,3201,321242,0.9169,4,299275,0.9842,835,2,292796,0.9949
+vine_compete_fork_d3,11490,360521,0.5178,11,272036,0.6863,2581,24,257437,0.5758
+tree_compete_fork_d3,12166,528155,0.5869,20,446878,0.6937,5538,53,376069,0.6141

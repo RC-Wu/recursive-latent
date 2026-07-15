@@ -1,0 +1,16 @@
+{
+  "cases": [
+    {
+      "id": "hero_05_tree_canopy_green",
+      "label": "tree_canopy_green_v32",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.13,
+      "rotation_deg": [0, 0, 0],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.25,
+      "selected_zoom": "zoom_03"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+% Draft rewrite snippets for reviewer-driven revision.
+% Target: paper_siga/main.tex abstract, introduction opening/contributions,
+% and Method Sections 3.2--3.4.
+%
+% Integration note: this file is intentionally not included by main.tex.
+% It is a staging draft only.
+%
+% Suggested old paragraphs to comment out and preserve before replacement:
+% 1. Current abstract: preserve as commented text. It contains useful experiment
+%    claims, but the narrative should move away from "procedural + generative
+%    bridge" and remove draft/status phrases such as "technically compatible".
+% 2. Introduction paragraphs 1--2: preserve as background material for Related
+%    Work or the second half of the introduction. They are useful, but should no
+%    longer be the opening motivation.
+% 3. Introduction paragraph beginning "Our experiments indicate that naive
+%    bridges fail.": preserve the substance, but make it the causal opening
+%    of the new story.
+% 4. Current Contributions item list: preserve as a checklist. Replace the main
+%    text with a stronger language/algorithm/projection/material framing.
+% 5. Method 3.2 "Typed Sparse-Latent State": comment out and preserve for an
+%    appendix or implementation note. The main text should use the minimal state
+%    z_d=(V_d,F_d,A_d), not the eight-component state tuple.
+% 6. Method 3.3 "Grammar and Rules": comment out and preserve for appendix
+%    detail. Replace the giant grammar tuple with objects of the language and
+%    a compact rule template.
+% 7. Method 3.4 "Operational Semantics": comment out and preserve the merge
+%    equations if desired, but replace the long operator chain with the compact
+%    recursive transition plus Algorithm 1 and Algorithm 2.
+% 8. Method 3.5 "Classical Systems as Limits": preserve, but move after the core
+%    algorithm or to appendix. In the main method, one short paragraph is enough.
+
+\section*{Revised Abstract Draft}
+
+Native 3D generators increasingly expose sparse latent representations that
+look well suited for recursive structure: a tree, root system, coral, ornament,
+or architectural motif can in principle be grown by repeatedly editing local
+3D tokens. In practice, direct uses of such generators are unstable. A 2D
+scaffold can be ignored or inflated into sheets, direct sparse edits create
+floating fragments, global flow repair can wash out the intended topology, and
+final-only cleanup cannot prevent fragments from becoming new growth roots at
+the next recursion depth. We introduce a generation-model-native recursive
+language over sparse 3D latents. A program state consists of active sparse
+tokens, their latent features, and grammar-readable anchors. Rule templates
+propose local growth or transform-copy edits on this state, while a frozen
+Trellis2 model is used only for masked local naturalization, decoding,
+re-encoding, and texture export. The key execution principle is projection
+inside the recursive transition: after each depth, the decoded candidate is
+projected to a connected, admissible asset and re-encoded before further rules
+can fire. This turns connected support into a recursive invariant rather than a
+post-hoc mesh cleanup target. Experiments on branching, frontier-growth, and
+transform-copy programs show that per-depth projection stabilizes finite-depth
+recursive growth, exposes a stability-expression tradeoff across rule families,
+and supports textured GLB export for selected projected meshes without training
+a new 3D generator.
+
+\section*{Revised Introduction Opening Draft}
+
+Sparse latent 3D generators suggest a tempting route to recursive modeling.
+Instead of asking a model to synthesize a complete object in one shot, one could
+grow a tree, root, coral, ornament, or architectural asset by repeatedly editing
+only the currently active 3D tokens. This would make the generator's native
+state space the substrate of a recursive program: topology would be controlled
+by rules, while local geometry and appearance would be supplied by a learned
+asset prior.
+
+The direct version of this idea fails for a specific reason. Native 3D
+generators are strong local and object-level priors, but they are not recursive
+execution engines. When a procedural scaffold is rendered as a 2D condition,
+image-to-3D generation often produces sheets, blobs, or disconnected fragments
+instead of preserving the intended branching topology. When sparse coordinates
+are edited directly, small floating components accumulate across depth. When a
+global flow sampler is used as a repair step, it can replace the grammar's
+topology with the generator's preferred object-level shape. When cleanup is
+deferred until the final mesh, invalid fragments may already have acted as
+parents, frontiers, cached motifs, or material sources in intermediate states.
+
+These failures point to a different formulation. The generator should not own
+the global recursive structure. Instead, the recursive program should own the
+sparse support, anchors, and attachment graph, and the frozen generator should
+act as a masked local prior around rule-proposed edits. We therefore formulate
+recursive asset synthesis as a \emph{generation-model-native recursive language
+over sparse 3D latents}. The language executes over the same kind of sparse
+state used by the 3D generator, but its semantics are grammar-first: rules
+select handles, propose local token edits, preserve attachment certificates,
+and project each decoded candidate back to an admissible connected asset before
+the next depth.
+
+This framing differs from both classical procedural modeling and one-shot 3D
+generation. Classical grammars expose recursion and control, but typically
+output curves, tubes, voxels, or hand-designed meshes that lack learned surface
+and material priors. One-shot 3D generators produce rich assets, but provide no
+native guarantee that a multi-depth recursive program remains attached,
+addressable, and editable. Our goal is narrower and more testable than
+unbounded world generation: finite-depth recursive assets whose structure is
+controlled by a sparse-latent grammar and whose local realization is supported
+by a frozen 3D generator.
+
+\paragraph{Contributions.}
+This paper makes the following contributions:
+\begin{itemize}
+  \item We introduce a generation-model-native recursive language over sparse
+  3D latents, where programs operate on sparse token support, latent features,
+  and grammar-readable anchors rather than on 2D scaffolds or post-hoc meshes.
+  \item We define a compact rule-template semantics for recursive growth,
+  transform-copy, frontier accretion, and local refinement over sparse latent
+  states, avoiding a monolithic system tuple.
+  \item We propose projection-stabilized execution: each recursion step performs
+  rule proposal, masked local naturalization, decoding, connected projection,
+  and re-encoding before later rules can use the state.
+  \item We give an explicit projection algorithm for connected admissible assets
+  and show why per-depth projection provides a recursive invariant that
+  final-only cleanup lacks.
+  \item We evaluate finite-depth recursive assets across branching,
+  frontier-growth, and transform-copy rule families, and report texture/PBR
+  export compatibility for selected projected meshes using a frozen Trellis2
+  pipeline.
+\end{itemize}
+
+\section*{Method Rewrite Draft: Sections 3.2--3.4}
+
+\subsection*{3.2 Core State and Handles}
+
+We write the recursive state at depth \(d\) as the minimal sparse-latent object
+\begin{equation}
+z_d=(\mathcal V_d,\mathbf F_d,\mathcal A_d).
+\end{equation}
+Here \(\mathcal V_d\subset h\mathbb Z^3\) is the active sparse token support,
+\(\mathbf F_d:\mathcal V_d\rightarrow\mathbb R^q\) stores the generator-native
+latent features attached to those tokens, and \(\mathcal A_d\) is the
+grammar-readable anchor structure. The anchors include typed handles, local
+frames, ownership regions, attachment edges, frontier labels, and optional
+material handles. A handle can be written as
+\begin{equation}
+h_i=(\sigma_i,T_i,\Omega_i,\alpha_i),
+\end{equation}
+where \(\sigma_i\) is its type, \(T_i\) is a local frame, \(\Omega_i\subseteq
+\mathcal V_d\) is its owned support or target region, and \(\alpha_i\) stores
+local attributes such as radius, age, material intent, or rule priority.
+
+This minimal state separates the semantics from implementation bookkeeping.
+Masks, random seeds, rule traces, material export metadata, diagnostic scores,
+and cached motifs are auxiliary data used by the executor, but they are not the
+primary mathematical state a reader must remember. The important invariant is
+that each active handle must be addressable in the sparse support and attached
+to the recursive scaffold unless it is explicitly marked as an inactive
+descriptor. Thus a small floating component is not merely a visual artifact: if
+it enters \(\mathcal A_d\) as an active handle, it can contaminate all later
+recursion depths.
+
+For this reason we maintain a connected-state domain. Let \(R_d\subset
+\mathcal V_d\) denote root anchors or scaffold tokens, and let
+\(G_\eta(\mathcal V_d)\) be the \(\eta\)-neighborhood graph over sparse tokens.
+The attached support is
+\begin{equation}
+\mathcal V_{\mathrm{att}}(z_d)=
+\{v\in\mathcal V_d:\ v\leadsto R_d\ \mathrm{in}\ G_\eta(\mathcal V_d)\}.
+\end{equation}
+We use the violation
+\begin{equation}
+V_{\mathrm{conn}}(z_d)=
+1-\frac{\operatorname{mass}(\mathcal V_{\mathrm{att}}(z_d))}
+{\operatorname{mass}(\mathcal V_d)+\epsilon}.
+\end{equation}
+An admissible recursive state satisfies bounded connectivity, occupancy,
+renderability, material-seam, and token-budget violations:
+\begin{equation}
+\mathcal Z_{\mathrm{adm}}(\lambda)=
+\{z:\ V_{\mathrm{conn}}(z)\le\epsilon_c,\ 
+V_{\mathrm{frontier}}(z)=0,\ 
+V_{\mathrm{occ}}(z)\le\epsilon_o,\ 
+V_{\mathrm{mat}}(z)\le\epsilon_m,\ 
+|\mathcal V(z)|\le T_{\max}\}.
+\end{equation}
+The condition \(V_{\mathrm{frontier}}(z)=0\) means that every active frontier
+or growth handle has a valid attachment path to the root scaffold. Inactive
+LOD descriptors or cached motifs may be stored by the implementation, but they
+cannot generate new geometry until projection certifies their attachment.
+
+\subsection*{3.3 Rule Templates as a Recursive Language}
+
+The language consists of three objects: typed handles, rule templates, and
+realization operators. A rule is not a giant grammar tuple; it is a local
+rewrite template over handles:
+\begin{equation}
+\rho:\ h_i\mapsto
+\{(\sigma_j,T_j,\Omega_j,m_j,\kappa_j,\rho_j)\}_{j=1}^{k}.
+\end{equation}
+Each emitted item creates or updates a handle of type \(\sigma_j\), with local
+transform \(T_j\), target region \(\Omega_j\), edit mask \(m_j\), attachment or
+feasibility condition \(\kappa_j\), and proposal kernel \(\rho_j\). The
+proposal kernel may instantiate a branch segment, extend a frontier, copy a
+motif through a transform, split a local region, densify a terminal detail, or
+request a masked generative naturalization step.
+
+Rules are executed only when their feasibility conditions hold. In particular,
+a materialized proposal \(\Delta\mathcal V\) must lie in the projectable
+reachable domain or carry a bridge certificate:
+\begin{equation}
+\Delta\mathcal V\subset
+\mathcal R_{\mathrm{proj}}(z_d;b_d,r_d)
+\quad\mathrm{or}\quad
+\exists B:\ \Delta\mathcal V\cup B\in\mathcal Z_{\mathrm{adm}}(\lambda_d),
+\ \operatorname{cost}(B)\le b_d.
+\end{equation}
+Here \(\mathcal R_{\mathrm{proj}}\) contains sparse coordinates that are close
+enough, collision-free enough, and cheap enough to connect back to the attached
+scaffold. This condition is the semantic difference between recursive growth
+and unconstrained latent editing: a patch is not active merely because it looks
+plausible locally; it must remain usable by the next recursive step.
+
+\begin{table}[t]
+  \centering
+  \caption{Representative rule families in the sparse-latent recursive
+  language. Each family uses the same handle-to-proposal template but different
+  proposal kernels and feasibility conditions.}
+  \label{tab:rule-families-draft}
+  \begin{tabular}{lll}
+    \toprule
+    Rule family & Proposal kernel & Typical use \\
+    \midrule
+    grow & extend attached frontier & vines, roots, branches \\
+    branch & split one handle into several attached handles & trees, bushes \\
+    attach & accept frontier hit with bridge certificate & porous and DLA-like growth \\
+    copy & transform a connected motif & ornaments, portals, architecture \\
+    refine & densify a local terminal region & high-detail recursive tips \\
+    material & transport or blend material handles & texture/PBR continuity \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Given a selected rule set \(\mathcal R_d\), rule proposal and sparse merge are
+summarized as
+\begin{equation}
+\tilde z_{d+1}=\mathcal M(z_d,\operatorname{Prop}_{\mathcal R_d}(z_d)).
+\end{equation}
+For a transform-copy proposal, the support and features are
+\begin{equation}
+\widehat{\mathcal V}_j=Q_h(T_j(\mathcal V_d\cap\Omega_j)),\qquad
+\widehat{\mathbf F}_j(Q_h(T_jv))=\mathcal T_j^F\mathbf F_d(v),
+\end{equation}
+and masked feature merge is
+\begin{equation}
+\mathbf F^+(v)=
+\frac{w_0(v)\mathbf F_d(v)+\sum_j w_j(v)\widehat{\mathbf F}_j(v)}
+{w_0(v)+\sum_jw_j(v)+\epsilon},
+\qquad
+w_j(v)=m_j(v)\beta_j(v).
+\end{equation}
+Material handles use the same transport-and-merge logic, but are kept distinct
+from the geometric claim: current evidence supports texture/PBR export for
+selected projected meshes, while per-depth material naturalization remains a
+controlled extension of the same semantics.
+
+\subsection*{3.4 Projection-Stabilized Execution}
+
+The recursive transition is intentionally compact:
+\begin{equation}
+z_{d+1}=
+\operatorname{Enc}_{\theta}
+\left[
+\Pi_{\lambda_d}
+\left(
+\operatorname{Dec}_{\theta}
+\left(
+\mathcal T_{\theta}(z_d;\mathcal R_d,y)
+\right)
+\right)
+\right].
+\label{eq:compact-recursive-transition-draft}
+\end{equation}
+The operator \(\mathcal T_{\theta}\) contains rule selection, sparse proposal,
+masked merge, feasibility filtering, and optional local naturalization. The
+decoder \(\operatorname{Dec}_{\theta}\) maps the sparse state to a mesh or
+occupancy proxy, \(\Pi_{\lambda_d}\) projects the decoded candidate to an
+admissible connected asset, and \(\operatorname{Enc}_{\theta}\) re-encodes the
+projected asset before the next depth. Projection is therefore inside the
+recursive map. It is not a final cleanup pass.
+
+\begin{algorithm}[t]
+\caption{Recursive Sparse-Latent Program Execution}
+\label{alg:rslg-execution-draft}
+\begin{algorithmic}[1]
+\REQUIRE root mesh \(x_0\), recursive program \(\mathcal G\), frozen generator
+\(\theta\), condition \(y\), depth \(D\), projection schedule
+\(\{\lambda_d\}_{d=0}^{D-1}\)
+\STATE \(z_0\leftarrow \operatorname{Enc}_\theta(x_0)\)
+\STATE initialize anchors \(\mathcal A_0\), root handles, material handles, and
+auxiliary caches
+\FOR{\(d=0,\ldots,D-1\)}
+  \STATE select active handles \(H_d\subset\mathcal A_d\)
+  \STATE select applicable rules \(\mathcal R_d\leftarrow
+  \operatorname{SelectRules}(H_d,\mathcal G,z_d)\)
+  \STATE generate sparse proposals
+  \(P_d\leftarrow \operatorname{Prop}_{\mathcal R_d}(z_d)\)
+  \STATE reject or defer proposals outside \(\mathcal R_{\mathrm{proj}}\) unless
+  they carry a valid bridge certificate
+  \STATE merge accepted proposals with masks and feature/material blend kernels:
+  \(\tilde z_{d+1}\leftarrow\mathcal M(z_d,P_d)\)
+  \STATE naturalize edited regions with the frozen masked flow:
+  \(\bar z_{d+1}\leftarrow\mathcal N_\theta(\tilde z_{d+1};m_d,y)\)
+  \STATE decode candidate \(x_{d+1}\leftarrow
+  \operatorname{Dec}_\theta(\bar z_{d+1})\)
+  \STATE project connected admissible asset
+  \(x_{d+1}^{\star}\leftarrow
+  \Pi_{\lambda_d}(x_{d+1},\mathcal A_d)\)
+  \STATE re-encode \(z_{d+1}\leftarrow
+  \operatorname{Enc}_\theta(x_{d+1}^{\star})\)
+  \STATE update anchors, frontiers, material handles, and connected caches
+\ENDFOR
+\RETURN \(x_D^\star=\operatorname{Dec}_\theta(z_D)\) or exported textured asset
+\end{algorithmic}
+\end{algorithm}
+
+\paragraph{Masked flow naturalization.}
+The frozen generator is used as a local prior under a hard grammar mask. In
+deterministic flow form,
+\begin{equation}
+\frac{d z_t}{dt}=v_\theta(z_t,t,y).
+\end{equation}
+Let \(m_d\) be the sparse edit mask selected by the rule and clipped by
+connectivity feasibility. A single reverse step is clamped as
+\begin{equation}
+z_{t-\Delta t}=
+(1-m_d)\odot z_{\mathrm{anchor}}
++m_d\odot\Phi_{\theta,t}(z_t,y).
+\label{eq:masked-flow-clamp-draft}
+\end{equation}
+Equivalently, for sparse features on edited tokens,
+\begin{equation}
+\mathbf f_i'=
+(1-\alpha_i)\mathbf f_i^{\mathrm{rule}}
++\alpha_i\mathbf f_i^{\theta},
+\qquad i\in m_d.
+\end{equation}
+The anchor region is hard-clamped, and \(m_d\) is zero outside the grammar's
+target region and outside the projectable reachable domain. The sampler
+therefore naturalizes local shape or material; it does not decide the global
+recursive topology.
+
+\begin{algorithm}[t]
+\caption{Projection to a Connected Admissible Asset}
+\label{alg:projection-draft}
+\begin{algorithmic}[1]
+\REQUIRE decoded candidate \(x\), previous anchors \(\mathcal A_d\), root set
+\(R_d\), projection parameters \(\lambda_d\)
+\STATE build a voxel, occupancy, or mesh connectivity graph \(G(x)\)
+\STATE identify root-attached components by graph reachability from \(R_d\)
+\STATE score each component by mass, attachment distance, bridge cost,
+renderability, material consistency, and rule ownership
+\STATE keep all valid root-attached components and any component with an
+accepted bridge path under budget \(b_d\)
+\STATE prune orphan components that cannot be bridged without violating
+\(\lambda_d\)
+\STATE optionally weld, close small gaps, remesh, or insert bridge geometry for
+accepted components
+\STATE update handles: remove orphan frontiers, reattach surviving handles to
+projected support, and mark uncertain motifs inactive
+\STATE validate token budget, connected-frontier invariant, material seams, and
+renderability
+\RETURN projected asset \(x^\star\) and updated anchors \(\mathcal A^\star\)
+\end{algorithmic}
+\end{algorithm}
+
+Algorithm~\ref{alg:projection-draft} is written at the asset/proxy level because
+the available implementation may use voxel connectivity, mesh components, or an
+occupancy proxy before re-encoding. A bridge-aware version generalizes
+prune-only projection. For a candidate component \(Q\), define bridge paths
+\begin{equation}
+\Gamma(Q,R_d)=
+\{\gamma=(q_0,\ldots,q_T):q_0\in Q,\ q_T\in R_d,\ 
+q_{t+1}-q_t\in\mathcal N_\eta\}.
+\end{equation}
+The projection objective can be expressed as
+\begin{equation}
+\begin{split}
+\Pi_{\lambda}(x)=
+\operatorname*{arg\,min}_{y\in\mathcal X_{\mathrm{adm}}(\lambda)}
+&\ d_{\mathcal X}(x,y)
++\eta_{\mathrm{obs}}d_{\mathrm{obs}}(x,y)
++\eta_m d_{\mathrm{mat}}(x,y)\\
+&+\lambda_{\mathrm{del}}\operatorname{mass}(R)
++\lambda_{\mathrm{br}}\sum_{\gamma\subset B}\operatorname{len}(\gamma)
++\lambda_{\mathrm{front}}V_{\mathrm{frontier}}(y),
+\end{split}
+\end{equation}
+where \(R\) is removed orphan support and \(B\) is inserted or certified bridge
+support. Prune-only projection is the limiting case
+\(\lambda_{\mathrm{br}}\rightarrow\infty\). This distinction matters for DLA,
+crystal, radial, and fork-like rules: deleting every thin or distant component
+can destroy legitimate recursive structure, while accepting every component
+creates active floating frontiers. Projection resolves the conflict by making
+attachment a per-depth admissibility test.
+
+\paragraph{Why final-only cleanup is insufficient.}
+Let \(e(z)\) combine connectivity, orphan-frontier, renderability, and material
+violations. If each projection satisfies
+\begin{equation}
+e(\Pi_{\lambda_d}(x))\le\epsilon_P
+\end{equation}
+and the decode/re-encode round trip adds at most \(\epsilon_E\), then the
+executed recursive states obey
+\begin{equation}
+e(z_d)\le \epsilon_P+\epsilon_E,\qquad d=1,\ldots,D.
+\end{equation}
+Final-only cleanup lacks this invariant because an invalid component can be
+selected as a parent, copied as a motif, sampled as a local condition, or stored
+in a cache before the final mesh is cleaned. This is the central algorithmic
+reason to place projection inside Eq.~\eqref{eq:compact-recursive-transition-draft}.
+
+\paragraph{Placement of classical systems.}
+Classical procedural systems can be mentioned after the algorithm as restricted
+rule families: L-systems use ordered handles and synchronous branch rules,
+space colonization uses attractor-guided grow proposals, DLA uses frontier
+hitting proposals with attachment certificates, and IFS-like assets use
+transform-copy rules. The main text should not expand these into a separate
+large formal detour unless space allows; detailed embeddings are better suited
+for the appendix.

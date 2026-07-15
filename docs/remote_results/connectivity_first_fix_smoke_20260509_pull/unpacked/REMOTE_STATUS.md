@@ -1,0 +1,11 @@
+command=CUDA_VISIBLE_DEVICES=4 TRITON_CACHE_DIR=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/.cache/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/triton/gpu4 /mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff/bin/python /mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py --root /mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507 --out /mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185 --case dla_voxel_root=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/inputs/procedural_meshes/dla_cluster_voxels.obj --grammars fork_side_attach --methods sparse_close_bridge --stages 1 --max-tokens 14000 --min-vertices 1800 --mesh-bridge-components 10 --texture-top-k 0 
+
+selected_gpu=4
+cache_root=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/.cache/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185
+exit_status=0
+log=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/logs/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/smoke.log
+candidates=1
+selected_candidates=1
+case=dla_voxel_root grammar=fork_side_attach method=sparse_close_bridge
+raw_occ_components=None raw_occ_lcr=None
+projected_occ_components=None projected_occ_lcr=None

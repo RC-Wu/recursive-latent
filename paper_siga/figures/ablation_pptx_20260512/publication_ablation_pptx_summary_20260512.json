@@ -1,0 +1,20 @@
+{
+  "schema": "publication_ablation_pptx_20260512",
+  "projection": {
+    "pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/projection_ablation_publication_20260512.pptx",
+    "cases": [
+      "recursive_pine_sapling",
+      "pyrite_cubic_lattice"
+    ],
+    "pdf_target": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/projection_ablation_publication_20260512.pdf"
+  },
+  "naturalization": {
+    "pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/masked_naturalization_ablation_publication_20260512.pptx",
+    "cases": [
+      "wooden_root_fork",
+      "staghorn_coral_branch"
+    ],
+    "pdf_target": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/masked_naturalization_ablation_publication_20260512.pdf"
+  },
+  "contract": "PPTX-first; OURS is rightmost; cases are recognizable recursive assets."
+}

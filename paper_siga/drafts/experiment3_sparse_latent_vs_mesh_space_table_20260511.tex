@@ -1,0 +1,38 @@
+% Derived from results/experiment3_sparse_latent_vs_meshspace_20260511/experiment3_master_manifest.csv;
+% compacted for the main paper.
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.4pt}
+\resizebox{0.90\columnwidth}{!}{\begin{tabular}{llrrrr}
+\toprule
+Case & Method & Occ. comp. & LCR & Welded comp. & Open edges \\
+\midrule
+tree crown & Trellis2 one-shot & 19 & 0.978 & -- & -- \\
+tree crown & Trellis2 latent-copy & 11 & 0.995 & -- & -- \\
+tree crown & Trellis2 mesh-copy & 32 & 0.993 & 48,931 & 466,284 \\
+tree crown & Hunyuan3D mesh-copy & 40 & 0.998 & 90,895 & 467,428 \\
+tree crown & Ours & 1 & 1.000 & 169 & 96,428 \\
+\midrule
+bismuth & Trellis2 one-shot & 1 & 1.000 & -- & -- \\
+bismuth & Trellis2 latent-copy & 7 & 0.909 & -- & -- \\
+bismuth & Trellis2 mesh-copy & 53 & 0.112 & 132,816 & 897,700 \\
+bismuth & Hunyuan3D mesh-copy & 22 & 0.999 & 256,216 & 898,400 \\
+bismuth & Ours & 1 & 1.000 & 179 & 15,848 \\
+\midrule
+coral & Trellis2 one-shot & 5 & 0.971 & 129 & 1,212,306 \\
+coral & Trellis2 latent-copy & 4 & 0.992 & -- & -- \\
+coral & Trellis2 mesh-copy & 43 & 0.990 & 57,917 & 754,362 \\
+coral & Hunyuan3D mesh-copy & 3 & 0.916 & 79,496 & 745,479 \\
+coral & Ours & 1 & 1.000 & 2 & 139,122 \\
+\midrule
+pyrite & Trellis2 one-shot & 9 & 0.999 & 33 & 84,902 \\
+pyrite & Trellis2 latent-copy & 17 & 0.714 & 135 & 11,135 \\
+pyrite & Trellis2 mesh-copy & 46 & 0.750 & 155,894 & 899,800 \\
+pyrite & Hunyuan3D mesh-copy & 3 & 0.929 & 213,358 & 895,150 \\
+pyrite & Ours & 3 & 1.000 & 1 & 262,572 \\
+\bottomrule
+\end{tabular}}
+\caption{Generator and mesh-space recursion controls built from Trellis2 and Hunyuan3D outputs, reported with occupancy connectivity and welded fragmentation~\cite{trellis2025,trellis2project,hunyuan3d2025}.}
+\label{tab:experiment3-sparse-latent-vs-mesh-space}
+\end{table}

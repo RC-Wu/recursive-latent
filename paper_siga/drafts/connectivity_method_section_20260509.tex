@@ -1,0 +1,271 @@
+\subsection{Connectivity-First Sparse-Latent Recursion}
+
+当前系统的主要未解决问题不是纹理或 PBR 导出，而是 recursive state 中会出现 fragmented chunks。我们因此把连通性从一个最终 mesh 诊断指标提升为 grammar invariant。设第 \(d\) 层状态为
+\begin{equation}
+S_d=(C_d,F_d,U_d,A_d,B_d,M_d,H_d,K_d),
+\end{equation}
+其中 \(C_d\subset\{0\}\times h\mathbb{Z}^3\) 是 Trellis/O-Voxel/SLAT 风格的 active sparse support，\(F_d\) 存储 shape、material 和 grammar auxiliary features。PS-RSLG 的 connectivity-first 版本要求
+\begin{equation}
+\boxed{\qquad S_d\in\mathcal{S}_{\mathrm{conn}}(\lambda_d),\quad d=0,\ldots,D.\qquad}
+\end{equation}
+也就是说，每一层递归输出都必须是可继续生长的 connected sparse state，而不是只在最终导出时删除漂浮块。
+
+\paragraph{Connected support invariant.}
+给定 sparse support \(C\)，定义 \(\eta\)-邻接图
+\begin{equation}
+G_\eta(C)=(C,E_\eta),\qquad
+(p,q)\in E_\eta \Longleftrightarrow \|p-q\|_1\le \eta h .
+\end{equation}
+令 \(R_d\subset C_d\) 为 root anchors 或主 scaffold support，令 \(\operatorname{Comp}_\eta(C_d)=\{Q_k\}\) 为 connected components。一个 component 是 attached 的，当且仅当它在 \(G_\eta(C_d)\) 中与 \(R_d\) 有路径相连。定义
+\begin{equation}
+C_{\mathrm{att}}(S_d)
+=
+\bigcup_{Q_k\in\operatorname{Comp}_\eta(C_d):\,Q_k\leadsto R_d} Q_k,
+\qquad
+V_{\mathrm{conn}}(S_d)
+=
+1-\frac{\operatorname{mass}(C_{\mathrm{att}}(S_d))}
+{\operatorname{mass}(C_d)+\epsilon}.
+\end{equation}
+此外，每个 symbol \(u_i=(\sigma_i,\ell_i,T_i,\Omega_i,\alpha_i,\nu_i)\) 都拥有 support \(\Omega_i\subseteq C_d\)。我们维护 symbol attachment graph
+\begin{equation}
+\mathcal{A}_d=(U_d,E_d^{\mathrm{att}}),\qquad
+(u_i,u_j)\in E_d^{\mathrm{att}}
+\Longleftrightarrow
+\operatorname{dist}_\eta(\Omega_i,\Omega_j)\le \delta_a
+\ \mathrm{or}\ 
+\exists e_{ij}^{\mathrm{semantic}} .
+\end{equation}
+可繁殖的 symbol 必须连接到 root symbol；未展开的 LOD 或 cache descriptor 可以暂时不 materialize，但不能作为 active frontier 参与下一层 proposal，除非它先通过 projection materialize 成 attached support。
+
+因此 admissible connected state set 写为
+\begin{equation}
+\begin{split}
+\mathcal{S}_{\mathrm{conn}}(\lambda)=
+\{S:\;&
+V_{\mathrm{conn}}(S)\le \epsilon_c,\;
+V_{\mathrm{orphan}}(S)\le \epsilon_o,\;
+V_{\mathrm{gap}}(S)\le \epsilon_a,\;
+V_{\mathrm{frontier}}(S)=0,\\
+&
+V_{\mathrm{occ}}(S)\le \epsilon_{\mathrm{occ}},\;
+V_{\mathrm{sym}}(S)\le \epsilon_g,\;
+V_{\mathrm{mat}}(S)\le \epsilon_m,\;
+|C(S)|\le T_{\max}\}.
+\end{split}
+\end{equation}
+其中
+\begin{equation}
+V_{\mathrm{orphan}}(S)=\sum_{Q_k\not\leadsto R}\operatorname{mass}(Q_k),\qquad
+V_{\mathrm{frontier}}(S)=\sum_{f\in\mathcal{F}(S)}\mathbf{1}[f\not\leadsto R].
+\end{equation}
+约束 \(V_{\mathrm{frontier}}=0\) 是关键：漂浮 fragment 即使最终可删除，也不能成为后续生长的 parent、frontier 或 cache source。
+
+\paragraph{Bridge-aware projection.}
+Prune-only projection 可以写为
+\begin{equation}
+\mathcal{P}_{\mathrm{prune}}(X)=
+\operatorname*{arg\,min}_{Y\subseteq X,\;Y\in\mathcal{S}_{\mathrm{conn}}}
+d_{\mathcal{S}}(X,Y)
++\lambda_{\mathrm{del}}\operatorname{mass}(X\setminus Y).
+\end{equation}
+它删除孤岛，但也会删除本应通过细根、晶格边、中心 hub 或 ring connector 连接的有效 motif。我们使用更一般的 bridge-aware projection：
+\begin{equation}
+Y=(X\setminus R)\cup B,\qquad
+B=\bigcup_\ell\gamma_\ell ,
+\end{equation}
+其中 \(R\) 是被移除的 orphan/noisy support，\(\gamma_\ell\) 是连接 orphan component 到 \(C_{\mathrm{att}}\) 的离散 bridge path。候选路径集合为
+\begin{equation}
+\Gamma(Q,R_d)=
+\{\gamma=(q_0,\ldots,q_T):
+q_0\in Q,\ q_T\in C_{\mathrm{att}},\
+q_{t+1}-q_t\in\mathcal N_\eta\}.
+\end{equation}
+投影优化为
+\begin{equation}
+\begin{split}
+\mathcal{P}_{\mathrm{bridge}}(X)=
+\operatorname*{arg\,min}_{Y\in\mathcal{S}_{\mathrm{conn}}}
+&\ d_{\mathcal{S}}(X,Y)
++\eta_{\mathrm{obs}}d_{\mathrm{obs}}(\mathcal O(X),\mathcal O(Y))
++\eta_m d_{\mathrm{mat}}(M_X,M_Y)\\
+&+\lambda_{\mathrm{del}}\operatorname{mass}(R)
++\lambda_{\mathrm{br}}\sum_{\gamma\subset B}\operatorname{len}(\gamma)
++\lambda_{\kappa}\sum_{\gamma\subset B}\operatorname{curv}(\gamma)\\
+&+\lambda_{\mathrm{rad}}\sum_{\gamma\subset B}
+\|\operatorname{radius}(\gamma)-\operatorname{radius}_{\mathrm{parent}}\|^2
++\lambda_{\mathrm{sym}}V_{\mathrm{sym}}(Y).
+\end{split}
+\end{equation}
+当 \(\lambda_{\mathrm{br}}\rightarrow\infty\) 时，该算子退化为 prune-only projection。实现上可以用 occupancy shortest path、morphological closing 或 cached bridge motif 近似；当前已有实现证据主要是 occupancy-level diagnostic，而不是完整的 Trellis latent bridge optimizer。
+
+Bridge support 还需要 feature 和 material assignment。若 \(b\in B\) 的两端为 \(a_0,a_1\)，则
+\begin{equation}
+F_Y(b)=
+\omega_0(b)F_X(a_0)+\omega_1(b)F_X(a_1)
++\omega_\theta(b)\widehat F_\theta(b\mid \gamma,y),
+\end{equation}
+\begin{equation}
+P_Y^{\mathrm{brdf}}(b)=
+\operatorname{ProjectPBR}\left(
+\omega_0P_X^{\mathrm{brdf}}(a_0)+
+\omega_1P_X^{\mathrm{brdf}}(a_1)
++\omega_\theta\widehat P_\theta^{\mathrm{brdf}}(b)\right).
+\end{equation}
+本文应把 per-depth material bridge 写成正式提案；现有强证据仍主要在 geometry/occupancy connectivity。
+
+\paragraph{Competition, exclusion, and attachment energy.}
+候选 action 写成
+\begin{equation}
+a=(c,\Delta F,\Delta M,u_{\mathrm{parent}},\rho,\mu,\tau).
+\end{equation}
+我们使用 occupancy competition / exclusion / attachment energy：
+\begin{equation}
+\begin{split}
+E(a;S_d)=&
+\lambda_{\mathrm{occ}}O_d(c)
++\lambda_{\mathrm{excl}}\sum_{q\in C_d}
+\mathbf 1[\|c-q\|_\infty<r_{\mathrm{excl}}]\,
+\mathbf 1[\operatorname{owner}(q)\ne u_{\mathrm{parent}}]\\
+&+\lambda_{\mathrm{col}}\phi_{\mathrm{collision}}(a,S_d)
++\lambda_{\mathrm{budget}}\max(0,|C_d|+|\Delta C_a|-T_{\max})\\
+&-\lambda_{\mathrm{att}}\exp\left(
+-\frac{\operatorname{dist}(c,C_{\mathrm{att}})^2}{2\sigma_a^2}\right)
+-\lambda_{\mathrm{front}}\phi_{\mathrm{frontier}}(c,\mathcal F_d)\\
+&+\lambda_{\mathrm{gap}}\operatorname{dist}(c,C_{\mathrm{att}})
++\lambda_{\mathrm{orphan}}\mathbf 1[\operatorname{path}(c,R_d)=\varnothing]\\
+&+\lambda_{\mathrm{mat}}\phi_{\mathrm{mat\_seam}}(\Delta M,M_d)
++\lambda_{\mathrm{sym}}\phi_{\mathrm{orbit}}(a,G_d).
+\end{split}
+\end{equation}
+Rule scheduler 可以使用
+\begin{equation}
+\Pr(a\mid S_d)\propto \exp(-E(a;S_d)/T_d),
+\end{equation}
+但还需要 hard feasibility：
+\begin{equation}
+a\in\mathcal A_{\mathrm{hard}}(S_d)
+\Longleftrightarrow
+O_d(c)=0,\quad
+\operatorname{dist}(c,C_{\mathrm{att}})\le r_{\max},\quad
+\exists\gamma(c,C_{\mathrm{att}}):\operatorname{cost}(\gamma)\le b_d .
+\end{equation}
+这将 naive frontier accretion 改为 attachment-certified accretion。
+
+\paragraph{Cache fusion as connected motif reuse.}
+Cache 不是实现细节，而是递归语义的一部分。Connectivity-first cache entry 必须携带 anchors 和 connectivity certificate：
+\begin{equation}
+k=(\operatorname{id},C_k,F_k,M_k,T_k,\ell_k,
+A_k^{\mathrm{in}},A_k^{\mathrm{out}},
+\Gamma_k^{\mathrm{bridge}},
+\operatorname{conn\_cert}_k,
+\operatorname{lod\_err}_k,
+\operatorname{validity}_k).
+\end{equation}
+其中
+\begin{equation}
+V_{\mathrm{conn}}(k)\le \epsilon_c,\qquad
+\forall a\in A_k^{\mathrm{out}},\ a\leadsto A_k^{\mathrm{in}}.
+\end{equation}
+Attached lookup 写成
+\begin{equation}
+\operatorname{Lookup}_{\mathrm{conn}}(K_d,k,T,a_{\mathrm{host}})
+=
+\operatorname{Attach}(T(C_k,F_k,M_k),a_{\mathrm{host}},A_k^{\mathrm{in}})
+\cup \Gamma_k^{\mathrm{bridge}}.
+\end{equation}
+Motif cache 和 latent cache 只复用已经通过 projection 的 connected motif；transform cache 记录 \((T,C,F,M)\) 的量化 support 与 transformed anchors；LOD cache 把小尺度或窗口外递归折叠为 connected descriptor；sliding-window cache 要求相邻窗口有 overlap mass 或 cross-window bridge：
+\begin{equation}
+\operatorname{mass}(C_{W_i}\cap C_{W_j})\ge m_{\min}
+\quad\mathrm{or}\quad
+\exists\gamma_{ij}:A_{W_i}^{\mathrm{out}}\leadsto A_{W_j}^{\mathrm{in}}.
+\end{equation}
+因此 cache fusion 的目标不是积累更多 independent fragments，而是复用 coherent connected motifs。
+
+\paragraph{Masked local naturalization under hard connectivity masks.}
+Frozen Trellis sampler/SDE 只作为 local naturalization prior。设 \(Z_t=(C_t,F_t,M_t)\)，则
+\begin{equation}
+dZ_t=f_\theta(Z_t,t,y,\Omega_d)\,dt+g(t)\,dW_t,\qquad t:\tau_d\rightarrow0 .
+\end{equation}
+Hard connectivity mask 定义为
+\begin{equation}
+\mu_{\mathrm{hard}}(c)=
+\mathbf 1[c\in\Omega_d]\,
+\mathbf 1[\operatorname{dist}(c,C_{\mathrm{att}})\le r_t]\,
+\mathbf 1[\exists\gamma(c,C_{\mathrm{att}}):\operatorname{cost}(\gamma)\le b_t].
+\end{equation}
+Sampler step 被 clamp 为
+\begin{equation}
+Z_{t-\Delta t}\leftarrow
+(1-\mu_{\mathrm{hard}})\odot Z_{\mathrm{anchor}}
++\mu_{\mathrm{hard}}\odot\Phi_{\theta,t}(Z_t,y).
+\end{equation}
+半径和 bridge budget 可随 schedule 放宽：
+\begin{equation}
+r_t=r_{\min}+(r_{\max}-r_{\min})\alpha(t),\qquad
+b_t=b_{\min}+(b_{\max}-b_{\min})\alpha(t),\qquad
+T_t\downarrow0 .
+\end{equation}
+Sample selection 也必须 projection-aware：
+\begin{equation}
+s^\star=
+\arg\min_s
+E_{\mathrm{local}}(s)
++\lambda_c V_{\mathrm{conn}}(\mathcal P_{\mathrm{bridge}}(s))
++\lambda_r V_{\mathrm{render}}(s)
++\lambda_m V_{\mathrm{mat}}(s).
+\end{equation}
+已有负结果表明 global flow repair 可能 wash out recursive topology，因此主文应明确：sampler 不是拓扑保证器，它只在 hard connectivity mask 下做局部自然化。
+
+\paragraph{DLA, crystal, and radial stress cases.}
+DLA-like frontier accretion 通常写成
+\begin{equation}
+c_{d+1}\sim H(\cdot\mid\partial C_d),\qquad
+C_{d+1}=C_d\cup\{c_{d+1}\}.
+\end{equation}
+在 sparse latent recursion 中，hit point 经过 transform、decode/re-encode、quantization 和 sampler naturalization 后可能变成 thin sheets 或多个 disconnected voxels。因此 connectivity-first DLA 应写为
+\begin{equation}
+c\sim H(\cdot\mid\partial C_{\mathrm{att}}),\qquad
+\gamma(c,C_{\mathrm{att}})\ \mathrm{exists},\qquad
+C^+=C_d\cup\{c\}\cup\gamma .
+\end{equation}
+Crystal/lattice growth 需要 face-contact 或 bridge certificate：
+\begin{equation}
+C_{d+1}=C_d\cup\bigcup_{v\in\mathcal B}(C_d+v),\qquad
+\operatorname{area}(\partial C_d\cap\partial(C_d+v))\ge a_{\min}
+\ \mathrm{or}\ 
+\exists\gamma_v:(C_d+v)\leadsto C_{\mathrm{att}} .
+\end{equation}
+Radial orbit expansion
+\begin{equation}
+C^+=\bigcup_{g\in C_n} gC
+\end{equation}
+会在没有 hub/ring connector 时产生 \(n\) 个相似但分离的 chunks。Connectivity-first radial rule 应加入
+\begin{equation}
+C^+=
+\left(\bigcup_{g\in C_n}gC\right)
+\cup C_{\mathrm{hub}}
+\cup\bigcup_{g\in C_n}\gamma(gA^{\mathrm{in}},C_{\mathrm{hub}}).
+\end{equation}
+因此 DLA、crystal 和 radial cases 应被报告为 stress tests：它们解释 naive frontier accretion 为什么碎片化，也给出 bridge-aware projection 和 cache fusion 的必要性。
+
+\paragraph{Metrics and evidence boundaries.}
+主文可安全报告 voxel-occupancy 6-neighborhood proxy：
+\begin{equation}
+\operatorname{LCR}_{\mathrm{occ}}
+=\frac{|C_{\mathrm{largest\ attached}}|}{|C|+\epsilon},\qquad
+\operatorname{Frag}=1-\operatorname{LCR}_{\mathrm{occ}},\qquad
+\operatorname{Comp}_{6n}=|\operatorname{Comp}_{6n}(C)|.
+\end{equation}
+建议增加
+\begin{equation}
+\operatorname{BridgeSurvival}
+=
+\frac{\#\{\gamma\ \mathrm{present\ after\ decode/reencode}\}}
+{\#\{\gamma\ \mathrm{inserted\ before\ decode}\}+\epsilon},
+\qquad
+\operatorname{FrontierValidity}
+=
+\frac{\#\{f\in\mathcal F:f\leadsto R\}}{|\mathcal F|+\epsilon}.
+\end{equation}
+已经有证据支持 conservative competition case 中 per-depth projection 抑制碎片传播；cache fusion 和 masked local sampler 目前主要是 occupancy diagnostic 与 formal proposal；严格 radial/crystal equivariance、无界 sliding-window recursion 和 per-depth material bridge 仍是 speculative extensions。需要补的实验是同 root、同 depth、同 renderer 下比较 direct recursion、final-only projection、prune-only per-depth projection、bridge-aware per-depth projection，以及 bridge+cache+masked-sampler 的完整 ablation。

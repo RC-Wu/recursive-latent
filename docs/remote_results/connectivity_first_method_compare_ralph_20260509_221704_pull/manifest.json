@@ -1,0 +1,114 @@
+{
+  "runroot": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704",
+  "logroot": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/logs/connectivity_first_method_compare_ralph_20260509_221704",
+  "files": [
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/mesh_bridge_smooth/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/mesh_bridge_smooth/summary.json",
+      "size": 4675,
+      "mtime": 1778336411
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/raw/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/raw/summary.json",
+      "size": 3789,
+      "mtime": 1778336279
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/sparse_close/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/sparse_close/summary.json",
+      "size": 4365,
+      "mtime": 1778336322
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/sparse_close_bridge/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu4_dla_voxel_root/dla_voxel_root/compete_fork_attach/sparse_close_bridge/summary.json",
+      "size": 4594,
+      "mtime": 1778336370
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu4_dla_voxel_root/selected_candidates.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu4_dla_voxel_root/selected_candidates.json",
+      "size": 3924,
+      "mtime": 1778336411
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu4_dla_voxel_root/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu4_dla_voxel_root/summary.json",
+      "size": 23854,
+      "mtime": 1778336411
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu5_pyrite_lattice/pyrite_lattice/fork_side_attach/raw/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu5_pyrite_lattice/pyrite_lattice/fork_side_attach/raw/summary.json",
+      "size": 3886,
+      "mtime": 1778336329
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu5_pyrite_lattice/pyrite_lattice/fork_side_attach/sparse_close/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu5_pyrite_lattice/pyrite_lattice/fork_side_attach/sparse_close/summary.json",
+      "size": 4414,
+      "mtime": 1778336421
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu5_pyrite_lattice/pyrite_lattice/fork_side_attach/sparse_close_bridge/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu5_pyrite_lattice/pyrite_lattice/fork_side_attach/sparse_close_bridge/summary.json",
+      "size": 4611,
+      "mtime": 1778336517
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu6_volumetric_dla_coral/volumetric_dla_coral/compete_fork_attach/mesh_bridge_smooth/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu6_volumetric_dla_coral/volumetric_dla_coral/compete_fork_attach/mesh_bridge_smooth/summary.json",
+      "size": 8668,
+      "mtime": 1778336440
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu6_volumetric_dla_coral/volumetric_dla_coral/compete_fork_attach/raw/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu6_volumetric_dla_coral/volumetric_dla_coral/compete_fork_attach/raw/summary.json",
+      "size": 6938,
+      "mtime": 1778336302
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu6_volumetric_dla_coral/volumetric_dla_coral/compete_fork_attach/sparse_close/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu6_volumetric_dla_coral/volumetric_dla_coral/compete_fork_attach/sparse_close/summary.json",
+      "size": 8003,
+      "mtime": 1778336368
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu6_volumetric_dla_coral/volumetric_dla_coral/fork_side_attach/raw/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu6_volumetric_dla_coral/volumetric_dla_coral/fork_side_attach/raw/summary.json",
+      "size": 6898,
+      "mtime": 1778336493
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu6_volumetric_dla_coral/volumetric_dla_coral/fork_side_attach/sparse_close/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu6_volumetric_dla_coral/volumetric_dla_coral/fork_side_attach/sparse_close/summary.json",
+      "size": 7856,
+      "mtime": 1778336550
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/mesh_bridge_smooth/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/mesh_bridge_smooth/summary.json",
+      "size": 4606,
+      "mtime": 1778336514
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/raw/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/raw/summary.json",
+      "size": 3787,
+      "mtime": 1778336305
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/sparse_close/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/sparse_close/summary.json",
+      "size": 4341,
+      "mtime": 1778336374
+    },
+    {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_method_compare_ralph_20260509_221704/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/sparse_close_bridge/summary.json",
+      "local": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/remote_results/connectivity_first_method_compare_ralph_20260509_221704_pull/results/gpu7_bismuth_hopper/bismuth_hopper/fork_side_attach/sparse_close_bridge/summary.json",
+      "size": 4512,
+      "mtime": 1778336447
+    }
+  ]
+}

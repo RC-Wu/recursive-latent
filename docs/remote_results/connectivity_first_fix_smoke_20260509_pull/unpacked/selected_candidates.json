@@ -1,0 +1,21 @@
+[
+  {
+    "case": "dla_voxel_root",
+    "grammar": "fork_side_attach",
+    "method": "sparse_close_bridge",
+    "final_mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/projected/mesh_projected.obj",
+    "selection_score": 0.9270265967070743,
+    "final_metrics": {
+      "path": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509_fix_import_smoke/run_20260509_213606_2501185/dla_voxel_root/fork_side_attach/sparse_close_bridge/stage_01/projected/mesh_projected.obj",
+      "loader": "obj_direct",
+      "load_error": "",
+      "vertices": 301989,
+      "faces": 549852,
+      "face_component_count": 1,
+      "face_largest_component_ratio": 1.0,
+      "occupancy_component_count": 6,
+      "occupancy_lcr": 0.9390265967070743,
+      "occupied_voxels": 11054
+    }
+  }
+]

@@ -1,0 +1,12 @@
+case,status,glb_mb,vertices,faces,shape_tokens,pbr_tokens,steps,texture_size,latent_seconds,postprocess_seconds,error
+dla_compete_s3,ok,30.75,444057,927796,3018,973452,2,512,17.13,15.38,
+tree_compete_s3,ok,27.59,277556,575342,3126,778755,2,512,11.91,50.19,
+tree_compete_s3_steps8_tex1024,ok,28.14,277556,575342,3126,778755,8,1024,13.66,59.42,
+tree_portal_s3,ok,11.12,126879,243366,1835,344313,2,512,14.01,19.78,
+tree_portal_s3_steps8_tex1024,ok,11.19,126879,243366,1835,344313,8,1024,12.99,22.25,
+vine_d5_compete_s5,failed,,190564,455964,1608,526818,2,1024,11.27,,"RuntimeError(""Can't call numpy() on Tensor that requires grad. Use tensor.detach"
+vine_d5_compete_s5_inference,ok,26.81,190564,455964,1608,526818,2,1024,11.37,92.35,
+vine_d5_compete_s5_steps8_tex2048,ok,30.54,190564,455964,1608,526818,8,2048,15.68,90.37,
+vine_d5_fork_side_s5,ok,35.45,262494,591022,2024,410620,2,512,13.61,126.08,
+vine_projected_fork_side_s3,ok,32.04,245259,535718,1957,448625,2,512,13.83,108.79,
+vine_projected_fork_side_s3_steps8_tex1024,ok,32.87,245259,535718,1957,448625,8,1024,12.97,111.72,

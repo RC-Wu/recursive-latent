@@ -1,0 +1,2296 @@
+{
+  "strict_requirements": {
+    "white_background": true,
+    "square_overview": true,
+    "square_zoom_panels_match_overview_size": true,
+    "raw_overview_saved": true,
+    "zoom_panels_are_camera_renders": true,
+    "nested_multiscale_zoom": true,
+    "overview_callouts": true,
+    "avoid_uninformative_trunks_when_possible": true
+  },
+  "run_config": {
+    "resolution": 1200,
+    "samples": 1,
+    "camera": "iso",
+    "engine": "workbench",
+    "plan_only": false
+  },
+  "cases": [
+    {
+      "label": "r01_v8_dla_frontier_open_boundary_seed_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_open_boundary_seed_b_steps8_tex2048_seed20260816_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.373644,
+            -0.128678,
+            0.705451
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_open_boundary_seed_b_steps8_tex2048_seed20260816_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r01_v8_dla_frontier_open_boundary_seed_b/overview_callouts.png",
+          "rects": [
+            [
+              644,
+              239,
+              1200,
+              797
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r02_v9_dla_coral_porous_table_ridge",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_porous_table_ridge_steps8_tex2048_seed20261414_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.005469,
+          0.001443
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.71321,
+            -0.275271,
+            0.764863
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_porous_table_ridge_steps8_tex2048_seed20261414_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r02_v9_dla_coral_porous_table_ridge/overview_callouts.png",
+          "rects": [
+            [
+              81,
+              61,
+              639,
+              619
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r03_v10_dla_staghorn_coral_branching_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_staghorn_coral_branching_b_steps8_tex2048_seed20260922_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.661054,
+            -0.61393,
+            1.416714
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_staghorn_coral_branching_b_steps8_tex2048_seed20260922_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r03_v10_dla_staghorn_coral_branching_b/overview_callouts.png",
+          "rects": [
+            [
+              363,
+              17,
+              921,
+              575
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r04_v13_dla_smooth_coral_staghorn_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_b_steps8_tex2048_seed20261112_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.41066,
+            -0.906806,
+            1.034881
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_b_steps8_tex2048_seed20261112_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r04_v13_dla_smooth_coral_staghorn_b/overview_callouts.png",
+          "rects": [
+            [
+              238,
+              140,
+              797,
+              698
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r05_v13_dla_smooth_table_coral_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_table_coral_b_steps8_tex2048_seed20261114_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.689635,
+            0.057837,
+            1.268933
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_table_coral_b_steps8_tex2048_seed20261114_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r05_v13_dla_smooth_table_coral_b/overview_callouts.png",
+          "rects": [
+            [
+              156,
+              0,
+              715,
+              435
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r06_v14_dla_branching_staghorn_a",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_staghorn_a_steps8_tex2048_seed20261211_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.714014,
+            -0.889863,
+            0.962897
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_staghorn_a_steps8_tex2048_seed20261211_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r06_v14_dla_branching_staghorn_a/overview_callouts.png",
+          "rects": [
+            [
+              319,
+              186,
+              877,
+              744
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r07_v15_ifs_lattice_crystal_d4_small_bridge_facets",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20281833_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.389985,
+            -0.727641,
+            0.570979
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20281833_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r07_v15_ifs_lattice_crystal_d4_small_bridge_facets/overview_callouts.png",
+          "rects": [
+            [
+              525,
+              343,
+              1083,
+              901
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_lsys_climbing_vine_d6_smooth_leafy_curl_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.262146,
+            -1.442307,
+            0.345161
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_lsys_climbing_vine_d6_smooth_leafy_curl_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r08_v15_lsys_climbing_vine_d6_smooth_leafy_curl/overview_callouts.png",
+          "rects": [
+            [
+              90,
+              390,
+              648,
+              948
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r09_v16_dla_natural_staghorn_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510/v16_dla_natural_staghorn_b_steps8_tex2048_seed20281102_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.23804,
+            0.343226,
+            1.272118
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510/v16_dla_natural_staghorn_b_steps8_tex2048_seed20281102_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r09_v16_dla_natural_staghorn_b/overview_callouts.png",
+          "rects": [
+            [
+              707,
+              8,
+              1200,
+              567
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r10_v19_lsys_root_fan_d5_real_meshroot_token_fan",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.130886,
+            0.457028,
+            0.32303
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r10_v19_lsys_root_fan_d5_real_meshroot_token_fan/overview_callouts.png",
+          "rects": [
+            [
+              448,
+              187,
+              1006,
+              745
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r11_V21_ifs_radial_ornament_o12_d5_burnished",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_20260510/V21_ifs_radial_ornament_o12_d5_burnished_steps8_tex2048_seed20295802_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.754757,
+            0.026513,
+            1.296021
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_20260510/V21_ifs_radial_ornament_o12_d5_burnished_steps8_tex2048_seed20295802_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r11_V21_ifs_radial_ornament_o12_d5_burnished/overview_callouts.png",
+          "rects": [
+            [
+              133,
+              0,
+              692,
+              424
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r12_V24_dla_staghorn_frontier",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V24_priority_rerun_seed20260512_20260510/V24_dla_coral_cluster_900_staghorn_frontier_polish_seedA_steps8_tex2048_seed20284523_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.230007,
+            0.467735,
+            0.752697
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V24_priority_rerun_seed20260512_20260510_remote/inputs/V24_dla_coral_cluster_900_staghorn_frontier_polish_seedA/V24_dla_coral_cluster_900_staghorn_frontier_polish_seedA.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r12_V24_dla_staghorn_frontier/overview_callouts.png",
+          "rects": [
+            [
+              358,
+              27,
+              916,
+              585
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r13_tree_v25_bud_d1_spiky_controlled_cedar",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/tree_v25_bud_d1_spiky_pruned_steps8_tex2048_seed202605601_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.004712,
+          0.005571,
+          -0.00567
+        ],
+        "ortho_scale": 3.646166
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.295363,
+            -0.016816,
+            1.115447
+          ],
+          "ortho_scale": 1.695891,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/tree_v25_bud_d1_spiky_pruned_steps8_tex2048_seed202605601_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r13_tree_v25_bud_d1_spiky_controlled_cedar/overview_callouts.png",
+          "rects": [
+            [
+              393,
+              12,
+              951,
+              570
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r14_V26_sc_tree_crown_junction_collar_A_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_junction_collar_A_lowcontrast_steps8_tex2048_seed20286512_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.694898,
+            0.062569,
+            1.343778
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_junction_collar_A_lowcontrast/V26_sc_tree_crown_junction_collar_A_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              156,
+              0,
+              714,
+              411
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r14_V26_sc_tree_crown_leafshield_B_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_leafshield_B_lowcontrast_steps8_tex2048_seed20286513_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          -0.000226
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.458332,
+            0.2577,
+            1.288594
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_leafshield_B_lowcontrast/V26_sc_tree_crown_leafshield_B_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              257,
+              0,
+              815,
+              427
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.016315,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.863875,
+            0.047743,
+            1.202645
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              114,
+              0,
+              672,
+              442
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_soft_canopy_D_lowcontrast_steps8_tex2048_seed20286515_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.006979,
+          0.004386,
+          0.0
+        ],
+        "ortho_scale": 3.649298
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.365854,
+            0.540514,
+            1.39617
+          ],
+          "ortho_scale": 1.697348,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_soft_canopy_D_lowcontrast/V26_sc_tree_crown_soft_canopy_D_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r14_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              527,
+              0,
+              1085,
+              435
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_junction_collar_A_lowcontrast_steps8_tex2048_seed20286512_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.694898,
+            0.062569,
+            1.343778
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_junction_collar_A_lowcontrast/V26_sc_tree_crown_junction_collar_A_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_junction_collar_A_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              156,
+              0,
+              714,
+              411
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_leafshield_B_lowcontrast_steps8_tex2048_seed20286513_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          -0.000226
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.458332,
+            0.2577,
+            1.288594
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_leafshield_B_lowcontrast/V26_sc_tree_crown_leafshield_B_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              257,
+              0,
+              815,
+              427
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.016315,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.863875,
+            0.047743,
+            1.202645
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              114,
+              0,
+              672,
+              442
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_soft_canopy_D_lowcontrast_steps8_tex2048_seed20286515_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.006979,
+          0.004386,
+          0.0
+        ],
+        "ortho_scale": 3.649298
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.365854,
+            0.540514,
+            1.39617
+          ],
+          "ortho_scale": 1.697348,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_soft_canopy_D_lowcontrast/V26_sc_tree_crown_soft_canopy_D_lowcontrast.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r15_object_pbr_V26_sc_tree_crown_soft_canopy_D_lowcontrast/overview_callouts.png",
+          "rects": [
+            [
+              527,
+              0,
+              1085,
+              435
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r16_V27_sc_tree_organic_feather_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.002223,
+          0.0,
+          -0.017235
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.046394,
+            0.666095,
+            1.35677
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_organic_feather_A/V27_sc_tree_organic_feather_A.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_organic_feather_A/overview_callouts.png",
+          "rects": [
+            [
+              446,
+              0,
+              1005,
+              394
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r16_V27_sc_tree_terminal_bud_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_terminal_bud_B_steps8_tex2048_seed20287513_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.00195,
+          0.016543,
+          -0.003334
+        ],
+        "ortho_scale": 3.619635
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.586773,
+            0.502709,
+            1.287991
+          ],
+          "ortho_scale": 1.683551,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_terminal_bud_B/V27_sc_tree_terminal_bud_B.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_terminal_bud_B/overview_callouts.png",
+          "rects": [
+            [
+              271,
+              0,
+              829,
+              387
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r16_V27_sc_tree_bark_leaf_C",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_bark_leaf_C_steps8_tex2048_seed20287514_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.039109,
+          0.011723,
+          -0.009806
+        ],
+        "ortho_scale": 3.631396
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.537144,
+            0.354954,
+            1.359494
+          ],
+          "ortho_scale": 1.689021,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_bark_leaf_C/V27_sc_tree_bark_leaf_C.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_bark_leaf_C/overview_callouts.png",
+          "rects": [
+            [
+              244,
+              0,
+              802,
+              381
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r16_V27_sc_tree_soft_canopy_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.029385,
+          0.0,
+          0.01875
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.440771,
+            0.512889,
+            1.340314
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_soft_canopy_D/V27_sc_tree_soft_canopy_D.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r16_V27_sc_tree_soft_canopy_D/overview_callouts.png",
+          "rects": [
+            [
+              546,
+              0,
+              1104,
+              469
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r17_V29_sc_tree_softleaf_entry_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_softleaf_entry_D_steps8_tex2048_seed20289515_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          -0.014701,
+          0.0,
+          -0.004058
+        ],
+        "ortho_scale": 3.62413
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            -0.870703,
+            -0.371702,
+            0.852264
+          ],
+          "ortho_scale": 1.685642,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/V29_sc_tree_softleaf_entry_D/V29_sc_tree_softleaf_entry_D.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r17_V29_sc_tree_softleaf_entry_D/overview_callouts.png",
+          "rects": [
+            [
+              23,
+              28,
+              581,
+              586
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r18_V35_lsys_branch_tapered_bud_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_tapered_bud_A_steps8_tex2048_seed20295512_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.595242,
+            0.29256,
+            1.487479
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_tapered_bud_A/V35_lsys_branch_tapered_bud_A.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_tapered_bud_A/overview_callouts.png",
+          "rects": [
+            [
+              533,
+              0,
+              1091,
+              453
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r18_V35_lsys_branch_bark_sleeve_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.496927,
+            0.199442,
+            1.496809
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_bark_sleeve_B/V35_lsys_branch_bark_sleeve_B.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_bark_sleeve_B/overview_callouts.png",
+          "rects": [
+            [
+              488,
+              0,
+              1046,
+              452
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r18_V35_lsys_branch_fused_fork_C",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_fused_fork_C_steps8_tex2048_seed20295514_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.589354,
+            0.309577,
+            1.493306
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_fused_fork_C/V35_lsys_branch_fused_fork_C.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_fused_fork_C/overview_callouts.png",
+          "rects": [
+            [
+              535,
+              0,
+              1093,
+              449
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r18_V35_lsys_branch_lowfrag_taper_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_lowfrag_taper_D_steps8_tex2048_seed20295515_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            0.505048,
+            0.171903,
+            1.490476
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_lowfrag_taper_D/V35_lsys_branch_lowfrag_taper_D.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r18_V35_lsys_branch_lowfrag_taper_D/overview_callouts.png",
+          "rects": [
+            [
+              485,
+              0,
+              1043,
+              457
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r20_V40_lsys_branch_primary_fork_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.248593,
+            0.183812,
+            0.563258
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_A/V40_lsys_branch_primary_fork_A.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_A/overview_callouts.png",
+          "rects": [
+            [
+              677,
+              238,
+              1200,
+              796
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r20_V40_lsys_branch_primary_fork_lowfrag_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_lowfrag_B_steps8_tex2048_seed20299513_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.495349,
+            -0.415846,
+            0.619259
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_lowfrag_B/V40_lsys_branch_primary_fork_lowfrag_B.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_lowfrag_B/overview_callouts.png",
+          "rects": [
+            [
+              616,
+              305,
+              1174,
+              863
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r20_V40_lsys_branch_primary_fork_dense_C",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_dense_C_steps8_tex2048_seed20299514_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.198128,
+            0.1646,
+            0.574802
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_dense_C/V40_lsys_branch_primary_fork_dense_C.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_dense_C/overview_callouts.png",
+          "rects": [
+            [
+              660,
+              232,
+              1200,
+              791
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r20_V40_lsys_branch_primary_fork_slim_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_slim_D_steps8_tex2048_seed20299515_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.492003,
+            -0.386439,
+            0.660494
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_slim_D/V40_lsys_branch_primary_fork_slim_D.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r20_V40_lsys_branch_primary_fork_slim_D/overview_callouts.png",
+          "rects": [
+            [
+              621,
+              289,
+              1180,
+              847
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "r21_V41_lsys_branch_dense_fork_lowfrag_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_lowfrag_B_steps8_tex2048_seed20301513_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "plan_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B/overview_callouts.png",
+        "resolution": [
+          1200,
+          1200
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            1200,
+            1200
+          ],
+          "target": [
+            1.499779,
+            -0.346247,
+            0.566858
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/V41_lsys_branch_dense_fork_lowfrag_B/V41_lsys_branch_dense_fork_lowfrag_B.obj",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/rendered_glb_white_1200_v2/r21_V41_lsys_branch_dense_fork_lowfrag_B/overview_callouts.png",
+          "rects": [
+            [
+              632,
+              314,
+              1190,
+              872
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    }
+  ]
+}

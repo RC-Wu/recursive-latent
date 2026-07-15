@@ -1,0 +1,17 @@
+[
+  {
+    "name": "imports_and_patches",
+    "ok": true,
+    "detail": "{'torch': '2.10.0+cu128'}"
+  },
+  {
+    "name": "pipeline_loaded",
+    "ok": true,
+    "detail": "{'sec': 19.070035219192505, 'models': ['sparse_structure_decoder', 'sparse_structure_flow_model', 'slat_decoder_gs', 'slat_decoder_rf', 'slat_decoder_mesh', 'slat_flow_model', 'image_cond_model']}"
+  },
+  {
+    "name": "failed",
+    "ok": false,
+    "detail": "Traceback (most recent call last):\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/trellis_classic_dense_smoke_20260529/scripts/trellis_classic_pipeline_dummycond_smoke.py\", line 54, in <module>\n    out=pipe.run(\n  File \"/mnt/beegfs/ruocheng/trellis2_michelangelo_bakeoff/envs/trellis2_bakeoff/lib/python3.10/site-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/trellis_image_to_3d.py\", line 282, in run\n    slat = self.sample_slat(cond, coords, slat_sampler_params)\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/pipelines/trellis_image_to_3d.py\", line 235, in sample_slat\n    noise = sp.SparseTensor(\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/modules/sparse/basic.py\", line 70, in __init__\n    shape = self.__cal_shape(feats, coords)\n  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/repos/TRELLIS/trellis/modules/sparse/basic.py\", line 119, in __cal_shape\n    shape.append(coords[:, 0].max().item() + 1)\nRuntimeError: max(): Expected reduction dim to be specified for input.numel() == 0. Specify the reduction dim with the 'dim' argument.\n"
+  }
+]

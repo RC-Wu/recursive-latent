@@ -1,0 +1,86 @@
+{
+  "strict_requirements": {
+    "white_background": true,
+    "square_overview": true,
+    "square_zoom_panels_match_overview_size": true,
+    "raw_overview_saved": true,
+    "zoom_panels_are_camera_renders": true,
+    "nested_multiscale_zoom": true,
+    "overview_callouts": true,
+    "avoid_uninformative_trunks_when_possible": true
+  },
+  "run_config": {
+    "resolution": 900,
+    "samples": 24,
+    "camera": "iso",
+    "engine": "cycles",
+    "plan_only": false
+  },
+  "cases": [
+    {
+      "label": "r01_v8_dla_frontier_open_boundary_seed_b",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_open_boundary_seed_b_steps8_tex2048_seed20260816_xformers/textured.glb",
+      "case_dir": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b",
+      "background": "white",
+      "material_mode": "preserve",
+      "target_source": "render_mesh",
+      "zoom_divisor": 2.15,
+      "overview": {
+        "id": "overview",
+        "kind": "raw_camera_render",
+        "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b/overview_raw.png",
+        "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b/overview_callouts.png",
+        "resolution": [
+          900,
+          900
+        ],
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 3.66
+      },
+      "zooms": [
+        {
+          "id": "zoom_01",
+          "kind": "camera_render",
+          "path": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b/zoom_01.png",
+          "annotated_path": null,
+          "resolution": [
+            900,
+            900
+          ],
+          "target": [
+            1.373644,
+            -0.128678,
+            0.705451
+          ],
+          "ortho_scale": 1.702326,
+          "parent": "overview",
+          "callout_parent": "overview"
+        }
+      ],
+      "comparison_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b/strict_matched_zoom_comparison.png",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_open_boundary_seed_b_steps8_tex2048_seed20260816_xformers/textured.glb",
+      "callouts": [
+        {
+          "parent_id": "overview",
+          "parent_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b/overview_raw.png",
+          "annotated_path": "docs/evaluation/user_selected_case_glb_rerender_20260512/smoke_render/r01_v8_dla_frontier_open_boundary_seed_b/overview_callouts.png",
+          "rects": [
+            [
+              483,
+              179,
+              900,
+              598
+            ]
+          ],
+          "labels": [
+            "zoom_01"
+          ]
+        }
+      ]
+    }
+  ]
+}

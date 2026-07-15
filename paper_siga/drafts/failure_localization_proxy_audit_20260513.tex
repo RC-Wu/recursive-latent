@@ -1,0 +1,29 @@
+% Draft table derived from
+% results/metric_enrichment_20260513/linnaeus_failure_localization_audit_20260513.csv
+% Publication-safety note: these are deterministic trace/mesh proxy triggers,
+% not topology proof and not a Trellis runtime handle-graph measurement.
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3.5pt}
+\caption{Failure-localization proxy audit for the projection and naturalization ablations. Counts are rows out of 12 task/seed cases. ``State'' is triggered by root-reachability, orphan-active-handle, or handle-survival proxy thresholds; ``surface'' is triggered by the occupancy LCR proxy; and ``drift'' is triggered by the deterministic mesh-diagnostic drift proxy. The table localizes deterministic trace/mesh proxy evidence only; it is not a watertight-topology proof and does not measure a Trellis runtime handle graph.}
+\label{tab:failure-localization-proxy-audit-20260513}
+\begin{tabular}{lrrrrrrccc}
+\toprule
+Variant & Clean & State & Surface & Drift & Multi & Dominant proxy & Root med. & LCR med. & Drift med. \\
+\midrule
+no projection & 0 & 12 & 12 & 3 & 12 & state & 0.629 & 0.895 & 0.112 \\
+rule only & 0 & 12 & 12 & 3 & 12 & state & 0.629 & 0.891 & 0.194 \\
+final-only projection & 0 & 12 & 3 & 12 & 12 & state & 0.629 & 0.999 & 0.331 \\
+final-only projection control & 0 & 12 & 3 & 0 & 3 & state & 0.629 & 0.999 & 0.001 \\
+per-depth prune-only & 6 & 3 & 6 & 0 & 3 & surface & 1.000 & 0.981 & 0.000 \\
+per-depth connector-aware & 0 & 0 & 3 & 12 & 3 & drift & 1.000 & 0.999 & 0.330 \\
+reported PS-RSLE proxy & 0 & 0 & 0 & 12 & 0 & drift & 1.000 & 1.000 & 0.405 \\
+no naturalization + projection & 9 & 0 & 3 & 0 & 0 & surface & 1.000 & 1.000 & 0.000 \\
+masked local/no projection & 0 & 12 & 12 & 3 & 12 & state & 0.629 & 0.899 & 0.192 \\
+masked local/+projection & 12 & 0 & 0 & 0 & 0 & none & 1.000 & 1.000 & 0.093 \\
+global naturalization/+projection & 12 & 0 & 0 & 0 & 0 & none & 1.000 & 1.000 & 0.091 \\
+weak blend/+projection & 12 & 0 & 0 & 0 & 0 & none & 1.000 & 1.000 & 0.088 \\
+\bottomrule
+\end{tabular}
+\end{table*}

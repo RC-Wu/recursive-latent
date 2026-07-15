@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "id": "pine_v22_d6_native_compare",
+      "label": "pine_V22_d6_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_depth_sweep_d6_smooth_needles_steps8_tex2048_seed20260736_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "pine_v22_d6_emerald_trellis2_compare",
+      "label": "pine_V22_d6_emerald_Trellis2",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/hero_teaser_pine_retexture_20260512_remote_pull/pine_v22_d6_emerald_steps8_tex2048_seed20661201/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v32_veil_a_native_compare",
+      "label": "canopy_V32_A_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    },
+    {
+      "id": "canopy_v32_lowrod_c_native_compare",
+      "label": "canopy_V32_C_native",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_lowrod_crown_C_steps8_tex2048_seed20292514_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.35
+    }
+  ]
+}

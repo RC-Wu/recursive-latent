@@ -1,0 +1,29 @@
+{
+  "root": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507",
+  "out": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509/gpu4_dla_porous",
+  "case": [
+    "dla_voxel_root=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/inputs/procedural_meshes/dla_cluster_voxels.obj",
+    "porous_bismuth_crystal_proxy=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/selected_meshes_for_texture_20260508/porous_container_compete_stage03.obj"
+  ],
+  "grammars": [
+    "compete_fork_attach",
+    "fork_side_attach"
+  ],
+  "methods": [
+    "sparse_close_bridge",
+    "mesh_bridge_smooth"
+  ],
+  "stages": 3,
+  "resolution": 512,
+  "grid_resolution": 512,
+  "fit_scale": 0.66,
+  "max_tokens": 14000,
+  "min_vertices": 1800,
+  "close_radius": 1,
+  "mesh_bridge_components": 10,
+  "bridge_radius_ratio": 0.004,
+  "voxel_pitch_ratio": 0.006,
+  "texture_top_k": 1,
+  "texture_steps": 2,
+  "texture_seed": 90509
+}

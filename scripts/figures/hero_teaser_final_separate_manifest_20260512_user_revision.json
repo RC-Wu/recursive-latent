@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "id": "hero_01_bismuth",
+      "label": "bismuth",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/bismuth_hopper_bismuth_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.14,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.15,
+      "selected_zoom": "zoom_03"
+    },
+    {
+      "id": "hero_02_pyrite",
+      "label": "pyrite",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/pyrite_lattice_pyrite_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.18,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.15,
+      "selected_zoom": "zoom_02"
+    },
+    {
+      "id": "hero_03_coral_voxel_smooth",
+      "label": "coral_voxel_smooth",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_density_extreme_texture_20260509/coral_density_param_density_1p35_octopus_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "coral",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.2,
+      "selected_zoom": "zoom_03"
+    },
+    {
+      "id": "hero_04_branch_v67_dense",
+      "label": "branch_v67_dense",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V67_lsystem_branch_same_scaffold_tapered_twig_BC_20260512_remote/V67_lsys_branch_tapered_dense_B_steps8_tex2048_seed20260613_xformers/textured.glb",
+      "material_mode": "bamboo",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.11,
+      "camera_direction": [4.0, -5.4, 2.7],
+      "light_boost": 1.2,
+      "selected_zoom": "zoom_02"
+    },
+    {
+      "id": "hero_05_tree_canopy_green",
+      "label": "tree_canopy_green",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V23_all_family_seed20260511_20260510/V23_sc_tree_crown_260_attractor_leaf_shell_steps8_tex2048_seed20262815_xformers/textured.glb",
+      "material_mode": "tree_canopy",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.13,
+      "rotation_deg": [0, 0, 0],
+      "camera_direction": [4.0, -5.5, 2.8],
+      "light_boost": 1.25,
+      "selected_zoom": "zoom_03"
+    }
+  ]
+}

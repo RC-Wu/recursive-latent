@@ -1,0 +1,42 @@
+[
+  {
+    "record_index": 19,
+    "record_key": "v37_lsystem_branch_continuous_saddle_sheet",
+    "label": "r19_V37_lsys_branch_saddle_fork_A",
+    "mesh": "MISSING local GLB",
+    "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_saddle_fork_A/V37_lsys_branch_saddle_fork_A_metadata.json",
+    "reason": "shortlist has OBJ only; user requested GLB rerender"
+  },
+  {
+    "record_index": 19,
+    "record_key": "v37_lsystem_branch_continuous_saddle_sheet",
+    "label": "r19_V37_lsys_branch_midfork_B",
+    "mesh": "MISSING local GLB",
+    "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_midfork_B/V37_lsys_branch_midfork_B_metadata.json",
+    "reason": "shortlist has OBJ only; user requested GLB rerender"
+  },
+  {
+    "record_index": 19,
+    "record_key": "v37_lsystem_branch_continuous_saddle_sheet",
+    "label": "r19_V37_lsys_branch_densefork_C",
+    "mesh": "MISSING local GLB",
+    "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_densefork_C/V37_lsys_branch_densefork_C_metadata.json",
+    "reason": "shortlist has OBJ only; user requested GLB rerender"
+  },
+  {
+    "record_index": 19,
+    "record_key": "v37_lsystem_branch_continuous_saddle_sheet",
+    "label": "r19_V37_lsys_branch_slim_taper_D",
+    "mesh": "MISSING local GLB",
+    "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_slim_taper_D/V37_lsys_branch_slim_taper_D_metadata.json",
+    "reason": "shortlist has OBJ only; user requested GLB rerender"
+  },
+  {
+    "record_index": 22,
+    "record_key": "v47_lsys_branch_shared_neck_yfork_dense_c",
+    "label": "r22_V47_lsys_branch_shared_neck_yfork_dense_C",
+    "mesh": "MISSING local GLB",
+    "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_dense_C/V47_lsys_branch_shared_neck_yfork_dense_C_metadata.json",
+    "reason": "shortlist has OBJ only; user requested GLB rerender"
+  }
+]

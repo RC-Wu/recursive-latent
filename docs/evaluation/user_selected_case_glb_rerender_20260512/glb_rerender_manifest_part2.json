@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "label": "r07_v15_ifs_lattice_crystal_d4_small_bridge_facets",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20281833_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 7,
+      "record_key": "v15_ifs_lattice_crystal_d4_small_bridge_facets",
+      "source_record_key": "v15_ifs_lattice_crystal_d4_small_bridge_facets",
+      "user_note": "这张图还不错。",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510_remote/inputs/v15_ifs_lattice_crystal_d4_small_bridge_facets/v15_ifs_lattice_crystal_d4_small_bridge_facets_metadata.json"
+    },
+    {
+      "label": "r10_v19_lsys_root_fan_d5_real_meshroot_token_fan",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 10,
+      "record_key": "v19_lsys_root_fan_d5_real_meshroot_token_fan",
+      "source_record_key": "v19_lsys_root_fan_d5_real_meshroot_token_fan",
+      "user_note": "勉强还行。",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_lsys_root_fan_d5_real_meshroot_token_fan/v19_lsys_root_fan_d5_real_meshroot_token_fan_metadata.json"
+    },
+    {
+      "label": "r13_tree_v25_bud_d1_spiky_controlled_cedar",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/publication_repair_remote_20260510f_pull/textured/tree_v25_bud_d1_spiky_pruned_steps8_tex2048_seed202605601_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 13,
+      "record_key": "tree_v25_bud_d1_spiky_controlled_cedar",
+      "source_record_key": "tree_v25_bud_d1_spiky_controlled_cedar",
+      "user_note": "待定，或许表面能修或者能 naturalized。"
+    },
+    {
+      "label": "r14_V26_sc_tree_crown_cambium_sleeve_C_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 14,
+      "record_key": "v26_sc_tree_seam_naturalization_dryrun_sheet",
+      "source_record_key": "v26_sc_tree_seam_naturalization_dryrun_sheet",
+      "user_note": "V26 dryrun/contact sheet 待定。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_metadata.json"
+    },
+    {
+      "label": "r15_object_pbr_V26_sc_tree_crown_leafshield_B_lowcontrast",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_leafshield_B_lowcontrast_steps8_tex2048_seed20286513_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 15,
+      "record_key": "v26_sc_tree_seam_naturalization_object_pbr_sheet",
+      "source_record_key": "v26_sc_tree_seam_naturalization_object_pbr_sheet",
+      "user_note": "V26 object PBR contact sheet 待定。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_leafshield_B_lowcontrast/V26_sc_tree_crown_leafshield_B_lowcontrast.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/V26_sc_tree_crown_leafshield_B_lowcontrast/V26_sc_tree_crown_leafshield_B_lowcontrast_metadata.json"
+    },
+    {
+      "label": "r16_V27_sc_tree_organic_feather_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 16,
+      "record_key": "v27_sc_tree_organic_seam_sheet",
+      "source_record_key": "v27_sc_tree_organic_seam_sheet",
+      "user_note": "V27 case 质量非常好，进入头图候选。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_organic_feather_A/V27_sc_tree_organic_feather_A.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_organic_feather_A/V27_sc_tree_organic_feather_A_metadata.json"
+    },
+    {
+      "label": "r16_V27_sc_tree_soft_canopy_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 16,
+      "record_key": "v27_sc_tree_organic_seam_sheet",
+      "source_record_key": "v27_sc_tree_organic_seam_sheet",
+      "user_note": "V27 case 质量非常好，进入头图候选。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_soft_canopy_D/V27_sc_tree_soft_canopy_D.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_soft_canopy_D/V27_sc_tree_soft_canopy_D_metadata.json"
+    },
+    {
+      "label": "r18_V35_lsys_branch_bark_sleeve_B",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 18,
+      "record_key": "v35_lsystem_branch_tapered_naturalization_sheet",
+      "source_record_key": "v35_lsystem_branch_tapered_naturalization_sheet",
+      "user_note": "V35 补充视觉；变量包含 taper/bark/fused/lowfrag。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_bark_sleeve_B/V35_lsys_branch_bark_sleeve_B.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_bark_sleeve_B/V35_lsys_branch_bark_sleeve_B_metadata.json"
+    },
+    {
+      "label": "r20_V40_lsys_branch_primary_fork_A",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 20,
+      "record_key": "v40_lsystem_branch_primary_fork_sheet",
+      "source_record_key": "v40_lsystem_branch_primary_fork_sheet",
+      "user_note": "V40 可和传统方法比较；dense_C 更强，lowfrag_B 更保守。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_A/V40_lsys_branch_primary_fork_A.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_A/V40_lsys_branch_primary_fork_A_metadata.json"
+    },
+    {
+      "label": "r20_V40_lsys_branch_primary_fork_slim_D",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_slim_D_steps8_tex2048_seed20299515_xformers/textured.glb",
+      "material_mode": "preserve",
+      "zoom_levels": 1,
+      "record_index": 20,
+      "record_key": "v40_lsystem_branch_primary_fork_sheet",
+      "source_record_key": "v40_lsystem_branch_primary_fork_sheet",
+      "user_note": "V40 可和传统方法比较；dense_C 更强，lowfrag_B 更保守。",
+      "plan_mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_slim_D/V40_lsys_branch_primary_fork_slim_D.obj",
+      "metadata": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_slim_D/V40_lsys_branch_primary_fork_slim_D_metadata.json"
+    }
+  ]
+}

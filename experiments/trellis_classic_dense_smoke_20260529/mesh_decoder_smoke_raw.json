@@ -1,0 +1,37 @@
+[
+  {
+    "name": "imports",
+    "ok": true,
+    "detail": "{'torch': '2.10.0+cu128', 'cuda': '12.8'}"
+  },
+  {
+    "name": "decoder_loaded",
+    "ok": true,
+    "detail": "{'sec': 6.06833553314209, 'type': \"<class 'trellis.models.structured_latent_vae.decoder_mesh.SLatMeshDecoder'>\"}"
+  },
+  {
+    "name": "runtime_patch_cubes_to_verts_dtype",
+    "ok": true,
+    "detail": "enabled+c2m_get_dense_attrs"
+  },
+  {
+    "name": "runtime_patch_to_representation_fp32_mesh",
+    "ok": true,
+    "detail": "enabled"
+  },
+  {
+    "name": "decoder_forward",
+    "ok": true,
+    "detail": "{'sec': 2.670569658279419, 'peak_gb': 5.610955238342285, 'type': \"<class 'list'>\", 'len': 1}"
+  },
+  {
+    "name": "out_repr",
+    "ok": true,
+    "detail": "<trellis.representations.mesh.cube2mesh.MeshExtractResult object at 0x7fae028d2800>"
+  },
+  {
+    "name": "mesh_export",
+    "ok": true,
+    "detail": "{'path': '/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/trellis_classic_dense_smoke_20260529/mesh_decoder_random_slat_smoke.ply', 'verts': 258, 'faces': 468}"
+  }
+]

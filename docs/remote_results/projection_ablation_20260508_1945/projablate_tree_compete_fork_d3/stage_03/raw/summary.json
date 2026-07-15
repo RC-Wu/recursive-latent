@@ -1,0 +1,71 @@
+{
+  "kind": "trellis2_recursive_slat_grammar_workflow",
+  "mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_projected_recursive_loop_20260508_0715/projablate_tree_compete_fork_d3/stage_02/projected/projablate_tree_compete_fork_d3_stage_02/mesh_pruned.obj",
+  "case": "projablate_tree_compete_fork_d3_stage_03",
+  "resolution": 512,
+  "grid_resolution": 512,
+  "fit_scale": 0.62,
+  "max_tokens": 16000,
+  "grammars": {
+    "compete_fork": {
+      "ops": [
+        "compete_grow",
+        "tip_fork"
+      ],
+      "depths": [
+        {
+          "depth": 0,
+          "tokens": 1456,
+          "vertices": 317206,
+          "faces": 635782,
+          "bbox_min": [
+            -0.3096199333667755,
+            -0.30936598777770996,
+            -0.28016945719718933
+          ],
+          "bbox_max": [
+            0.3101910352706909,
+            0.3090020418167114,
+            0.28085291385650635
+          ],
+          "decode_seconds": 3.4406323432922363
+        },
+        {
+          "depth": 1,
+          "tokens": 2280,
+          "vertices": 418590,
+          "faces": 811134,
+          "bbox_min": [
+            -0.4342326521873474,
+            -0.3094557225704193,
+            -0.34232044219970703
+          ],
+          "bbox_max": [
+            0.3829147219657898,
+            0.43422240018844604,
+            0.31199556589126587
+          ],
+          "decode_seconds": 3.268613576889038
+        }
+      ]
+    }
+  },
+  "load_seconds": 5.874225854873657,
+  "fdg_seconds": 1.0737056732177734,
+  "fdg_voxels": 317206,
+  "encode_seconds": 1.7848436832427979,
+  "base_tokens": 1456,
+  "base_coord_min": [
+    6,
+    6,
+    7
+  ],
+  "base_coord_max": [
+    25,
+    25,
+    24
+  ],
+  "latent_coord_limit": 31,
+  "cuda_memory_allocated": 1802699776,
+  "cuda_memory_reserved": 2355101696
+}

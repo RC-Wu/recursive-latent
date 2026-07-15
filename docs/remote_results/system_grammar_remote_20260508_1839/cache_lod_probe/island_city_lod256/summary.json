@@ -1,0 +1,145 @@
+{
+  "kind": "trellis2_recursive_slat_grammar_workflow",
+  "mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_non_tree_root_sweep_more_20260508_1519/island_city_cluster/trellis2_dinov3_min.obj",
+  "case": "island_city_lod256_scale_down_radial4",
+  "resolution": 256,
+  "grid_resolution": 256,
+  "fit_scale": 0.58,
+  "max_tokens": 7000,
+  "grammars": {
+    "scale_down": {
+      "ops": [
+        "shrink_echo"
+      ],
+      "depths": [
+        {
+          "depth": 0,
+          "tokens": 342,
+          "vertices": 146785,
+          "faces": 336566,
+          "bbox_min": [
+            -0.2896720767021179,
+            -0.16939163208007812,
+            -0.28198325634002686
+          ],
+          "bbox_max": [
+            0.2901901602745056,
+            0.17097049951553345,
+            0.28165459632873535
+          ],
+          "decode_seconds": 4.21025538444519
+        },
+        {
+          "depth": 1,
+          "tokens": 360,
+          "vertices": 106725,
+          "faces": 211418,
+          "bbox_min": [
+            -0.28984999656677246,
+            -0.1700756549835205,
+            -0.28191545605659485
+          ],
+          "bbox_max": [
+            0.28963857889175415,
+            0.17102855443954468,
+            0.2817590832710266
+          ],
+          "decode_seconds": 2.583310604095459
+        },
+        {
+          "depth": 2,
+          "tokens": 362,
+          "vertices": 96493,
+          "faces": 189858,
+          "bbox_min": [
+            -0.28849780559539795,
+            -0.16961663961410522,
+            -0.2817550599575043
+          ],
+          "bbox_max": [
+            0.28979331254959106,
+            0.17104727029800415,
+            0.2816554307937622
+          ],
+          "decode_seconds": 3.169631004333496
+        }
+      ]
+    },
+    "radial4": {
+      "ops": [
+        "radial4_y_clone"
+      ],
+      "depths": [
+        {
+          "depth": 0,
+          "tokens": 342,
+          "vertices": 146785,
+          "faces": 336566,
+          "bbox_min": [
+            -0.2896720767021179,
+            -0.16939163208007812,
+            -0.28198325634002686
+          ],
+          "bbox_max": [
+            0.2901901602745056,
+            0.17097049951553345,
+            0.28165459632873535
+          ],
+          "decode_seconds": 1.7276604175567627
+        },
+        {
+          "depth": 1,
+          "tokens": 512,
+          "vertices": 94443,
+          "faces": 151694,
+          "bbox_min": [
+            -0.30142539739608765,
+            -0.17021805047988892,
+            -0.3096948266029358
+          ],
+          "bbox_max": [
+            0.31037992238998413,
+            0.17157983779907227,
+            0.30929285287857056
+          ],
+          "decode_seconds": 1.8913533687591553
+        },
+        {
+          "depth": 2,
+          "tokens": 512,
+          "vertices": 94443,
+          "faces": 151818,
+          "bbox_min": [
+            -0.3014255166053772,
+            -0.17021426558494568,
+            -0.3096931576728821
+          ],
+          "bbox_max": [
+            0.31037962436676025,
+            0.17157989740371704,
+            0.30929237604141235
+          ],
+          "decode_seconds": 1.3600337505340576
+        }
+      ]
+    }
+  },
+  "load_seconds": 7.916790246963501,
+  "fdg_seconds": 4.291867971420288,
+  "fdg_voxels": 146785,
+  "encode_seconds": 7.324876546859741,
+  "base_tokens": 342,
+  "base_coord_min": [
+    3,
+    5,
+    3
+  ],
+  "base_coord_max": [
+    12,
+    10,
+    12
+  ],
+  "latent_coord_limit": 15,
+  "cuda_memory_allocated": 1723596288,
+  "cuda_memory_reserved": 1935671296
+}

@@ -1,0 +1,6033 @@
+{
+  "schema": "metrics_mesh_pipeline_dryrun_20260513_v1",
+  "source_roots": [
+    "results",
+    "visuals"
+  ],
+  "mode": "offline_dry_run",
+  "common_metrics_detected": {
+    "bbox_volume": 23,
+    "component_count": 20,
+    "components_r0": 1,
+    "components_r1": 1,
+    "components_r2": 1,
+    "faces": 35,
+    "is_watertight": 3,
+    "largest_occupancy_component_ratio_6n": 32,
+    "lcr_r0": 1,
+    "lcr_r1": 1,
+    "lcr_r2": 1,
+    "metadata_only": 41,
+    "occupancy_component_count_6n": 32,
+    "surface_area_est": 16,
+    "vertices": 35,
+    "welded_component_count": 16
+  },
+  "metric_tables": [
+    {
+      "path": "results/baseline_matrix_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 36,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "case",
+        "method",
+        "depth",
+        "same_root_anchor",
+        "same_seed",
+        "same_max_depth",
+        "obj_path",
+        "render_group",
+        "vertices",
+        "faces",
+        "mesh_component_count",
+        "largest_mesh_component_vertex_ratio",
+        "occupied_voxels",
+        "occupancy_component_count_6n",
+        "largest_occupancy_component_ratio_6n",
+        "root_component_ratio",
+        "orphan_mass_ratio",
+        "nodes",
+        "segments",
+        "tips",
+        "branch_nodes",
+        "graph_max_depth",
+        "total_length",
+        "mean_segment_length",
+        "path_to_root_rate",
+        "orphan_tip_count",
+        "projection_survival_ratio",
+        "fairness_note"
+      ]
+    },
+    {
+      "path": "results/baseline_matrix_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 36,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 36,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "case",
+        "method",
+        "depth",
+        "same_root_anchor",
+        "same_seed",
+        "same_max_depth",
+        "obj_path",
+        "render_group",
+        "vertices",
+        "faces",
+        "mesh_component_count",
+        "largest_mesh_component_vertex_ratio",
+        "occupied_voxels",
+        "occupancy_component_count_6n",
+        "largest_occupancy_component_ratio_6n",
+        "root_component_ratio",
+        "orphan_mass_ratio",
+        "nodes",
+        "segments",
+        "tips",
+        "branch_nodes",
+        "graph_max_depth",
+        "total_length",
+        "mean_segment_length",
+        "path_to_root_rate",
+        "orphan_tip_count",
+        "projection_survival_ratio",
+        "fairness_note"
+      ]
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 36,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 36,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "case",
+        "method",
+        "depth",
+        "same_root_anchor",
+        "same_seed",
+        "same_max_depth",
+        "obj_path",
+        "render_group",
+        "vertices",
+        "faces",
+        "mesh_component_count",
+        "largest_mesh_component_vertex_ratio",
+        "occupied_voxels",
+        "occupancy_component_count_6n",
+        "largest_occupancy_component_ratio_6n",
+        "root_component_ratio",
+        "orphan_mass_ratio",
+        "nodes",
+        "segments",
+        "tips",
+        "branch_nodes",
+        "graph_max_depth",
+        "total_length",
+        "mean_segment_length",
+        "path_to_root_rate",
+        "orphan_tip_count",
+        "projection_survival_ratio",
+        "fairness_note"
+      ]
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 36,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 36,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "case",
+        "method",
+        "depth",
+        "same_root_anchor",
+        "same_seed",
+        "same_max_depth",
+        "obj_path",
+        "render_group",
+        "vertices",
+        "faces",
+        "mesh_component_count",
+        "largest_mesh_component_vertex_ratio",
+        "occupied_voxels",
+        "occupancy_component_count_6n",
+        "largest_occupancy_component_ratio_6n",
+        "root_component_ratio",
+        "orphan_mass_ratio",
+        "nodes",
+        "segments",
+        "tips",
+        "branch_nodes",
+        "graph_max_depth",
+        "total_length",
+        "mean_segment_length",
+        "path_to_root_rate",
+        "orphan_tip_count",
+        "projection_survival_ratio",
+        "fairness_note"
+      ]
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 36,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/baseline_metric_inventory_20260509/existing_metric_inventory.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 24,
+      "metric_columns_available": [
+        "vertices",
+        "faces"
+      ],
+      "all_columns": [
+        "family",
+        "case",
+        "evidence_type",
+        "stage_or_method",
+        "occ_comp_6n",
+        "occ_lcr_6n",
+        "mesh_or_face_components",
+        "mesh_or_face_lcr",
+        "vertices",
+        "faces",
+        "claim_scope",
+        "source_file"
+      ]
+    },
+    {
+      "path": "results/baseline_one_to_one_metrics_20260510/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 8,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/baseline_one_to_one_metrics_20260510/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 8,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/baseline_one_to_one_metrics_20260510/metrics_stdout.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 8,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/baseline_one_to_one_surface_metrics_20260510/surface_metrics_occ64.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 8,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "lcr_r0",
+        "components_r0",
+        "lcr_r1",
+        "components_r1",
+        "lcr_r2",
+        "components_r2"
+      ],
+      "all_columns": [
+        "label",
+        "path",
+        "resolution",
+        "occupied",
+        "vertices",
+        "faces",
+        "surface_face_samples",
+        "sample_points",
+        "loader_status",
+        "components_r0",
+        "largest_r0",
+        "lcr_r0",
+        "occupied_r0",
+        "components_r1",
+        "largest_r1",
+        "lcr_r1",
+        "occupied_r1",
+        "components_r2",
+        "largest_r2",
+        "lcr_r2",
+        "occupied_r2",
+        "box_dim_32_96"
+      ]
+    },
+    {
+      "path": "results/baseline_one_to_one_surface_metrics_20260510/surface_metrics_occ64.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 8,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/bismuth_depth_textured_showcase_metrics_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/bismuth_depth_textured_showcase_metrics_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511i_pull/metrics/botanical_tree_root_metrics_20260511i.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 91,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511i_pull/metrics/botanical_tree_root_metrics_20260511i.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 91,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511j_pull/analysis/root_input_metrics_20260511j.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 6,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511j_pull/analysis/root_input_metrics_20260511j.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 6,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511j_pull/metrics/botanical_tree_root_metrics_20260511j_rawonly.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 68,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511j_pull/metrics/botanical_tree_root_metrics_20260511j_rawonly.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 68,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511k_pull/metrics/botanical_tree_root_metrics_20260511k.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 84,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511k_pull/metrics/botanical_tree_root_metrics_20260511k.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 84,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511l_pull/metrics/botanical_tree_root_metrics_20260511l.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 125,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511l_pull/metrics/botanical_tree_root_metrics_20260511l.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 125,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511n_pull/metrics/botanical_tree_root_metrics_20260511n.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 61,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511n_pull/metrics/botanical_tree_root_metrics_20260511n.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 61,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511o_pull/analysis/metric_gate_summary_20260511o.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 17,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "all_columns": [
+        "group",
+        "final_depth",
+        "status",
+        "final_plcr",
+        "final_vertex_lcr",
+        "final_raw_components",
+        "final_faces",
+        "delta_bbox_x",
+        "delta_bbox_y",
+        "delta_bbox_z",
+        "final_label"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511o_pull/analysis/metric_gate_summary_20260511o.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 17,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511o_pull/metrics/botanical_tree_root_metrics_20260511o.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 81,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511o_pull/metrics/botanical_tree_root_metrics_20260511o.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 81,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511p_pull/analysis/metric_gate_summary_20260511p.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 23,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "all_columns": [
+        "group",
+        "final_depth",
+        "status",
+        "final_plcr",
+        "final_vertex_lcr",
+        "final_primary_components",
+        "final_raw_components",
+        "final_vertices",
+        "final_faces",
+        "delta_bbox_x",
+        "delta_bbox_y",
+        "delta_bbox_z",
+        "max_abs_delta",
+        "depth0_diag",
+        "final_label",
+        "final_path"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511p_pull/analysis/metric_gate_summary_20260511p.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 23,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511p_pull/metrics/botanical_tree_root_metrics_20260511p.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 109,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/botanical_tree_root_recursive_remote_20260511p_pull/metrics/botanical_tree_root_metrics_20260511p.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 109,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/branch_path_metrics_20260509/branch_path_metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 19,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_normalized_path_span",
+        "branching_per_tip_proxy",
+        "branching_proxy",
+        "caveat",
+        "edge_voxelization_status",
+        "faces",
+        "family",
+        "geodesic_proxy_max_depth",
+        "geodesic_proxy_max_length",
+        "label",
+        "largest_occupancy_component_ratio_6n",
+        "load_error",
+        "loader",
+        "metric_level",
+        "occupancy_component_count_6n",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "orphan_mass_ratio",
+        "orphan_tip_proxy",
+        "paper_use_tier",
+        "path",
+        "root_component_ratio",
+        "root_reachable_tip_ratio",
+        "root_reachable_units",
+        "root_seed_policy",
+        "root_voxel",
+        "skeleton_alive_attractors",
+        "skeleton_case",
+        "skeleton_covered_attractors",
+        "skeletonization_status",
+        "source_type",
+        "tip_count_proxy",
+        "total_units",
+        "vertices",
+        "voxel_pitch_world"
+      ]
+    },
+    {
+      "path": "results/branch_path_metrics_20260509/branch_path_metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 19,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/branch_path_metrics_20260509/branch_path_metrics_compact.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 19,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "all_columns": [
+        "label",
+        "family",
+        "metric_level",
+        "root_component_ratio",
+        "geodesic_proxy_max_depth",
+        "bbox_normalized_path_span",
+        "tip_count_proxy",
+        "branching_proxy",
+        "orphan_tip_proxy",
+        "paper_use_tier"
+      ]
+    },
+    {
+      "path": "results/cache_repair_texture_metrics_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/cache_repair_texture_metrics_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/cache_repair_texture_surface_qa_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 32,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "is_watertight",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "area_retention_vs_before",
+        "bbox_diag",
+        "bbox_diag_retention_vs_before",
+        "bbox_volume",
+        "case",
+        "component_drop_vs_before",
+        "euler_number",
+        "export_path",
+        "face_component_count",
+        "faces",
+        "is_watertight",
+        "largest_face_component_ratio",
+        "largest_face_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "lcr_gain_vs_before",
+        "mesh_path",
+        "method",
+        "metric_improved",
+        "occupancy_component_count_6n",
+        "occupancy_fragmentation_score",
+        "occupancy_resolution",
+        "occupied_voxels",
+        "paper_safe_candidate",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "render_visible_ratio",
+        "source",
+        "surface_area",
+        "vertices",
+        "visual_judgement",
+        "visually_conservative",
+        "voxel_retention_vs_before"
+      ]
+    },
+    {
+      "path": "results/cache_repair_texture_surface_qa_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 32,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/cache_sampler_connectivity_20260509_local_mesh_smoke/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 24,
+      "metric_columns_available": [
+        "component_count",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_volume",
+        "boundary_voxels",
+        "case",
+        "component_count",
+        "component_delta_vs_naive",
+        "export_score",
+        "fragmentation_score",
+        "kind",
+        "largest_component_ratio",
+        "largest_component_voxels",
+        "lcr_delta_vs_naive",
+        "mesh_faces",
+        "mesh_path",
+        "mesh_vertices",
+        "method",
+        "occupancy_density",
+        "selected_for_texture_export",
+        "small_components_lt32",
+        "source",
+        "stable_control",
+        "voxels"
+      ]
+    },
+    {
+      "path": "results/cache_sampler_connectivity_20260509_local_smoke/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 6,
+      "metric_columns_available": [
+        "component_count",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_volume",
+        "boundary_voxels",
+        "case",
+        "component_count",
+        "component_delta_vs_naive",
+        "export_score",
+        "fragmentation_score",
+        "kind",
+        "largest_component_ratio",
+        "largest_component_voxels",
+        "lcr_delta_vs_naive",
+        "method",
+        "occupancy_density",
+        "selected_for_texture_export",
+        "small_components_lt32",
+        "source",
+        "stable_control",
+        "voxels"
+      ]
+    },
+    {
+      "path": "results/cache_sampler_connectivity_20260509_local_smoke_all/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 30,
+      "metric_columns_available": [
+        "component_count",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_volume",
+        "boundary_voxels",
+        "case",
+        "component_count",
+        "component_delta_vs_naive",
+        "export_score",
+        "fragmentation_score",
+        "kind",
+        "largest_component_ratio",
+        "largest_component_voxels",
+        "lcr_delta_vs_naive",
+        "method",
+        "occupancy_density",
+        "selected_for_texture_export",
+        "small_components_lt32",
+        "source",
+        "stable_control",
+        "voxels"
+      ]
+    },
+    {
+      "path": "results/cache_sampler_connectivity_20260509_remote_rerun1901_aggregate_metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 30,
+      "metric_columns_available": [
+        "component_count",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_volume",
+        "boundary_voxels",
+        "case",
+        "component_count",
+        "component_delta_vs_naive",
+        "export_score",
+        "fragmentation_score",
+        "kind",
+        "largest_component_ratio",
+        "largest_component_voxels",
+        "lcr_delta_vs_naive",
+        "mesh_faces",
+        "mesh_path",
+        "mesh_vertices",
+        "method",
+        "occupancy_density",
+        "selected_for_texture_export",
+        "small_components_lt32",
+        "source",
+        "stable_control",
+        "voxels"
+      ]
+    },
+    {
+      "path": "results/cache_selected_connectivity_repair_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 32,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "is_watertight",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "area_retention_vs_before",
+        "bbox_diag",
+        "bbox_diag_retention_vs_before",
+        "bbox_volume",
+        "case",
+        "component_drop_vs_before",
+        "euler_number",
+        "export_path",
+        "face_component_count",
+        "faces",
+        "is_watertight",
+        "largest_face_component_ratio",
+        "largest_face_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "lcr_gain_vs_before",
+        "mesh_path",
+        "method",
+        "metric_improved",
+        "occupancy_component_count_6n",
+        "occupancy_fragmentation_score",
+        "occupancy_resolution",
+        "occupied_voxels",
+        "paper_safe_candidate",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "render_visible_ratio",
+        "source",
+        "surface_area",
+        "vertices",
+        "visual_judgement",
+        "visually_conservative",
+        "voxel_retention_vs_before"
+      ]
+    },
+    {
+      "path": "results/cache_selected_connectivity_repair_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 32,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/cache_selected_texture_metrics_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/cache_selected_texture_metrics_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/claim_aligned_metric_summary_20260509/claim_aligned_metric_long.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 24,
+      "metric_columns_available": [
+        "vertices",
+        "faces"
+      ],
+      "all_columns": [
+        "family",
+        "case",
+        "evidence_class",
+        "stage_or_method",
+        "occ_comp_6n",
+        "occ_lcr_6n",
+        "mesh_or_face_components",
+        "mesh_or_face_lcr",
+        "vertices",
+        "faces",
+        "effective_resolution_proxy",
+        "branch_path_proxy",
+        "visual_verdict",
+        "claim_verdict",
+        "source_file"
+      ]
+    },
+    {
+      "path": "results/claim_aligned_metric_summary_20260509/claim_aligned_metric_summary.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 5,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "all_columns": [
+        "family",
+        "case",
+        "evidence_verdict",
+        "stages_or_methods",
+        "occ_comp_6n_range",
+        "occ_lcr_6n_range",
+        "mesh_or_face_component_range",
+        "mesh_or_face_lcr_range",
+        "effective_resolution_or_proxy",
+        "branch_path_proxy",
+        "visual_pass_fail",
+        "positive_evidence",
+        "negative_or_caveat",
+        "missing_quant_experiments",
+        "allowed_claim_now",
+        "not_allowed_claim"
+      ]
+    },
+    {
+      "path": "results/claim_aligned_metric_summary_20260509/claim_aligned_metric_summary.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 5,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_best_expansion_texture_metrics_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/connected_best_expansion_texture_metrics_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent",
+        "faces",
+        "family",
+        "label",
+        "largest_mesh_component_vertex_ratio",
+        "largest_occupancy_component_ratio_6n",
+        "mesh_component_count",
+        "obj_path",
+        "occupancy_component_count_6n",
+        "occupied_voxels",
+        "stage",
+        "surface_area",
+        "vertices"
+      ]
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ64.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ64.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ96.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 5,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ96.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 5,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/volumetric_coral_depth/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent",
+        "faces",
+        "family",
+        "label",
+        "largest_mesh_component_vertex_ratio",
+        "largest_occupancy_component_ratio_6n",
+        "mesh_component_count",
+        "obj_path",
+        "occupancy_component_count_6n",
+        "occupied_voxels",
+        "stage",
+        "surface_area",
+        "vertices"
+      ]
+    },
+    {
+      "path": "results/connected_coral_depth_cases_20260509/volumetric_coral_depth/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_parameter_cases_20260509/coral_density_param/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent",
+        "density",
+        "faces",
+        "family",
+        "label",
+        "largest_mesh_component_vertex_ratio",
+        "largest_occupancy_component_ratio_6n",
+        "mesh_component_count",
+        "obj_path",
+        "occupancy_component_count_6n",
+        "occupied_voxels",
+        "surface_area",
+        "vertices"
+      ]
+    },
+    {
+      "path": "results/connected_parameter_cases_20260509/coral_density_param/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_parameter_cases_extreme_20260509/coral_density_param/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent",
+        "density",
+        "faces",
+        "family",
+        "label",
+        "largest_mesh_component_vertex_ratio",
+        "largest_occupancy_component_ratio_6n",
+        "mesh_component_count",
+        "obj_path",
+        "occupancy_component_count_6n",
+        "occupied_voxels",
+        "surface_area",
+        "vertices"
+      ]
+    },
+    {
+      "path": "results/connected_parameter_cases_extreme_20260509/coral_density_param/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_scaffold_cases_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "label",
+        "family",
+        "obj_path",
+        "vertices",
+        "faces",
+        "mesh_component_count",
+        "largest_mesh_component_vertex_ratio",
+        "occupied_voxels",
+        "occupancy_component_count_6n",
+        "largest_occupancy_component_ratio_6n",
+        "bbox_diag",
+        "surface_area",
+        "trellis2_texturing_fit",
+        "root_baseline_fit"
+      ]
+    },
+    {
+      "path": "results/connected_scaffold_cases_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/connected_scaffold_cases_v2_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 6,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "label",
+        "family",
+        "obj_path",
+        "vertices",
+        "faces",
+        "mesh_component_count",
+        "largest_mesh_component_vertex_ratio",
+        "occupied_voxels",
+        "occupancy_component_count_6n",
+        "largest_occupancy_component_ratio_6n",
+        "bbox_diag",
+        "surface_area",
+        "trellis2_texturing_fit",
+        "root_baseline_fit"
+      ]
+    },
+    {
+      "path": "results/connected_scaffold_cases_v2_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 6,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/connected_scaffold_depth_cases_20260509/bismuth_hopper_depth/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent",
+        "faces",
+        "family",
+        "label",
+        "largest_mesh_component_vertex_ratio",
+        "largest_occupancy_component_ratio_6n",
+        "mesh_component_count",
+        "obj_path",
+        "occupancy_component_count_6n",
+        "occupied_voxels",
+        "stage",
+        "surface_area",
+        "vertices"
+      ]
+    },
+    {
+      "path": "results/connected_scaffold_depth_cases_20260509/bismuth_hopper_depth/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_scaffold_depth_cases_20260509/pyrite_lattice_depth/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 4,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent",
+        "faces",
+        "family",
+        "label",
+        "largest_mesh_component_vertex_ratio",
+        "largest_occupancy_component_ratio_6n",
+        "mesh_component_count",
+        "obj_path",
+        "occupancy_component_count_6n",
+        "occupied_voxels",
+        "stage",
+        "surface_area",
+        "vertices"
+      ]
+    },
+    {
+      "path": "results/connected_scaffold_depth_cases_20260509/pyrite_lattice_depth/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 4,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "list"
+    },
+    {
+      "path": "results/connected_scaffold_v2_textured_glb_metrics_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 12,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "bbox_diag",
+        "bbox_extent_x",
+        "bbox_extent_y",
+        "bbox_extent_z",
+        "bbox_max_x",
+        "bbox_max_y",
+        "bbox_max_z",
+        "bbox_min_x",
+        "bbox_min_y",
+        "bbox_min_z",
+        "bbox_volume",
+        "box_count_dimension_proxy",
+        "box_count_occupied",
+        "box_count_resolutions",
+        "box_count_status",
+        "case_hint",
+        "component_count",
+        "component_status",
+        "depth_hint",
+        "extension",
+        "face_area_mean",
+        "face_area_median",
+        "faces",
+        "fragmentation_score",
+        "label",
+        "largest_component_vertex_ratio",
+        "largest_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "largest_welded_component_vertex_ratio",
+        "largest_welded_component_vertices",
+        "load_error",
+        "loader",
+        "method_hint",
+        "occupancy_component_count_6n",
+        "occupancy_coverage",
+        "occupancy_resolution",
+        "occupancy_status",
+        "occupied_voxels",
+        "path",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "small_component_count_lt100",
+        "small_welded_component_count_lt100",
+        "surface_area_est",
+        "vertices",
+        "vertices_per_bbox_volume",
+        "weld_tolerance",
+        "welded_component_count",
+        "welded_component_status",
+        "welded_vertex_reduction",
+        "welded_vertices"
+      ]
+    },
+    {
+      "path": "results/connected_scaffold_v2_textured_glb_metrics_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 12,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    },
+    {
+      "path": "results/connectivity_repair_local_20260509/metrics.csv",
+      "kind": "metric_table",
+      "format": "csv",
+      "row_count": 120,
+      "metric_columns_available": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "is_watertight",
+        "bbox_volume"
+      ],
+      "all_columns": [
+        "area_retention_vs_before",
+        "bbox_diag",
+        "bbox_diag_retention_vs_before",
+        "bbox_volume",
+        "case",
+        "component_drop_vs_before",
+        "euler_number",
+        "export_path",
+        "face_component_count",
+        "faces",
+        "is_watertight",
+        "largest_face_component_ratio",
+        "largest_face_component_vertices",
+        "largest_occupancy_component_ratio_6n",
+        "largest_occupancy_component_voxels_6n",
+        "lcr_gain_vs_before",
+        "mesh_path",
+        "method",
+        "metric_improved",
+        "occupancy_component_count_6n",
+        "occupancy_fragmentation_score",
+        "occupancy_resolution",
+        "occupied_voxels",
+        "paper_safe_candidate",
+        "primary_component_count",
+        "primary_connectivity_metric",
+        "primary_largest_component_ratio",
+        "render_visible_ratio",
+        "source",
+        "surface_area",
+        "vertices",
+        "visual_judgement",
+        "visually_conservative",
+        "voxel_retention_vs_before"
+      ]
+    },
+    {
+      "path": "results/connectivity_repair_local_20260509/metrics.json",
+      "kind": "metric_table",
+      "format": "json",
+      "row_count": 120,
+      "metric_columns_available": [
+        "metadata_only"
+      ],
+      "json_shape": "dict[rows]"
+    }
+  ],
+  "mesh_assets": [
+    {
+      "path": "results/baseline_matrix_20260509/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 298,
+        "faces": 592,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 418,
+        "faces": 832,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 548,
+        "faces": 1092,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 758,
+        "faces": 1524,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 396,
+        "faces": 788,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 558,
+        "faces": 1112,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 718,
+        "faces": 1432,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1044,
+        "faces": 2084,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 12525,
+        "faces": 25194,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 14347,
+        "faces": 28842,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 15856,
+        "faces": 32024,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 15484,
+        "faces": 32244,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/lsystem/depth_01/tree_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 246,
+        "faces": 488,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/lsystem/depth_02/tree_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 362,
+        "faces": 720,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/lsystem/depth_03/tree_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 615,
+        "faces": 1226,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/lsystem/depth_04/tree_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 798,
+        "faces": 1592,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_01/tree_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 354,
+        "faces": 704,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_02/tree_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 478,
+        "faces": 952,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_03/tree_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 660,
+        "faces": 1316,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_04/tree_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 874,
+        "faces": 1744,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/space_colonization/depth_01/tree_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 14073,
+        "faces": 29068,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/space_colonization/depth_02/tree_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 15606,
+        "faces": 32432,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/space_colonization/depth_03/tree_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 17229,
+        "faces": 34654,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/tree/space_colonization/depth_04/tree_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 17533,
+        "faces": 36576,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/lsystem/depth_01/vine_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 300,
+        "faces": 596,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/lsystem/depth_02/vine_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 500,
+        "faces": 996,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/lsystem/depth_03/vine_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 640,
+        "faces": 1276,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/lsystem/depth_04/vine_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 862,
+        "faces": 1720,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_01/vine_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 484,
+        "faces": 964,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_02/vine_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1008,
+        "faces": 2012,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_03/vine_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1434,
+        "faces": 2864,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_04/vine_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1948,
+        "faces": 3892,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/space_colonization/depth_01/vine_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 11251,
+        "faces": 23224,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/space_colonization/depth_02/vine_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 12381,
+        "faces": 24998,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/space_colonization/depth_03/vine_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 12144,
+        "faces": 25168,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_20260509/vine/space_colonization/depth_04/vine_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 14821,
+        "faces": 30804,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 298,
+        "faces": 592,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 424,
+        "faces": 844,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 540,
+        "faces": 1076,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 740,
+        "faces": 1476,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 396,
+        "faces": 788,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 548,
+        "faces": 1092,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 696,
+        "faces": 1388,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1056,
+        "faces": 2108,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 7602,
+        "faces": 15256,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8316,
+        "faces": 16660,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8692,
+        "faces": 17912,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 9241,
+        "faces": 18526,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_01/tree_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 246,
+        "faces": 488,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_02/tree_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 368,
+        "faces": 732,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_03/tree_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 604,
+        "faces": 1216,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_04/tree_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 871,
+        "faces": 1772,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_01/tree_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 354,
+        "faces": 704,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_02/tree_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 478,
+        "faces": 952,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_03/tree_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 660,
+        "faces": 1316,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_04/tree_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 860,
+        "faces": 1716,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_01/tree_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8202,
+        "faces": 16456,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_02/tree_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 9242,
+        "faces": 18548,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_03/tree_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 10010,
+        "faces": 20068,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_04/tree_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 10130,
+        "faces": 20340,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_01/vine_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 300,
+        "faces": 596,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_02/vine_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 500,
+        "faces": 996,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_03/vine_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 640,
+        "faces": 1276,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_04/vine_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 862,
+        "faces": 1720,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_01/vine_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 484,
+        "faces": 964,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_02/vine_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1008,
+        "faces": 2012,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_03/vine_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1434,
+        "faces": 2864,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_04/vine_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1948,
+        "faces": 3892,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_01/vine_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 6360,
+        "faces": 12768,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_02/vine_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 7483,
+        "faces": 15332,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_03/vine_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8384,
+        "faces": 17188,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_04/vine_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8273,
+        "faces": 17052,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 298,
+        "faces": 592,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 418,
+        "faces": 832,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 562,
+        "faces": 1120,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 714,
+        "faces": 1424,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 396,
+        "faces": 788,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 546,
+        "faces": 1088,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 702,
+        "faces": 1400,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1042,
+        "faces": 2080,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 7315,
+        "faces": 14638,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8413,
+        "faces": 16870,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8858,
+        "faces": 17760,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 9558,
+        "faces": 19812,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_01/tree_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 246,
+        "faces": 488,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_02/tree_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 362,
+        "faces": 720,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_03/tree_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 595,
+        "faces": 1190,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_04/tree_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 862,
+        "faces": 1748,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_01/tree_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 354,
+        "faces": 704,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_02/tree_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 478,
+        "faces": 952,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_03/tree_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 654,
+        "faces": 1304,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_04/tree_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 882,
+        "faces": 1760,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_01/tree_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 9005,
+        "faces": 18034,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_02/tree_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 9759,
+        "faces": 19558,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_03/tree_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 11088,
+        "faces": 22240,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_04/tree_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 10894,
+        "faces": 21804,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_01/vine_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 300,
+        "faces": 596,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_02/vine_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 500,
+        "faces": 996,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_03/vine_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 640,
+        "faces": 1276,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_04/vine_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 862,
+        "faces": 1720,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_01/vine_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 484,
+        "faces": 964,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_02/vine_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1008,
+        "faces": 2012,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_03/vine_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1434,
+        "faces": 2864,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_04/vine_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1948,
+        "faces": 3892,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_01/vine_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 6716,
+        "faces": 13468,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_02/vine_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 7893,
+        "faces": 16200,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_03/vine_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8395,
+        "faces": 17240,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_04/vine_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8983,
+        "faces": 18058,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 298,
+        "faces": 592,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 420,
+        "faces": 836,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 534,
+        "faces": 1064,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 728,
+        "faces": 1452,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 396,
+        "faces": 788,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 548,
+        "faces": 1092,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 690,
+        "faces": 1376,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 1054,
+        "faces": 2108,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 7649,
+        "faces": 15326,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 8345,
+        "faces": 16762,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 9632,
+        "faces": 19304,
+        "loader_status": "obj_text_scan"
+      }
+    },
+    {
+      "path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "kind": "mesh_asset",
+      "format": "obj",
+      "offline_metrics_available": [
+        "vertices",
+        "faces"
+      ],
+      "quick_metrics": {
+        "vertices": 10145,
+        "faces": 20418,
+        "loader_status": "obj_text_scan"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_id": "mesh_asset_0001",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0002",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0003",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_seed_20260510/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0004",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_seed_20260510/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0005",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_seed_20260511/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0006",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_seed_20260511/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0007",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_seed_20260512/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0008",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_matrix_seed_20260512/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0009",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_metric_inventory_20260509/existing_metric_inventory.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0010",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_one_to_one_metrics_20260510/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0011",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_one_to_one_metrics_20260510/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0012",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_one_to_one_metrics_20260510/metrics_stdout.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0013",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_one_to_one_surface_metrics_20260510/surface_metrics_occ64.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "lcr_r0",
+        "components_r0",
+        "lcr_r1",
+        "components_r1",
+        "lcr_r2",
+        "components_r2"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0014",
+      "asset_kind": "metric_table",
+      "asset_path": "results/baseline_one_to_one_surface_metrics_20260510/surface_metrics_occ64.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0015",
+      "asset_kind": "metric_table",
+      "asset_path": "results/bismuth_depth_textured_showcase_metrics_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0016",
+      "asset_kind": "metric_table",
+      "asset_path": "results/bismuth_depth_textured_showcase_metrics_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0017",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511i_pull/metrics/botanical_tree_root_metrics_20260511i.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0018",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511i_pull/metrics/botanical_tree_root_metrics_20260511i.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0019",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511j_pull/analysis/root_input_metrics_20260511j.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0020",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511j_pull/analysis/root_input_metrics_20260511j.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0021",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511j_pull/metrics/botanical_tree_root_metrics_20260511j_rawonly.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0022",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511j_pull/metrics/botanical_tree_root_metrics_20260511j_rawonly.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0023",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511k_pull/metrics/botanical_tree_root_metrics_20260511k.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0024",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511k_pull/metrics/botanical_tree_root_metrics_20260511k.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0025",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511l_pull/metrics/botanical_tree_root_metrics_20260511l.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0026",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511l_pull/metrics/botanical_tree_root_metrics_20260511l.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0027",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511n_pull/metrics/botanical_tree_root_metrics_20260511n.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0028",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511n_pull/metrics/botanical_tree_root_metrics_20260511n.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0029",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511o_pull/analysis/metric_gate_summary_20260511o.csv",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0030",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511o_pull/analysis/metric_gate_summary_20260511o.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0031",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511o_pull/metrics/botanical_tree_root_metrics_20260511o.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0032",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511o_pull/metrics/botanical_tree_root_metrics_20260511o.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0033",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511p_pull/analysis/metric_gate_summary_20260511p.csv",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0034",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511p_pull/analysis/metric_gate_summary_20260511p.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0035",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511p_pull/metrics/botanical_tree_root_metrics_20260511p.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0036",
+      "asset_kind": "metric_table",
+      "asset_path": "results/botanical_tree_root_recursive_remote_20260511p_pull/metrics/botanical_tree_root_metrics_20260511p.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0037",
+      "asset_kind": "metric_table",
+      "asset_path": "results/branch_path_metrics_20260509/branch_path_metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0038",
+      "asset_kind": "metric_table",
+      "asset_path": "results/branch_path_metrics_20260509/branch_path_metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0039",
+      "asset_kind": "metric_table",
+      "asset_path": "results/branch_path_metrics_20260509/branch_path_metrics_compact.csv",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0040",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_repair_texture_metrics_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0041",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_repair_texture_metrics_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0042",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_repair_texture_surface_qa_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "is_watertight",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0043",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_repair_texture_surface_qa_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0044",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_sampler_connectivity_20260509_local_mesh_smoke/metrics.csv",
+      "computable_metrics": [
+        "component_count",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0045",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_sampler_connectivity_20260509_local_smoke/metrics.csv",
+      "computable_metrics": [
+        "component_count",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0046",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_sampler_connectivity_20260509_local_smoke_all/metrics.csv",
+      "computable_metrics": [
+        "component_count",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0047",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_sampler_connectivity_20260509_remote_rerun1901_aggregate_metrics.csv",
+      "computable_metrics": [
+        "component_count",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0048",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_selected_connectivity_repair_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "is_watertight",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0049",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_selected_connectivity_repair_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0050",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_selected_texture_metrics_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0051",
+      "asset_kind": "metric_table",
+      "asset_path": "results/cache_selected_texture_metrics_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0052",
+      "asset_kind": "metric_table",
+      "asset_path": "results/claim_aligned_metric_summary_20260509/claim_aligned_metric_long.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0053",
+      "asset_kind": "metric_table",
+      "asset_path": "results/claim_aligned_metric_summary_20260509/claim_aligned_metric_summary.csv",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0054",
+      "asset_kind": "metric_table",
+      "asset_path": "results/claim_aligned_metric_summary_20260509/claim_aligned_metric_summary.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0055",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_best_expansion_texture_metrics_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0056",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_best_expansion_texture_metrics_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0057",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0058",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0059",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ64.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0060",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ64.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0061",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ96.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0062",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/porous_mineral_depth/source_metrics_occ96.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0063",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/volumetric_coral_depth/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0064",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_coral_depth_cases_20260509/volumetric_coral_depth/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0065",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_parameter_cases_20260509/coral_density_param/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0066",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_parameter_cases_20260509/coral_density_param/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0067",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_parameter_cases_extreme_20260509/coral_density_param/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0068",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_parameter_cases_extreme_20260509/coral_density_param/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0069",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_cases_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0070",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_cases_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0071",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_cases_v2_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0072",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_cases_v2_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0073",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_depth_cases_20260509/bismuth_hopper_depth/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0074",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_depth_cases_20260509/bismuth_hopper_depth/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0075",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_depth_cases_20260509/pyrite_lattice_depth/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0076",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_depth_cases_20260509/pyrite_lattice_depth/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0077",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_v2_textured_glb_metrics_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "component_count",
+        "welded_component_count",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "surface_area_est",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0078",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connected_scaffold_v2_textured_glb_metrics_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0079",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connectivity_repair_local_20260509/metrics.csv",
+      "computable_metrics": [
+        "vertices",
+        "faces",
+        "largest_occupancy_component_ratio_6n",
+        "occupancy_component_count_6n",
+        "is_watertight",
+        "bbox_volume"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0080",
+      "asset_kind": "metric_table",
+      "asset_path": "results/connectivity_repair_local_20260509/metrics.json",
+      "computable_metrics": [
+        "metadata_only"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0081",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0082",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0083",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0084",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0085",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0086",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0087",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0088",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0089",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0090",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0091",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0092",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0093",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/lsystem/depth_01/tree_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0094",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/lsystem/depth_02/tree_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0095",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/lsystem/depth_03/tree_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0096",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/lsystem/depth_04/tree_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0097",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_01/tree_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0098",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_02/tree_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0099",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_03/tree_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0100",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/proposed_connected/depth_04/tree_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0101",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/space_colonization/depth_01/tree_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0102",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/space_colonization/depth_02/tree_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0103",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/space_colonization/depth_03/tree_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0104",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/tree/space_colonization/depth_04/tree_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0105",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/lsystem/depth_01/vine_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0106",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/lsystem/depth_02/vine_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0107",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/lsystem/depth_03/vine_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0108",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/lsystem/depth_04/vine_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0109",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_01/vine_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0110",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_02/vine_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0111",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_03/vine_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0112",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/proposed_connected/depth_04/vine_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0113",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/space_colonization/depth_01/vine_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0114",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/space_colonization/depth_02/vine_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0115",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/space_colonization/depth_03/vine_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0116",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_20260509/vine/space_colonization/depth_04/vine_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0117",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0118",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0119",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0120",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0121",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0122",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0123",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0124",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0125",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0126",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0127",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0128",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0129",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_01/tree_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0130",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_02/tree_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0131",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_03/tree_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0132",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/lsystem/depth_04/tree_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0133",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_01/tree_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0134",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_02/tree_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0135",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_03/tree_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0136",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/proposed_connected/depth_04/tree_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0137",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_01/tree_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0138",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_02/tree_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0139",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_03/tree_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0140",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/tree/space_colonization/depth_04/tree_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0141",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_01/vine_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0142",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_02/vine_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0143",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_03/vine_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0144",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/lsystem/depth_04/vine_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0145",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_01/vine_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0146",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_02/vine_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0147",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_03/vine_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0148",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/proposed_connected/depth_04/vine_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0149",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_01/vine_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0150",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_02/vine_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0151",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_03/vine_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0152",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260510/vine/space_colonization/depth_04/vine_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0153",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0154",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0155",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0156",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0157",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0158",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0159",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0160",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0161",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0162",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0163",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0164",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0165",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_01/tree_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0166",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_02/tree_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0167",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_03/tree_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0168",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/lsystem/depth_04/tree_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0169",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_01/tree_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0170",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_02/tree_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0171",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_03/tree_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0172",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/proposed_connected/depth_04/tree_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0173",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_01/tree_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0174",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_02/tree_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0175",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_03/tree_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0176",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/tree/space_colonization/depth_04/tree_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0177",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_01/vine_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0178",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_02/vine_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0179",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_03/vine_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0180",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/lsystem/depth_04/vine_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0181",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_01/vine_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0182",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_02/vine_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0183",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_03/vine_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0184",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/proposed_connected/depth_04/vine_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0185",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_01/vine_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0186",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_02/vine_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0187",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_03/vine_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0188",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260511/vine/space_colonization/depth_04/vine_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0189",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_01/root_lsystem_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0190",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_02/root_lsystem_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0191",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_03/root_lsystem_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0192",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/lsystem/depth_04/root_lsystem_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0193",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_01/root_proposed_connected_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0194",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_02/root_proposed_connected_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0195",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_03/root_proposed_connected_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0196",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/proposed_connected/depth_04/root_proposed_connected_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0197",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_01/root_space_colonization_depth_01.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0198",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_02/root_space_colonization_depth_02.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0199",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_03/root_space_colonization_depth_03.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    },
+    {
+      "row_id": "mesh_asset_0200",
+      "asset_kind": "mesh_asset",
+      "asset_path": "results/baseline_matrix_seed_20260512/root/space_colonization/depth_04/root_space_colonization_depth_04.obj",
+      "computable_metrics": [
+        "vertices",
+        "faces"
+      ]
+    }
+  ]
+}

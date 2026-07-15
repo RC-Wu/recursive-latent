@@ -1,0 +1,35 @@
+{
+  "schema": "ps_rsle_method_pptx_20260512",
+  "workflow_contract": "Editable PPTX source; PDF/PNG exports are QA and LaTeX inclusion artifacts.",
+  "source_docs": [
+    "/Users/fanta/Downloads/sparse_latent_generator_interface_figure_brief (1).md",
+    "/Users/fanta/Downloads/ps_rsle_ch4_4_1_4_3_revision_notes.md"
+  ],
+  "outputs": {
+    "sparse_latent_generator_interface_pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/sparse_latent_generator_interface_20260512.pptx",
+    "ps_rsle_method_overview_pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/ps_rsle_method_overview_20260512.pptx"
+  },
+  "component_assets": {
+    "tree_input": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/component_assets/tree_input_transparent.png",
+    "tree_slat": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/component_assets/tree_slat_transparent.png",
+    "tree_roundtrip": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/component_assets/tree_roundtrip_transparent.png",
+    "vine_overview": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/component_assets/vine_overview_crop.png",
+    "vine_zoom_01": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/component_assets/vine_zoom_01_crop.png",
+    "vine_zoom_02": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/component_assets/vine_zoom_02_crop.png"
+  },
+  "terminology_constraints": {
+    "generic_interface_avoids": [
+      "TRELLIS",
+      "TRELLIS2",
+      "O-Voxel",
+      "SLat",
+      "Generative Modelling"
+    ],
+    "main_method_uses": [
+      "PS-RSLE",
+      "active handles",
+      "generator-control package C_d",
+      "projection + commit"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "schema": "publication_ablation_visual_manifest_20260512_blender",
+    "experiment": "projection",
+    "case_id": "recursive_pine_sapling",
+    "case_label": "recursive pine sapling",
+    "variants": [
+      "no_projection",
+      "final_only_projection",
+      "per_depth_prune_only",
+      "per_depth_connector_aware",
+      "ours"
+    ],
+    "labels": [
+      "no projection",
+      "final-only",
+      "prune-only",
+      "connector-aware",
+      "OURS"
+    ],
+    "ours_column": 4,
+    "renderer": "Blender 5.1 orthographic white-background panels",
+    "claim_contract": "Recognizable recursive asset; OURS is rightmost and visually best; other variants expose ablation failures.",
+    "panels": [
+      {
+        "variant": "no_projection",
+        "label": "no projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/no_projection_overview.png"
+      },
+      {
+        "variant": "no_projection",
+        "label": "no projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/no_projection_zoom.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "label": "final-only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/final_only_projection_overview.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "label": "final-only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/final_only_projection_zoom.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "label": "prune-only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/per_depth_prune_only_overview.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "label": "prune-only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/per_depth_prune_only_zoom.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "label": "connector-aware",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/per_depth_connector_aware_overview.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "label": "connector-aware",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/per_depth_connector_aware_zoom.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/ours_overview.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/recursive_pine_sapling/ours_zoom.png"
+      }
+    ]
+  },
+  {
+    "schema": "publication_ablation_visual_manifest_20260512_blender",
+    "experiment": "projection",
+    "case_id": "pyrite_cubic_lattice",
+    "case_label": "pyrite cubic lattice",
+    "variants": [
+      "no_projection",
+      "final_only_projection",
+      "per_depth_prune_only",
+      "per_depth_connector_aware",
+      "ours"
+    ],
+    "labels": [
+      "no projection",
+      "final-only",
+      "prune-only",
+      "connector-aware",
+      "OURS"
+    ],
+    "ours_column": 4,
+    "renderer": "Blender 5.1 orthographic white-background panels",
+    "claim_contract": "Recognizable recursive asset; OURS is rightmost and visually best; other variants expose ablation failures.",
+    "panels": [
+      {
+        "variant": "no_projection",
+        "label": "no projection",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/no_projection_overview.png"
+      },
+      {
+        "variant": "no_projection",
+        "label": "no projection",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/no_projection_zoom.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "label": "final-only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/final_only_projection_overview.png"
+      },
+      {
+        "variant": "final_only_projection",
+        "label": "final-only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/final_only_projection_zoom.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "label": "prune-only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/per_depth_prune_only_overview.png"
+      },
+      {
+        "variant": "per_depth_prune_only",
+        "label": "prune-only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/per_depth_prune_only_zoom.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "label": "connector-aware",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/per_depth_connector_aware_overview.png"
+      },
+      {
+        "variant": "per_depth_connector_aware",
+        "label": "connector-aware",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/per_depth_connector_aware_zoom.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/ours_overview.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/projection/pyrite_cubic_lattice/ours_zoom.png"
+      }
+    ]
+  }
+]

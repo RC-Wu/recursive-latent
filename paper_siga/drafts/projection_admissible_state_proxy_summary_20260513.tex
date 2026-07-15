@@ -1,0 +1,14 @@
+% Derived from results/metric_enrichment_20260513/linnaeus_handle_lineage_audit_20260513.csv
+\begin{tabular}{lrrrrrrr}
+\toprule
+Variant & Rows & Strict pass & Med. root reach. & Med. orphan active & Med. handle surv. & Occ.-state diff. & Conn. surv. diff. \\
+\midrule
+no projection & 12 & 0 & 0.629 & 2.5 & 0.629 & 0.266 & -0.107 \\
+final-only projection & 12 & 0 & 0.629 & 2.5 & 0.629 & 0.370 & -0.107 \\
+per-depth prune-only & 12 & 3 & 1.000 & 0.0 & 0.736 & -0.019 & 0.000 \\
+per-depth connector-aware & 12 & 9 & 1.000 & 0.0 & 1.000 & -0.001 & 0.264 \\
+Ours & 12 & 12 & 1.000 & 0.0 & 1.000 & 0.000 & 0.264 \\
+masked local/no projection & 12 & 0 & 0.629 & 2.5 & 0.629 & 0.269 & -0.107 \\
+masked local/+projection & 12 & 12 & 1.000 & 0.0 & 1.000 & 0.000 & 0.264 \\
+\bottomrule
+\end{tabular}

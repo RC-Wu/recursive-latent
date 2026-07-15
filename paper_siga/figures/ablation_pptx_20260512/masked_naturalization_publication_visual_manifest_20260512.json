@@ -1,0 +1,200 @@
+[
+  {
+    "schema": "publication_ablation_visual_manifest_20260512_blender",
+    "experiment": "naturalization",
+    "case_id": "wooden_root_fork",
+    "case_label": "wooden root fork",
+    "variants": [
+      "rule_only",
+      "no_nat_proj",
+      "weak_proj",
+      "global_proj",
+      "masked_no_proj",
+      "ours"
+    ],
+    "labels": [
+      "rule-only",
+      "no-N + proj",
+      "weak + proj",
+      "global + proj",
+      "masked / no-proj",
+      "OURS"
+    ],
+    "ours_column": 5,
+    "renderer": "Blender 5.1 orthographic white-background panels",
+    "claim_contract": "Recognizable recursive asset; OURS is rightmost and visually best; other variants expose ablation failures.",
+    "panels": [
+      {
+        "variant": "rule_only",
+        "label": "rule-only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/rule_only_overview.png"
+      },
+      {
+        "variant": "rule_only",
+        "label": "rule-only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/rule_only_zoom.png"
+      },
+      {
+        "variant": "no_nat_proj",
+        "label": "no-N + proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/no_nat_proj_overview.png"
+      },
+      {
+        "variant": "no_nat_proj",
+        "label": "no-N + proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/no_nat_proj_zoom.png"
+      },
+      {
+        "variant": "weak_proj",
+        "label": "weak + proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/weak_proj_overview.png"
+      },
+      {
+        "variant": "weak_proj",
+        "label": "weak + proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/weak_proj_zoom.png"
+      },
+      {
+        "variant": "global_proj",
+        "label": "global + proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/global_proj_overview.png"
+      },
+      {
+        "variant": "global_proj",
+        "label": "global + proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/global_proj_zoom.png"
+      },
+      {
+        "variant": "masked_no_proj",
+        "label": "masked / no-proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/masked_no_proj_overview.png"
+      },
+      {
+        "variant": "masked_no_proj",
+        "label": "masked / no-proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/masked_no_proj_zoom.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/ours_overview.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/wooden_root_fork/ours_zoom.png"
+      }
+    ]
+  },
+  {
+    "schema": "publication_ablation_visual_manifest_20260512_blender",
+    "experiment": "naturalization",
+    "case_id": "staghorn_coral_branch",
+    "case_label": "staghorn coral branch",
+    "variants": [
+      "rule_only",
+      "no_nat_proj",
+      "weak_proj",
+      "global_proj",
+      "masked_no_proj",
+      "ours"
+    ],
+    "labels": [
+      "rule-only",
+      "no-N + proj",
+      "weak + proj",
+      "global + proj",
+      "masked / no-proj",
+      "OURS"
+    ],
+    "ours_column": 5,
+    "renderer": "Blender 5.1 orthographic white-background panels",
+    "claim_contract": "Recognizable recursive asset; OURS is rightmost and visually best; other variants expose ablation failures.",
+    "panels": [
+      {
+        "variant": "rule_only",
+        "label": "rule-only",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/rule_only_overview.png"
+      },
+      {
+        "variant": "rule_only",
+        "label": "rule-only",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/rule_only_zoom.png"
+      },
+      {
+        "variant": "no_nat_proj",
+        "label": "no-N + proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/no_nat_proj_overview.png"
+      },
+      {
+        "variant": "no_nat_proj",
+        "label": "no-N + proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/no_nat_proj_zoom.png"
+      },
+      {
+        "variant": "weak_proj",
+        "label": "weak + proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/weak_proj_overview.png"
+      },
+      {
+        "variant": "weak_proj",
+        "label": "weak + proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/weak_proj_zoom.png"
+      },
+      {
+        "variant": "global_proj",
+        "label": "global + proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/global_proj_overview.png"
+      },
+      {
+        "variant": "global_proj",
+        "label": "global + proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/global_proj_zoom.png"
+      },
+      {
+        "variant": "masked_no_proj",
+        "label": "masked / no-proj",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/masked_no_proj_overview.png"
+      },
+      {
+        "variant": "masked_no_proj",
+        "label": "masked / no-proj",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/masked_no_proj_zoom.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "overview",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/ours_overview.png"
+      },
+      {
+        "variant": "ours",
+        "label": "OURS",
+        "kind": "zoom",
+        "path": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512/panels/naturalization/staghorn_coral_branch/ours_zoom.png"
+      }
+    ]
+  }
+]

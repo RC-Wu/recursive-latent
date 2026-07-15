@@ -1,0 +1,95 @@
+{
+  "run_name": "connectivity_first_dla_crystal_20260509",
+  "root": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507",
+  "out": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509/gpu5_bismuth_root_control",
+  "cases": [
+    {
+      "label": "porous_bismuth_crystal_proxy",
+      "mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/selected_meshes_for_texture_20260508/porous_container_compete_stage03.obj"
+    },
+    {
+      "label": "vine_root_control",
+      "mesh": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_root_quality_sweep/root_quality_gpu6_20260508_0505/example04_vine_curl_steps12_seed910/trellis2_dinov3_min.obj"
+    }
+  ],
+  "grammars": [
+    "compete_fork_attach"
+  ],
+  "methods": [
+    "sparse_bridge_select",
+    "sparse_close_bridge"
+  ],
+  "candidates": [],
+  "missing_cases": [],
+  "started_at": "2026-05-09T02:58:13+0800",
+  "candidate_errors": [
+    {
+      "case": "porous_bismuth_crystal_proxy",
+      "grammar": "compete_fork_attach",
+      "method": "sparse_bridge_select",
+      "error": "ModuleNotFoundError(\"No module named 'recursive_growth_mesh_metrics'\")",
+      "traceback_tail": [
+        "Traceback (most recent call last):",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 770, in main",
+        "    candidate = run_candidate(label, mesh, grammar, method, encoder, decoder, grammar_mod, args)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 600, in run_candidate",
+        "    stage_summary[\"raw_metrics\"] = mesh_component_metrics(raw_obj)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 363, in mesh_component_metrics",
+        "    from recursive_growth_mesh_metrics import load_geometry, component_stats, occupancy_stats",
+        "ModuleNotFoundError: No module named 'recursive_growth_mesh_metrics'"
+      ]
+    },
+    {
+      "case": "porous_bismuth_crystal_proxy",
+      "grammar": "compete_fork_attach",
+      "method": "sparse_close_bridge",
+      "error": "ModuleNotFoundError(\"No module named 'recursive_growth_mesh_metrics'\")",
+      "traceback_tail": [
+        "Traceback (most recent call last):",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 770, in main",
+        "    candidate = run_candidate(label, mesh, grammar, method, encoder, decoder, grammar_mod, args)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 600, in run_candidate",
+        "    stage_summary[\"raw_metrics\"] = mesh_component_metrics(raw_obj)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 363, in mesh_component_metrics",
+        "    from recursive_growth_mesh_metrics import load_geometry, component_stats, occupancy_stats",
+        "ModuleNotFoundError: No module named 'recursive_growth_mesh_metrics'"
+      ]
+    },
+    {
+      "case": "vine_root_control",
+      "grammar": "compete_fork_attach",
+      "method": "sparse_bridge_select",
+      "error": "ModuleNotFoundError(\"No module named 'recursive_growth_mesh_metrics'\")",
+      "traceback_tail": [
+        "Traceback (most recent call last):",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 770, in main",
+        "    candidate = run_candidate(label, mesh, grammar, method, encoder, decoder, grammar_mod, args)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 600, in run_candidate",
+        "    stage_summary[\"raw_metrics\"] = mesh_component_metrics(raw_obj)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 363, in mesh_component_metrics",
+        "    from recursive_growth_mesh_metrics import load_geometry, component_stats, occupancy_stats",
+        "ModuleNotFoundError: No module named 'recursive_growth_mesh_metrics'"
+      ]
+    },
+    {
+      "case": "vine_root_control",
+      "grammar": "compete_fork_attach",
+      "method": "sparse_close_bridge",
+      "error": "ModuleNotFoundError(\"No module named 'recursive_growth_mesh_metrics'\")",
+      "traceback_tail": [
+        "Traceback (most recent call last):",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 770, in main",
+        "    candidate = run_candidate(label, mesh, grammar, method, encoder, decoder, grammar_mod, args)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 600, in run_candidate",
+        "    stage_summary[\"raw_metrics\"] = mesh_component_metrics(raw_obj)",
+        "  File \"/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/assets/connectivity_first_dla_crystal_20260509.py\", line 363, in mesh_component_metrics",
+        "    from recursive_growth_mesh_metrics import load_geometry, component_stats, occupancy_stats",
+        "ModuleNotFoundError: No module named 'recursive_growth_mesh_metrics'"
+      ]
+    }
+  ],
+  "selected_candidates": [],
+  "texturing_reports": [],
+  "status": "completed",
+  "finished_at": "2026-05-09T02:59:02+0800"
+}

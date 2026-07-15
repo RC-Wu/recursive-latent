@@ -1,0 +1,9 @@
+{
+  "source_pptx": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/sparse_latent_generator_interface_20260512.pptx",
+  "pdf": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/method_diagram_pptx_20260512/sparse_latent_generator_interface_20260512.pdf",
+  "exporter": "Keynote AppleScript",
+  "workflow_contract": "PPTX-first figure; PDF exported from Keynote",
+  "timeout_seconds": 1800,
+  "export_seconds": 6.702298879623413,
+  "pdf_bytes": 600825
+}

@@ -1,0 +1,16 @@
+cleanup_at=2026-05-10T00:49:25+08:00
+root_before=98G	/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507
+results/trellis2_recursive_masked_repair 5.8G
+results/trellis2_recursive_masked_blend 4.3G
+results/siga_compete_masked 3.0G
+results/siga_dla_cluster_masked_blend 1.8G
+results/pyrite_connectivity_flow_grid_ralph_20260509_2340 3.6G
+results/connectivity_depth_flow_ralph_20260509_2310 5.5G
+results/dla_bridge_ablation_rerun1819 609M
+results/dla_bridge_ablation_rerun1907 611M
+results/dla_bridge_smoke_stage1_20260509 183M
+results/dla_bridge_smoke_stage1_rerun1818 183M
+results/public_guide_textured_glb_20260509b 124M
+results/public_guide_textured_glb_20260509c 144M
+results/public_guide_textured_glb_20260509d 145M
+root_after=72G	/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507

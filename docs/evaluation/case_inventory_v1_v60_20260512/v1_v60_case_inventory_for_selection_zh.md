@@ -1,0 +1,4115 @@
+# V1-V60 Case Inventory for Visual Selection
+Generated from local project files plus one bounded `a100-2` remote file listing. The Markdown is a human-readable selection guide; the JSON and `full_path_lists/` keep complete path lists for later agents.
+- Representative contact sheet: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_representative_contact_sheet.png`
+- Multi-candidate HTML gallery: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_case_inventory_multi_image_gallery.html`
+- Machine-readable JSON: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_case_inventory.json`
+- CSV summary: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_case_inventory.csv`
+- Copied representative images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images`
+
+## V01 - composed
+![V01](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V01_composed.png)
+
+- Counts: images=104, geometry=21, specs=18, remote=25
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/01_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/02_v1_v60_representative_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/07_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V01/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v1/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_representative_contact_sheet.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v1/V24_ifs_pyrite_lattice/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v1/V24_sc_tree_crown_attractor_A/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v1/V24_ifs_radial_ornament/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v1/V24_dla_staghorn_frontier/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v1/V24_ifs_pyrite_lattice/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v1/V24_sc_tree_crown_attractor_A/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/visual_recursive_roots_20260511o/selected_roots/city_stepped_arcology_v1.obj`
+  - `results/visual_recursive_solid_roots_20260511u/selected_roots/city_solid_keep_v1.obj`
+  - `results/visual_recursive_solid_roots_20260511u/selected_roots/castle_solid_gate_v1.obj`
+  - `results/visual_recursive_solid_roots_20260511u/selected_roots/castle_solid_keep_v1.obj`
+  - `results/visual_recursive_solid_roots_20260511u/selected_roots/city_solid_podium_v1.obj`
+  - `results/publication_repair_remote_20260510e_pull/inputs/scifi_module_clean_recursive_v1.obj`
+  - `results/publication_repair_remote_20260510e_pull/inputs/architectural_arch_portal_bridge_v1.obj`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/mech_socket_frame_lowpoly_v1.obj`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/city_courtyard_tower_anchor_v1.obj`
+  - `results/visual_recursive_sources_20260511/selected_roots/local_scifi_module_clean_recursive_v1.obj`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_keep_battlement_anchor_v1.obj`
+  - `results/visual_recursive_sources_20260511/selected_roots/local_crown_ornament_attached_portal_v1.obj`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/city_block_lowpoly_roof_anchor_v1.obj`
+  - `results/visual_recursive_sources_20260511/selected_roots/local_architectural_arch_portal_bridge_v1.obj`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_gate_lowpoly_turret_anchor_v1.obj`
+  - `results/publication_repair_candidates_20260510_local/scifi_module_clean_recursive_v1/scifi_module_clean_recursive_v1.glb`
+  - `results/publication_repair_candidates_20260510_local/scifi_module_clean_recursive_v1/scifi_module_clean_recursive_v1.obj`
+  - `results/publication_repair_candidates_20260510_local/crown_ornament_attached_portal_v1/crown_ornament_attached_portal_v1.glb`
+  - `results/publication_repair_candidates_20260510_local/crown_ornament_attached_portal_v1/crown_ornament_attached_portal_v1.obj`
+  - `results/publication_repair_candidates_20260510_local/architectural_arch_portal_bridge_v1/architectural_arch_portal_bridge_v1.glb`
+- Grammar / reproducibility / manifest paths:
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v1/composed/selected_zoom_manifest.json`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510_zoom_v1_manifest.json`
+  - `docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_case_inventory.json`
+  - `docs/evaluation/case_inventory_v1_v60_20260512/v1_v60_case_inventory_for_selection_zh.md`
+  - `docs/evaluation/strict_visual_matched_v1_v2_visual_audit_zh_20260510.md`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_gate_lowpoly_turret_anchor_v1.json`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_keep_battlement_anchor_v1.json`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/city_block_lowpoly_roof_anchor_v1.json`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/city_courtyard_tower_anchor_v1.json`
+  - `results/visual_recursive_lowpoly_roots_20260511l/selected_roots/mech_socket_frame_lowpoly_v1.json`
+  - `results/visual_recursive_roots_20260511o/selected_roots/city_stepped_arcology_v1.json`
+  - `results/visual_recursive_solid_roots_20260511u/selected_roots/castle_solid_gate_v1.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510e/inputs/architectural_arch_portal_bridge_v1.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510e/inputs/scifi_module_clean_recursive_v1.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/visual_recursive_cases_remote_20260511j/inputs/selected_roots/local_architectural_arch_portal_bridge_v1.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/visual_recursive_cases_remote_20260511j/inputs/selected_roots/local_crown_ornament_attached_portal_v1.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/visual_recursive_cases_remote_20260511j/inputs/selected_roots/local_scifi_module_clean_recursive_v1.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_gate_lowpoly_turret_anchor_v1.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_gate_lowpoly_turret_anchor_v1.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/visual_recursive_lowpoly_roots_20260511l/selected_roots/castle_keep_battlement_anchor_v1.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V01_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V01_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V01_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V01_remote_a1002.txt`
+
+## V02 - seam_aware_texturing_batch_v2_20260510_zoom_white_fast
+![V02](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V02_seam_aware_texturing_batch_v2_20260510_zoom_white_fast.png)
+
+- Counts: images=440, geometry=92, specs=110, remote=144
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/01_seam_aware_texturing_v2_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/02_strict_visual_matched_texture_V24_priority_rerun_v2_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/03_strict_visual_matched_texture_v2_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/04_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/05_connected_scaffold_v2_hq_selected_contact_white_rerun2005.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/06_connected_scaffold_v2_hq_selected_contact_white_rerun2000.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/07_connected_scaffold_v2_hq_selected_contact_white_rerun2010.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/08_connected_scaffold_v2_hq_selected_contact_white_seamless_rerun2035.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/09_standard_pure_white_selected_textured_contact_v2_20260509.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/10_standard_pure_white_selected_textured_contact_v2_20260509.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/11_connected_scaffold_v2_hq_selected_contact_pure_white_rerun2115.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/12_connected_scaffold_v2_hq_selected_contact_pure_white_rerun2115_2026050.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/13_connected_scaffold_v2_hq_selected_contact_rerun1925.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/14_visuals__connected_scaffold_v2_textured_glb_hq_20260509__connected_sca.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/15_public_guide_textured_glb_contact_sheet_v2_20260508.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V02/16_visuals__public_guide_textured_glb_20260508__renders__public_guide_tex.png`
+- Representative/selection images:
+  - `visuals/seam_aware_texturing_batch_v2_20260510_zoom_white_fast/seam_aware_texturing_v2_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_zoom_white_20260510_v2_render_target/strict_visual_matched_texture_V24_priority_rerun_v2_contact_sheet.png`
+  - `visuals/strict_visual_matched_texture_v2_zoom_20260510/strict_visual_matched_texture_v2_contact_sheet_20260510.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v2/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `visuals/connected_scaffold_v2_textured_glb_hq_20260509/connected_scaffold_v2_hq_selected_contact_white_rerun2005.png`
+  - `visuals/connected_scaffold_v2_textured_glb_hq_20260509/connected_scaffold_v2_hq_selected_contact_white_rerun2000.png`
+  - `visuals/connected_scaffold_v2_textured_glb_hq_20260509/connected_scaffold_v2_hq_selected_contact_white_rerun2010.png`
+  - `visuals/connected_scaffold_v2_textured_glb_hq_20260509/connected_scaffold_v2_hq_selected_contact_white_seamless_rerun2035.png`
+- GLB/OBJ paths:
+  - `results/visual_recursive_roots_20260511o/selected_roots/mecha_socket_cruciform_v2.obj`
+  - `results/visual_recursive_roots_20260511o/selected_roots/crown_spire_ring_socket_v2.obj`
+  - `results/visual_recursive_roots_20260511o/selected_roots/castle_keep_spire_socket_v2.obj`
+  - `results/visual_recursive_roots_20260511o/selected_roots/castle_tower_gate_socket_v2.obj`
+  - `results/visual_recursive_roots_20260511o/selected_roots/city_tower_cluster_socket_v2.obj`
+  - `results/connected_scaffold_cases_v2_20260509/porous_coral_mineral/porous_coral_mineral.obj`
+  - `results/traditional_baselines_space_colonization_20260508_v2/root_vine/space_colonization.obj`
+  - `results/connected_scaffold_cases_v2_20260509/bismuth_hopper_cluster/bismuth_hopper_cluster.obj`
+  - `results/traditional_baselines_space_colonization_20260508_v2/bush_shell/space_colonization.obj`
+  - `results/traditional_baselines_space_colonization_20260508_v2/tree_canopy/space_colonization.obj`
+  - `results/connected_scaffold_cases_v2_20260509/sci_fi_recursive_module/sci_fi_recursive_module.obj`
+  - `results/strict_matched_psrslg_proxy_20260510_seed310_v2/lsystem_pine_canopy/traditional_lsystem.obj`
+  - `results/connected_scaffold_cases_v2_20260509/root_vine_connected_control/root_vine_connected_control.obj`
+  - `results/strict_matched_psrslg_proxy_20260510_seed310_v2/lsystem_pine_canopy/ours_psrslg_lsystem_mode.obj`
+  - `results/connected_scaffold_cases_v2_20260509/volumetric_dla_coral_cluster/volumetric_dla_coral_cluster.obj`
+  - `results/seam_aware_texturing_batch_v2_20260510/S01c_root_matte_earth_plain/S01c_root_matte_earth_plain.obj`
+  - `results/seam_aware_texturing_batch_v2_20260510/S02c_coral_bone_ridge_plain/S02c_coral_bone_ridge_plain.obj`
+  - `results/seam_aware_texturing_batch_v2_20260510/S02b_coral_peach_micro_pores/S02b_coral_peach_micro_pores.obj`
+  - `results/strict_matched_psrslg_proxy_20260510_seed310_v2/dla_crystal_cluster/traditional_dla_voxel_cluster.obj`
+  - `results/strict_matched_psrslg_proxy_20260510_seed310_v2/ifs_transform_branching_tree/traditional_ifs_tree.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/seam_aware_texturing_batch_v2_20260510/manifest.json`
+  - `results/strict_matched_psrslg_proxy_20260510_seed310_v2/manifest.json`
+  - `results/strict_visual_matched_cases_v2_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v2_20260510_remote/manifest.json`
+  - `results/connected_scaffold_cases_v2_20260509/summary.json`
+  - `results/lsystem_tree_root_orientation_fix_20260510_local_v2/summary.json`
+  - `results/seam_aware_texturing_batch_v2_20260510/summary.json`
+  - `results/seam_aware_texturing_batch_v2_20260510_remote/S01a_root_continuous_bark_grain_lowcontrast_steps8_tex2048_seed20295710_xformers/summary.json`
+  - `results/seam_aware_texturing_batch_v2_20260510_remote/S01b_root_warm_cambium_soft_grain_steps8_tex2048_seed20295711_xformers/summary.json`
+  - `results/seam_aware_texturing_batch_v2_20260510_remote/S01c_root_matte_earth_plain_steps8_tex2048_seed20295717_xformers/summary.json`
+  - `results/seam_aware_texturing_batch_v2_20260510_remote/S02a_coral_ivory_pores_continuous_steps8_tex2048_seed20295712_xformers/summary.json`
+  - `results/seam_aware_texturing_batch_v2_20260510_remote/S02b_coral_peach_micro_pores_steps8_tex2048_seed20295713_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/bismuth_hopper_bismuth_hq_steps8_tex2048_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/bismuth_hopper_bismuth_hq_steps8_tex2048_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/bismuth_hopper_bismuth_hq_steps8_tex2048_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/bismuth_hopper_pyrite_hq_steps8_tex2048_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/bismuth_hopper_pyrite_hq_steps8_tex2048_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/bismuth_hopper_pyrite_hq_steps8_tex2048_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/porous_coral_bismuth_hq_steps8_tex2048_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connected_scaffold_v2_texture_hq_20260509_rerun1607/porous_coral_bismuth_hq_steps8_tex2048_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V02_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V02_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V02_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V02_remote_a1002.txt`
+
+## V03 - strict_visual_matched_texture_v3b_connected_zoom_20260510_flatwhite
+![V03](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V03_strict_visual_matched_texture_v3b_connected_zoom_20260510_flatwhite.png)
+
+- Counts: images=402, geometry=50, specs=85, remote=80
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/01_strict_visual_matched_texture_v3b_connected_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/02_strict_visual_matched_texture_v3_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/03_strict_visual_matched_texture_v3b_connected_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/04_005_v3b_connected_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/05_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/06_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/07_009_v3b_dla_frontier_sheet_overview.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/08_V03_strict_visual_matched_texture_v3b_connected_zoom_20260510_flatwhit.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V03/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v3b_connected_zoom_20260510_flatwhite/strict_visual_matched_texture_v3b_connected_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v3_zoom_20260510/strict_visual_matched_texture_v3_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v3b_connected_zoom_20260510/strict_visual_matched_texture_v3b_connected_contact_sheet_20260510.png`
+  - `visuals/case_selection_by_type_20260510/hero_zoom/005_v3b_connected_contact_sheet.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v3/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_delivery_v3/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `visuals/case_selection_by_type_20260510/crystal_coral_dla/009_v3b_dla_frontier_sheet_overview.png`
+  - `visuals/strict_visual_matched_texture_v3b_connected_zoom_20260510_flatwhite/v3b_sc_bush_shell_connected_leaf/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_lsys_root_fan_d5_hierarchy/v3_lsys_root_fan_d5_hierarchy.obj`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_sc_bush_shell_220_leaf_shell/v3_sc_bush_shell_220_leaf_shell.obj`
+  - `results/publication_repair_candidates_20260510_local/lsystem_tree_root_cedar_grammar_v3/lsystem_tree_root_cedar_grammar_v3.glb`
+  - `results/publication_repair_candidates_20260510_local/lsystem_tree_root_cedar_grammar_v3/lsystem_tree_root_cedar_grammar_v3.obj`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_ifs_branch_tree_d6_clean_orbit/v3_ifs_branch_tree_d6_clean_orbit.obj`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_sc_tree_crown_260_leaf_clusters/v3_sc_tree_crown_260_leaf_clusters.obj`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_lsys_root_fan_d5_hierarchy_steps8_tex2048_seed20260512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_lsys_climbing_vine_d6_leaf_cards/v3_lsys_climbing_vine_d6_leaf_cards.obj`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_sc_bush_shell_220_leaf_shell_steps8_tex2048_seed20260523_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_ifs_branch_tree_d6_clean_orbit_steps8_tex2048_seed20260541_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_sc_root_network_260_root_hierarchy/v3_sc_root_network_260_root_hierarchy.obj`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_sc_tree_crown_260_leaf_clusters_steps8_tex2048_seed20260521_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v3b_connected_20260510_dryrun/v3b_sc_bush_shell_connected_leaf/v3b_sc_bush_shell_connected_leaf.obj`
+  - `results/strict_visual_matched_cases_v3b_connected_20260510_dryrun/v3b_sc_tree_crown_connected_leaf/v3b_sc_tree_crown_connected_leaf.obj`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_lsys_climbing_vine_d6_leaf_cards_steps8_tex2048_seed20260513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_lsys_pine_canopy_d5_layered_conifer/v3_lsys_pine_canopy_d5_layered_conifer.obj`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_sc_root_network_260_root_hierarchy_steps8_tex2048_seed20260522_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_dla_frontier_sheet_700_implicit_reef/v3_dla_frontier_sheet_700_implicit_reef.obj`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/v3_ifs_radial_ornament_o8_d4_solid_gear/v3_ifs_radial_ornament_o8_d4_solid_gear.obj`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_lsys_pine_canopy_d5_layered_conifer_steps8_tex2048_seed20260511_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_v3b_connected_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v3_20260510_remote/manifest.json`
+  - `results/strict_visual_matched_texture_v3b_connected_20260510_remote/manifest.json`
+  - `results/masked_naturalization_gapfill_20260510/coral_v3b_masked_alpha_grid/summary.json`
+  - `results/masked_naturalization_gapfill_20260510/pyrite_v3b_masked_alpha_grid/summary.json`
+  - `results/strict_visual_matched_cases_v3_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_v3b_connected_20260510_dryrun/summary.json`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_dla_aniso_crystal_800_faceted_frontier_steps8_tex2048_seed20260533_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_dla_coral_cluster_900_implicit_organic_steps8_tex2048_seed20260531_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_dla_frontier_sheet_700_implicit_reef_steps8_tex2048_seed20260532_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v3_20260510/v3_ifs_bismuth_hopper_d4_terraced_lattice_steps8_tex2048_seed20260544_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/coral_v3b_masked_alpha_grid/base_direct/mesh.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/coral_v3b_masked_alpha_grid/base_direct/preview.png`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/coral_v3b_masked_alpha_grid/masked_repair_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/coral_v3b_masked_alpha_grid/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/pyrite_v3b_masked_alpha_grid/base_direct/mesh.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/pyrite_v3b_masked_alpha_grid/base_direct/preview.png`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/pyrite_v3b_masked_alpha_grid/masked_repair_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/masked_naturalization_gapfill_20260510/pyrite_v3b_masked_alpha_grid/summary.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V03_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V03_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V03_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V03_remote_a1002.txt`
+
+## V04 - strict_visual_matched_texture_v4_zoom_20260510
+![V04](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V04_strict_visual_matched_texture_v4_zoom_20260510.png)
+
+- Counts: images=397, geometry=108, specs=196, remote=144
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/01_strict_visual_matched_texture_v4_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/02_strict_visual_matched_texture_v4_seed20260511_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/03_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/04_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/05_hero_teaser_zoom_candidate_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/06_zoom_02_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/07_zoom_02_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/08_zoom_05_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/09_zoom_05_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/10_zoom_04_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/11_zoom_04_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/12_zoom_03_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/13_zoom_03_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/14_zoom_02_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/15_zoom_02_white.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V04/16_zoom_01_white.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v4_zoom_20260510/strict_visual_matched_texture_v4_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v4_seed20260511_zoom_20260510/strict_visual_matched_texture_v4_seed20260511_contact_sheet_20260510.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v4c/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_delivery_v4c/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v4b/composed/hero_teaser_zoom_candidate_contact_sheet.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v4b/composed/white_previews/hero_01_bismuth/overview_all_zoom_boxes.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v4c/composed/white_previews/hero_01_bismuth/overview_all_zoom_boxes.png`
+  - `visuals/hero_teaser_five_asset_transparent_20260512_v4c/composed/white_previews/hero_02_pyrite/overview_all_zoom_boxes.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_sc_bush_shell_continuous_leaf/v4_sc_bush_shell_continuous_leaf.obj`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_sc_tree_crown_continuous_leaf/v4_sc_tree_crown_continuous_leaf.obj`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_sc_root_network_continuous_root/v4_sc_root_network_continuous_root.obj`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_sc_bush_shell_continuous_leaf_steps8_tex2048_seed20260623_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_sc_tree_crown_continuous_leaf_steps8_tex2048_seed20260621_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v4_20260510_remote/inputs/v4_sc_bush_shell_continuous_leaf/v4_sc_bush_shell_continuous_leaf.obj`
+  - `results/strict_visual_matched_texture_v4_20260510_remote/inputs/v4_sc_tree_crown_continuous_leaf/v4_sc_tree_crown_continuous_leaf.obj`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_sc_root_network_continuous_root_steps8_tex2048_seed20260622_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_ifs_branch_tree_d6_continuous_orbit/v4_ifs_branch_tree_d6_continuous_orbit.obj`
+  - `results/strict_visual_matched_texture_v4_20260510_remote/inputs/v4_sc_root_network_continuous_root/v4_sc_root_network_continuous_root.obj`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_dla_aniso_crystal_connected_implicit/v4_dla_aniso_crystal_connected_implicit.obj`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_dla_coral_cluster_connected_implicit/v4_dla_coral_cluster_connected_implicit.obj`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_ifs_branch_tree_d6_continuous_orbit_steps8_tex2048_seed20260641_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_dla_aniso_crystal_connected_implicit_steps8_tex2048_seed20260633_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_dla_coral_cluster_connected_implicit_steps8_tex2048_seed20260631_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_dla_frontier_sheet_connected_implicit/v4_dla_frontier_sheet_connected_implicit.obj`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/v4_lsys_root_fan_d5_continuous_hierarchy/v4_lsys_root_fan_d5_continuous_hierarchy.obj`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_dla_frontier_sheet_connected_implicit_steps8_tex2048_seed20260632_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_lsys_root_fan_d5_continuous_hierarchy_steps8_tex2048_seed20260612_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_ifs_radial_ornament_o8_d4_bridged_gear_steps8_tex2048_seed20260642_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v4_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v4_seed20260511_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v4_seed20260512_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v4_seed20260513_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v4_20260510.py`
+  - `results/strict_visual_matched_cases_v4_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v4_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v4_seed20260511_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v4_seed20260512_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v4_seed20260513_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v4_20260510/v4_dla_aniso_crystal_connected_implicit_steps8_tex2048_seed20260633_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_aniso_crystal_connected_implicit_steps8_tex2048_seed20260633_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_aniso_crystal_connected_implicit_steps8_tex2048_seed20260633_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_aniso_crystal_connected_implicit_steps8_tex2048_seed20260633_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_coral_cluster_connected_implicit_steps8_tex2048_seed20260631_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_coral_cluster_connected_implicit_steps8_tex2048_seed20260631_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_coral_cluster_connected_implicit_steps8_tex2048_seed20260631_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_frontier_sheet_connected_implicit_steps8_tex2048_seed20260632_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v4_20260510/v4_dla_frontier_sheet_connected_implicit_steps8_tex2048_seed20260632_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V04_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V04_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V04_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V04_remote_a1002.txt`
+
+## V05 - strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510
+![V05](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V05_strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510.png)
+
+- Counts: images=145, geometry=72, specs=130, remote=72
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/01_strict_visual_matched_texture_v5c_detail_seed20265110_contact_sheet_20.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/02_strict_visual_matched_texture_v5_hybrid_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/03_V05_strict_visual_matched_texture_v5c_detail_seed20265110_zoom_2026051.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V05/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510/strict_visual_matched_texture_v5c_detail_seed20265110_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_zoom_20260510/strict_visual_matched_texture_v5_hybrid_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510/v5c_sc_tree_crown_260_welded_branch_leaf_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510/v5c_dla_coral_cluster_900_welded_tube_frontier/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510/v5c_ifs_radial_ornament_o8_d4_welded_ring_spokes/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510/v5c_sc_root_network_260_welded_root_spurs/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v5c_detail_seed20265110_zoom_20260510/v5c_lsys_pine_canopy_d5_welded_whorl_needles/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_zoom_20260510/v5_sc_tree_crown_260_welded_branch_leaf_shell/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_sc_root_network_260_welded_root_spurs/v5_sc_root_network_260_welded_root_spurs.obj`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_sc_root_network_260_welded_root_spurs_steps8_tex2048_seed20260622_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_lsys_root_fan_d5_welded_hair_hierarchy_steps8_tex2048_seed20260612_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_lsys_root_fan_d5_welded_hair_hierarchy/v5_lsys_root_fan_d5_welded_hair_hierarchy.obj`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_lsys_pine_canopy_d5_welded_whorl_needles_steps8_tex2048_seed20260611_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_coral_cluster_900_welded_tube_frontier_steps8_tex2048_seed20260631_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_lsys_climbing_vine_d6_welded_leaf_tendrils_steps8_tex2048_seed20260613_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_sc_tree_crown_260_welded_branch_leaf_shell_steps8_tex2048_seed20260621_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_lsys_pine_canopy_d5_welded_whorl_needles/v5_lsys_pine_canopy_d5_welded_whorl_needles.obj`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_frontier_sheet_700_welded_boundary_reef_steps8_tex2048_seed20260632_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_20260510/v5_ifs_radial_ornament_o8_d4_welded_ring_spokes_steps8_tex2048_seed20260642_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v5_hybrid_20260510_remote/inputs/v5_sc_root_network_260_welded_root_spurs/v5_sc_root_network_260_welded_root_spurs.obj`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_dla_coral_cluster_900_welded_tube_frontier/v5_dla_coral_cluster_900_welded_tube_frontier.obj`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_lsys_climbing_vine_d6_welded_leaf_tendrils/v5_lsys_climbing_vine_d6_welded_leaf_tendrils.obj`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_sc_tree_crown_260_welded_branch_leaf_shell/v5_sc_tree_crown_260_welded_branch_leaf_shell.obj`
+  - `results/strict_visual_matched_texture_v5_hybrid_20260510_remote/inputs/v5_lsys_root_fan_d5_welded_hair_hierarchy/v5_lsys_root_fan_d5_welded_hair_hierarchy.obj`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_dla_frontier_sheet_700_welded_boundary_reef/v5_dla_frontier_sheet_700_welded_boundary_reef.obj`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_seed20260700_20260510/v5_sc_root_network_260_welded_root_spurs_steps8_tex2048_seed20260812_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/v5_ifs_radial_ornament_o8_d4_welded_ring_spokes/v5_ifs_radial_ornament_o8_d4_welded_ring_spokes.obj`
+  - `visuals/strict_visual_matched_texture_v5_hybrid_seed20260700_20260510/v5_lsys_root_fan_d5_welded_hair_hierarchy_steps8_tex2048_seed20260802_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_v5c_detail_naturalized_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_v5c_detail_naturalized_seed20265110_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v5_hybrid_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v5_hybrid_seed20260700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v5c_detail_seed20265110_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v5_hybrid_20260510.py`
+  - `results/strict_visual_matched_cases_v5_hybrid_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_v5c_detail_naturalized_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_v5c_detail_naturalized_seed20265110_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v5_hybrid_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v5_hybrid_seed20260700_20260510_remote/inputs/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_coral_cluster_900_welded_tube_frontier_steps8_tex2048_seed20260631_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_coral_cluster_900_welded_tube_frontier_steps8_tex2048_seed20260631_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_coral_cluster_900_welded_tube_frontier_steps8_tex2048_seed20260631_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_frontier_sheet_700_welded_boundary_reef_steps8_tex2048_seed20260632_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_frontier_sheet_700_welded_boundary_reef_steps8_tex2048_seed20260632_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_dla_frontier_sheet_700_welded_boundary_reef_steps8_tex2048_seed20260632_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_ifs_radial_ornament_o8_d4_welded_ring_spokes_steps8_tex2048_seed20260642_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v5_hybrid_20260510/v5_ifs_radial_ornament_o8_d4_welded_ring_spokes_steps8_tex2048_seed20260642_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V05_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V05_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V05_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V05_remote_a1002.txt`
+
+## V06 - strict_visual_matched_texture_v6_connectivity_seed20261200_zoom_20260510
+![V06](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V06_strict_visual_matched_texture_v6_connectivity_seed20261200_zoom_20260510.png)
+
+- Counts: images=292, geometry=99, specs=183, remote=165
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/01_strict_visual_matched_texture_v6_connectivity_seed20261200_contact_she.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/02_strict_visual_matched_texture_v6_connectivity_seed20276100_contact_she.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/03_strict_visual_matched_texture_v6_connectivity_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/04_V06_strict_visual_matched_texture_v6_connectivity_seed20261200_zoom_20.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V06/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20261200_zoom_20260510/strict_visual_matched_texture_v6_connectivity_seed20261200_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20276100_zoom_20260510/strict_visual_matched_texture_v6_connectivity_seed20276100_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_zoom_20260510/strict_visual_matched_texture_v6_connectivity_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_zoom_20260510/v6_sc_bush_shell_220_same_attractor_welded_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20276100_zoom_20260510/v6_sc_bush_shell_220_same_attractor_welded_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20261200_zoom_20260510/v6_sc_bush_shell_220_same_attractor_welded_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20261200_zoom_20260510/v6_sc_tree_crown_260_same_attractor_welded_leaf_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_zoom_20260510/v6_sc_tree_crown_260_same_attractor_welded_leaf_shell/overview_raw.png`
+- GLB/OBJ paths:
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_lsys_root_fan_d5_same_rule_welded_hairs_steps8_tex2048_seed20260612_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/v6_lsys_root_fan_d5_same_rule_welded_hairs/v6_lsys_root_fan_d5_same_rule_welded_hairs.obj`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_coral_cluster_900_connected_tube_sheet_steps8_tex2048_seed20260631_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_ifs_radial_ornament_o8_d4_connected_facets_steps8_tex2048_seed20260642_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_crystal_facet_cluster_connected_bridges_steps8_tex2048_seed20260633_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_ifs_fractal_lattice_d4_connected_copy_facets_steps8_tex2048_seed20260643_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_lsys_pine_canopy_d5_same_rule_welded_needles_steps8_tex2048_seed20260611_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_sc_bush_shell_220_same_attractor_welded_shell_steps8_tex2048_seed20260623_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/v6_dla_coral_cluster_900_connected_tube_sheet/v6_dla_coral_cluster_900_connected_tube_sheet.obj`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/v6_ifs_radial_ornament_o8_d4_connected_facets/v6_ifs_radial_ornament_o8_d4_connected_facets.obj`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_frontier_sheet_700_connected_boundary_sheet_steps8_tex2048_seed20260632_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_lsys_climbing_vine_d6_same_curl_attached_leaves_steps8_tex2048_seed20260613_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/v6_dla_crystal_facet_cluster_connected_bridges/v6_dla_crystal_facet_cluster_connected_bridges.obj`
+  - `results/strict_visual_matched_texture_v6_connectivity_20260510_remote/inputs/v6_lsys_root_fan_d5_same_rule_welded_hairs/v6_lsys_root_fan_d5_same_rule_welded_hairs.obj`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_sc_root_network_260_same_attractor_welded_rootlets_steps8_tex2048_seed20260622_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_sc_tree_crown_260_same_attractor_welded_leaf_shell_steps8_tex2048_seed20260621_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/v6_ifs_fractal_lattice_d4_connected_copy_facets/v6_ifs_fractal_lattice_d4_connected_copy_facets.obj`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/v6_lsys_pine_canopy_d5_same_rule_welded_needles/v6_lsys_pine_canopy_d5_same_rule_welded_needles.obj`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20260700_20260510/v6_lsys_root_fan_d5_same_rule_welded_hairs_steps8_tex2048_seed20260802_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_seed20260800_20260510/v6_lsys_root_fan_d5_same_rule_welded_hairs_steps8_tex2048_seed20260902_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v6_connectivity_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v6_connectivity_seed20261200_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v6_connectivity_seed20276100_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v6_connectivity_20260510.py`
+  - `results/strict_visual_matched_cases_v6_connectivity_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v6_connectivity_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v6_connectivity_seed20261200_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v6_connectivity_seed20276100_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_coral_cluster_900_connected_tube_sheet_steps8_tex2048_seed20260631_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_crystal_facet_cluster_connected_bridges_steps8_tex2048_seed20260633_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_frontier_sheet_700_connected_boundary_sheet_steps8_tex2048_seed20260632_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_coral_cluster_900_connected_tube_sheet_steps8_tex2048_seed20260631_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_coral_cluster_900_connected_tube_sheet_steps8_tex2048_seed20260631_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_coral_cluster_900_connected_tube_sheet_steps8_tex2048_seed20260631_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_crystal_facet_cluster_connected_bridges_steps8_tex2048_seed20260633_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_crystal_facet_cluster_connected_bridges_steps8_tex2048_seed20260633_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_crystal_facet_cluster_connected_bridges_steps8_tex2048_seed20260633_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_frontier_sheet_700_connected_boundary_sheet_steps8_tex2048_seed20260632_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v6_connectivity_20260510/v6_dla_frontier_sheet_700_connected_boundary_sheet_steps8_tex2048_seed20260632_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V06_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V06_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V06_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V06_remote_a1002.txt`
+
+## V07 - strict_visual_matched_texture_v7_organic_dla_zoom_20260510
+![V07](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V07_strict_visual_matched_texture_v7_organic_dla_zoom_20260510.png)
+
+- Counts: images=140, geometry=56, specs=105, remote=120
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/01_strict_visual_matched_texture_v7_organic_dla_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/02_strict_visual_matched_texture_v7_organic_dla_seed20260800_contact_shee.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/03_V07_strict_visual_matched_texture_v7_organic_dla_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/13_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/14_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V07/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_zoom_20260510/strict_visual_matched_texture_v7_organic_dla_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_seed20260800_zoom_20260510/strict_visual_matched_texture_v7_organic_dla_seed20260800_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_zoom_20260510/v7_dla_coral_dense_porous_smooth_tips/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_zoom_20260510/v7_dla_coral_open_branching_smooth_tips/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_seed20260800_zoom_20260510/v7_dla_crystal_connected_blue_facets/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_seed20260800_zoom_20260510/v7_dla_crystal_faceted_pyrite_boundary/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_zoom_20260510/v7_dla_crystal_connected_blue_facets/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_seed20260800_zoom_20260510/v7_dla_coral_dense_porous_smooth_tips/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_frontier_open_reef_seed_b/v7_dla_frontier_open_reef_seed_b.obj`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_coral_open_branching_seed_b/v7_dla_coral_open_branching_seed_b.obj`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_frontier_open_reef_boundary/v7_dla_frontier_open_reef_boundary.obj`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_frontier_ivory_reef_boundary/v7_dla_frontier_ivory_reef_boundary.obj`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_crystal_connected_blue_facets/v7_dla_crystal_connected_blue_facets.obj`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_frontier_open_reef_seed_b_steps8_tex2048_seed20260717_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v7_organic_dla_20260510_remote/inputs/v7_dla_frontier_open_reef_seed_b/v7_dla_frontier_open_reef_seed_b.obj`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_coral_dense_porous_smooth_tips/v7_dla_coral_dense_porous_smooth_tips.obj`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_seed_b_steps8_tex2048_seed20260716_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_frontier_open_reef_boundary_steps8_tex2048_seed20260713_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_frontier_ivory_reef_boundary_steps8_tex2048_seed20260714_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_crystal_faceted_pyrite_boundary/v7_dla_crystal_faceted_pyrite_boundary.obj`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_crystal_connected_blue_facets_steps8_tex2048_seed20260718_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v7_organic_dla_20260510_remote/inputs/v7_dla_coral_open_branching_seed_b/v7_dla_coral_open_branching_seed_b.obj`
+  - `results/strict_visual_matched_texture_v7_organic_dla_20260510_remote/inputs/v7_dla_frontier_open_reef_boundary/v7_dla_frontier_open_reef_boundary.obj`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_dense_porous_smooth_tips_steps8_tex2048_seed20260712_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/v7_dla_coral_open_branching_smooth_tips/v7_dla_coral_open_branching_smooth_tips.obj`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_crystal_faceted_pyrite_boundary_steps8_tex2048_seed20260715_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v7_organic_dla_20260510_remote/inputs/v7_dla_frontier_ivory_reef_boundary/v7_dla_frontier_ivory_reef_boundary.obj`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_smooth_tips_steps8_tex2048_seed20260711_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v7_organic_dla_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v7_organic_dla_seed20261100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_cases_v7_organic_dla_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v7_organic_dla_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v7_organic_dla_seed20261100_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_dense_porous_smooth_tips_steps8_tex2048_seed20260712_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_seed_b_steps8_tex2048_seed20260716_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_smooth_tips_steps8_tex2048_seed20260711_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_crystal_connected_blue_facets_steps8_tex2048_seed20260718_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_crystal_faceted_pyrite_boundary_steps8_tex2048_seed20260715_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_frontier_ivory_reef_boundary_steps8_tex2048_seed20260714_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_dense_porous_smooth_tips_steps8_tex2048_seed20260712_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_dense_porous_smooth_tips_steps8_tex2048_seed20260712_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_dense_porous_smooth_tips_steps8_tex2048_seed20260712_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_seed_b_steps8_tex2048_seed20260716_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_seed_b_steps8_tex2048_seed20260716_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_seed_b_steps8_tex2048_seed20260716_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_smooth_tips_steps8_tex2048_seed20260711_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v7_organic_dla_20260510/v7_dla_coral_open_branching_smooth_tips_steps8_tex2048_seed20260711_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V07_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V07_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V07_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V07_remote_a1002.txt`
+
+## V08 - strict_visual_matched_texture_v8_frontier_refine_zoom_20260510
+![V08](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V08_strict_visual_matched_texture_v8_frontier_refine_zoom_20260510.png)
+
+- Counts: images=270, geometry=184, specs=332, remote=270
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/01_strict_visual_matched_texture_v8_frontier_refine_contact_sheet_2026051.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/02_strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20262900.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/03_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/07_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/08_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/09_V08_strict_visual_matched_texture_v8_frontier_refine_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V08/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_zoom_20260510/strict_visual_matched_texture_v8_frontier_refine_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20262900_zoom_20260510/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20262900_contact_sheet_20260510.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_corrected_V67B_20260512/DLA_ours_V8_lace_reef_coral_A/overview_raw.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_corrected_V67B_20260512/DLA_ours_V8_lace_reef_coral_A/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20262900_zoom_20260510/v8_dla_coral_lace_reef_branching_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20262900_zoom_20260510/v8_dla_coral_porous_table_reef/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_zoom_20260510/v8_dla_coral_lace_reef_branching_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20263700_zoom_20260510/v8_dla_coral_porous_table_reef/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_coral_porous_table_reef/v8_dla_coral_porous_table_reef.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_coral_lace_reef_branching_a/v8_dla_coral_lace_reef_branching_a.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_coral_lace_reef_branching_b/v8_dla_coral_lace_reef_branching_b.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_thin_tip_20260510_dryrun/v8_dla_coral_porous_table_reef/v8_dla_coral_porous_table_reef.obj`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_20260510_remote/inputs/v8_dla_coral_porous_table_reef/v8_dla_coral_porous_table_reef.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_coral_antler_ridge_branching/v8_dla_coral_antler_ridge_branching.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_crystal_pyrite_ridge_cluster/v8_dla_crystal_pyrite_ridge_cluster.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_frontier_fan_lace_membrane_a/v8_dla_frontier_fan_lace_membrane_a.obj`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_porous_table_reef_steps8_tex2048_seed20260813_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_crystal_frontier_prism_seed_b/v8_dla_crystal_frontier_prism_seed_b.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_frontier_open_boundary_seed_b/v8_dla_frontier_open_boundary_seed_b.obj`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_frontier_terraced_ridge_sheet/v8_dla_frontier_terraced_ridge_sheet.obj`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_a_steps8_tex2048_seed20260811_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_b_steps8_tex2048_seed20260819_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_antler_ridge_branching_steps8_tex2048_seed20260812_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_crystal_pyrite_ridge_cluster_steps8_tex2048_seed20260818_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_fan_lace_membrane_a_steps8_tex2048_seed20260814_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/v8_dla_crystal_accretive_blade_cluster/v8_dla_crystal_accretive_blade_cluster.obj`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_crystal_frontier_prism_seed_b_steps8_tex2048_seed20260820_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_frontier_open_boundary_seed_b_steps8_tex2048_seed20260816_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_thin_tip_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_seed20261700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_seed20262100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20262900_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20263300_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20263700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20264100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v8_frontier_refine_thin_tip_seed20264500_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v8_frontier_refine_20260510.py`
+  - `results/strict_visual_matched_cases_v8_frontier_refine_20260510_dryrun/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_antler_ridge_branching_steps8_tex2048_seed20260812_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_antler_ridge_branching_steps8_tex2048_seed20260812_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_antler_ridge_branching_steps8_tex2048_seed20260812_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_a_steps8_tex2048_seed20260811_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_a_steps8_tex2048_seed20260811_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_a_steps8_tex2048_seed20260811_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_b_steps8_tex2048_seed20260819_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v8_frontier_refine_20260510/v8_dla_coral_lace_reef_branching_b_steps8_tex2048_seed20260819_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V08_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V08_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V08_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V08_remote_a1002.txt`
+
+## V09 - v9_dla_coral_antler_filigree_tips
+![V09](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V09_v9_dla_coral_antler_filigree_tips.png)
+
+- Counts: images=41, geometry=48, specs=86, remote=72
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/01_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/02_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/03_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/15_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V09/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_coral_antler_filigree_tips/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_coral_lace_branching_curve_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_crystal_frosted_blade_cluster/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_crystal_ridge_fan_seed_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_crystal_branching_prism_seed_c/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_coral_open_reef_lace_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_coral_porous_table_ridge/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_zoom_20260510/v9_dla_crystal_accretive_needles_a/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_coral_open_reef_lace_b/v9_dla_coral_open_reef_lace_b.obj`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_open_reef_lace_b_steps8_tex2048_seed20261413_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_coral_porous_table_ridge/v9_dla_coral_porous_table_ridge.obj`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_crystal_ridge_fan_seed_b/v9_dla_crystal_ridge_fan_seed_b.obj`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_porous_table_ridge_steps8_tex2048_seed20261414_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_ridge_fan_seed_b_steps8_tex2048_seed20261421_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_frontier_fan_perforated_a_steps8_tex2048_seed20261415_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_frontier_fan_perforated_a/v9_dla_frontier_fan_perforated_a.obj`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_antler_filigree_tips_steps8_tex2048_seed20261412_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_frontier_ripple_lace_sheet_steps8_tex2048_seed20261416_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_accretive_needles_a_steps8_tex2048_seed20261419_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_frontier_plate_ridge_seed_b_steps8_tex2048_seed20261418_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_coral_antler_filigree_tips/v9_dla_coral_antler_filigree_tips.obj`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_frontier_ripple_lace_sheet/v9_dla_frontier_ripple_lace_sheet.obj`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_lace_branching_curve_a_steps8_tex2048_seed20261411_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_frosted_blade_cluster_steps8_tex2048_seed20261420_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_crystal_accretive_needles_a/v9_dla_crystal_accretive_needles_a.obj`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/v9_dla_frontier_plate_ridge_seed_b/v9_dla_frontier_plate_ridge_seed_b.obj`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_branching_prism_seed_c_steps8_tex2048_seed20261422_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_frontier_open_boundary_needles_steps8_tex2048_seed20261417_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_seed20265300_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v9_organic_frontier_20260510.py`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v9_organic_frontier_seed20265300_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_antler_filigree_tips_steps8_tex2048_seed20261412_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_lace_branching_curve_a_steps8_tex2048_seed20261411_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_open_reef_lace_b_steps8_tex2048_seed20261413_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_porous_table_ridge_steps8_tex2048_seed20261414_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_accretive_needles_a_steps8_tex2048_seed20261419_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_branching_prism_seed_c_steps8_tex2048_seed20261422_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_crystal_frosted_blade_cluster_steps8_tex2048_seed20261420_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_antler_filigree_tips_steps8_tex2048_seed20261412_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_antler_filigree_tips_steps8_tex2048_seed20261412_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_antler_filigree_tips_steps8_tex2048_seed20261412_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_lace_branching_curve_a_steps8_tex2048_seed20261411_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_lace_branching_curve_a_steps8_tex2048_seed20261411_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_lace_branching_curve_a_steps8_tex2048_seed20261411_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_open_reef_lace_b_steps8_tex2048_seed20261413_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v9_organic_frontier_20260510/v9_dla_coral_open_reef_lace_b_steps8_tex2048_seed20261413_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V09_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V09_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V09_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V09_remote_a1002.txt`
+
+## V10 - strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510
+![V10](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V10_strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510.png)
+
+- Counts: images=78, geometry=36, specs=69, remote=48
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/01_strict_visual_matched_texture_v10_readable_coral_frontier_contact_shee.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/02_V10_strict_visual_matched_texture_v10_readable_coral_frontier_zoom_202.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/06_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V10/16_zoom_01.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/strict_visual_matched_texture_v10_readable_coral_frontier_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_staghorn_coral_branching_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_table_coral_plate_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_crystal_blue_gold_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_table_coral_plate_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_crystal_blue_gold_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_frontier_fan_plate_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_zoom_20260510/v10_dla_staghorn_coral_branching_a/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v10_readable_coral_frontier_20260510_dryrun/v10_dla_table_coral_plate_a/v10_dla_table_coral_plate_a.obj`
+  - `results/strict_visual_matched_cases_v10_readable_coral_frontier_20260510_dryrun/v10_dla_table_coral_plate_b/v10_dla_table_coral_plate_b.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/v10_dla_crystal_blue_gold_a/v10_dla_crystal_blue_gold_a.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/v10_dla_crystal_blue_gold_b/v10_dla_crystal_blue_gold_b.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/v10_dla_table_coral_plate_a/v10_dla_table_coral_plate_a.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/v10_dla_table_coral_plate_b/v10_dla_table_coral_plate_b.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/v10_dla_frontier_fan_plate_a/v10_dla_frontier_fan_plate_a.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/v10_dla_frontier_fan_plate_b/v10_dla_frontier_fan_plate_b.obj`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_a_steps8_tex2048_seed20260927_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_b_steps8_tex2048_seed20260928_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_table_coral_plate_a_steps8_tex2048_seed20260923_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_table_coral_plate_b_steps8_tex2048_seed20260924_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v10_readable_coral_frontier_20260510_dryrun/v10_dla_staghorn_coral_branching_a/v10_dla_staghorn_coral_branching_a.obj`
+  - `results/strict_visual_matched_cases_v10_readable_coral_frontier_20260510_dryrun/v10_dla_staghorn_coral_branching_b/v10_dla_staghorn_coral_branching_b.obj`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_frontier_fan_plate_a_steps8_tex2048_seed20260925_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_frontier_fan_plate_b_steps8_tex2048_seed20260926_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_staghorn_coral_branching_a_steps8_tex2048_seed20260921_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_staghorn_coral_branching_b_steps8_tex2048_seed20260922_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_seed20266900_20260510_remote/inputs/v10_dla_crystal_blue_gold_a/v10_dla_crystal_blue_gold_a.obj`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_seed20266900_20260510_remote/inputs/v10_dla_crystal_blue_gold_b/v10_dla_crystal_blue_gold_b.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v10_readable_coral_frontier_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_seed20266900_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_cases_v10_readable_coral_frontier_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v10_readable_coral_frontier_seed20266900_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_a_steps8_tex2048_seed20260927_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_b_steps8_tex2048_seed20260928_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_frontier_fan_plate_a_steps8_tex2048_seed20260925_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_frontier_fan_plate_b_steps8_tex2048_seed20260926_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_staghorn_coral_branching_a_steps8_tex2048_seed20260921_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_staghorn_coral_branching_b_steps8_tex2048_seed20260922_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_a_steps8_tex2048_seed20260927_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_a_steps8_tex2048_seed20260927_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_a_steps8_tex2048_seed20260927_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_b_steps8_tex2048_seed20260928_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_b_steps8_tex2048_seed20260928_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_crystal_blue_gold_b_steps8_tex2048_seed20260928_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_frontier_fan_plate_a_steps8_tex2048_seed20260925_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v10_readable_coral_frontier_20260510/v10_dla_frontier_fan_plate_a_steps8_tex2048_seed20260925_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V10_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V10_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V10_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V10_remote_a1002.txt`
+
+## V11 - strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510
+![V11](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V11_strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510.png)
+
+- Counts: images=94, geometry=52, specs=97, remote=96
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/01_strict_visual_matched_texture_v11_clean_staghorn_contact_sheet_2026051.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/02_V11_strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/15_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V11/16_zoom_01.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/strict_visual_matched_texture_v11_clean_staghorn_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_clean_table_coral_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_clean_staghorn_coral_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_clean_table_coral_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_clean_staghorn_coral_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_clean_crystal_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_frontier_plate_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_zoom_20260510/v11_dla_clean_crystal_b/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v11_clean_staghorn_20260510_dryrun/v11_dla_clean_table_coral_a/v11_dla_clean_table_coral_a.obj`
+  - `results/strict_visual_matched_cases_v11_clean_staghorn_20260510_dryrun/v11_dla_clean_table_coral_b/v11_dla_clean_table_coral_b.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/v11_dla_clean_crystal_a/v11_dla_clean_crystal_a.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/v11_dla_clean_crystal_b/v11_dla_clean_crystal_b.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/v11_dla_frontier_plate_a/v11_dla_frontier_plate_a.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/v11_dla_frontier_plate_b/v11_dla_frontier_plate_b.obj`
+  - `results/strict_visual_matched_cases_v11_clean_staghorn_20260510_dryrun/v11_dla_clean_staghorn_coral_a/v11_dla_clean_staghorn_coral_a.obj`
+  - `results/strict_visual_matched_cases_v11_clean_staghorn_20260510_dryrun/v11_dla_clean_staghorn_coral_b/v11_dla_clean_staghorn_coral_b.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/v11_dla_clean_table_coral_a/v11_dla_clean_table_coral_a.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/v11_dla_clean_table_coral_b/v11_dla_clean_table_coral_b.obj`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_a_steps8_tex2048_seed20261017_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_b_steps8_tex2048_seed20261018_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_frontier_plate_a_steps8_tex2048_seed20261015_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_frontier_plate_b_steps8_tex2048_seed20261016_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_table_coral_a_steps8_tex2048_seed20261013_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_table_coral_b_steps8_tex2048_seed20261014_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20268500_20260510_remote/inputs/v11_dla_clean_crystal_a/v11_dla_clean_crystal_a.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20268500_20260510_remote/inputs/v11_dla_clean_crystal_b/v11_dla_clean_crystal_b.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20270100_20260510_remote/inputs/v11_dla_clean_crystal_a/v11_dla_clean_crystal_a.obj`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20270100_20260510_remote/inputs/v11_dla_clean_crystal_b/v11_dla_clean_crystal_b.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v11_clean_staghorn_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20268500_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20270100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_cases_v11_clean_staghorn_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20268500_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v11_clean_staghorn_seed20270100_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_a_steps8_tex2048_seed20261017_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_b_steps8_tex2048_seed20261018_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_staghorn_coral_a_steps8_tex2048_seed20261011_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_staghorn_coral_b_steps8_tex2048_seed20261012_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_a_steps8_tex2048_seed20261017_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_a_steps8_tex2048_seed20261017_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_a_steps8_tex2048_seed20261017_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_b_steps8_tex2048_seed20261018_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_b_steps8_tex2048_seed20261018_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_crystal_b_steps8_tex2048_seed20261018_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_staghorn_coral_a_steps8_tex2048_seed20261011_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v11_clean_staghorn_20260510/v11_dla_clean_staghorn_coral_a_steps8_tex2048_seed20261011_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V11_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V11_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V11_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V11_remote_a1002.txt`
+
+## V12 - strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510
+![V12](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V12_strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510.png)
+
+- Counts: images=66, geometry=36, specs=69, remote=48
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/01_strict_visual_matched_texture_v12_tapered_staghorn_contact_sheet_20260.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/02_V12_strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/04_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V12/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/strict_visual_matched_texture_v12_tapered_staghorn_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_table_coral_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_staghorn_coral_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_table_coral_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_staghorn_coral_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_crystal_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_crystal_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_zoom_20260510/v12_dla_tapered_frontier_plate_a/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v12_tapered_staghorn_20260510_dryrun/v12_dla_tapered_table_coral_a/v12_dla_tapered_table_coral_a.obj`
+  - `results/strict_visual_matched_cases_v12_tapered_staghorn_20260510_dryrun/v12_dla_tapered_table_coral_b/v12_dla_tapered_table_coral_b.obj`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/v12_dla_tapered_crystal_a/v12_dla_tapered_crystal_a.obj`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/v12_dla_tapered_crystal_b/v12_dla_tapered_crystal_b.obj`
+  - `results/strict_visual_matched_cases_v12_tapered_staghorn_20260510_dryrun/v12_dla_tapered_staghorn_coral_a/v12_dla_tapered_staghorn_coral_a.obj`
+  - `results/strict_visual_matched_cases_v12_tapered_staghorn_20260510_dryrun/v12_dla_tapered_staghorn_coral_b/v12_dla_tapered_staghorn_coral_b.obj`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_a_steps8_tex2048_seed20261017_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_b_steps8_tex2048_seed20261018_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/v12_dla_tapered_table_coral_a/v12_dla_tapered_table_coral_a.obj`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/v12_dla_tapered_table_coral_b/v12_dla_tapered_table_coral_b.obj`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_table_coral_a_steps8_tex2048_seed20261013_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_table_coral_b_steps8_tex2048_seed20261014_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_seed20271300_20260510_remote/inputs/v12_dla_tapered_crystal_a/v12_dla_tapered_crystal_a.obj`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_seed20271300_20260510_remote/inputs/v12_dla_tapered_crystal_b/v12_dla_tapered_crystal_b.obj`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_frontier_plate_a_steps8_tex2048_seed20261015_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_frontier_plate_b_steps8_tex2048_seed20261016_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_staghorn_coral_a_steps8_tex2048_seed20261011_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_staghorn_coral_b_steps8_tex2048_seed20261012_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/v12_dla_tapered_frontier_plate_a/v12_dla_tapered_frontier_plate_a.obj`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/v12_dla_tapered_frontier_plate_b/v12_dla_tapered_frontier_plate_b.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v12_tapered_staghorn_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_seed20271300_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_cases_v12_tapered_staghorn_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v12_tapered_staghorn_seed20271300_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_a_steps8_tex2048_seed20261017_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_b_steps8_tex2048_seed20261018_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_frontier_plate_a_steps8_tex2048_seed20261015_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_frontier_plate_b_steps8_tex2048_seed20261016_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_staghorn_coral_a_steps8_tex2048_seed20261011_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_staghorn_coral_b_steps8_tex2048_seed20261012_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_a_steps8_tex2048_seed20261017_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_a_steps8_tex2048_seed20261017_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_a_steps8_tex2048_seed20261017_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_b_steps8_tex2048_seed20261018_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_b_steps8_tex2048_seed20261018_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_crystal_b_steps8_tex2048_seed20261018_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_frontier_plate_a_steps8_tex2048_seed20261015_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v12_tapered_staghorn_20260510/v12_dla_tapered_frontier_plate_a_steps8_tex2048_seed20261015_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V12_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V12_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V12_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V12_remote_a1002.txt`
+
+## V13 - strict_visual_matched_texture_v13_smooth_coral_crystal_zoom_20260510
+![V13](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V13_strict_visual_matched_texture_v13_smooth_coral_crystal_zoom_20260510.png)
+
+- Counts: images=220, geometry=81, specs=157, remote=120
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/01_strict_visual_matched_texture_v13_smooth_coral_crystal_contact_sheet_2.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/02_strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274100_co.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/03_strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_co.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/04_v13_smooth_frontier_sheet_coral_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/05_v13_smooth_frontier_sheet_coral_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/06_v13_smooth_frontier_sheet_coral_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/07_v13_smooth_frontier_sheet_coral_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/08_v13_smooth_frontier_sheet_coral_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/09_v13b_red_frontier_sheet_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/10_V13_strict_visual_matched_texture_v13_smooth_coral_crystal_zoom_202605.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V13/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_zoom_20260510/strict_visual_matched_texture_v13_smooth_coral_crystal_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274100_zoom_20260510/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274100_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_zoom_20260510/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_contact_sheet_20260510.png`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/_guides/v13_smooth_frontier_sheet_coral_guide.png`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_20260510_remote/inputs/_guides/v13_smooth_frontier_sheet_coral_guide.png`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20273300_20260510_remote/inputs/_guides/v13_smooth_frontier_sheet_coral_guide.png`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274100_20260510_remote/inputs/_guides/v13_smooth_frontier_sheet_coral_guide.png`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274900_20260510_remote/inputs/_guides/v13_smooth_frontier_sheet_coral_guide.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v13b_implicit_coral_20260510_dryrun/v13b_implicit_staghorn_coral_a/v13b_implicit_staghorn_coral_a.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_table_coral_a/v13_dla_smooth_table_coral_a.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_table_coral_b/v13_dla_smooth_table_coral_b.obj`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_table_coral_a_steps8_tex2048_seed20261113_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_table_coral_b_steps8_tex2048_seed20261114_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_crystal_ridge_a/v13_dla_smooth_crystal_ridge_a.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_crystal_ridge_b/v13_dla_smooth_crystal_ridge_b.obj`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_crystal_ridge_a_steps8_tex2048_seed20261117_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_crystal_ridge_b_steps8_tex2048_seed20261118_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_coral_staghorn_a/v13_dla_smooth_coral_staghorn_a.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_coral_staghorn_b/v13_dla_smooth_coral_staghorn_b.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_frontier_sheet_a/v13_dla_smooth_frontier_sheet_a.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/v13_dla_smooth_frontier_sheet_b/v13_dla_smooth_frontier_sheet_b.obj`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_a_steps8_tex2048_seed20261111_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_b_steps8_tex2048_seed20261112_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_frontier_sheet_a_steps8_tex2048_seed20261115_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_frontier_sheet_b_steps8_tex2048_seed20261116_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_20260510_remote/inputs/v13_dla_smooth_table_coral_a/v13_dla_smooth_table_coral_a.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_20260510_remote/inputs/v13_dla_smooth_table_coral_b/v13_dla_smooth_table_coral_b.obj`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20273300_20260510_remote/inputs/v13_dla_smooth_table_coral_a/v13_dla_smooth_table_coral_a.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20273300_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274900_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v13_smooth_coral_crystal_20260510.py`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20272500_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20273300_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274100_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v13_smooth_coral_crystal_seed20274900_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_a_steps8_tex2048_seed20261111_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_a_steps8_tex2048_seed20261111_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_a_steps8_tex2048_seed20261111_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_a_steps8_tex2048_seed20261111_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_b_steps8_tex2048_seed20261112_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_b_steps8_tex2048_seed20261112_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_coral_staghorn_b_steps8_tex2048_seed20261112_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_crystal_ridge_a_steps8_tex2048_seed20261117_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v13_smooth_coral_crystal_20260510/v13_dla_smooth_crystal_ridge_a_steps8_tex2048_seed20261117_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V13_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V13_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V13_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V13_remote_a1002.txt`
+
+## V14 - strict_visual_matched_texture_v14_branching_coral_zoom_20260510
+![V14](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V14_strict_visual_matched_texture_v14_branching_coral_zoom_20260510.png)
+
+- Counts: images=149, geometry=48, specs=94, remote=72
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/01_strict_visual_matched_texture_v14_branching_coral_contact_sheet_202605.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/02_strict_visual_matched_texture_v14_branching_coral_seed20279100_contact.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/04_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/07_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/08_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/09_V14_strict_visual_matched_texture_v14_branching_coral_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V14/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_zoom_20260510/strict_visual_matched_texture_v14_branching_coral_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_seed20279100_zoom_20260510/strict_visual_matched_texture_v14_branching_coral_seed20279100_contact_sheet_20260510.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_20260511/DLA_ours_V14_table_coral_B/overview_raw.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_20260511/DLA_ours_V14_table_coral_B/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_seed20279100_zoom_20260510/v14_dla_branching_staghorn_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_seed20279100_zoom_20260510/v14_dla_branching_staghorn_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_seed20279100_zoom_20260510/v14_dla_branching_table_coral_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_seed20279100_zoom_20260510/v14_dla_branching_table_coral_b/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_staghorn_a/v14_dla_branching_staghorn_a.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_staghorn_b/v14_dla_branching_staghorn_b.obj`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_staghorn_a_steps8_tex2048_seed20261211_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_staghorn_b_steps8_tex2048_seed20261212_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_table_coral_a/v14_dla_branching_table_coral_a.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_table_coral_b/v14_dla_branching_table_coral_b.obj`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_table_coral_a_steps8_tex2048_seed20261213_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_table_coral_b_steps8_tex2048_seed20261214_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_a_steps8_tex2048_seed20261217_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_b_steps8_tex2048_seed20261218_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_frontier_sheet_a_steps8_tex2048_seed20261215_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_frontier_sheet_b_steps8_tex2048_seed20261216_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_crystal_ridge_a/v14_dla_branching_crystal_ridge_a.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_crystal_ridge_b/v14_dla_branching_crystal_ridge_b.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_frontier_sheet_a/v14_dla_branching_frontier_sheet_a.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/v14_dla_branching_frontier_sheet_b/v14_dla_branching_frontier_sheet_b.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20277100_20260510_remote/inputs/v14_dla_branching_staghorn_a/v14_dla_branching_staghorn_a.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20277100_20260510_remote/inputs/v14_dla_branching_staghorn_b/v14_dla_branching_staghorn_b.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20279100_20260510_remote/inputs/v14_dla_branching_staghorn_a/v14_dla_branching_staghorn_a.obj`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20279100_20260510_remote/inputs/v14_dla_branching_staghorn_b/v14_dla_branching_staghorn_b.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20277100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20279100_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v14_branching_coral_20260510.py`
+  - `results/strict_visual_matched_texture_v14_branching_coral_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20277100_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v14_branching_coral_seed20279100_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_a_steps8_tex2048_seed20261217_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_b_steps8_tex2048_seed20261218_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_frontier_sheet_a_steps8_tex2048_seed20261215_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_frontier_sheet_b_steps8_tex2048_seed20261216_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_staghorn_a_steps8_tex2048_seed20261211_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_a_steps8_tex2048_seed20261217_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_a_steps8_tex2048_seed20261217_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_a_steps8_tex2048_seed20261217_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_b_steps8_tex2048_seed20261218_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_b_steps8_tex2048_seed20261218_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_crystal_ridge_b_steps8_tex2048_seed20261218_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_frontier_sheet_a_steps8_tex2048_seed20261215_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v14_branching_coral_20260510/v14_dla_branching_frontier_sheet_a_steps8_tex2048_seed20261215_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V14_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V14_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V14_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V14_remote_a1002.txt`
+
+## V15 - strict_visual_matched_texture_v15_plants_ifs_zoom_20260510
+![V15](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V15_strict_visual_matched_texture_v15_plants_ifs_zoom_20260510.png)
+
+- Counts: images=167, geometry=72, specs=134, remote=108
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/01_strict_visual_matched_texture_v15_plants_ifs_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/02_strict_visual_matched_texture_v15_plants_ifs_seed20281700_contact_shee.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/03_V15_strict_visual_matched_texture_v15_plants_ifs_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V15/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_zoom_20260510/strict_visual_matched_texture_v15_plants_ifs_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_zoom_20260510/strict_visual_matched_texture_v15_plants_ifs_seed20281700_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_zoom_20260510/v15_sc_bush_shell_220_smooth_leaf_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_zoom_20260510/v15_sc_bush_shell_220_smooth_leaf_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_zoom_20260510/v15_sc_tree_crown_260_smooth_leaf_crown/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_zoom_20260510/v15_sc_root_network_260_smooth_rootlet_web/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_zoom_20260510/v15_sc_tree_crown_260_smooth_leaf_crown/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_zoom_20260510/v15_ifs_radial_ornament_o8_d4_bridged_rings/overview_raw.png`
+- GLB/OBJ paths:
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20260623_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_sc_tree_crown_260_smooth_leaf_crown_steps8_tex2048_seed20260621_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_lsys_root_fan_d5_smooth_hair_hierarchy_steps8_tex2048_seed20260612_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_sc_root_network_260_smooth_rootlet_web_steps8_tex2048_seed20260622_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_radial_ornament_o8_d4_bridged_rings_steps8_tex2048_seed20260642_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_lsys_climbing_vine_d6_smooth_leafy_curl_steps8_tex2048_seed20260613_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_branch_tree_d6_smooth_recursive_canopy_steps8_tex2048_seed20260641_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20260643_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/v15_sc_bush_shell_220_smooth_leaf_shell/v15_sc_bush_shell_220_smooth_leaf_shell.obj`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/v15_sc_tree_crown_260_smooth_leaf_crown/v15_sc_tree_crown_260_smooth_leaf_crown.obj`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_lsys_pine_canopy_d5_smooth_needled_branch_mass_steps8_tex2048_seed20260611_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20278100_20260510/v15_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20278213_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20278100_20260510/v15_sc_tree_crown_260_smooth_leaf_crown_steps8_tex2048_seed20278211_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510/v15_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20281813_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510/v15_sc_tree_crown_260_smooth_leaf_crown_steps8_tex2048_seed20281811_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20282100_20260510/v15_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20282213_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_seed20282100_20260510/v15_sc_tree_crown_260_smooth_leaf_crown_steps8_tex2048_seed20282211_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/v15_lsys_root_fan_d5_smooth_hair_hierarchy/v15_lsys_root_fan_d5_smooth_hair_hierarchy.obj`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/v15_sc_root_network_260_smooth_rootlet_web/v15_sc_root_network_260_smooth_rootlet_web.obj`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/v15_ifs_radial_ornament_o8_d4_bridged_rings/v15_ifs_radial_ornament_o8_d4_bridged_rings.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_seed20278100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_seed20282100_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v15_plants_ifs_20260510.py`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_seed20278100_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_seed20281700_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v15_plants_ifs_seed20282100_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_branch_tree_d6_smooth_recursive_canopy_steps8_tex2048_seed20260641_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20260643_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_radial_ornament_o8_d4_bridged_rings_steps8_tex2048_seed20260642_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_branch_tree_d6_smooth_recursive_canopy_steps8_tex2048_seed20260641_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_branch_tree_d6_smooth_recursive_canopy_steps8_tex2048_seed20260641_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_branch_tree_d6_smooth_recursive_canopy_steps8_tex2048_seed20260641_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20260643_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20260643_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_lattice_crystal_d4_small_bridge_facets_steps8_tex2048_seed20260643_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_radial_ornament_o8_d4_bridged_rings_steps8_tex2048_seed20260642_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v15_plants_ifs_20260510/v15_ifs_radial_ornament_o8_d4_bridged_rings_steps8_tex2048_seed20260642_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V15_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V15_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V15_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V15_remote_a1002.txt`
+
+## V16 - strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_20260510
+![V16](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V16_strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_20260510.png)
+
+- Counts: images=143, geometry=32, specs=66, remote=48
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/01_strict_visual_matched_texture_v16_natural_coral_seed20280300_contact_s.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/02_strict_visual_matched_texture_v16_natural_coral_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/03_v16_frontier_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/04_v16_frontier_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/05_V16_strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V16/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_20260510/strict_visual_matched_texture_v16_natural_coral_seed20280300_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_zoom_20260510/strict_visual_matched_texture_v16_natural_coral_contact_sheet_20260510.png`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/_guides/v16_frontier_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510_remote/inputs/_guides/v16_frontier_sheet_reef_edge_pbr_guide.png`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_20260510/v16_dla_natural_staghorn_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_zoom_20260510/v16_dla_natural_staghorn_b/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_20260510/v16_dla_natural_table_coral_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_zoom_20260510/v16_dla_natural_elkhorn_a/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_elkhorn_a/v16_dla_natural_elkhorn_a.obj`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_staghorn_a/v16_dla_natural_staghorn_a.obj`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_staghorn_b/v16_dla_natural_staghorn_b.obj`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_elkhorn_a_steps8_tex2048_seed20261313_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_staghorn_a_steps8_tex2048_seed20261311_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_staghorn_b_steps8_tex2048_seed20261312_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_table_coral_a/v16_dla_natural_table_coral_a.obj`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_table_coral_a_steps8_tex2048_seed20261314_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510_remote/inputs/v16_dla_natural_elkhorn_a/v16_dla_natural_elkhorn_a.obj`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_frontier_sheet_a_steps8_tex2048_seed20261316_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_frontier_sheet_a/v16_dla_natural_frontier_sheet_a.obj`
+  - `results/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510_remote/inputs/v16_dla_natural_staghorn_a/v16_dla_natural_staghorn_a.obj`
+  - `results/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510_remote/inputs/v16_dla_natural_staghorn_b/v16_dla_natural_staghorn_b.obj`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_a_steps8_tex2048_seed20261317_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_b_steps8_tex2048_seed20261318_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_porous_reef_plate_a_steps8_tex2048_seed20261315_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_crystal_boundary_a/v16_dla_natural_crystal_boundary_a.obj`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_crystal_boundary_b/v16_dla_natural_crystal_boundary_b.obj`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510/v16_dla_natural_elkhorn_a_steps8_tex2048_seed20281103_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/v16_dla_natural_porous_reef_plate_a/v16_dla_natural_porous_reef_plate_a.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v16_natural_coral_20260510.py`
+  - `results/strict_visual_matched_texture_v16_natural_coral_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v16_natural_coral_seed20280300_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_a_steps8_tex2048_seed20261317_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_b_steps8_tex2048_seed20261318_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_elkhorn_a_steps8_tex2048_seed20261313_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_frontier_sheet_a_steps8_tex2048_seed20261316_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_porous_reef_plate_a_steps8_tex2048_seed20261315_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_staghorn_a_steps8_tex2048_seed20261311_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_staghorn_b_steps8_tex2048_seed20261312_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_a_steps8_tex2048_seed20261317_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_a_steps8_tex2048_seed20261317_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_a_steps8_tex2048_seed20261317_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_b_steps8_tex2048_seed20261318_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_b_steps8_tex2048_seed20261318_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_crystal_boundary_b_steps8_tex2048_seed20261318_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_elkhorn_a_steps8_tex2048_seed20261313_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v16_natural_coral_20260510/v16_dla_natural_elkhorn_a_steps8_tex2048_seed20261313_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V16_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V16_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V16_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V16_remote_a1002.txt`
+
+## V17 - strict_visual_matched_texture_v17_plants_roots_zoom_20260510
+![V17](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V17_strict_visual_matched_texture_v17_plants_roots_zoom_20260510.png)
+
+- Counts: images=66, geometry=42, specs=87, remote=54
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/01_strict_visual_matched_texture_v17_plants_roots_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/02_V17_strict_visual_matched_texture_v17_plants_roots_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/09_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/13_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/15_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V17/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/strict_visual_matched_texture_v17_plants_roots_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_sc_bush_shell_220_reference_connected_leaf_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_sc_tree_crown_260_reference_leaf_bud_crown/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_sc_root_network_260_reference_connected_root_source_web/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_sc_bush_shell_220_reference_connected_leaf_shell/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_sc_tree_crown_260_reference_leaf_bud_crown/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_sc_root_network_260_reference_connected_root_source_web/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_zoom_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass/overview_raw.png`
+- GLB/OBJ paths:
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_sc_tree_crown_260_reference_leaf_bud_crown_steps8_tex2048_seed20260621_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20260613_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_root_fan_d5_reference_rhizome_plate_network_steps8_tex2048_seed20260612_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_sc_bush_shell_220_reference_connected_leaf_shell_steps8_tex2048_seed20260623_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20260611_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v17_plants_roots_20260510_local_verify/v17_sc_tree_crown_260_reference_leaf_bud_crown/v17_sc_tree_crown_260_reference_leaf_bud_crown.obj`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_sc_root_network_260_reference_connected_root_source_web_steps8_tex2048_seed20260622_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510/v17_sc_tree_crown_260_reference_leaf_bud_crown_steps8_tex2048_seed20282811_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510/v17_sc_tree_crown_260_reference_leaf_bud_crown_steps8_tex2048_seed20284011_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v17_plants_roots_20260510_remote/inputs/v17_sc_tree_crown_260_reference_leaf_bud_crown/v17_sc_tree_crown_260_reference_leaf_bud_crown.obj`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20282803_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510/v17_lsys_root_fan_d5_reference_rhizome_plate_network_steps8_tex2048_seed20282802_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510/v17_sc_bush_shell_220_reference_connected_leaf_shell_steps8_tex2048_seed20282813_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20284003_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510/v17_lsys_root_fan_d5_reference_rhizome_plate_network_steps8_tex2048_seed20284002_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510/v17_sc_bush_shell_220_reference_connected_leaf_shell_steps8_tex2048_seed20284013_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20282801_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20284001_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v17_plants_roots_20260510_local_verify/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl.obj`
+  - `results/strict_visual_matched_cases_v17_plants_roots_20260510_local_verify/v17_lsys_root_fan_d5_reference_rhizome_plate_network/v17_lsys_root_fan_d5_reference_rhizome_plate_network.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v17_plants_roots_20260510_local_verify/manifest.json`
+  - `results/strict_visual_matched_texture_v17_plants_roots_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v17_plants_roots_20260510.py`
+  - `results/strict_visual_matched_cases_v17_plants_roots_20260510_local_verify/summary.json`
+  - `results/strict_visual_matched_texture_v17_plants_roots_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v17_plants_roots_seed20282700_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v17_plants_roots_seed20283900_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20260613_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20260611_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_root_fan_d5_reference_rhizome_plate_network_steps8_tex2048_seed20260612_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20260613_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20260613_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_climbing_vine_d6_reference_leafy_swept_curl_steps8_tex2048_seed20260613_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20260611_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20260611_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_pine_canopy_d5_reference_sleeved_needled_mass_steps8_tex2048_seed20260611_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_root_fan_d5_reference_rhizome_plate_network_steps8_tex2048_seed20260612_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v17_plants_roots_20260510/v17_lsys_root_fan_d5_reference_rhizome_plate_network_steps8_tex2048_seed20260612_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V17_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V17_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V17_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V17_remote_a1002.txt`
+
+## V18 - strict_visual_matched_texture_v18_connectivity_naturalization_zoom_20260510
+![V18](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V18_strict_visual_matched_texture_v18_connectivity_naturalization_zoom_20260510.png)
+
+- Counts: images=90, geometry=56, specs=105, remote=96
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/01_strict_visual_matched_texture_v18_connectivity_naturalization_contact_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/02_v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/03_v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/04_v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/05_v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/06_V18_strict_visual_matched_texture_v18_connectivity_naturalization_zoom.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/15_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V18/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_zoom_20260510/strict_visual_matched_texture_v18_connectivity_naturalization_contact_sheet_20260510.png`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/_guides/v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_seed20283100_20260510_remote/inputs/_guides/v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_seed20283500_20260510_remote/inputs/_guides/v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/_guides/v18_frontier_sheet_reef_edge_pbr_guide.png`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_zoom_20260510/v18_dla_branching_reef_loop_closure_a/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_zoom_20260510/v18_dla_bismuth_stepped_connected_crystal/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_zoom_20260510/v18_dla_coral_cluster_connected_polyps_a/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_pyrite_orbit_connected_cubes/v18_dla_pyrite_orbit_connected_cubes.obj`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_branching_reef_loop_closure_a/v18_dla_branching_reef_loop_closure_a.obj`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_pyrite_orbit_connected_cubes_steps8_tex2048_seed20262316_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_branching_reef_loop_closure_a_steps8_tex2048_seed20262314_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_coral_cluster_connected_polyps_a/v18_dla_coral_cluster_connected_polyps_a.obj`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_coral_cluster_connected_polyps_b/v18_dla_coral_cluster_connected_polyps_b.obj`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_crystal_lattice_connected_facets/v18_dla_crystal_lattice_connected_facets.obj`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_coral_cluster_connected_polyps_a_steps8_tex2048_seed20262311_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_coral_cluster_connected_polyps_b_steps8_tex2048_seed20262312_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_crystal_lattice_connected_facets_steps8_tex2048_seed20262315_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/v18_dla_pyrite_orbit_connected_cubes/v18_dla_pyrite_orbit_connected_cubes.obj`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_bismuth_stepped_connected_crystal_steps8_tex2048_seed20262317_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_bismuth_stepped_connected_crystal/v18_dla_bismuth_stepped_connected_crystal.obj`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_frontier_sheet_connected_reef_edge_steps8_tex2048_seed20262313_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/v18_dla_branching_reef_loop_closure_a/v18_dla_branching_reef_loop_closure_a.obj`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_frontier_sheet_connected_reef_edge/v18_dla_frontier_sheet_connected_reef_edge.obj`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_frontier_sheet_seed_b_connected_lace_steps8_tex2048_seed20262318_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/v18_dla_frontier_sheet_seed_b_connected_lace/v18_dla_frontier_sheet_seed_b_connected_lace.obj`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/v18_dla_coral_cluster_connected_polyps_a/v18_dla_coral_cluster_connected_polyps_a.obj`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/v18_dla_coral_cluster_connected_polyps_b/v18_dla_coral_cluster_connected_polyps_b.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_seed20283100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_seed20283500_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v18_connectivity_naturalization_20260510.py`
+  - `results/strict_visual_matched_cases_v18_connectivity_naturalization_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_seed20283100_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_v18_connectivity_naturalization_seed20283500_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_bismuth_stepped_connected_crystal_steps8_tex2048_seed20262317_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_branching_reef_loop_closure_a_steps8_tex2048_seed20262314_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_coral_cluster_connected_polyps_a_steps8_tex2048_seed20262311_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_bismuth_stepped_connected_crystal_steps8_tex2048_seed20262317_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_bismuth_stepped_connected_crystal_steps8_tex2048_seed20262317_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_bismuth_stepped_connected_crystal_steps8_tex2048_seed20262317_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_branching_reef_loop_closure_a_steps8_tex2048_seed20262314_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_branching_reef_loop_closure_a_steps8_tex2048_seed20262314_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_branching_reef_loop_closure_a_steps8_tex2048_seed20262314_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_coral_cluster_connected_polyps_a_steps8_tex2048_seed20262311_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_v18_connectivity_naturalization_20260510/v18_dla_coral_cluster_connected_polyps_a_steps8_tex2048_seed20262311_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V18_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V18_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V18_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V18_remote_a1002.txt`
+
+## V19 - strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510
+![V19](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V19_strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510.png)
+
+- Counts: images=56, geometry=18, specs=39, remote=18
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/01_strict_visual_matched_texture_V19_meshroot_botanical_contact_sheet_202.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/02_V19_strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/08_zoom_03.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/09_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/15_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V19/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/strict_visual_matched_texture_V19_meshroot_botanical_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_sc_root_network_260_real_meshroot_token_root_web/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_sc_root_network_260_real_meshroot_token_root_web/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_zoom_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan/overview_raw.png`
+- GLB/OBJ paths:
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/v19_lsys_root_fan_d5_real_meshroot_token_fan/v19_lsys_root_fan_d5_real_meshroot_token_fan.obj`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_pine_canopy_d5_real_meshroot_token_crown_steps8_tex2048_seed20260811_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_climbing_vine_d6_real_meshroot_token_curl_steps8_tex2048_seed20260813_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell_steps8_tex2048_seed20260816_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_sc_root_network_260_real_meshroot_token_root_web_steps8_tex2048_seed20260815_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_lsys_root_fan_d5_real_meshroot_token_fan/v19_lsys_root_fan_d5_real_meshroot_token_fan.obj`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown_steps8_tex2048_seed20260814_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/v19_lsys_pine_canopy_d5_real_meshroot_token_crown/v19_lsys_pine_canopy_d5_real_meshroot_token_crown.obj`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/v19_lsys_climbing_vine_d6_real_meshroot_token_curl/v19_lsys_climbing_vine_d6_real_meshroot_token_curl.obj`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell.obj`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/v19_sc_root_network_260_real_meshroot_token_root_web/v19_sc_root_network_260_real_meshroot_token_root_web.obj`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_lsys_pine_canopy_d5_real_meshroot_token_crown/v19_lsys_pine_canopy_d5_real_meshroot_token_crown.obj`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_lsys_climbing_vine_d6_real_meshroot_token_curl/v19_lsys_climbing_vine_d6_real_meshroot_token_curl.obj`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell.obj`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_sc_root_network_260_real_meshroot_token_root_web/v19_sc_root_network_260_real_meshroot_token_root_web.obj`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown.obj`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_v19_meshroot_botanical_20260510.py`
+  - `results/strict_visual_matched_cases_V19_meshroot_botanical_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_climbing_vine_d6_real_meshroot_token_curl_steps8_tex2048_seed20260813_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_pine_canopy_d5_real_meshroot_token_crown_steps8_tex2048_seed20260811_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_sc_bush_shell_220_real_meshroot_token_leaf_shell_steps8_tex2048_seed20260816_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_sc_root_network_260_real_meshroot_token_root_web_steps8_tex2048_seed20260815_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_sc_tree_crown_260_real_meshroot_token_attractor_crown_steps8_tex2048_seed20260814_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V19_meshroot_botanical_20260510_remote/render_manifest.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_climbing_vine_d6_real_meshroot_token_curl_steps8_tex2048_seed20260813_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_climbing_vine_d6_real_meshroot_token_curl_steps8_tex2048_seed20260813_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_climbing_vine_d6_real_meshroot_token_curl_steps8_tex2048_seed20260813_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_pine_canopy_d5_real_meshroot_token_crown_steps8_tex2048_seed20260811_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_pine_canopy_d5_real_meshroot_token_crown_steps8_tex2048_seed20260811_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_pine_canopy_d5_real_meshroot_token_crown_steps8_tex2048_seed20260811_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V19_meshroot_botanical_20260510/v19_lsys_root_fan_d5_real_meshroot_token_fan_steps8_tex2048_seed20260812_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V19_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V19_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V19_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V19_remote_a1002.txt`
+
+## V20 - strict_visual_matched_texture_V20_paper_coral_crystal_zoom_20260510
+![V20](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V20_strict_visual_matched_texture_V20_paper_coral_crystal_zoom_20260510.png)
+
+- Counts: images=244, geometry=120, specs=225, remote=168
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/01_strict_visual_matched_texture_V20_paper_coral_crystal_contact_sheet_20.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/02_strict_visual_matched_texture_V20_paper_coral_crystal_steps16_seed2028.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/03_strict_visual_matched_texture_V20_paper_coral_crystal_seed20284900_con.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/04_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/05_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/06_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/07_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/08_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/09_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/10_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/11_V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/12_V20_strict_visual_matched_texture_V20_paper_coral_crystal_zoom_2026051.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V20/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_zoom_20260510/strict_visual_matched_texture_V20_paper_coral_crystal_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_steps16_seed20287300_zoom_20260510/strict_visual_matched_texture_V20_paper_coral_crystal_steps16_seed20287300_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_seed20284900_zoom_20260510/strict_visual_matched_texture_V20_paper_coral_crystal_seed20284900_contact_sheet_20260510.png`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/_guides/V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20284900_20260510_remote/inputs/_guides/V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20285700_20260510_remote/inputs/_guides/V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20286500_20260510_remote/inputs/_guides/V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_steps4_seed20288100_20260510_remote/inputs/_guides/V20_frontier_lace_sheet_reef_edge_pbr_guide.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_pyrite_cubic_crystal/V20_dla_pyrite_cubic_crystal.obj`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_frontier_lace_sheet_a/V20_dla_frontier_lace_sheet_a.obj`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_frontier_lace_sheet_b/V20_dla_frontier_lace_sheet_b.obj`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_staghorn_calyx_coral_a/V20_dla_staghorn_calyx_coral_a.obj`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_staghorn_calyx_coral_b/V20_dla_staghorn_calyx_coral_b.obj`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_table_coral_reef_plate/V20_dla_table_coral_reef_plate.obj`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_bismuth_stepped_crystal/V20_dla_bismuth_stepped_crystal.obj`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/V20_dla_pyrite_cubic_crystal/V20_dla_pyrite_cubic_crystal.obj`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/V20_dla_frontier_lace_sheet_a/V20_dla_frontier_lace_sheet_a.obj`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/V20_dla_frontier_lace_sheet_b/V20_dla_frontier_lace_sheet_b.obj`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_pyrite_cubic_crystal_steps8_tex2048_seed20262517_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/V20_dla_staghorn_calyx_coral_a/V20_dla_staghorn_calyx_coral_a.obj`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/V20_dla_staghorn_calyx_coral_b/V20_dla_staghorn_calyx_coral_b.obj`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/V20_dla_table_coral_reef_plate/V20_dla_table_coral_reef_plate.obj`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_frontier_lace_sheet_a_steps8_tex2048_seed20262515_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_frontier_lace_sheet_b_steps8_tex2048_seed20262516_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/V20_dla_branching_reef_loop_closure/V20_dla_branching_reef_loop_closure.obj`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_staghorn_calyx_coral_a_steps8_tex2048_seed20262511_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_staghorn_calyx_coral_b_steps8_tex2048_seed20262512_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_table_coral_reef_plate_steps8_tex2048_seed20262513_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20284900_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20285700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20286500_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_steps16_seed20287300_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_steps4_seed20288100_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_tex4096_seed20288900_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V20_paper_coral_crystal_20260510.py`
+  - `results/strict_visual_matched_cases_V20_paper_coral_crystal_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_V20_paper_coral_crystal_seed20284900_20260510_remote/inputs/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_bismuth_stepped_crystal_steps8_tex2048_seed20262518_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_bismuth_stepped_crystal_steps8_tex2048_seed20262518_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_bismuth_stepped_crystal_steps8_tex2048_seed20262518_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_branching_reef_loop_closure_steps8_tex2048_seed20262514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_branching_reef_loop_closure_steps8_tex2048_seed20262514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_branching_reef_loop_closure_steps8_tex2048_seed20262514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_frontier_lace_sheet_a_steps8_tex2048_seed20262515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V20_paper_coral_crystal_20260510/V20_dla_frontier_lace_sheet_a_steps8_tex2048_seed20262515_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V20_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V20_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V20_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V20_remote_a1002.txt`
+
+## V21 - strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_zoom_20260510
+![V21](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V21_strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_zoom_202605.png)
+
+- Counts: images=273, geometry=77, specs=152, remote=105
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/01_strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_c.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/02_strict_visual_matched_texture_V21_ifs_transform_natural_tex4096_seed20.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/03_strict_visual_matched_texture_V21_ifs_transform_natural_contact_sheet_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/04_strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_c.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/05_strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_c.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/10_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/11_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/12_V21_strict_visual_matched_texture_V21_ifs_transform_natural_seed202937.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V21/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_zoom_20260510/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_tex4096_seed20292500_zoom_20260510/strict_visual_matched_texture_V21_ifs_transform_natural_tex4096_seed20292500_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_zoom_20260510/strict_visual_matched_texture_V21_ifs_transform_natural_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_zoom_20260510/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_contact_sheet_20260510.png`
+  - `paper_siga/figures/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_contact_sheet_20260510.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_corrected_V67B_20260512/IFS_ours_V21_branch_tree_natural_bark/overview_raw.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_corrected_V67B_20260512/IFS_ours_V21_branch_tree_natural_bark/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_zoom_20260510/V21_ifs_radial_ornament_o12_d5_burnished_steps8_tex2048_seed20295802_xformers/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/V21_ifs_branch_tree_d6_natural_bark/V21_ifs_branch_tree_d6_natural_bark.obj`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20262611_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510_remote/inputs/V21_ifs_branch_tree_d6_natural_bark/V21_ifs_branch_tree_d6_natural_bark.obj`
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/V21_ifs_radial_ornament_o12_d5_burnished/V21_ifs_radial_ornament_o12_d5_burnished.obj`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_radial_ornament_o12_d5_burnished_steps8_tex2048_seed20262612_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_pyrite_lattice_transform_d4_faceted_steps8_tex2048_seed20262613_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_transform_compat_positive_affine_stack_d4_steps8_tex2048_seed20262616_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/V21_ifs_pyrite_lattice_transform_d4_faceted/V21_ifs_pyrite_lattice_transform_d4_faceted.obj`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_transform_compat_negative_axis_mismatch_d4_steps8_tex2048_seed20262617_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_bismuth_stepped_transform_d5_iridescent_steps8_tex2048_seed20262614_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20291700_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20293801_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20295401_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20295801_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510_remote/inputs/V21_ifs_radial_ornament_o12_d5_burnished/V21_ifs_radial_ornament_o12_d5_burnished.obj`
+  - `visuals/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_escher_recursive_stair_loop_d4_viewlocked_steps8_tex2048_seed20262615_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/V21_transform_compat_positive_affine_stack_d4/V21_transform_compat_positive_affine_stack_d4.obj`
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/V21_transform_compat_negative_axis_mismatch_d4/V21_transform_compat_negative_axis_mismatch_d4.obj`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20291700_20260510_remote/inputs/V21_ifs_branch_tree_d6_natural_bark/V21_ifs_branch_tree_d6_natural_bark.obj`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_20260510_remote/inputs/V21_ifs_branch_tree_d6_natural_bark/V21_ifs_branch_tree_d6_natural_bark.obj`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_20260510_remote/inputs/V21_ifs_branch_tree_d6_natural_bark/V21_ifs_branch_tree_d6_natural_bark.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20291700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_tex4096_seed20292500_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V21_ifs_transform_natural_20260510.py`
+  - `results/strict_visual_matched_cases_V21_ifs_transform_natural_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20291700_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293300_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_V21_ifs_transform_natural_seed20293700_20260510_remote/inputs/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_bismuth_stepped_transform_d5_iridescent_steps8_tex2048_seed20262614_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_bismuth_stepped_transform_d5_iridescent_steps8_tex2048_seed20262614_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_bismuth_stepped_transform_d5_iridescent_steps8_tex2048_seed20262614_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20262611_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20262611_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_branch_tree_d6_natural_bark_steps8_tex2048_seed20262611_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_escher_recursive_stair_loop_d4_viewlocked_steps8_tex2048_seed20262615_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V21_ifs_transform_natural_20260510/V21_ifs_escher_recursive_stair_loop_d4_viewlocked_steps8_tex2048_seed20262615_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V21_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V21_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V21_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V21_remote_a1002.txt`
+
+## V22 - strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510
+![V22](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V22_strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510.png)
+
+- Counts: images=68, geometry=33, specs=47, remote=25
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/01_strict_visual_matched_texture_V22_botanical_smooth_contact_sheet_20260.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/02_strict_visual_matched_texture_V22_botanical_smooth_contact_sheet_20260.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/03_V22_strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/09_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/13_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V22/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/strict_visual_matched_texture_V22_botanical_smooth_contact_sheet_20260510.png`
+  - `paper_siga/figures/strict_visual_matched_texture_V22_botanical_smooth_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/V22_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20260735_xformers/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/V22_sc_tree_crown_260_smooth_needled_crown_steps8_tex2048_seed20260733_xformers/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/V22_sc_root_network_parameter_sweep_dense_smooth_rootlets_steps8_tex2048_seed20260737_xformers/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/V22_sc_root_network_260_smooth_rootlet_web_steps8_tex2048_seed20260734_xformers/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/V22_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20260735_xformers/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_zoom_20260510/V22_sc_tree_crown_260_smooth_needled_crown_steps8_tex2048_seed20260733_xformers/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/V22_lsys_root_fan_d5_smooth_rootlets/V22_lsys_root_fan_d5_smooth_rootlets.obj`
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/V22_lsys_pine_canopy_d5_smooth_needles/V22_lsys_pine_canopy_d5_smooth_needles.obj`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_root_fan_d5_smooth_rootlets_steps8_tex2048_seed20260731_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/V22_sc_bush_shell_220_smooth_leaf_shell/V22_sc_bush_shell_220_smooth_leaf_shell.obj`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_d5_smooth_needles_steps8_tex2048_seed20260730_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20260735_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V22_botanical_smooth_20260510_remote/inputs/V22_lsys_root_fan_d5_smooth_rootlets/V22_lsys_root_fan_d5_smooth_rootlets.obj`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_sc_root_network_260_smooth_rootlet_web_steps8_tex2048_seed20260734_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_sc_tree_crown_260_smooth_needled_crown_steps8_tex2048_seed20260733_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/V22_sc_root_network_260_smooth_rootlet_web/V22_sc_root_network_260_smooth_rootlet_web.obj`
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/V22_sc_tree_crown_260_smooth_needled_crown/V22_sc_tree_crown_260_smooth_needled_crown.obj`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/crown_bud_attach/depth_00/mesh.obj`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/crown_bud_attach/depth_01/mesh.obj`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/crown_bud_attach/depth_02/mesh.obj`
+  - `results/strict_visual_matched_texture_V22_botanical_smooth_20260510_remote/inputs/V22_lsys_pine_canopy_d5_smooth_needles/V22_lsys_pine_canopy_d5_smooth_needles.obj`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_climbing_vine_d6_smooth_leaf_tendrils_steps8_tex2048_seed20260732_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V22_botanical_smooth_20260510_remote/inputs/V22_sc_bush_shell_220_smooth_leaf_shell/V22_sc_bush_shell_220_smooth_leaf_shell.obj`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/fern_frond_tip_attach/depth_00/mesh.obj`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/fern_frond_tip_attach/depth_01/mesh.obj`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/fern_frond_tip_attach/depth_02/mesh.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V22_botanical_smooth_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V22_botanical_smooth_20260510.py`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/raw/v22_vine_runner_plantlet_ypos/summary.json`
+  - `results/strict_visual_matched_cases_V22_botanical_smooth_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V22_botanical_smooth_20260510_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_climbing_vine_d6_smooth_leaf_tendrils_steps8_tex2048_seed20260732_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_d5_smooth_needles_steps8_tex2048_seed20260730_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_depth_sweep_d6_smooth_needles_steps8_tex2048_seed20260736_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_root_fan_d5_smooth_rootlets_steps8_tex2048_seed20260731_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_sc_bush_shell_220_smooth_leaf_shell_steps8_tex2048_seed20260735_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_sc_root_network_260_smooth_rootlet_web_steps8_tex2048_seed20260734_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/fern_leaf_recursive_remote_20260511d/raw/v22_vine_runner_plantlet_ypos/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_climbing_vine_d6_smooth_leaf_tendrils_steps8_tex2048_seed20260732_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_climbing_vine_d6_smooth_leaf_tendrils_steps8_tex2048_seed20260732_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_climbing_vine_d6_smooth_leaf_tendrils_steps8_tex2048_seed20260732_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_d5_smooth_needles_steps8_tex2048_seed20260730_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_d5_smooth_needles_steps8_tex2048_seed20260730_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_d5_smooth_needles_steps8_tex2048_seed20260730_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V22_botanical_smooth_20260510/V22_lsys_pine_canopy_depth_sweep_d6_smooth_needles_steps8_tex2048_seed20260736_xformers/summary.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V22_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V22_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V22_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V22_remote_a1002.txt`
+
+## V23 - strict_visual_matched_texture_V23_all_family_seed3_stable_pool_zoom_render_target_20260510
+![V23](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V23_strict_visual_matched_texture_V23_all_family_seed3_stable_pool_zoom_render_targe.png)
+
+- Counts: images=353, geometry=151, specs=251, remote=204
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/01_V23_seed3_stable_pool_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/02_strict_visual_matched_texture_V23_all_family_selected8_render_target_c.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/03_strict_visual_matched_texture_V23_all_family_selected8_localplan_fixed.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/04_strict_visual_matched_texture_V23_all_family_selected8_render_target_c.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/05_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/06_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/07_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/08_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/09_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/10_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/11_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/12_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/13_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/14_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/15_V23_dla_frontier_sheet_pbr_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V23/16_V23_dla_frontier_sheet_pbr_guide.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V23_all_family_seed3_stable_pool_zoom_render_target_20260510/V23_seed3_stable_pool_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V23_all_family_selected8_zoom_render_target_20260510/strict_visual_matched_texture_V23_all_family_selected8_render_target_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V23_all_family_selected8_zoom_localplan_fixed_20260510/strict_visual_matched_texture_V23_all_family_selected8_localplan_fixed_contact_sheet_20260510.png`
+  - `paper_siga/figures/strict_visual_matched_texture_V23_all_family_selected8_render_target_contact_sheet_20260510.png`
+  - `results/strict_visual_matched_texture_V23_all_family_20260510_remote/inputs/_guides/V23_dla_frontier_sheet_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_20260510_remote/inputs/_guides/V23_dla_frontier_sheet_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V25_root_sc_refine_20260510_remote/inputs/_guides/V23_dla_frontier_sheet_pbr_guide.png`
+  - `results/strict_visual_matched_texture_V23_all_family_seed20260511_20260510_remote/inputs/_guides/V23_dla_frontier_sheet_pbr_guide.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_ifs_fractal_tree_d5_branch_copy/V23_ifs_fractal_tree_d5_branch_copy.obj`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_ifs_fractal_tree_d5_branch_copy_steps8_tex2048_seed20262824_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V23_all_family_20260510_remote/inputs/V23_ifs_fractal_tree_d5_branch_copy/V23_ifs_fractal_tree_d5_branch_copy.obj`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_dla_frontier_sheet_700_open_boundary/V23_dla_frontier_sheet_700_open_boundary.obj`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_dla_frontier_sheet_700_open_boundary_steps8_tex2048_seed20262819_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_ifs_branch_ornament_d5_contact_facets_steps8_tex2048_seed20262825_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_sc_tree_crown_260_sparse_kill_variant_steps8_tex2048_seed20262817_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_ifs_branch_ornament_d5_contact_facets/V23_ifs_branch_ornament_d5_contact_facets.obj`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_sc_tree_crown_260_sparse_kill_variant/V23_sc_tree_crown_260_sparse_kill_variant.obj`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_ifs_radial_ornament_o8_d4_orbit_spokes_steps8_tex2048_seed20262823_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_sc_bush_shell_220_attractor_leaf_shell_steps8_tex2048_seed20262816_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_sc_root_network_260_attractor_rootlets_steps8_tex2048_seed20262815_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_sc_tree_crown_260_attractor_leaf_shell_steps8_tex2048_seed20262814_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_dla_coral_cluster_900_staghorn_frontier_steps8_tex2048_seed20262818_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_lsys_root_fan_d5_dense_rootlets_variant_steps8_tex2048_seed20262813_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_ifs_radial_ornament_o8_d4_orbit_spokes/V23_ifs_radial_ornament_o8_d4_orbit_spokes.obj`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_sc_bush_shell_220_attractor_leaf_shell/V23_sc_bush_shell_220_attractor_leaf_shell.obj`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_sc_root_network_260_attractor_rootlets/V23_sc_root_network_260_attractor_rootlets.obj`
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/V23_sc_tree_crown_260_attractor_leaf_shell/V23_sc_tree_crown_260_attractor_leaf_shell.obj`
+  - `visuals/strict_visual_matched_texture_V23_all_family_20260510/V23_dla_crystal_cluster_520_faceted_frontier_steps8_tex2048_seed20262820_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V23_all_family_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V23_all_family_seed20260512_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V23_all_family_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V23_all_family_seed20260511_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V23_all_family_seed20260512_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V23_all_family_seed20260513_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V23_all_family_20260510.py`
+  - `results/botanical_tree_root_recursive_remote_20260511i_pull/raw/tree_leaf_v23_pine_yneg_d4_20260511i/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511i_pull/raw/tree_root_v23_rootfan_ypos_d4_20260511i/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511i_pull/raw/tree_root_v23_rootnet_ypos_d3_20260511i/summary.json`
+  - `results/publication_repair_remote_20260510b_pull/raw/pine_v23_yneg/summary.json`
+  - `results/publication_repair_remote_20260510b_pull/raw/pine_v23_ypos/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511i/raw/tree_leaf_v23_pine_yneg_d4_20260511i/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511i/raw/tree_root_v23_rootfan_ypos_d4_20260511i/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511i/raw/tree_root_v23_rootnet_ypos_d3_20260511i/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510b/inputs/V23_lsys_pine_canopy_d5_multi_root_smooth_needles.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510b/raw/pine_v23_yneg/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510b/raw/pine_v23_ypos/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V23_all_family_20260510/V23_dla_coral_cluster_900_lace_porosity_variant_steps8_tex2048_seed20262821_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V23_all_family_20260510/V23_dla_coral_cluster_900_lace_porosity_variant_steps8_tex2048_seed20262821_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V23_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V23_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V23_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V23_remote_a1002.txt`
+
+## V24 - strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510
+![V24](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V24_strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510.png)
+
+- Counts: images=108, geometry=119, specs=191, remote=140
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/01_strict_visual_matched_texture_V24_priority_rerun_seed3_contact_sheet.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/02_followup_v24_v25sc_contact_sheet_20260511d.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/03_V24_strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/05_V24_V25_root_sc_side_by_side_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V24/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/strict_visual_matched_texture_V24_priority_rerun_seed3_contact_sheet.png`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/followup_v24_v25sc_contact_sheet_20260511d.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/V24_ifs_pyrite_lattice/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/V24_sc_tree_crown_attractor_A/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/V24_ifs_radial_ornament/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/V24_dla_staghorn_frontier/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/V24_ifs_radial_ornament/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_seed3_zoom_white_20260510/V24_ifs_pyrite_lattice/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/publication_repair_remote_20260510e_pull/raw/ornament_v24_zpos_rim/radial_frontier_attach/depth_00/mesh.obj`
+  - `results/publication_repair_remote_20260510e_pull/raw/ornament_v24_zpos_rim/radial_frontier_attach/depth_01/mesh.obj`
+  - `results/publication_repair_remote_20260510e_pull/raw/ornament_v24_zpos_rim/ornament_rim_micro_attach/depth_00/mesh.obj`
+  - `results/publication_repair_remote_20260510e_pull/raw/ornament_v24_zpos_rim/ornament_rim_micro_attach/depth_01/mesh.obj`
+  - `results/publication_repair_remote_20260510f_pull/textured/ornament_v24_rim_d1_ornament_raw_steps8_tex2048_seed202605612_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/V24_sc_root_network_260_anchorA_seedA/V24_sc_root_network_260_anchorA_seedA.obj`
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/V24_sc_root_network_260_anchorB_seedB/V24_sc_root_network_260_anchorB_seedB.obj`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_root_network_260_anchorA_seedA_steps8_tex2048_seed20284515_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_root_network_260_anchorB_seedB_steps8_tex2048_seed20284516_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_20260510_remote/inputs/V24_sc_root_network_260_anchorA_seedA/V24_sc_root_network_260_anchorA_seedA.obj`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_20260510_remote/inputs/V24_sc_root_network_260_anchorB_seedB/V24_sc_root_network_260_anchorB_seedB.obj`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_attractor_clean_seedA_steps8_tex2048_seed20284517_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_attractor_clean_seedB_steps8_tex2048_seed20284518_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_sparse_kill_clean_seedA_steps8_tex2048_seed20284519_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_sc_tree_crown_260_sparse_kill_clean_seedB_steps8_tex2048_seed20284520_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/V24_sc_tree_crown_260_attractor_clean_seedA/V24_sc_tree_crown_260_attractor_clean_seedA.obj`
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/V24_sc_tree_crown_260_attractor_clean_seedB/V24_sc_tree_crown_260_attractor_clean_seedB.obj`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_lsys_root_fan_d5_dense_rootlets_anchorA_seedA_steps8_tex2048_seed20284511_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_lsys_root_fan_d5_dense_rootlets_anchorB_seedB_steps8_tex2048_seed20284512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/V24_sc_tree_crown_260_sparse_kill_clean_seedA/V24_sc_tree_crown_260_sparse_kill_clean_seedA.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_seed20260511_20260510_remote/inputs/manifest.json`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_seed20260512_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V24_priority_rerun_20260510.py`
+  - `results/fern_leaf_recursive_remote_20260511d_pull/raw/v24_rootnet_fern_rhizome_zpos/summary.json`
+  - `results/fern_leaf_recursive_remote_20260511e_pull/raw/v24_rootnet_micro_zpos/summary.json`
+  - `results/publication_repair_remote_20260510e_pull/raw/ornament_v24_zpos_rim/summary.json`
+  - `results/publication_repair_remote_20260510f_pull/textured/ornament_v24_rim_d1_ornament_raw_steps8_tex2048_seed202605612_xformers/summary.json`
+  - `results/strict_visual_matched_cases_V24_priority_rerun_20260510_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_20260510_remote/inputs/summary.json`
+  - `results/strict_visual_matched_texture_V24_priority_rerun_seed20260511_20260510_remote/inputs/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/fern_leaf_recursive_remote_20260511d/raw/v24_rootnet_fern_rhizome_zpos/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/fern_leaf_recursive_remote_20260511e/raw/v24_rootnet_micro_zpos/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510e/raw/ornament_v24_zpos_rim/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510f/textured/ornament_v24_rim_d1_ornament_raw_steps8_tex2048_seed202605612_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/publication_repair_remote_20260510f/textured/ornament_v24_rim_d1_ornament_raw_steps8_tex2048_seed202605612_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_dla_coral_cluster_900_lace_porosity_boundary_seedA_steps8_tex2048_seed20284523_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_dla_coral_cluster_900_lace_porosity_boundary_seedA_steps8_tex2048_seed20284523_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V24_priority_rerun_20260510/V24_dla_coral_cluster_900_lace_porosity_boundary_seedA_steps8_tex2048_seed20284523_xformers/texturing_pipeline/pipeline.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V24_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V24_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V24_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V24_remote_a1002.txt`
+
+## V25 - strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510
+![V25](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V25_strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510.png)
+
+- Counts: images=1525, geometry=639, specs=83, remote=69
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/01_V25_root_sc_refine_contact_sheet_20260510.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/02_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/03_V25_strict_visual_matched_texture_V25_root_sc_refine_zoom_white_202605.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/10_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/12_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/13_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/14_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V25/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510/V25_root_sc_refine_contact_sheet_20260510.png`
+  - `visuals/strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510/V25_sc_tapered_B/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510/V25_root_smooth_D/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510/V25_sc_tapered_B/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V25_root_sc_refine_zoom_white_20260510/V25_root_smooth_D/overview_callouts.png`
+  - `visuals/publication_repair_20260510f_controlled_zoom_1200/tree_v25_bud_d1_spiky_controlled_cedar/overview_callouts.png`
+  - `visuals/publication_repair_20260510f_controlled_zoom_1200/tree_v25_bud_d1_spiky_controlled_cedar/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/publication_repair_remote_20260510b_pull/tree_depth2/tree_v25_ypos_fork_d2.obj`
+  - `results/publication_repair_remote_20260510b_pull/tree_depth2/tree_v25_zpos_fork_d2.obj`
+  - `results/publication_repair_remote_20260510b_pull/tree_depth2/tree_v25_ypos_compete_d2.obj`
+  - `results/publication_repair_remote_20260510b_pull/tree_depth2/tree_v25_zpos_compete_d2.obj`
+  - `results/publication_repair_remote_20260510b_pull/selected_meshes/tree_v25_ypos_fork_d3.obj`
+  - `results/publication_repair_remote_20260510b_pull/selected_meshes/tree_v25_zpos_fork_d3.obj`
+  - `results/publication_repair_remote_20260510b_pull/selected_meshes/tree_v25_zpos_compete_d3.obj`
+  - `results/publication_repair_remote_20260510b_pull/pruned_selected/soft/tree_v25_ypos_fork_d3.obj`
+  - `results/publication_repair_remote_20260510b_pull/pruned_selected/soft/tree_v25_zpos_fork_d3.obj`
+  - `results/publication_repair_remote_20260510b_pull/pruned_selected/strict/tree_v25_ypos_fork_d3.obj`
+  - `results/publication_repair_remote_20260510b_pull/pruned_selected/strict/tree_v25_zpos_fork_d3.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/rot_x_neg90/castle_gate_11t_v25s_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/rot_x_neg90/castle_keep_11t_v25s_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/raw_selected/castle_gate_11t_v25s_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/raw_selected/castle_keep_11t_v25s_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/rot_x_neg90/city_cluster_11t_v25p_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/rot_x_neg90/city_cluster_11t_v25s_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/raw_selected/city_cluster_11t_v25p_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/raw_selected/city_cluster_11t_v25s_d1.obj`
+  - `results/visual_recursive_cases_remote_20260511t_selected_meshes/rot_x_neg90/city_arcology_11t_v25s_d2.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V25_root_sc_refine_20260510_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V25_root_sc_refine_20260510_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V25_root_sc_refine_20260510.py`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/fern_arch_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/fiddle_guarded_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/plant_leaf_basemid_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/plant_leaf_green_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/plant_poly_cc0_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/spider_broad_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/spider_runner_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/tree_pine_v25l_yneg_20260511l/summary.json`
+  - `results/botanical_tree_root_recursive_remote_20260511l_pull/raw/tree_rootfan_v25l_ypos_20260511l/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/fern_arch_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/fiddle_guarded_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/plant_leaf_basemid_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/plant_leaf_green_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/plant_poly_cc0_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/spider_broad_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/spider_runner_v25l_yneg_20260511l/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/botanical_tree_root_recursive_remote_20260511l/raw/tree_pine_v25l_yneg_20260511l/summary.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V25_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V25_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V25_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V25_remote_a1002.txt`
+
+## V26 - strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_render_target_20260511
+![V26](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V26_strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_render_.png)
+
+- Counts: images=567, geometry=499, specs=38, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/01_V26_sc_tree_seam_naturalization_render_target_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/02_V26_sc_tree_seam_naturalization_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/03_V26_sc_tree_seam_naturalization_object_pbr_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/04_strict_visual_matched_cases_V26_sc_tree_seam_naturalization_20260511_d.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/05_V26_strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/15_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V26/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_render_target_20260511/V26_sc_tree_seam_naturalization_render_target_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_20260511/V26_sc_tree_seam_naturalization_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_object_pbr_20260511/V26_sc_tree_seam_naturalization_object_pbr_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V26_sc_tree_seam_naturalization_20260511_dryrun_contact.png`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_20260511/V26_soft_D/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_render_target_20260511/V26_soft_D/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_20260511/V26_sleeve_C/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_render_target_20260511/V26_sleeve_C/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_lacy_b_d4_20260512a/v26a_fern_showcase_pinnae/depth_00/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_lacy_b_d4_20260512a/v26a_fern_showcase_pinnae/depth_01/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_lacy_b_d4_20260512a/v26a_fern_showcase_pinnae/depth_02/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_lacy_b_d4_20260512a/v26a_fern_showcase_pinnae/depth_03/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_lacy_b_d4_20260512a/v26a_fern_showcase_pinnae/depth_04/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_arch_old_d3_20260512a/v26a_fern_showcase_pinnae/depth_00/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_arch_old_d3_20260512a/v26a_fern_showcase_pinnae/depth_01/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_arch_old_d3_20260512a/v26a_fern_showcase_pinnae/depth_02/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_arch_old_d3_20260512a/v26a_fern_showcase_pinnae/depth_03/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_compound_a_d4_20260512a/v26a_fern_showcase_pinnae/depth_00/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_compound_a_d4_20260512a/v26a_fern_showcase_pinnae/depth_01/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_compound_a_d4_20260512a/v26a_fern_showcase_pinnae/depth_02/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_compound_a_d4_20260512a/v26a_fern_showcase_pinnae/depth_03/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512a_pull/raw/fern_compound_a_d4_20260512a/v26a_fern_showcase_pinnae/depth_04/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512b_pull/raw/fern_broad_frond_c_d4_20260512b/v26b_fern_broad_pinnae/depth_00/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512b_pull/raw/fern_broad_frond_c_d4_20260512b/v26b_fern_broad_pinnae/depth_01/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512b_pull/raw/fern_broad_frond_c_d4_20260512b/v26b_fern_broad_pinnae/depth_02/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512b_pull/raw/fern_broad_frond_c_d4_20260512b/v26b_fern_broad_pinnae/depth_03/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512b_pull/raw/fern_broad_frond_c_d4_20260512b/v26b_fern_broad_pinnae/depth_04/mesh.obj`
+  - `results/fern_two_case_recursive_remote_20260512g_pull/raw/fern_tiered_frond_i_d4_20260512g/v26f_fern_macro_dense/depth_00/mesh.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V26_sc_tree_seam_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V26_sc_tree_seam_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V26_sc_tree_seam_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_junction_collar_A_lowcontrast_steps8_tex2048_seed20286512_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_leafshield_B_lowcontrast_steps8_tex2048_seed20286513_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_soft_canopy_D_lowcontrast_steps8_tex2048_seed20286515_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_object_pbr_manifest_20260511.json`
+  - `visuals/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_zoom_white_20260511_manifest.json`
+  - `assets/strict_visual_matched_cases_V26_sc_tree_seam_naturalization_20260511.py`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_cambium_sleeve_C_lowcontrast_steps8_tex2048_seed20286514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_junction_collar_A_lowcontrast_steps8_tex2048_seed20286512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_junction_collar_A_lowcontrast_steps8_tex2048_seed20286512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_junction_collar_A_lowcontrast_steps8_tex2048_seed20286512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_leafshield_B_lowcontrast_steps8_tex2048_seed20286513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V26_sc_tree_seam_naturalization_20260511/V26_sc_tree_crown_leafshield_B_lowcontrast_steps8_tex2048_seed20286513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V26_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V26_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V26_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V26_remote_a1002.txt`
+
+## V27 - strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511
+![V27](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V27_strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_202.png)
+
+- Counts: images=84, geometry=12, specs=35, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/01_V27_glb_sc_tree_organic_seam_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/02_V27_sc_tree_organic_seam_obj_seamtarget_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/03_V27_sc_tree_organic_seam_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/04_V27_strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/07_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/09_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V27/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511/V27_glb_sc_tree_organic_seam_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V27_sc_tree_organic_seam_obj_zoom_seamtarget_20260511/V27_sc_tree_organic_seam_obj_seamtarget_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V27_sc_tree_organic_seam_obj_zoom_20260511/V27_sc_tree_organic_seam_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511/V27_glb_terminal_bud_B_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511/V27_glb_bark_leaf_C_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511/V27_glb_soft_canopy_D_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511/V27_glb_organic_feather_A_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_zoom_white_seamtarget_20260511/V27_glb_terminal_bud_B_seamtarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511_dryrun/V27_sc_tree_bark_leaf_C/V27_sc_tree_bark_leaf_C.obj`
+  - `results/strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511_dryrun/V27_sc_tree_soft_canopy_D/V27_sc_tree_soft_canopy_D.obj`
+  - `results/strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511_dryrun/V27_sc_tree_terminal_bud_B/V27_sc_tree_terminal_bud_B.obj`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_bark_leaf_C/V27_sc_tree_bark_leaf_C.obj`
+  - `results/strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511_dryrun/V27_sc_tree_organic_feather_A/V27_sc_tree_organic_feather_A.obj`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_soft_canopy_D/V27_sc_tree_soft_canopy_D.obj`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_terminal_bud_B/V27_sc_tree_terminal_bud_B.obj`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_bark_leaf_C_steps8_tex2048_seed20287514_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_terminal_bud_B_steps8_tex2048_seed20287513_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/V27_sc_tree_organic_feather_A/V27_sc_tree_organic_feather_A.obj`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511.py`
+  - `results/strict_visual_matched_cases_V27_sc_tree_organic_seam_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_bark_leaf_C_steps8_tex2048_seed20287514_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_terminal_bud_B_steps8_tex2048_seed20287513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511_remote/V27_glb_zoom_manifest_seamtarget_20260511.json`
+  - `visuals/strict_visual_matched_cases_V27_sc_tree_organic_seam_obj_zoom_manifest_20260511.json`
+  - `visuals/strict_visual_matched_cases_V27_sc_tree_organic_seam_obj_zoom_manifest_seamtarget_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_bark_leaf_C_steps8_tex2048_seed20287514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_bark_leaf_C_steps8_tex2048_seed20287514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_bark_leaf_C_steps8_tex2048_seed20287514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_organic_feather_A_steps8_tex2048_seed20287512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V27_sc_tree_organic_seam_20260511/V27_sc_tree_soft_canopy_D_steps8_tex2048_seed20287515_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V27_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V27_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V27_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V27_remote_a1002.txt`
+
+## V28 - strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511
+![V28](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V28_strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_s.png)
+
+- Counts: images=63, geometry=16, specs=40, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/01_V28_glb_sc_tree_flare_bark_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/02_V28_sc_tree_flare_bark_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/03_V28_strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalizatio.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/04_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/07_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V28/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_sc_tree_flare_bark_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V28_sc_tree_flare_bark_obj_zoom_seamtarget_20260511/V28_sc_tree_flare_bark_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_multiscale_canopy_C_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_bark_ridge_B_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_hybrid_flare_bud_D_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_branch_flare_A_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_bark_ridge_B_seamtarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_zoom_white_seamtarget_20260511/V28_glb_multiscale_canopy_C_seamtarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun/V28_sc_tree_bark_ridge_B/V28_sc_tree_bark_ridge_B.obj`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun/V28_sc_tree_branch_flare_A/V28_sc_tree_branch_flare_A.obj`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun_tmp/V28_sc_tree_bark_ridge_B/V28_sc_tree_bark_ridge_B.obj`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun_tmp/V28_sc_tree_branch_flare_A/V28_sc_tree_branch_flare_A.obj`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/inputs/V28_sc_tree_bark_ridge_B/V28_sc_tree_bark_ridge_B.obj`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun/V28_sc_tree_hybrid_flare_bud_D/V28_sc_tree_hybrid_flare_bud_D.obj`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/inputs/V28_sc_tree_branch_flare_A/V28_sc_tree_branch_flare_A.obj`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun/V28_sc_tree_multiscale_canopy_C/V28_sc_tree_multiscale_canopy_C.obj`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun_tmp/V28_sc_tree_hybrid_flare_bud_D/V28_sc_tree_hybrid_flare_bud_D.obj`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_bark_ridge_B_steps8_tex2048_seed20288513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun_tmp/V28_sc_tree_multiscale_canopy_C/V28_sc_tree_multiscale_canopy_C.obj`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_branch_flare_A_steps8_tex2048_seed20288512_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/inputs/V28_sc_tree_hybrid_flare_bud_D/V28_sc_tree_hybrid_flare_bud_D.obj`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_hybrid_flare_bud_D_steps8_tex2048_seed20288515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/inputs/V28_sc_tree_multiscale_canopy_C/V28_sc_tree_multiscale_canopy_C.obj`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_multiscale_canopy_C_steps8_tex2048_seed20288514_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun_tmp/manifest.json`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V28_sc_tree_flare_bark_naturalization_20260511_dryrun_tmp/summary.json`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_bark_ridge_B_steps8_tex2048_seed20288513_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_branch_flare_A_steps8_tex2048_seed20288512_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_hybrid_flare_bud_D_steps8_tex2048_seed20288515_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_multiscale_canopy_C_steps8_tex2048_seed20288514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511_remote/V28_glb_zoom_manifest_seamtarget_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_bark_ridge_B_steps8_tex2048_seed20288513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_bark_ridge_B_steps8_tex2048_seed20288513_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_bark_ridge_B_steps8_tex2048_seed20288513_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_branch_flare_A_steps8_tex2048_seed20288512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_branch_flare_A_steps8_tex2048_seed20288512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_branch_flare_A_steps8_tex2048_seed20288512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_hybrid_flare_bud_D_steps8_tex2048_seed20288515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V28_sc_tree_flare_bark_naturalization_20260511/V28_sc_tree_hybrid_flare_bud_D_steps8_tex2048_seed20288515_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V28_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V28_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V28_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V28_remote_a1002.txt`
+
+## V29 - strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511
+![V29](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V29_strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white.png)
+
+- Counts: images=59, geometry=12, specs=32, remote=22
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/01_V29_glb_sc_tree_hidden_trunk_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/02_V29_sc_tree_hidden_trunk_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/03_V29_strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalizat.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/15_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V29/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_sc_tree_hidden_trunk_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_obj_zoom_seamtarget_20260511/V29_sc_tree_hidden_trunk_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_braided_bark_C_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_canopy_occlusion_B_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_softleaf_entry_D_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_hidden_multistem_A_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_canopy_occlusion_B_seamtarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_zoom_white_seamtarget_20260511/V29_glb_braided_bark_C_seamtarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/V29_sc_tree_braided_bark_C/V29_sc_tree_braided_bark_C.obj`
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/V29_sc_tree_softleaf_entry_D/V29_sc_tree_softleaf_entry_D.obj`
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/V29_sc_tree_canopy_occlusion_B/V29_sc_tree_canopy_occlusion_B.obj`
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/V29_sc_tree_hidden_multistem_A/V29_sc_tree_hidden_multistem_A.obj`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/V29_sc_tree_braided_bark_C/V29_sc_tree_braided_bark_C.obj`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/V29_sc_tree_softleaf_entry_D/V29_sc_tree_softleaf_entry_D.obj`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_braided_bark_C_steps8_tex2048_seed20289514_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_softleaf_entry_D_steps8_tex2048_seed20289515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/V29_sc_tree_canopy_occlusion_B/V29_sc_tree_canopy_occlusion_B.obj`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/V29_sc_tree_hidden_multistem_A/V29_sc_tree_hidden_multistem_A.obj`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_canopy_occlusion_B_steps8_tex2048_seed20289513_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_hidden_multistem_A_steps8_tex2048_seed20289512_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_braided_bark_C_steps8_tex2048_seed20289514_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_canopy_occlusion_B_steps8_tex2048_seed20289513_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_hidden_multistem_A_steps8_tex2048_seed20289512_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511/V29_sc_tree_softleaf_entry_D_steps8_tex2048_seed20289515_xformers/summary.json`
+  - `results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun/V29_obj_zoom_manifest_seamtarget_20260511.json`
+  - `results/strict_visual_matched_texture_V29_sc_tree_hidden_trunk_naturalization_20260511_remote/V29_glb_zoom_manifest_seamtarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511.py`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/README.md`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/V29_sc_tree_hidden_multistem_A/V29_sc_tree_hidden_multistem_A.obj`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/V29_sc_tree_hidden_multistem_A/V29_sc_tree_hidden_multistem_A_metadata.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/_guides/V29_sc_tree_braided_hidden_trunk_lowcontrast_guide.png`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/_guides/V29_sc_tree_multistem_hidden_trunk_lowcontrast_guide.png`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/_guides/V29_sc_tree_occlusion_hidden_trunk_lowcontrast_guide.png`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/_guides/V29_sc_tree_softleaf_hidden_trunk_lowcontrast_guide.png`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_cases_V29_sc_tree_hidden_trunk_naturalization_20260511_dryrun_remotecheck/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V29_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V29_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V29_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V29_remote_a1002.txt`
+
+## V30 - strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511
+![V30](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V30_strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white.png)
+
+- Counts: images=59, geometry=12, specs=33, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/01_V30_glb_sc_tree_occluded_hub_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/02_V30_sc_tree_occluded_hub_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/03_V30_strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalizat.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/13_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/15_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V30/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_sc_tree_occluded_hub_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V30_sc_tree_occluded_hub_obj_zoom_seamtarget_20260511/V30_sc_tree_occluded_hub_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_lowdetail_connected_entry_C_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_short_hub_bark_transition_B_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_softleaf_occluded_hubs_A_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_broad_occlusion_shell_D_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_lowdetail_connected_entry_C_seamtarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_zoom_white_seamtarget_20260511/V30_glb_short_hub_bark_transition_B_seamtarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/V30_sc_tree_broad_occlusion_shell_D/V30_sc_tree_broad_occlusion_shell_D.obj`
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/V30_sc_tree_softleaf_occluded_hubs_A/V30_sc_tree_softleaf_occluded_hubs_A.obj`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_broad_occlusion_shell_D_steps8_tex2048_seed20290515_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_softleaf_occluded_hubs_A_steps8_tex2048_seed20290512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/V30_sc_tree_lowdetail_connected_entry_C/V30_sc_tree_lowdetail_connected_entry_C.obj`
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/V30_sc_tree_short_hub_bark_transition_B/V30_sc_tree_short_hub_bark_transition_B.obj`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/V30_sc_tree_broad_occlusion_shell_D/V30_sc_tree_broad_occlusion_shell_D.obj`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_lowdetail_connected_entry_C_steps8_tex2048_seed20290514_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_short_hub_bark_transition_B_steps8_tex2048_seed20290513_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/V30_sc_tree_softleaf_occluded_hubs_A/V30_sc_tree_softleaf_occluded_hubs_A.obj`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/V30_sc_tree_lowdetail_connected_entry_C/V30_sc_tree_lowdetail_connected_entry_C.obj`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/V30_sc_tree_short_hub_bark_transition_B/V30_sc_tree_short_hub_bark_transition_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_broad_occlusion_shell_D_steps8_tex2048_seed20290515_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_lowdetail_connected_entry_C_steps8_tex2048_seed20290514_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_short_hub_bark_transition_B_steps8_tex2048_seed20290513_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_softleaf_occluded_hubs_A_steps8_tex2048_seed20290512_xformers/summary.json`
+  - `results/strict_visual_matched_cases_V30_sc_tree_occluded_hub_naturalization_20260511_dryrun/V30_obj_zoom_manifest_seamtarget_20260511.json`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/V30_glb_zoom_manifest_seamtarget_20260511.json`
+  - `results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511_remote/inputs/V30_obj_zoom_manifest_seamtarget_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_broad_occlusion_shell_D_steps8_tex2048_seed20290515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_broad_occlusion_shell_D_steps8_tex2048_seed20290515_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_broad_occlusion_shell_D_steps8_tex2048_seed20290515_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_lowdetail_connected_entry_C_steps8_tex2048_seed20290514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_lowdetail_connected_entry_C_steps8_tex2048_seed20290514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_lowdetail_connected_entry_C_steps8_tex2048_seed20290514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_short_hub_bark_transition_B_steps8_tex2048_seed20290513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V30_sc_tree_occluded_hub_naturalization_20260511/V30_sc_tree_short_hub_bark_transition_B_steps8_tex2048_seed20290513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V30_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V30_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V30_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V30_remote_a1002.txt`
+
+## V31 - strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_20260511
+![V31](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V31_strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_202605.png)
+
+- Counts: images=18, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/01_V31_sc_tree_compact_crown_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/02_V31_strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_sea.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/03_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/15_V31_sc_tree_softleaf_compact_crown_lowcontrast_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V31/16_V31_sc_tree_occlusion_compact_crown_lowcontrast_guide.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_20260511/V31_sc_tree_compact_crown_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_20260511/V31_sc_tree_compact_entry_A_obj_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_20260511/V31_sc_tree_crown_mass_B_obj_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_20260511/V31_sc_tree_balanced_leafmass_D_obj_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V31_sc_tree_compact_crown_obj_zoom_seamtarget_20260511/V31_sc_tree_lowfrag_shell_C_obj_seamtarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_crown_mass_B/V31_sc_tree_crown_mass_B.obj`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_compact_entry_A/V31_sc_tree_compact_entry_A.obj`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_lowfrag_shell_C/V31_sc_tree_lowfrag_shell_C.obj`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_balanced_leafmass_D/V31_sc_tree_balanced_leafmass_D.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_obj_zoom_manifest_seamtarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V31_sc_tree_compact_crown_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_balanced_leafmass_D/V31_sc_tree_balanced_leafmass_D_metadata.json`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_compact_entry_A/V31_sc_tree_compact_entry_A_metadata.json`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_crown_mass_B/V31_sc_tree_crown_mass_B_metadata.json`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/V31_sc_tree_lowfrag_shell_C/V31_sc_tree_lowfrag_shell_C_metadata.json`
+  - `results/strict_visual_matched_cases_V31_sc_tree_compact_crown_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V31_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V31_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V31_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V31_remote_a1002.txt`
+
+## V32 - strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_seamtarget_20260511
+![V32](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V32_strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_.png)
+
+- Counts: images=77, geometry=16, specs=44, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/01_V32_glb_sc_tree_canopy_veil_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/02_V32_sc_tree_canopy_veil_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/03_V32_strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalizati.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V32/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_seamtarget_20260511/V32_glb_sc_tree_canopy_veil_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V32_sc_tree_canopy_veil_obj_zoom_seamtarget_20260511/V32_sc_tree_canopy_veil_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_seamtarget_20260511/V32_sc_tree_lowrod_crown_C_glb_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_seamtarget_20260511/V32_sc_tree_balanced_canopy_D_glb_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_seamtarget_20260511/V32_sc_tree_canopy_veil_A_glb_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_zoom_white_seamtarget_20260511/V32_sc_tree_leafmass_shell_B_glb_seamtarget/overview_raw.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_20260511/SC_ours_V32_balanced_canopy_D/overview_raw.png`
+  - `visuals/main_experiment_traditional_vs_ours_white_zoom_corrected_V67B_20260512/SC_ours_V32_balanced_canopy_D/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511_dryrun/V32_sc_tree_canopy_veil_A/V32_sc_tree_canopy_veil_A.obj`
+  - `results/strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511_dryrun/V32_sc_tree_lowrod_crown_C/V32_sc_tree_lowrod_crown_C.obj`
+  - `results/strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511_dryrun/V32_sc_tree_leafmass_shell_B/V32_sc_tree_leafmass_shell_B.obj`
+  - `results/strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511_dryrun/V32_sc_tree_balanced_canopy_D/V32_sc_tree_balanced_canopy_D.obj`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/inputs/V32_sc_tree_canopy_veil_A/V32_sc_tree_canopy_veil_A.obj`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/inputs/V32_sc_tree_lowrod_crown_C/V32_sc_tree_lowrod_crown_C.obj`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/inputs/V32_sc_tree_leafmass_shell_B/V32_sc_tree_leafmass_shell_B.obj`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_lowrod_crown_C_steps8_tex2048_seed20292514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/inputs/V32_sc_tree_balanced_canopy_D/V32_sc_tree_balanced_canopy_D.obj`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_lowrod_crown_C_steps8_tex2048_seed20292514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V32_sc_tree_canopy_veil_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/V32_sc_tree_lowrod_crown_C_steps8_tex2048_seed20292514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511_remote/inputs/summary.json`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_balanced_canopy_D_steps8_tex2048_seed20292515_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_canopy_veil_A_steps8_tex2048_seed20292512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V32_sc_tree_canopy_veil_naturalization_20260511/V32_sc_tree_leafmass_shell_B_steps8_tex2048_seed20292513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V32_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V32_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V32_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V32_remote_a1002.txt`
+
+## V33 - strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511
+![V33](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V33_strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511.png)
+
+- Counts: images=18, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/01_V33_sc_tree_fused_veil_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/02_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/03_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/05_V33_strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamta.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/15_V33_sc_tree_softleaf_fused_veil_lowcontrast_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V33/16_V33_sc_tree_occlusion_fused_veil_lowcontrast_guide.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511/V33_sc_tree_fused_veil_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511/V33_sc_tree_lowfrag_lobe_C_obj_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511/V33_sc_tree_cambium_shell_B_obj_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511/V33_sc_tree_balanced_fused_D_obj_seamtarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V33_sc_tree_fused_veil_obj_zoom_seamtarget_20260511/V33_sc_tree_fused_lobe_A_obj_seamtarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_fused_lobe_A/V33_sc_tree_fused_lobe_A.obj`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_lowfrag_lobe_C/V33_sc_tree_lowfrag_lobe_C.obj`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_cambium_shell_B/V33_sc_tree_cambium_shell_B.obj`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_balanced_fused_D/V33_sc_tree_balanced_fused_D.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_obj_zoom_manifest_seamtarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V33_sc_tree_fused_veil_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_balanced_fused_D/V33_sc_tree_balanced_fused_D_metadata.json`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_cambium_shell_B/V33_sc_tree_cambium_shell_B_metadata.json`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_fused_lobe_A/V33_sc_tree_fused_lobe_A_metadata.json`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/V33_sc_tree_lowfrag_lobe_C/V33_sc_tree_lowfrag_lobe_C_metadata.json`
+  - `results/strict_visual_matched_cases_V33_sc_tree_fused_veil_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V33_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V33_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V33_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V33_remote_a1002.txt`
+
+## V34 - strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511
+![V34](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V34_strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511.png)
+
+- Counts: images=30, geometry=4, specs=14, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/01_V34_lsystem_branch_obj_junctiontarget_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/02_V34_strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctionta.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/03_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/04_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/13_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V34/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsystem_branch_obj_junctiontarget_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_fused_side_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_cambium_collar_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_ridge_bud_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_lowfrag_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_fused_side_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_cambium_collar_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V34_lsystem_branch_obj_zoom_junctiontarget_20260511/V34_lsys_branch_ridge_bud_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_lowfrag_D/V34_lsys_branch_lowfrag_D.obj`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_ridge_bud_B/V34_lsys_branch_ridge_bud_B.obj`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_fused_side_C/V34_lsys_branch_fused_side_C.obj`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_cambium_collar_A/V34_lsys_branch_cambium_collar_A.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V34_lsystem_branch_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_cambium_collar_A/V34_lsys_branch_cambium_collar_A_metadata.json`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_fused_side_C/V34_lsys_branch_fused_side_C_metadata.json`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_lowfrag_D/V34_lsys_branch_lowfrag_D_metadata.json`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/V34_lsys_branch_ridge_bud_B/V34_lsys_branch_ridge_bud_B_metadata.json`
+  - `results/strict_visual_matched_cases_V34_lsystem_branch_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V34_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V34_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V34_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V34_remote_a1002.txt`
+
+## V35 - strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511
+![V35](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V35_strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_whi.png)
+
+- Counts: images=37, geometry=12, specs=35, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/01_V35_lsystem_branch_tapered_naturalization_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/02_V35_lsystem_branch_tapered_naturalization_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/03_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/04_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/13_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V35/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsystem_branch_tapered_naturalization_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsystem_branch_tapered_naturalization_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsys_branch_fused_fork_C_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsys_branch_tapered_bud_A_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsys_branch_bark_sleeve_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsys_branch_lowfrag_taper_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsys_branch_fused_fork_C_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_zoom_white_junctiontarget_20260511/V35_lsys_branch_tapered_bud_A_glb_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/V35_lsys_branch_fused_fork_C/V35_lsys_branch_fused_fork_C.obj`
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/V35_lsys_branch_bark_sleeve_B/V35_lsys_branch_bark_sleeve_B.obj`
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/V35_lsys_branch_tapered_bud_A/V35_lsys_branch_tapered_bud_A.obj`
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/V35_lsys_branch_lowfrag_taper_D/V35_lsys_branch_lowfrag_taper_D.obj`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_fused_fork_C/V35_lsys_branch_fused_fork_C.obj`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_bark_sleeve_B/V35_lsys_branch_bark_sleeve_B.obj`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_tapered_bud_A/V35_lsys_branch_tapered_bud_A.obj`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_lsys_branch_lowfrag_taper_D/V35_lsys_branch_lowfrag_taper_D.obj`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_fused_fork_C_steps8_tex2048_seed20295514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_tapered_bud_A_steps8_tex2048_seed20295512_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_lowfrag_taper_D_steps8_tex2048_seed20295515_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_fused_fork_C_steps8_tex2048_seed20295514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_lowfrag_taper_D_steps8_tex2048_seed20295515_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_lsys_branch_tapered_bud_A_steps8_tex2048_seed20295512_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/summary.json`
+  - `results/strict_visual_matched_cases_V35_lsystem_branch_tapered_naturalization_20260511_dryrun/V35_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/V35_glb_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511_remote/inputs/V35_obj_zoom_manifest_junctiontarget_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_bark_sleeve_B_steps8_tex2048_seed20295513_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_fused_fork_C_steps8_tex2048_seed20295514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_fused_fork_C_steps8_tex2048_seed20295514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_fused_fork_C_steps8_tex2048_seed20295514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_lowfrag_taper_D_steps8_tex2048_seed20295515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V35_lsystem_branch_tapered_naturalization_20260511/V35_lsys_branch_lowfrag_taper_D_steps8_tex2048_seed20295515_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V35_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V35_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V35_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V35_remote_a1002.txt`
+
+## V36 - strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_fixed_20260511
+![V36](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V36_strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_fixed_202.png)
+
+- Counts: images=57, geometry=4, specs=14, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/01_V36_lsystem_branch_woody_junction_obj_contact_sheet_fixed_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/02_V36_lsystem_branch_woody_junction_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/03_V36_lsystem_branch_woody_junction_obj_contact_sheet_fixed_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/04_V36_lsystem_branch_woody_junction_obj_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/05_V36_strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctionta.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/15_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V36/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_fixed_20260511/V36_lsystem_branch_woody_junction_obj_contact_sheet_fixed_20260511.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_20260511/V36_lsystem_branch_woody_junction_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_fixed_20260511/V36_lsystem_branch_woody_junction_obj_contact_sheet_fixed_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_20260511/V36_lsystem_branch_woody_junction_obj_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_20260511/V36_lsys_branch_fused_fork_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_fixed_20260511/V36_lsys_branch_fused_fork_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_20260511/V36_lsys_branch_woody_junction_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V36_lsystem_branch_obj_zoom_junctiontarget_fixed_20260511/V36_lsys_branch_woody_junction_A_obj_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_fused_fork_C/V36_lsys_branch_fused_fork_C.obj`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_woody_sleeve_B/V36_lsys_branch_woody_sleeve_B.obj`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_lowfrag_taper_D/V36_lsys_branch_lowfrag_taper_D.obj`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_woody_junction_A/V36_lsys_branch_woody_junction_A.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V36_lsystem_branch_woody_junction_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_fused_fork_C/V36_lsys_branch_fused_fork_C_metadata.json`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_lowfrag_taper_D/V36_lsys_branch_lowfrag_taper_D_metadata.json`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_woody_junction_A/V36_lsys_branch_woody_junction_A_metadata.json`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V36_lsys_branch_woody_sleeve_B/V36_lsys_branch_woody_sleeve_B_metadata.json`
+  - `results/strict_visual_matched_cases_V36_lsystem_branch_woody_junction_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V36_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V36_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V36_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V36_remote_a1002.txt`
+
+## V37 - strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511
+![V37](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V37_strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511.png)
+
+- Counts: images=31, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/01_V37_lsystem_branch_continuous_saddle_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/02_V37_lsystem_branch_continuous_saddle_obj_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/15_V37_strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctionta.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V37/16_zoom_01_callouts.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsystem_branch_continuous_saddle_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsystem_branch_continuous_saddle_obj_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsys_branch_saddle_fork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsys_branch_densefork_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsys_branch_midfork_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsys_branch_slim_taper_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsys_branch_saddle_fork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V37_lsystem_branch_obj_zoom_junctiontarget_20260511/V37_lsys_branch_densefork_C_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_midfork_B/V37_lsys_branch_midfork_B.obj`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_densefork_C/V37_lsys_branch_densefork_C.obj`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_slim_taper_D/V37_lsys_branch_slim_taper_D.obj`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_saddle_fork_A/V37_lsys_branch_saddle_fork_A.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V37_lsystem_branch_woody_junction_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_densefork_C/V37_lsys_branch_densefork_C_metadata.json`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_midfork_B/V37_lsys_branch_midfork_B_metadata.json`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_saddle_fork_A/V37_lsys_branch_saddle_fork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/V37_lsys_branch_slim_taper_D/V37_lsys_branch_slim_taper_D_metadata.json`
+  - `results/strict_visual_matched_cases_V37_lsystem_branch_woody_junction_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V37_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V37_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V37_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V37_remote_a1002.txt`
+
+## V38 - strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511
+![V38](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V38_strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511.png)
+
+- Counts: images=31, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/01_V38_lsystem_branch_tipless_saddle_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/02_V38_lsystem_branch_tipless_saddle_obj_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/03_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/04_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/15_V38_strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctionta.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V38/16_overview_callouts.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsystem_branch_tipless_saddle_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsystem_branch_tipless_saddle_obj_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsys_branch_tipless_saddle_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsys_branch_tipless_midfork_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsys_branch_tipless_densefork_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsys_branch_tipless_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsys_branch_tipless_saddle_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V38_lsystem_branch_obj_zoom_junctiontarget_20260511/V38_lsys_branch_tipless_densefork_C_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_slim_D/V38_lsys_branch_tipless_slim_D.obj`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_saddle_A/V38_lsys_branch_tipless_saddle_A.obj`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_midfork_B/V38_lsys_branch_tipless_midfork_B.obj`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_densefork_C/V38_lsys_branch_tipless_densefork_C.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V38_lsystem_branch_tipless_saddle_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_densefork_C/V38_lsys_branch_tipless_densefork_C_metadata.json`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_midfork_B/V38_lsys_branch_tipless_midfork_B_metadata.json`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_saddle_A/V38_lsys_branch_tipless_saddle_A_metadata.json`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/V38_lsys_branch_tipless_slim_D/V38_lsys_branch_tipless_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V38_lsystem_branch_tipless_saddle_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V38_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V38_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V38_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V38_remote_a1002.txt`
+
+## V39 - strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_probe_20260511
+![V39](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V39_strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_probe_20260511.png)
+
+- Counts: images=83, geometry=4, specs=17, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/01_V39_lsystem_branch_lowmid_probe_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/02_V39_lsystem_branch_lowmid_probe_zoom34_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/03_V39_lsystem_branch_junction_root_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/04_V39_lsystem_branch_lowmid_probe_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/05_V39_lsystem_branch_lowmid_probe_zoom34_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/06_V39_lsystem_branch_junction_root_obj_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/07_V39_strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_pro.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/09_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/12_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/15_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V39/16_zoom_01.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_probe_20260511/V39_lsystem_branch_lowmid_probe_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_probe_zoom34_20260511/V39_lsystem_branch_lowmid_probe_zoom34_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_junctiontarget_20260511/V39_lsystem_branch_junction_root_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_probe_20260511/V39_lsystem_branch_lowmid_probe_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_lowmid_probe_zoom34_20260511/V39_lsystem_branch_lowmid_probe_zoom34_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_junctiontarget_20260511/V39_lsystem_branch_junction_root_obj_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_junctiontarget_20260511/V39_lsys_branch_junction_root_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V39_lsystem_branch_obj_zoom_junctiontarget_20260511/V39_lsys_branch_junction_root_dense_C_obj_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_A/V39_lsys_branch_junction_root_A.obj`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_slim_D/V39_lsys_branch_junction_root_slim_D.obj`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_dense_C/V39_lsys_branch_junction_root_dense_C.obj`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_lowfrag_B/V39_lsys_branch_junction_root_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_obj_zoom_manifest_lowmid_probe_20260511.json`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_obj_zoom_manifest_lowmid_probe_zoom34_20260511.json`
+  - `assets/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V39_lsystem_branch_junction_root_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_A/V39_lsys_branch_junction_root_A_metadata.json`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_dense_C/V39_lsys_branch_junction_root_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V39_lsystem_branch_junction_root_naturalization_20260511_dryrun/V39_lsys_branch_junction_root_lowfrag_B/V39_lsys_branch_junction_root_lowfrag_B_metadata.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V39_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V39_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V39_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V39_remote_a1002.txt`
+
+## V40 - strict_visual_matched_texture_V40_lsystem_branch_primary_fork_zoom_white_20260511
+![V40](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V40_strict_visual_matched_texture_V40_lsystem_branch_primary_fork_zoom_white_2026051.png)
+
+- Counts: images=119, geometry=12, specs=38, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/01_V40_lsystem_branch_primaryfork_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/02_V40_lsystem_branch_primaryfork_glb_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/03_V40_lsystem_branch_primaryfork_zoom255_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/04_V40_lsystem_branch_primaryfork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/05_V40_lsystem_branch_primaryfork_sameanchor_zoom245_obj_contact_sheet_20.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/06_V40_lsystem_branch_primaryfork_zoom255_obj_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/07_V40_lsystem_branch_primaryfork_obj_contact_sheet_preview_1800.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/08_V40_lsystem_branch_primaryfork_sameanchor_zoom245_obj_contact_sheet_pr.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/09_V40_strict_visual_matched_texture_V40_lsystem_branch_primary_fork_zoom.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/15_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V40/16_zoom_01.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_zoom_white_20260511/V40_lsystem_branch_primaryfork_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_zoom_white_20260511/V40_lsystem_branch_primaryfork_glb_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V40_lsystem_branch_obj_zoom_primaryfork_zoom255_20260511/V40_lsystem_branch_primaryfork_zoom255_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V40_lsystem_branch_obj_zoom_primaryfork_20260511/V40_lsystem_branch_primaryfork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V40_lsystem_branch_obj_zoom_primaryfork_sameanchor_zoom245_20260511/V40_lsystem_branch_primaryfork_sameanchor_zoom245_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V40_lsystem_branch_obj_zoom_primaryfork_zoom255_20260511/V40_lsystem_branch_primaryfork_zoom255_obj_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V40_lsystem_branch_obj_zoom_primaryfork_20260511/V40_lsystem_branch_primaryfork_obj_contact_sheet_preview_1800.png`
+  - `visuals/strict_visual_matched_cases_V40_lsystem_branch_obj_zoom_primaryfork_sameanchor_zoom245_20260511/V40_lsystem_branch_primaryfork_sameanchor_zoom245_obj_contact_sheet_preview_1800.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_lsys_branch_primary_fork_A/V40_lsys_branch_primary_fork_A.obj`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_A/V40_lsys_branch_primary_fork_A.obj`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_lsys_branch_primary_fork_slim_D/V40_lsys_branch_primary_fork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_lsys_branch_primary_fork_dense_C/V40_lsys_branch_primary_fork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_lsys_branch_primary_fork_lowfrag_B/V40_lsys_branch_primary_fork_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_slim_D/V40_lsys_branch_primary_fork_slim_D.obj`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_dense_C/V40_lsys_branch_primary_fork_dense_C.obj`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_slim_D_steps8_tex2048_seed20299515_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/V40_lsys_branch_primary_fork_lowfrag_B/V40_lsys_branch_primary_fork_lowfrag_B.obj`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_dense_C_steps8_tex2048_seed20299514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_lowfrag_B_steps8_tex2048_seed20299513_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_dense_C_steps8_tex2048_seed20299514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_lowfrag_B_steps8_tex2048_seed20299513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511_remote/V40_lsys_branch_primary_fork_slim_D_steps8_tex2048_seed20299515_xformers/summary.json`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_obj_zoom_manifest_primaryfork_sameanchor_zoom245_20260511.json`
+  - `results/strict_visual_matched_cases_V40_lsystem_branch_primary_fork_naturalization_20260511_dryrun/V40_obj_zoom_manifest_primaryfork_zoom255_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_A_steps8_tex2048_seed20299512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_dense_C_steps8_tex2048_seed20299514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_dense_C_steps8_tex2048_seed20299514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_dense_C_steps8_tex2048_seed20299514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_lowfrag_B_steps8_tex2048_seed20299513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V40_lsystem_branch_primary_fork_naturalization_20260511/V40_lsys_branch_primary_fork_lowfrag_B_steps8_tex2048_seed20299513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V40_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V40_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V40_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V40_remote_a1002.txt`
+
+## V41 - strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511
+![V41](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V41_strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511.png)
+
+- Counts: images=62, geometry=12, specs=34, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/01_V41_lsystem_branch_dense_fork_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/02_V41_lsystem_branch_dense_fork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/03_V41_strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_w.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/06_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/07_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/13_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/15_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V41/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsystem_branch_dense_fork_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V41_lsystem_branch_obj_zoom_junctiontarget_20260511/V41_lsystem_branch_dense_fork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsys_branch_dense_fork_lowfrag_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsys_branch_dense_fork_A_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsys_branch_dense_fork_dense_C_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsys_branch_dense_fork_slim_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsys_branch_dense_fork_A_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_zoom_white_20260511/V41_lsys_branch_dense_fork_lowfrag_B_glb_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/V41_lsys_branch_dense_fork_A/V41_lsys_branch_dense_fork_A.obj`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/V41_lsys_branch_dense_fork_A/V41_lsys_branch_dense_fork_A.obj`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/V41_lsys_branch_dense_fork_slim_D/V41_lsys_branch_dense_fork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/V41_lsys_branch_dense_fork_dense_C/V41_lsys_branch_dense_fork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/V41_lsys_branch_dense_fork_lowfrag_B/V41_lsys_branch_dense_fork_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/V41_lsys_branch_dense_fork_slim_D/V41_lsys_branch_dense_fork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/V41_lsys_branch_dense_fork_dense_C/V41_lsys_branch_dense_fork_dense_C.obj`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_A_steps8_tex2048_seed20301512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/V41_lsys_branch_dense_fork_lowfrag_B/V41_lsys_branch_dense_fork_lowfrag_B.obj`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_slim_D_steps8_tex2048_seed20301515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_dense_C_steps8_tex2048_seed20301514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_lowfrag_B_steps8_tex2048_seed20301513_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_A_steps8_tex2048_seed20301512_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_dense_C_steps8_tex2048_seed20301514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_lowfrag_B_steps8_tex2048_seed20301513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_lsys_branch_dense_fork_slim_D_steps8_tex2048_seed20301515_xformers/summary.json`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_dryrun/V41_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V41_lsystem_branch_dense_fork_naturalization_20260511_remote_inputs/V41_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511_remote/V41_glb_zoom_manifest_junctiontarget_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_A_steps8_tex2048_seed20301512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_A_steps8_tex2048_seed20301512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_A_steps8_tex2048_seed20301512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_dense_C_steps8_tex2048_seed20301514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_dense_C_steps8_tex2048_seed20301514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_dense_C_steps8_tex2048_seed20301514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_lowfrag_B_steps8_tex2048_seed20301513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V41_lsystem_branch_dense_fork_naturalization_20260511/V41_lsys_branch_dense_fork_lowfrag_B_steps8_tex2048_seed20301513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V41_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V41_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V41_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V41_remote_a1002.txt`
+
+## V42 - strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511
+![V42](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V42_strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_2026051.png)
+
+- Counts: images=84, geometry=12, specs=36, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/01_V42_lsystem_branch_cluster_fork_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/02_V42_lsystem_branch_cluster_fork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/03_V42_lsystem_branch_cluster_fork_sameanchor_zoom230_obj_contact_sheet_2.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/04_V42_strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/12_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V42/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511/V42_lsystem_branch_cluster_fork_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V42_lsystem_branch_obj_zoom_clustertarget_20260511/V42_lsystem_branch_cluster_fork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V42_lsystem_branch_obj_zoom_sameanchor_zoom230_20260511/V42_lsystem_branch_cluster_fork_sameanchor_zoom230_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511/V42_lsys_branch_cluster_fork_dense_C_glb_clustertarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511/V42_lsys_branch_cluster_fork_lowfrag_B_glb_clustertarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511/V42_lsys_branch_cluster_fork_A_glb_clustertarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511/V42_lsys_branch_cluster_fork_slim_D_glb_clustertarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_zoom_white_20260511/V42_lsys_branch_cluster_fork_dense_C_glb_clustertarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/V42_lsys_branch_cluster_fork_A/V42_lsys_branch_cluster_fork_A.obj`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/V42_lsys_branch_cluster_fork_A/V42_lsys_branch_cluster_fork_A.obj`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/V42_lsys_branch_cluster_fork_slim_D/V42_lsys_branch_cluster_fork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/V42_lsys_branch_cluster_fork_dense_C/V42_lsys_branch_cluster_fork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/V42_lsys_branch_cluster_fork_lowfrag_B/V42_lsys_branch_cluster_fork_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/V42_lsys_branch_cluster_fork_slim_D/V42_lsys_branch_cluster_fork_slim_D.obj`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_A_steps8_tex2048_seed20302512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/V42_lsys_branch_cluster_fork_dense_C/V42_lsys_branch_cluster_fork_dense_C.obj`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_slim_D_steps8_tex2048_seed20302515_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/V42_lsys_branch_cluster_fork_lowfrag_B/V42_lsys_branch_cluster_fork_lowfrag_B.obj`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_dense_C_steps8_tex2048_seed20302514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_lowfrag_B_steps8_tex2048_seed20302513_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_A_steps8_tex2048_seed20302512_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_dense_C_steps8_tex2048_seed20302514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_lowfrag_B_steps8_tex2048_seed20302513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote/V42_lsys_branch_cluster_fork_slim_D_steps8_tex2048_seed20302515_xformers/summary.json`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/V42_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_dryrun/V42_obj_zoom_manifest_sameanchor_zoom230_20260511.json`
+  - `results/strict_visual_matched_cases_V42_lsystem_branch_cluster_fork_naturalization_20260511_remote_inputs/V42_obj_zoom_manifest_junctiontarget_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_A_steps8_tex2048_seed20302512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_A_steps8_tex2048_seed20302512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_A_steps8_tex2048_seed20302512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_dense_C_steps8_tex2048_seed20302514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_dense_C_steps8_tex2048_seed20302514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_dense_C_steps8_tex2048_seed20302514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_lowfrag_B_steps8_tex2048_seed20302513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V42_lsystem_branch_cluster_fork_naturalization_20260511/V42_lsys_branch_cluster_fork_lowfrag_B_steps8_tex2048_seed20302513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V42_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V42_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V42_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V42_remote_a1002.txt`
+
+## V43 - strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511
+![V43](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V43_strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511.png)
+
+- Counts: images=30, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/01_V43_lsystem_branch_wood_yfork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/02_V43_strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V43/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsystem_branch_wood_yfork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V43_lsystem_branch_obj_zoom_woodyfork_20260511/V43_lsys_branch_wood_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_A/V43_lsys_branch_wood_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_slim_D/V43_lsys_branch_wood_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_dense_C/V43_lsys_branch_wood_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_lowfrag_B/V43_lsys_branch_wood_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V43_lsystem_branch_wood_yfork_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_A/V43_lsys_branch_wood_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_dense_C/V43_lsys_branch_wood_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_lowfrag_B/V43_lsys_branch_wood_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/V43_lsys_branch_wood_yfork_slim_D/V43_lsys_branch_wood_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V43_lsystem_branch_wood_yfork_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V43_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V43_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V43_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V43_remote_a1002.txt`
+
+## V44 - strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511
+![V44](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V44_strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511.png)
+
+- Counts: images=30, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/01_V44_lsystem_branch_elongated_saddle_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/02_V44_strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongateds.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V44/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsystem_branch_elongated_saddle_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V44_lsystem_branch_obj_zoom_elongatedsaddle_20260511/V44_lsys_branch_elongated_saddle_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_A/V44_lsys_branch_elongated_saddle_A.obj`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_slim_D/V44_lsys_branch_elongated_saddle_slim_D.obj`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_dense_C/V44_lsys_branch_elongated_saddle_dense_C.obj`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_lowfrag_B/V44_lsys_branch_elongated_saddle_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V44_lsystem_branch_elongated_saddle_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_A/V44_lsys_branch_elongated_saddle_A_metadata.json`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_dense_C/V44_lsys_branch_elongated_saddle_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_lowfrag_B/V44_lsys_branch_elongated_saddle_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/V44_lsys_branch_elongated_saddle_slim_D/V44_lsys_branch_elongated_saddle_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V44_lsystem_branch_elongated_saddle_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V44_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V44_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V44_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V44_remote_a1002.txt`
+
+## V45 - strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_implicitwoodfork_20260511
+![V45](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V45_strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_implicitwoodfork_2.png)
+
+- Counts: images=12, geometry=1, specs=10, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/01_V45_lsystem_branch_implicit_wood_fork_smoke_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/02_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/03_V45_strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_impl.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/05_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/07_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/08_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/09_V45_lsystem_branch_ridge_lowcontrast_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/10_V45_lsystem_branch_cambium_lowcontrast_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/11_V45_lsystem_branch_cedar_lowcontrast_guide.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V45/12_V45_lsystem_branch_olive_lowcontrast_guide.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_implicitwoodfork_20260511/V45_lsystem_branch_implicit_wood_fork_smoke_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_implicitwoodfork_20260511/V45_lsys_branch_implicit_wood_fork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_implicitwoodfork_20260511/V45_lsys_branch_implicit_wood_fork_A_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/V45_lsys_branch_implicit_wood_fork_A/V45_lsys_branch_implicit_wood_fork_A.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/summary.json`
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/V45_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/README.md`
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/V45_lsys_branch_implicit_wood_fork_A/V45_lsys_branch_implicit_wood_fork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V45_lsystem_branch_implicit_wood_fork_naturalization_20260511_smoke/initial_metrics.json`
+  - `visuals/strict_visual_matched_cases_V45_lsystem_branch_obj_zoom_smoke_implicitwoodfork_20260511/matched_camera_zoom_plan.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V45_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V45_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V45_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V45_remote_a1002.txt`
+
+## V46 - strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511
+![V46](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V46_strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_2026.png)
+
+- Counts: images=30, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/01_V46_lsystem_branch_continuous_sweep_fork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/02_V46_strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuous.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V46/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsystem_branch_continuous_sweep_fork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V46_lsystem_branch_obj_zoom_continuoussweepfork_20260511/V46_lsys_branch_continuous_sweep_fork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_A/V46_lsys_branch_continuous_sweep_fork_A.obj`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_slim_D/V46_lsys_branch_continuous_sweep_fork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_dense_C/V46_lsys_branch_continuous_sweep_fork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_lowfrag_B/V46_lsys_branch_continuous_sweep_fork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_A/V46_lsys_branch_continuous_sweep_fork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_dense_C/V46_lsys_branch_continuous_sweep_fork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_lowfrag_B/V46_lsys_branch_continuous_sweep_fork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/V46_lsys_branch_continuous_sweep_fork_slim_D/V46_lsys_branch_continuous_sweep_fork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V46_lsystem_branch_continuous_sweep_fork_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V46_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V46_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V46_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V46_remote_a1002.txt`
+
+## V47 - strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511
+![V47](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V47_strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511.png)
+
+- Counts: images=30, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/01_V47_lsystem_branch_shared_neck_yfork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/02_V47_strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneck.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V47/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsystem_branch_shared_neck_yfork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V47_lsystem_branch_obj_zoom_sharedneckyfork_20260511/V47_lsys_branch_shared_neck_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_A/V47_lsys_branch_shared_neck_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_slim_D/V47_lsys_branch_shared_neck_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_dense_C/V47_lsys_branch_shared_neck_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_lowfrag_B/V47_lsys_branch_shared_neck_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_A/V47_lsys_branch_shared_neck_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_dense_C/V47_lsys_branch_shared_neck_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_lowfrag_B/V47_lsys_branch_shared_neck_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/V47_lsys_branch_shared_neck_yfork_slim_D/V47_lsys_branch_shared_neck_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V47_lsystem_branch_shared_neck_yfork_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V47_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V47_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V47_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V47_remote_a1002.txt`
+
+## V48 - strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511
+![V48](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V48_strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_202.png)
+
+- Counts: images=30, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/01_V48_lsystem_branch_implicit_capsule_yfork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/02_V48_strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitca.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/05_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V48/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsystem_branch_implicit_capsule_yfork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_slim_D_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V48_lsystem_branch_obj_zoom_implicitcapsuleyfork_20260511/V48_lsys_branch_implicit_capsule_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_A/V48_lsys_branch_implicit_capsule_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_slim_D/V48_lsys_branch_implicit_capsule_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_dense_C/V48_lsys_branch_implicit_capsule_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_lowfrag_B/V48_lsys_branch_implicit_capsule_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_A/V48_lsys_branch_implicit_capsule_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_dense_C/V48_lsys_branch_implicit_capsule_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_lowfrag_B/V48_lsys_branch_implicit_capsule_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/V48_lsys_branch_implicit_capsule_yfork_slim_D/V48_lsys_branch_implicit_capsule_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V48_lsystem_branch_implicit_capsule_yfork_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V48_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V48_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V48_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V48_remote_a1002.txt`
+
+## V49 - strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_zoom_white_20260511
+![V49](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V49_strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_zoom_white.png)
+
+- Counts: images=83, geometry=18, specs=48, remote=12
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/01_V49_lsystem_branch_highres_smooth_yfork_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/02_V49_lsystem_branch_highres_smooth_yfork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/07_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/08_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/11_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/12_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/13_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/14_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/15_V49_strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yf.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V49/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_zoom_white_20260511/V49_lsystem_branch_highres_smooth_yfork_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V49_lsystem_branch_obj_zoom_highressmoothyfork_20260511/V49_lsystem_branch_highres_smooth_yfork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_renderQA_zoom_white_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_smoothpost_barkQA/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_renderQA_zoom_white_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_smoothpost_renderQA/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_renderQA_zoom_white_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_smoothpost_renderQA/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_renderQA_zoom_white_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_smoothpost_barkQA/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_zoom_white_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_smoothpost/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_zoom_white_20260511/V49_lsys_branch_highres_smooth_yfork_slim_D_smoothpost/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_20260511/V49_lsys_branch_highres_smooth_yfork_slim_D_smoothpost/textured.glb`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_smoothpost_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_smoothpost/textured.glb`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_dryrun/V49_lsys_branch_highres_smooth_yfork_A/V49_lsys_branch_highres_smooth_yfork_A.obj`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote_inputs/V49_lsys_branch_highres_smooth_yfork_A/V49_lsys_branch_highres_smooth_yfork_A.obj`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_slim_D_steps8_tex2048_seed20303515_xformers/textured.glb`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_dryrun/V49_lsys_branch_highres_smooth_yfork_slim_D/V49_lsys_branch_highres_smooth_yfork_slim_D.obj`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_dryrun/V49_lsys_branch_highres_smooth_yfork_dense_C/V49_lsys_branch_highres_smooth_yfork_dense_C.obj`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_slim_D_steps8_tex2048_seed20303515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_dryrun/V49_lsys_branch_highres_smooth_yfork_lowfrag_B/V49_lsys_branch_highres_smooth_yfork_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote_inputs/V49_lsys_branch_highres_smooth_yfork_slim_D/V49_lsys_branch_highres_smooth_yfork_slim_D.obj`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote_inputs/V49_lsys_branch_highres_smooth_yfork_dense_C/V49_lsys_branch_highres_smooth_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote_inputs/V49_lsys_branch_highres_smooth_yfork_lowfrag_B/V49_lsys_branch_highres_smooth_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511_remote/V49_lsys_branch_highres_smooth_yfork_slim_D_steps8_tex2048_seed20303515_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/summary.json`
+  - `visuals/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_A_steps8_tex2048_seed20303512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_dense_C_steps8_tex2048_seed20303514_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V49_lsystem_branch_highres_smooth_yfork_naturalization_20260511/V49_lsys_branch_highres_smooth_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V49_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V49_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V49_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V49_remote_a1002.txt`
+
+## V50 - strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zoom_white_20260511
+![V50](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V50_strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zo.png)
+
+- Counts: images=47, geometry=10, specs=30, remote=6
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/01_V50_lsystem_branch_taperedtip_BD_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/02_V50_lsystem_branch_taperedtip_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/03_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/04_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/05_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/11_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/12_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/13_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/14_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/15_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V50/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zoom_white_20260511/V50_lsystem_branch_taperedtip_BD_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V50_lsystem_branch_obj_zoom_taperedtip_20260511/V50_lsystem_branch_taperedtip_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zoom_white_20260511/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zoom_white_20260511/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zoom_white_20260511/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_zoom_white_20260511/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V50_lsystem_branch_obj_zoom_taperedtip_20260511/V50_lsys_branch_tapered_tip_highres_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V50_lsystem_branch_obj_zoom_taperedtip_20260511/V50_lsys_branch_tapered_tip_highres_yfork_A_obj_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511_remote/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_steps8_tex2048_seed20303515_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/V50_lsys_branch_tapered_tip_highres_yfork_A/V50_lsys_branch_tapered_tip_highres_yfork_A.obj`
+  - `results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511_remote/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/V50_lsys_branch_tapered_tip_highres_yfork_A/V50_lsys_branch_tapered_tip_highres_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/V50_lsys_branch_tapered_tip_highres_yfork_slim_D/V50_lsys_branch_tapered_tip_highres_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/V50_lsys_branch_tapered_tip_highres_yfork_dense_C/V50_lsys_branch_tapered_tip_highres_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/V50_lsys_branch_tapered_tip_highres_yfork_slim_D/V50_lsys_branch_tapered_tip_highres_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/V50_lsys_branch_tapered_tip_highres_yfork_dense_C/V50_lsys_branch_tapered_tip_highres_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511_remote/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511_remote/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_steps8_tex2048_seed20303515_xformers/summary.json`
+  - `results/main_experiment_case_metrics_20260511/v50_lsystem_bd_postglb_zoom_manifest_20260511.json`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_dryrun/V50_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511_remote_inputs/V50_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_naturalization_20260511.sh`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511/V50_lsys_branch_tapered_tip_highres_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_steps8_tex2048_seed20303515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_steps8_tex2048_seed20303515_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V50_lsystem_branch_tapered_tip_highres_yfork_BD_20260511/V50_lsys_branch_tapered_tip_highres_yfork_slim_D_steps8_tex2048_seed20303515_xformers/texturing_pipeline/pipeline.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V50_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V50_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V50_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V50_remote_a1002.txt`
+
+## V51 - strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white_20260511
+![V51](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V51_strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white.png)
+
+- Counts: images=47, geometry=10, specs=32, remote=9
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/01_V51_lsystem_branch_graph_taper_yfork_BD_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/02_V51_lsystem_branch_graph_taper_yfork_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/09_V51_strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/12_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/13_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/14_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/15_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V51/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white_20260511/V51_lsystem_branch_graph_taper_yfork_BD_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_obj_zoom_20260511/V51_lsystem_branch_graph_taper_yfork_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white_20260511/V51_lsys_branch_graph_taper_yfork_lowfrag_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white_20260511/V51_lsys_branch_graph_taper_yfork_slim_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white_20260511/V51_lsys_branch_graph_taper_yfork_lowfrag_B_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_zoom_white_20260511/V51_lsys_branch_graph_taper_yfork_slim_D_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_obj_zoom_20260511/V51_lsys_branch_graph_taper_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_obj_zoom_20260511/V51_lsys_branch_graph_taper_yfork_A_obj_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/V51_lsys_branch_graph_taper_yfork_A/V51_lsys_branch_graph_taper_yfork_A.obj`
+  - `results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511_remote/V51_lsys_branch_graph_taper_yfork_slim_D_steps8_tex2048_seed20303515_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/V51_lsys_branch_graph_taper_yfork_A/V51_lsys_branch_graph_taper_yfork_A.obj`
+  - `results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511_remote/V51_lsys_branch_graph_taper_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/V51_lsys_branch_graph_taper_yfork_slim_D/V51_lsys_branch_graph_taper_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/V51_lsys_branch_graph_taper_yfork_dense_C/V51_lsys_branch_graph_taper_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/V51_lsys_branch_graph_taper_yfork_lowfrag_B/V51_lsys_branch_graph_taper_yfork_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/V51_lsys_branch_graph_taper_yfork_slim_D/V51_lsys_branch_graph_taper_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/V51_lsys_branch_graph_taper_yfork_dense_C/V51_lsys_branch_graph_taper_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/V51_lsys_branch_graph_taper_yfork_lowfrag_B/V51_lsys_branch_graph_taper_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511_remote/V51_lsys_branch_graph_taper_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511_remote/V51_lsys_branch_graph_taper_yfork_slim_D_steps8_tex2048_seed20303515_xformers/summary.json`
+  - `results/main_experiment_case_metrics_20260511/v51_lsystem_bd_postglb_zoom_manifest_20260511.json`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_dryrun/V51_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511_remote_inputs/V51_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_naturalization_20260511.sh`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_A_steps8_tex2048_seed20303512_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_A_steps8_tex2048_seed20303512_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_A_steps8_tex2048_seed20303512_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_lowfrag_B_steps8_tex2048_seed20303513_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_slim_D_steps8_tex2048_seed20303515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V51_lsystem_branch_graph_taper_yfork_BD_20260511/V51_lsys_branch_graph_taper_yfork_slim_D_steps8_tex2048_seed20303515_xformers/textured.glb`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V51_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V51_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V51_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V51_remote_a1002.txt`
+
+## V52 - strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511
+![V52](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V52_strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20.png)
+
+- Counts: images=30, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/01_V52_lsystem_branch_lightbark_graph_taper_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/02_V52_strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/03_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V52/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsystem_branch_lightbark_graph_taper_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V52_lsystem_branch_obj_zoom_lightbark_graph_taper_20260511/V52_lsys_branch_light_bark_graph_taper_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_A/V52_lsys_branch_light_bark_graph_taper_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_slim_D/V52_lsys_branch_light_bark_graph_taper_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_dense_C/V52_lsys_branch_light_bark_graph_taper_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_lowfrag_B/V52_lsys_branch_light_bark_graph_taper_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511.py`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511.sh`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_A/V52_lsys_branch_light_bark_graph_taper_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_dense_C/V52_lsys_branch_light_bark_graph_taper_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_lowfrag_B/V52_lsys_branch_light_bark_graph_taper_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/V52_lsys_branch_light_bark_graph_taper_yfork_slim_D/V52_lsys_branch_light_bark_graph_taper_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V52_lsystem_branch_light_bark_graph_taper_yfork_naturalization_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V52_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V52_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V52_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V52_remote_a1002.txt`
+
+## V53 - strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_div265_20260511
+![V53](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V53_strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_div265_202.png)
+
+- Counts: images=63, geometry=4, specs=14, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/01_V53_lsystem_branch_natural_bough_div265_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/02_V53_lsystem_branch_natural_bough_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/03_V53_strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bo.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/04_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/15_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V53/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_div265_20260511/V53_lsystem_branch_natural_bough_div265_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_20260511/V53_lsystem_branch_natural_bough_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_20260511/V53_lsys_branch_natural_bough_graph_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_div265_20260511/V53_lsys_branch_natural_bough_graph_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_20260511/V53_lsys_branch_natural_bough_graph_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_div265_20260511/V53_lsys_branch_natural_bough_graph_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_20260511/V53_lsys_branch_natural_bough_graph_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V53_lsystem_branch_obj_zoom_natural_bough_div265_20260511/V53_lsys_branch_natural_bough_graph_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_A/V53_lsys_branch_natural_bough_graph_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_slim_D/V53_lsys_branch_natural_bough_graph_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_dense_C/V53_lsys_branch_natural_bough_graph_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_lowfrag_B/V53_lsys_branch_natural_bough_graph_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V53_lsystem_branch_natural_bough_graph_yfork_20260511.sh`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_A/V53_lsys_branch_natural_bough_graph_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_dense_C/V53_lsys_branch_natural_bough_graph_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_lowfrag_B/V53_lsys_branch_natural_bough_graph_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/V53_lsys_branch_natural_bough_graph_yfork_slim_D/V53_lsys_branch_natural_bough_graph_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V53_lsystem_branch_natural_bough_graph_yfork_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V53_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V53_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V53_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V53_remote_a1002.txt`
+
+## V54 - strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511
+![V54](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V54_strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511.png)
+
+- Counts: images=42, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/01_V54_lsystem_branch_centered_bough_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/02_V54_strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_b.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/06_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/09_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/10_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/11_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/14_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V54/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsystem_branch_centered_bough_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V54_lsystem_branch_obj_zoom_centered_bough_20260511/V54_lsys_branch_centered_bough_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_A/V54_lsys_branch_centered_bough_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_slim_D/V54_lsys_branch_centered_bough_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_dense_C/V54_lsys_branch_centered_bough_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_lowfrag_B/V54_lsys_branch_centered_bough_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V54_lsystem_branch_centered_bough_yfork_20260511.sh`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_A/V54_lsys_branch_centered_bough_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_dense_C/V54_lsys_branch_centered_bough_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_lowfrag_B/V54_lsys_branch_centered_bough_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/V54_lsys_branch_centered_bough_yfork_slim_D/V54_lsys_branch_centered_bough_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V54_lsystem_branch_centered_bough_yfork_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V54_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V54_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V54_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V54_remote_a1002.txt`
+
+## V55 - strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511
+![V55](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V55_strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_2026051.png)
+
+- Counts: images=26, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/01_V55_lsystem_branch_elongated_saddle_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/02_V55_strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/07_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V55/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsystem_branch_elongated_saddle_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V55_lsystem_branch_obj_zoom_elongated_saddle_20260511/V55_lsys_branch_elongated_saddle_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_A/V55_lsys_branch_elongated_saddle_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_slim_D/V55_lsys_branch_elongated_saddle_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_dense_C/V55_lsys_branch_elongated_saddle_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_lowfrag_B/V55_lsys_branch_elongated_saddle_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V55_lsystem_branch_elongated_saddle_yfork_20260511.sh`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_A/V55_lsys_branch_elongated_saddle_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_dense_C/V55_lsys_branch_elongated_saddle_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_lowfrag_B/V55_lsys_branch_elongated_saddle_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/V55_lsys_branch_elongated_saddle_yfork_slim_D/V55_lsys_branch_elongated_saddle_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V55_lsystem_branch_elongated_saddle_yfork_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V55_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V55_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V55_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V55_remote_a1002.txt`
+
+## V56 - strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511
+![V56](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V56_strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260.png)
+
+- Counts: images=26, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/01_V56_lsystem_branch_basal_continuation_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/02_V56_strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_cont.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/13_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/14_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V56/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsystem_branch_basal_continuation_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V56_lsystem_branch_obj_zoom_basal_continuation_20260511/V56_lsys_branch_basal_continuation_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_A/V56_lsys_branch_basal_continuation_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_slim_D/V56_lsys_branch_basal_continuation_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_dense_C/V56_lsys_branch_basal_continuation_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_lowfrag_B/V56_lsys_branch_basal_continuation_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V56_lsystem_branch_basal_continuation_yfork_20260511.sh`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_A/V56_lsys_branch_basal_continuation_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_dense_C/V56_lsys_branch_basal_continuation_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_lowfrag_B/V56_lsys_branch_basal_continuation_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/V56_lsys_branch_basal_continuation_yfork_slim_D/V56_lsys_branch_basal_continuation_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V56_lsystem_branch_basal_continuation_yfork_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V56_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V56_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V56_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V56_remote_a1002.txt`
+
+## V57 - strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511
+![V57](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V57_strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_2026051.png)
+
+- Counts: images=26, geometry=4, specs=13, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/01_V57_lsystem_branch_tapered_midbough_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/02_V57_strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_mi.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/03_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/04_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/08_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/10_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V57/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsystem_branch_tapered_midbough_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_A_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_lowfrag_B_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_slim_D_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_dense_C_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_A_obj_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V57_lsystem_branch_obj_zoom_tapered_midbough_20260511/V57_lsys_branch_tapered_midbough_yfork_lowfrag_B_obj_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_A/V57_lsys_branch_tapered_midbough_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_slim_D/V57_lsys_branch_tapered_midbough_yfork_slim_D.obj`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_dense_C/V57_lsys_branch_tapered_midbough_yfork_dense_C.obj`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_lowfrag_B/V57_lsys_branch_tapered_midbough_yfork_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V57_lsystem_branch_tapered_midbough_yfork_20260511.sh`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/README.md`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_A/V57_lsys_branch_tapered_midbough_yfork_A_metadata.json`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_dense_C/V57_lsys_branch_tapered_midbough_yfork_dense_C_metadata.json`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_lowfrag_B/V57_lsys_branch_tapered_midbough_yfork_lowfrag_B_metadata.json`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/V57_lsys_branch_tapered_midbough_yfork_slim_D/V57_lsys_branch_tapered_midbough_yfork_slim_D_metadata.json`
+  - `results/strict_visual_matched_cases_V57_lsystem_branch_tapered_midbough_yfork_20260511_dryrun/initial_metrics.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V57_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V57_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V57_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V57_remote_a1002.txt`
+
+## V58 - strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white_20260511
+![V58](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V58_strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white.png)
+
+- Counts: images=39, geometry=10, specs=31, remote=6
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/01_V58_lsystem_branch_short_bough_BD_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/02_V58_lsystem_branch_short_bough_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/03_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/07_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/08_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/09_V58_strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/10_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/11_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/12_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/13_zoom_01_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/14_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/15_overview_callouts.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V58/16_strict_matched_zoom_comparison.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white_20260511/V58_lsystem_branch_short_bough_BD_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V58_lsystem_branch_obj_zoom_short_bough_20260511/V58_lsystem_branch_short_bough_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white_20260511/V58_lsys_branch_short_bough_lowfrag_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white_20260511/V58_lsys_branch_short_bough_compact_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white_20260511/V58_lsys_branch_short_bough_compact_D_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_zoom_white_20260511/V58_lsys_branch_short_bough_lowfrag_B_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_cases_V58_lsystem_branch_obj_zoom_short_bough_20260511/V58_lsys_branch_short_bough_dense_C_obj_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_cases_V58_lsystem_branch_obj_zoom_short_bough_20260511/V58_lsys_branch_short_bough_yfork_A_obj_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/V58_lsys_branch_short_bough_dense_C/V58_lsys_branch_short_bough_dense_C.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/V58_lsys_branch_short_bough_yfork_A/V58_lsys_branch_short_bough_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/V58_lsys_branch_short_bough_compact_D/V58_lsys_branch_short_bough_compact_D.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/V58_lsys_branch_short_bough_lowfrag_B/V58_lsys_branch_short_bough_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/V58_lsys_branch_short_bough_dense_C/V58_lsys_branch_short_bough_dense_C.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/V58_lsys_branch_short_bough_yfork_A/V58_lsys_branch_short_bough_yfork_A.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/V58_lsys_branch_short_bough_compact_D/V58_lsys_branch_short_bough_compact_D.obj`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/V58_lsys_branch_short_bough_lowfrag_B/V58_lsys_branch_short_bough_lowfrag_B.obj`
+  - `results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511_remote/V58_lsys_branch_short_bough_compact_D_steps8_tex2048_seed20318515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511_remote/V58_lsys_branch_short_bough_lowfrag_B_steps8_tex2048_seed20318513_xformers/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511_remote/V58_lsys_branch_short_bough_compact_D_steps8_tex2048_seed20318515_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511_remote/V58_lsys_branch_short_bough_lowfrag_B_steps8_tex2048_seed20318513_xformers/summary.json`
+  - `results/main_experiment_case_metrics_20260511/v58_lsystem_bd_postglb_zoom_manifest_20260511.json`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_dryrun/V58_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `results/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511_remote_inputs/V58_obj_zoom_manifest_junctiontarget_20260511.json`
+  - `assets/strict_visual_matched_cases_V58_lsystem_branch_short_bough_yfork_20260511.py`
+  - `assets/launch_strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_20260511.sh`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511/V58_lsys_branch_short_bough_compact_D_steps8_tex2048_seed20318515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511/V58_lsys_branch_short_bough_compact_D_steps8_tex2048_seed20318515_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511/V58_lsys_branch_short_bough_compact_D_steps8_tex2048_seed20318515_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511/V58_lsys_branch_short_bough_lowfrag_B_steps8_tex2048_seed20318513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511/V58_lsys_branch_short_bough_lowfrag_B_steps8_tex2048_seed20318513_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V58_lsystem_branch_short_bough_yfork_BD_20260511/V58_lsys_branch_short_bough_lowfrag_B_steps8_tex2048_seed20318513_xformers/texturing_pipeline/pipeline.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V58_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V58_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V58_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V58_remote_a1002.txt`
+
+## V59 - strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_barkoverride_zoom_white_20260511
+![V59](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V59_strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smo.png)
+
+- Counts: images=173, geometry=12, specs=49, remote=6
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/01_V59_lsystem_branch_smooth_short_bough_BD_smoothpost_barkoverride_conta.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/02_V59_lsystem_branch_smooth_short_bough_BD_smoothpost_contact_sheet_2026.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/03_V59_lsystem_branch_smooth_short_bough_BD_glb_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/04_V59_lsystem_branch_smooth_short_bough_BD_glb_neutral_contact_sheet_202.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/05_V59_lsystem_branch_smooth_short_bough_obj_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/06_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/09_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/11_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/12_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/13_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/14_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/15_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V59/16_zoom_02.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_barkoverride_zoom_white_20260511/V59_lsystem_branch_smooth_short_bough_BD_smoothpost_barkoverride_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_zoom_white_20260511/V59_lsystem_branch_smooth_short_bough_BD_smoothpost_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_zoom_white_20260511/V59_lsystem_branch_smooth_short_bough_BD_glb_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_zoom_white_neutral_override_20260511/V59_lsystem_branch_smooth_short_bough_BD_glb_neutral_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_cases_V59_lsystem_branch_obj_zoom_smooth_short_bough_20260511/V59_lsystem_branch_smooth_short_bough_obj_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_zoom_white_neutral_override_20260511/V59_lsys_branch_smooth_short_bough_lowfrag_B_glb_neutral_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_zoom_white_20260511/V59_lsys_branch_smooth_short_bough_lowfrag_B_smoothpost_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_zoom_white_20260511/V59_lsys_branch_smooth_short_bough_compact_D_smoothpost_glb_junctiontarget/overview_raw.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_20260511/V59_lsys_branch_smooth_short_bough_compact_D_smoothpost/textured.glb`
+  - `results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_smoothpost_20260511/V59_lsys_branch_smooth_short_bough_lowfrag_B_smoothpost/textured.glb`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_dryrun/V59_lsys_branch_smooth_short_bough_soft_A/V59_lsys_branch_smooth_short_bough_soft_A.obj`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_dryrun/V59_lsys_branch_smooth_short_bough_dense_C/V59_lsys_branch_smooth_short_bough_dense_C.obj`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_dryrun/V59_lsys_branch_smooth_short_bough_compact_D/V59_lsys_branch_smooth_short_bough_compact_D.obj`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_dryrun/V59_lsys_branch_smooth_short_bough_lowfrag_B/V59_lsys_branch_smooth_short_bough_lowfrag_B.obj`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_remote_inputs/V59_lsys_branch_smooth_short_bough_soft_A/V59_lsys_branch_smooth_short_bough_soft_A.obj`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_remote_inputs/V59_lsys_branch_smooth_short_bough_dense_C/V59_lsys_branch_smooth_short_bough_dense_C.obj`
+  - `results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511_remote/V59_lsys_branch_smooth_short_bough_compact_D_steps8_tex2048_seed20319515_xformers/textured.glb`
+  - `results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511_remote/V59_lsys_branch_smooth_short_bough_lowfrag_B_steps8_tex2048_seed20319513_xformers/textured.glb`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_remote_inputs/V59_lsys_branch_smooth_short_bough_compact_D/V59_lsys_branch_smooth_short_bough_compact_D.obj`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_remote_inputs/V59_lsys_branch_smooth_short_bough_lowfrag_B/V59_lsys_branch_smooth_short_bough_lowfrag_B.obj`
+- Grammar / reproducibility / manifest paths:
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_dryrun/manifest.json`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_remote_inputs/manifest.json`
+  - `tests/test_strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511.py`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_dryrun/summary.json`
+  - `results/strict_visual_matched_cases_V59_lsystem_branch_smooth_short_bough_yfork_20260511_remote_inputs/summary.json`
+  - `results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511_remote/V59_lsys_branch_smooth_short_bough_compact_D_steps8_tex2048_seed20319515_xformers/summary.json`
+  - `results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511_remote/V59_lsys_branch_smooth_short_bough_lowfrag_B_steps8_tex2048_seed20319513_xformers/summary.json`
+  - `results/main_experiment_case_metrics_20260511/v59_lsystem_bd_postglb_zoom_manifest_20260511.json`
+  - `results/main_experiment_case_metrics_20260511/v59_lsystem_bd_postglb_zoom_manifest_bark_override_20260511.json`
+  - `results/main_experiment_case_metrics_20260511/v59_lsystem_bd_postglb_zoom_manifest_neutral_override_20260511.json`
+  - `results/main_experiment_case_metrics_20260511/v59_lsystem_bd_smoothpost_zoom_manifest_20260511.json`
+  - `results/main_experiment_case_metrics_20260511/v59_lsystem_bd_smoothpost_zoom_manifest_bark_override_20260511.json`
+- Remote paths sample from `a100-2`:
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511/V59_lsys_branch_smooth_short_bough_compact_D_steps8_tex2048_seed20319515_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511/V59_lsys_branch_smooth_short_bough_compact_D_steps8_tex2048_seed20319515_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511/V59_lsys_branch_smooth_short_bough_compact_D_steps8_tex2048_seed20319515_xformers/texturing_pipeline/pipeline.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511/V59_lsys_branch_smooth_short_bough_lowfrag_B_steps8_tex2048_seed20319513_xformers/summary.json`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511/V59_lsys_branch_smooth_short_bough_lowfrag_B_steps8_tex2048_seed20319513_xformers/textured.glb`
+  - `/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/strict_visual_matched_texture_V59_lsystem_branch_smooth_short_bough_yfork_BD_20260511/V59_lsys_branch_smooth_short_bough_lowfrag_B_steps8_tex2048_seed20319513_xformers/texturing_pipeline/pipeline.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V59_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V59_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V59_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V59_remote_a1002.txt`
+
+## V60 - strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20260511
+![V60](/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/representative_images/V60_strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20.png)
+
+- Counts: images=33, geometry=4, specs=15, remote=0
+- Local copied selection images:
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/01_V60_lsystem_branch_clean_export_fine_BD_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/02_V60_lsystem_branch_clean_export_BD_contact_sheet_20260511.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/03_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/04_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/05_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/06_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/07_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/08_zoom_01.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/09_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/10_zoom_02.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/11_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/12_strict_matched_zoom_comparison.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/13_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/14_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/15_overview_raw.png`
+  - `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/selection_images/V60/16_overview_raw.png`
+- Representative/selection images:
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20260511/V60_lsystem_branch_clean_export_fine_BD_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_zoom_white_20260511/V60_lsystem_branch_clean_export_BD_contact_sheet_20260511.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20260511/V60_lsys_branch_clean_fine_short_bough_lowfrag_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20260511/V60_lsys_branch_clean_fine_short_bough_compact_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_zoom_white_20260511/V60_lsys_branch_clean_short_bough_lowfrag_B_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_zoom_white_20260511/V60_lsys_branch_clean_short_bough_compact_D_glb_junctiontarget/overview_raw.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20260511/V60_lsys_branch_clean_fine_short_bough_lowfrag_B_glb_junctiontarget/overview_callouts.png`
+  - `visuals/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_zoom_white_20260511/V60_lsys_branch_clean_fine_short_bough_compact_D_glb_junctiontarget/overview_callouts.png`
+- GLB/OBJ paths:
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_20260511/V60_lsys_branch_clean_short_bough_compact_D/textured.glb`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_20260511/V60_lsys_branch_clean_short_bough_lowfrag_B/textured.glb`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_20260511/V60_lsys_branch_clean_short_bough_compact_D/textured.glb`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_20260511/V60_lsys_branch_clean_short_bough_lowfrag_B/textured.glb`
+- Grammar / reproducibility / manifest paths:
+  - `results/main_experiment_case_metrics_20260511/v60_lsystem_bd_clean_export_fine_zoom_manifest_20260511.json`
+  - `results/main_experiment_case_metrics_20260511/v60_lsystem_bd_clean_export_zoom_manifest_20260511.json`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_20260511/v60_clean_export_manifest.json`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_20260511/v60_clean_export_manifest.json`
+  - `assets/postprocess_v60_lsystem_branch_clean_export_20260511.py`
+  - `results/main_experiment_case_metrics_20260511/v60_lsystem_bd_clean_export_fine_metrics/main_experiment_selected_recursive_mesh_metrics.json`
+  - `results/main_experiment_case_metrics_20260511/v60_lsystem_bd_clean_export_fine_metrics/main_experiment_selected_surface_metrics_occ64.json`
+  - `results/main_experiment_case_metrics_20260511/v60_lsystem_bd_clean_export_fine_surface_metrics_occ64.json`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_20260511/V60_lsys_branch_clean_short_bough_compact_D/v60_clean_export_metadata.json`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_20260511/V60_lsys_branch_clean_short_bough_lowfrag_B/v60_clean_export_metadata.json`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_20260511/V60_lsys_branch_clean_short_bough_compact_D/v60_clean_export_metadata.json`
+  - `results/strict_visual_matched_texture_V60_lsystem_branch_clean_export_fine_20260511/V60_lsys_branch_clean_short_bough_lowfrag_B/v60_clean_export_metadata.json`
+- Complete path list files:
+  - Images: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V60_images.txt`
+  - GLB/OBJ: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V60_geometry.txt`
+  - Grammar/repro: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V60_grammar_or_repro.txt`
+  - Remote a100-2: `/Users/fanta/code/agent/Code/recursive_3d_generative_growth/docs/evaluation/case_inventory_v1_v60_20260512/full_path_lists/V60_remote_a1002.txt`
+

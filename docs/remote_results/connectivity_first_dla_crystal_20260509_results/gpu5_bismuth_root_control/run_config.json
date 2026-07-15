@@ -1,0 +1,28 @@
+{
+  "root": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507",
+  "out": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/connectivity_first_dla_crystal_20260509/gpu5_bismuth_root_control",
+  "case": [
+    "porous_bismuth_crystal_proxy=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/selected_meshes_for_texture_20260508/porous_container_compete_stage03.obj",
+    "vine_root_control=/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_root_quality_sweep/root_quality_gpu6_20260508_0505/example04_vine_curl_steps12_seed910/trellis2_dinov3_min.obj"
+  ],
+  "grammars": [
+    "compete_fork_attach"
+  ],
+  "methods": [
+    "sparse_bridge_select",
+    "sparse_close_bridge"
+  ],
+  "stages": 3,
+  "resolution": 512,
+  "grid_resolution": 512,
+  "fit_scale": 0.66,
+  "max_tokens": 14000,
+  "min_vertices": 1800,
+  "close_radius": 1,
+  "mesh_bridge_components": 10,
+  "bridge_radius_ratio": 0.004,
+  "voxel_pitch_ratio": 0.006,
+  "texture_top_k": 1,
+  "texture_steps": 2,
+  "texture_seed": 90509
+}

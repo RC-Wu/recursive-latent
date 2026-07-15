@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "id": "coral_depth_stage04_native_focus",
+      "label": "coral_depth_stage04",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_depth_textured_showcase_20260509/volumetric_coral_depth_stage_04_coral_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.32
+    },
+    {
+      "id": "coral_depth_stage04_rerun_native_focus",
+      "label": "coral_depth_stage04_rerun",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/coral_depth_texture_showcase_20260509_rerun1640/volumetric_coral_depth_stage_04_coral_steps6_tex1024_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.32
+    },
+    {
+      "id": "coral_hq_octopus_native_focus",
+      "label": "coral_hq_octopus",
+      "mesh": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/visuals/connected_scaffold_v2_textured_glb_hq_20260509/volumetric_dla_coral_octopus_hq_steps8_tex2048_xformers/textured.glb",
+      "material_mode": "preserve",
+      "target_extent": 3.0,
+      "overview_scale_factor": 1.16,
+      "camera_direction": [4.2, -5.2, 3.0],
+      "light_boost": 1.32
+    }
+  ]
+}

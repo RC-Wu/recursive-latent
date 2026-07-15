@@ -1,0 +1,94 @@
+{
+  "kind": "transform_copy_cache_prototype",
+  "created_at": "2026-05-08T18:39:53+0800",
+  "entries": [
+    {
+      "name": "tree_compete_d3",
+      "source": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_projected_recursive_loop_20260508_0715/tree_projected_compete/stage_03/projected/tree_projected_compete_stage_03/mesh_pruned.obj",
+      "exists": true,
+      "bytes": 21025572,
+      "cache_handle": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/system_grammar_remote_20260508_1839/cache_lod_probe/prototype_manifest/tree_compete_d3.obj",
+      "handle_type": "symlink",
+      "planned_cache_keys": [
+        "tree_compete_d3:identity:lod1.0",
+        "tree_compete_d3:scale_down:lod0.7",
+        "tree_compete_d3:radial4:lod0.65",
+        "tree_compete_d3:portal:lod0.55"
+      ],
+      "transforms": [
+        {
+          "op": "identity",
+          "lod": 1.0
+        },
+        {
+          "op": "scale_down",
+          "scale": 0.72,
+          "lod": 0.7
+        },
+        {
+          "op": "radial4",
+          "rotations": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "lod": 0.65
+        },
+        {
+          "op": "portal",
+          "scale": 0.58,
+          "y_shift_ratio": 0.12,
+          "lod": 0.55
+        }
+      ]
+    },
+    {
+      "name": "vine_compete_d5",
+      "source": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_vine_projection_pruning_20260508_0700/vine_d5_projected_compete/stage_05/projected/vine_d5_projected_compete_stage_05/mesh_pruned.obj",
+      "exists": false
+    },
+    {
+      "name": "island_city_scale_down",
+      "source": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/siga_non_tree_root_sweep_more_20260508_1519/island_city_cluster/trellis2_dinov3_min.obj",
+      "exists": true,
+      "bytes": 185206810,
+      "cache_handle": "/mnt/beegfs/ruocheng/recursive_3d_generative_growth_20260507/results/system_grammar_remote_20260508_1839/cache_lod_probe/prototype_manifest/island_city_scale_down.obj",
+      "handle_type": "symlink",
+      "planned_cache_keys": [
+        "island_city_scale_down:identity:lod1.0",
+        "island_city_scale_down:scale_down:lod0.7",
+        "island_city_scale_down:radial4:lod0.65",
+        "island_city_scale_down:portal:lod0.55"
+      ],
+      "transforms": [
+        {
+          "op": "identity",
+          "lod": 1.0
+        },
+        {
+          "op": "scale_down",
+          "scale": 0.72,
+          "lod": 0.7
+        },
+        {
+          "op": "radial4",
+          "rotations": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "lod": 0.65
+        },
+        {
+          "op": "portal",
+          "scale": 0.58,
+          "y_shift_ratio": 0.12,
+          "lod": 0.55
+        }
+      ]
+    }
+  ],
+  "note": "Prototype only: records reusable motif mesh handles and planned transform-copy cache keys without duplicating large geometry."
+}

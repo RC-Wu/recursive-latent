@@ -1,0 +1,13 @@
+{
+  "schema": "publication_ablation_visuals_20260512_blender",
+  "projection_cases": [
+    "recursive_pine_sapling",
+    "pyrite_cubic_lattice"
+  ],
+  "naturalization_cases": [
+    "wooden_root_fork",
+    "staghorn_coral_branch"
+  ],
+  "output_dir": "/Users/fanta/code/agent/Code/recursive_3d_generative_growth/paper_siga/figures/ablation_pptx_20260512",
+  "requirement": "OURS rightmost and visually best; cases are recognizable recursive assets."
+}
